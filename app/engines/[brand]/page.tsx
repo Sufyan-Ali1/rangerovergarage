@@ -1,5 +1,5 @@
 import ServiceGallery from "../../components/ServiceGallery";
-import { rangeRoverWorkshopImages, landRoverWorkshopImages } from "../../data/workshopImages";
+import { rangeRoverWorkshopImages, landRoverWorkshopImages, jaguarWorkshopImages } from "../../data/workshopImages";
 import Navbar from "../../components/Navbar";
 import Header from "../../components/Header";
 import BrowseByModelStatic from "../../components/BrowseByModelStatic";
@@ -194,7 +194,11 @@ export default async function BrandPage({ params }: Props) {
   } = data;
   const brandTitle = slugToTitle(brand);
   const models = getModelsByBrandSlug(brand);
-  const showModels = models.length > 0;
+  const galleryImages = ({
+    "range-rover": rangeRoverWorkshopImages,
+    "land-rover": landRoverWorkshopImages,
+    jaguar: jaguarWorkshopImages,
+  } as Record<string, typeof rangeRoverWorkshopImages>)[brand] ?? [];
   const brandTableRows = models.flatMap((model) => {
     const dataKey =
       `${brand}-${toModelSlug(model.model)}-engines` as keyof typeof engineCodesData;
@@ -241,16 +245,16 @@ export default async function BrandPage({ params }: Props) {
         ]}
       />
       <SupplyFitCatalogue services={engineServices} />
-      {(brand === "range-rover" || brand === "land-rover") && (
+      {galleryImages.length > 0 && (
         <ServiceGallery
           title={`${brandTitle} Workshop Gallery`}
           subtitle={`Explore our ${brandTitle} vehicles and engine work at the garage.`}
-          images={brand === "range-rover" ? rangeRoverWorkshopImages : landRoverWorkshopImages}
+          images={galleryImages}
           imageFit="contain"
         />
       )}
       <PopularEngineSizes brandSlug={brand} brandTitle={brandTitle} />
-      {showModels && (
+      {models.length > 0 && (
         <BrowseByModelStatic
           allModels={models}
           light
