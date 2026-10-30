@@ -1,4 +1,5 @@
 export interface Model {
+  image?: string;
   brand: string;
   model: string;
   service: string;
@@ -97,41 +98,72 @@ export const landRoverModels: Model[] = [
 
 export const jaguarModels: Model[] = [
   {
-    brand: "JAGUAR",
-    model: "XE",
-    service: "ENGINE REBUILD & REPLACEMENT",
-    desc: "Specialist engine rebuild and replacement for the Jaguar XE, covering 2.0D Ingenium, 2.0T Ingenium and 3.0 V6 Supercharged units. Timing chain, turbo and full reconditioned engine replacement.",
+    "brand": "JAGUAR",
+    "model": "E-PACE",
+    "service": "ENGINE REBUILD & REPLACEMENT",
+    "desc": "Specialist Jaguar E-Pace engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle."
   },
   {
-    brand: "JAGUAR",
-    model: "XF",
-    service: "ENGINE REBUILD & REPLACEMENT",
-    desc: "Expert engine solutions for the Jaguar XF, including 2.0D Ingenium, 3.0 V6D and 5.0 V8 Supercharged platforms. Full diagnostic, timing chain, turbo and engine replacement with OEM parts.",
+    "brand": "JAGUAR",
+    "model": "F-PACE",
+    "service": "ENGINE REBUILD & REPLACEMENT",
+    "desc": "Specialist Jaguar F-Pace engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle."
   },
   {
-    brand: "JAGUAR",
-    model: "XJ",
-    service: "ENGINE REBUILD & REPLACEMENT",
-    desc: "Precision engine rebuild and replacement for the Jaguar XJ, covering 3.0 V6D, 5.0 V8 and 5.0 Supercharged units. Master-level engine rebuild and supply and fit with up to 24-month warranty.",
+    "brand": "JAGUAR",
+    "model": "F-TYPE COUPE",
+    "service": "ENGINE REBUILD & REPLACEMENT",
+    "desc": "Specialist Jaguar F-Type Coupe engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle."
   },
   {
-    brand: "JAGUAR",
-    model: "F-PACE",
-    service: "ENGINE REBUILD & REPLACEMENT",
-    desc: "Specialist engine repair and rebuild for the Jaguar F-Pace, including 2.0D Ingenium, 3.0D V6 and 3.0 P400 Supercharged units. Full turbo, timing chain and reconditioned engine replacement service.",
+    "brand": "JAGUAR",
+    "model": "XE",
+    "service": "ENGINE REBUILD & REPLACEMENT",
+    "desc": "Specialist Jaguar XE engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle."
   },
   {
-    brand: "JAGUAR",
-    model: "E-PACE",
-    service: "ENGINE REBUILD & REPLACEMENT",
-    desc: "Expert engine solutions for the Jaguar E-Pace, covering 2.0D Ingenium D150, D180 and P200, P250 petrol units. Timing chain, turbo and full engine replacement with genuine Jaguar OEM components.",
+    "brand": "JAGUAR",
+    "model": "XF",
+    "service": "ENGINE REBUILD & REPLACEMENT",
+    "desc": "Specialist Jaguar XF engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle."
   },
   {
-    brand: "JAGUAR",
-    model: "F-TYPE",
-    service: "PERFORMANCE ENGINE REBUILD",
-    desc: "High-performance engine rebuild for the Jaguar F-Type, including 2.0T Ingenium, 3.0 V6 Supercharged and 5.0 V8 Supercharged units. Full strip-down rebuild with OEM components and road-test sign-off.",
+    "brand": "JAGUAR",
+    "model": "XF SPORTBRAKE",
+    "image": "/images/models/xf-sportbrake-e4d028ff27.webp",
+    "service": "ENGINE REBUILD & REPLACEMENT",
+    "desc": "Specialist Jaguar XF Sportbrake engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle."
   },
+  {
+    "brand": "JAGUAR",
+    "model": "XJ",
+    "service": "ENGINE REBUILD & REPLACEMENT",
+    "desc": "Specialist Jaguar XJ engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle."
+  },
+  {
+    "brand": "JAGUAR",
+    "model": "XK",
+    "service": "ENGINE REBUILD & REPLACEMENT",
+    "desc": "Specialist Jaguar XK engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle."
+  },
+  {
+    "brand": "JAGUAR",
+    "model": "XKR",
+    "service": "ENGINE REBUILD & REPLACEMENT",
+    "desc": "Specialist Jaguar XKR engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle."
+  },
+  {
+    "brand": "JAGUAR",
+    "model": "XKR-S",
+    "service": "ENGINE REBUILD & REPLACEMENT",
+    "desc": "Specialist Jaguar XKR-S engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle."
+  },
+  {
+    "brand": "JAGUAR",
+    "model": "F-TYPE",
+    "service": "ENGINE REBUILD & REPLACEMENT",
+    "desc": "Jaguar F-Type engine rebuild and replacement. Browse engine codes and confirm compatibility with our specialists."
+  }
 ];
 
 export const allBrandModels: Model[] = [

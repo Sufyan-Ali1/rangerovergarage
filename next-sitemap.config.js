@@ -1,8 +1,9 @@
+/* eslint-disable @typescript-eslint/no-require-imports -- next-sitemap loads this config as CommonJS. */
 /** @type {import('next-sitemap').IConfig} */
 
 const SITE_URL = process.env.SITE_URL || "https://rangerovergarage.co.uk";
 const engineCodesData = require("./app/data/engineCodesData.json");
-const { getEngineCodeHref } = require("./app/data/engines/engineCodeLinks.cjs");
+const { getEngineCodeHref, toEngineCodeSlug } = require("./app/data/engines/engineCodeLinks.cjs");
 
 const serviceSlugsPaths = [
   "engine-rebuild",
@@ -22,6 +23,7 @@ const brandSlugs = [
 ];
 
 const modelsBrand = {
+  jaguar: ["e-pace", "f-pace", "f-type-coupe", "xe", "xf", "xf-sportbrake", "xj", "xk", "xkr", "xkr-s", "f-type"],
   "range-rover": ["evoque", "sport", "vogue-old-mk-3", "vogue-new-mk-4", "velar", "sport-svr"],
   "land-rover": ["discovery-1", "discovery-2", "discovery-3", "discovery-4", "discovery-5", "discovery-sport", "freelander-1", "freelander-2"],
 };
@@ -39,7 +41,11 @@ module.exports = {
   siteUrl: SITE_URL,
   generateRobotsTxt: true,
   additionalPaths: async () => {
-    const paths = [];
+    const paths = [
+      field("/blogs", 0.7),
+      field("/reconditioned-engine", 0.8),
+      field("/get-quote", 0.8),
+    ];
 
     // /services/[slug]
     for (const slug of serviceSlugsPaths) {
@@ -71,6 +77,15 @@ module.exports = {
         group.rows.map(getEngineCodeHref),
       ),
     );
+    // Include each model's own engine routes, even when row labels share an alias.
+    for (const [brand, models] of Object.entries(modelsBrand)) {
+      for (const model of models) {
+        const group = engineCodesData[`${brand}-${model}-engines`];
+        for (const row of group?.rows ?? []) {
+          engineCodePaths.add(`/engines/${brand}/${model}/${toEngineCodeSlug(row.engineCode)}`);
+        }
+      }
+    }
     for (const enginePath of engineCodePaths) {
       paths.push(field(enginePath, 0.7));
     }

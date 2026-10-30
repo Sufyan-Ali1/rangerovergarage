@@ -17,20 +17,14 @@ import EngineGallery from "@/app/components/EngineGallery";
 import EngineWhyChoose from "@/app/components/EngineWhyChoose";
 import FAQ from "@/app/components/FAQ";
 import { getEngineSpecifications } from "@/app/data/engines/brands/GetEngineSpecifications";
-import engineCodesData from "@/app/data/engineCodesData.json";
-import { getEngineCodeHref } from "@/app/data/engines/engineCodeLinks.cjs";
+import { findEngineByCode, toEngineCodeSlug } from "@/app/data/engines/engineCodeLinks.cjs";
 
 interface Props {
   params: Promise<{ brand: string; model: string; engineCode: string }>;
 }
 
 function getEngine(brand: string, model: string, engineCode: string) {
-  const key = `${brand}-${model}-engines` as keyof typeof engineCodesData;
-  const engine = engineCodesData[key]?.rows.find(
-    (row) => row.engineCode.toUpperCase() === engineCode.toUpperCase(),
-  ) ?? Object.values(engineCodesData).flatMap((group) => group.rows).find(
-    (row) => getEngineCodeHref(row) === `/engines/${brand}/${model}/${encodeURIComponent(engineCode.toUpperCase())}`,
-  );
+  const engine = findEngineByCode(brand, model, engineCode);
   if (!engine) notFound();
 
   return engine;
@@ -45,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${name} Engine Rebuild & Replacement`,
     description: `Specialist ${name} engine rebuild, repair and replacement services. Get expert advice and a quote for your engine.`,
     alternates: {
-      canonical: `/engines/${brand}/${model}/${engine.engineCode}`,
+      canonical: `/engines/${brand}/${model}/${toEngineCodeSlug(engine.engineCode)}`,
     },
   };
 }

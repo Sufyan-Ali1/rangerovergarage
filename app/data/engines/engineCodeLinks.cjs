@@ -32,7 +32,31 @@ function getEngineCodeHref(row) {
     );
   }) ?? candidates[0];
 
-  return `/engines/${brand}/${slug}/${encodeURIComponent(row.engineCode.toUpperCase())}`;
+  return `/engines/${brand}/${slug}/${toEngineCodeSlug(row.engineCode)}`;
 }
 
-module.exports = { getEngineCodeHref };
+/** Match display codes and URL-encoded codes without changing their labels.
+ * @param {string} value
+ */
+function toEngineCodeSlug(value) {
+  try {
+    value = decodeURIComponent(value);
+  } catch {
+    return "";
+  }
+  return value.trim().toLowerCase().replace(/[^a-z0-9.]+/g, "-").replace(/^-+|-+$/g, "");
+}
+
+/** @param {string} brand @param {string} model @param {string} engineCode */
+function findEngineByCode(brand, model, engineCode) {
+  const code = toEngineCodeSlug(engineCode);
+  if (!code) return undefined;
+  const matches = (row) => toEngineCodeSlug(row.engineCode) === code;
+  const direct = engineCodesData[`${brand}-${model}-engines`]?.rows.find(matches);
+  if (direct) return direct;
+  return Object.values(engineCodesData).flatMap((group) => group.rows).find(
+    (row) => matches(row) && getEngineCodeHref(row) === `/engines/${brand}/${model}/${code}`,
+  );
+}
+
+module.exports = { getEngineCodeHref, findEngineByCode, toEngineCodeSlug };

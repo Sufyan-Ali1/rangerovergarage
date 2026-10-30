@@ -1,3 +1,14 @@
+import { EPACEData } from "./Jaguar/models/EPACEData";
+import { FPACEData } from "./Jaguar/models/FPACEData";
+import { FTYPECOUPEData } from "./Jaguar/models/FTYPECOUPEData";
+import { XEData } from "./Jaguar/models/XEData";
+import { XFData } from "./Jaguar/models/XFData";
+import { XFSPORTBRAKEData } from "./Jaguar/models/XFSPORTBRAKEData";
+import { XJData } from "./Jaguar/models/XJData";
+import { XKData } from "./Jaguar/models/XKData";
+import { XKRData } from "./Jaguar/models/XKRData";
+import { XKRSData } from "./Jaguar/models/XKRSData";
+import { FTYPEData } from "./Jaguar/models/FTYPEData";
 import { RangeRoverData } from "./RangeRower/RangRoverData";
 import { LandRoverData } from "./LandRower/LandRoverData";
 import { JaguarData } from "./Jaguar/JaguarData";
@@ -39,6 +50,28 @@ import { LandRoverSizes44Data } from "./LandRower/LandRoverSizes/Land4.4Data";
 import { LandRoverSizes50Data } from "./LandRower/LandRoverSizes/Land5.0Data";
 export function getBrandsModelsBySlug(modelSlug: string): ModelData {
   switch (modelSlug) {
+    case "e-pace":
+      return EPACEData;
+    case "f-pace":
+      return FPACEData;
+    case "f-type-coupe":
+      return FTYPECOUPEData;
+    case "xe":
+      return XEData;
+    case "xf":
+      return XFData;
+    case "xf-sportbrake":
+      return XFSPORTBRAKEData;
+    case "xj":
+      return XJData;
+    case "xk":
+      return XKData;
+    case "xkr":
+      return XKRData;
+    case "xkr-s":
+      return XKRSData;
+    case "f-type":
+      return FTYPEData;
     case "evoque":
       return RREvoqueData;
     case "sport":

@@ -47,7 +47,7 @@ export default function EngineTable({
   const pageNumbers = Array.from({ length: pageEnd - pageStart + 1 }, (_, i) => pageStart + i);
 
   return (
-    <section className="w-full bg-[#F3F4F6] px-6 py-16 sm:px-10 xl:px-[101px] xl:py-20">
+    <section className="w-full bg-surface px-6 py-16 sm:px-10 xl:px-[101px] xl:py-20">
       <div className="mx-auto w-full max-w-[1728px]">
 
         {/* Title */}
@@ -69,7 +69,7 @@ export default function EngineTable({
                   </th>
                 ))}
                 {/* Quote action column */}
-                <th scope="col" className="bg-[#0d4f2d] px-6 py-4"><span className="sr-only">Get a quote</span></th>
+                <th scope="col" className="relative bg-brand-dark px-6 py-4"><span className="sr-only">Get a quote</span></th>
               </tr>
             </thead>
             <tbody>
