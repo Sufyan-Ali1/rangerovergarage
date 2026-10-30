@@ -1,4 +1,4 @@
-// Each new workshop photo appears on exactly one page.
+// Workshop photo selections shared by the page galleries.
 const workshopPhotos = {
   1: { src: "/images/rrg_images/1.webp", width: 1152, height: 2048, alt: "Black Range Rover parked outside the workshop" },
   2: { src: "/images/rrg_images/2.webp", width: 1152, height: 2048, alt: "White Range Rover outside Range Rover Garage" },
@@ -48,3 +48,6 @@ export const homeWorkshopImages = selectPhotos([1, 2, 4, 11, 15, 18, 27, 29, 34,
 export const rangeRoverWorkshopImages = selectPhotos([3, 8, 19, 10, 12, 13, 31, 32, 33, 35]);
 export const landRoverWorkshopImages = selectPhotos([6, 7,9, 14, 16, 17, 20, 21, 22, 26]);
 export const galleryWorkshopImages = selectPhotos([5, 23, 24, 25, 28, 30]);
+
+// Temporary workshop photos; replace with Jaguar-specific images when available.
+export const jaguarWorkshopImages = selectPhotos([12, 30, 4, 23, 18, 28, 11, 20, 24, 29]);

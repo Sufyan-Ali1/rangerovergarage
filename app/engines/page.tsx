@@ -62,7 +62,7 @@ export const metadata = {
 
 export default function EnginesPage() {
   const schemaJson = fs.readFileSync(path.join(process.cwd(), 'app/data/schema/engines.json'), 'utf8');
-  const tableRows = allBrandModels.flatMap((model) => {
+  const tableRows = allBrandModels.filter((model) => toBrandSlug(model.brand) !== "jaguar").flatMap((model) => {
     const brandSlug = toBrandSlug(model.brand);
     const dataKey =
       `${brandSlug}-${toModelSlug(model.model)}-engines` as keyof typeof engineCodesData;

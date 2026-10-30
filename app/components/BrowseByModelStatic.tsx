@@ -7,10 +7,7 @@ import type { Brand } from "../data/brands";
 function ModelCard({ model, light }: { model: Model; light: boolean }) {
   const href = `/engines/${toBrandSlug(model.brand)}/${toModelSlug(model.model)}`;
   const modelSlug = toModelSlug(model.model);
-  const imageSrc =
-    model.brand === "JAGUAR"
-      ? "/jaguar.webp"
-      : `/images/models/${modelSlug}.webp`;
+  const imageSrc = model.image ?? `/images/models/${modelSlug}.webp`;
 
   return (
     <Link

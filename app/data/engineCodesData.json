@@ -12,6 +12,7 @@
   "range-rover-sport-engines": {
     "title": "Range Rover Engine Codes to Help You Find Your Vehicle",
     "rows": [
+      { "make": "Range Rover", "model": "Sport", "engineCode": "204PT", "valves": 16, "actualCC": 1999, "powerKw": 176, "powerHp": 240, "yearRange": "2017-continue" },
       { "make": "Range Rover", "model": "Sport", "engineCode": "204DTA", "valves": 16, "actualCC": 1999, "powerKw": 177, "powerHp": 241, "yearRange": "2005-continue" },
       { "make": "Range Rover", "model": "Sport", "engineCode": "276DT", "valves": 24, "actualCC": 2720, "powerKw": 140, "powerHp": 190, "yearRange": "2005-continue" },
       { "make": "Range Rover", "model": "Sport", "engineCode": "306DT", "valves": 24, "actualCC": 2993, "powerKw": 155, "powerHp": 211, "yearRange": "2005-continue" },
@@ -263,6 +264,121 @@
       { "make": "Land Rover", "model": "Range Rover Vogue", "engineCode": "306DT", "valves": 24, "actualCC": 2993, "powerKw": 155, "powerHp": 211, "yearRange": "2009-2012" },
       { "make": "Land Rover", "model": "Range Rover Vogue", "engineCode": "30HD0D", "valves": 24, "actualCC": 2995, "powerKw": 188, "powerHp": 256, "yearRange": "2009-2012" },
       { "make": "Land Rover", "model": "Range Rover Vogue", "engineCode": "306PS", "valves": 24, "actualCC": 2995, "powerKw": 250, "powerHp": 340, "yearRange": "2012-continue" }
+    ]
+  },
+  "jaguar-e-pace-engines": {
+    "title": "Jaguar Engine Codes to Help You Find Your Vehicle",
+    "rows": [
+      {"make": "Jaguar", "model": "E-Pace", "engineCode": "204DTA", "valves": 16, "actualCC": 1999, "powerKw": 177, "powerHp": 241, "yearRange": "2017-continue"},
+      {"make": "Jaguar", "model": "E-Pace", "engineCode": "204DTD", "valves": 16, "actualCC": 1999, "powerKw": 110, "powerHp": 150, "yearRange": "2017-continue"},
+      {"make": "Jaguar", "model": "E-Pace", "engineCode": "PT204", "valves": 16, "actualCC": 1997, "powerKw": 147, "powerHp": 200, "yearRange": "2017-continue"}
+    ]
+  },
+  "jaguar-f-pace-engines": {
+    "title": "Jaguar Engine Codes to Help You Find Your Vehicle",
+    "rows": [
+      {"make": "Jaguar", "model": "F-Pace", "engineCode": "204DTA", "valves": 16, "actualCC": 1999, "powerKw": 177, "powerHp": 241, "yearRange": "2015-continue"},
+      {"make": "Jaguar", "model": "F-Pace", "engineCode": "204DTD", "valves": 16, "actualCC": 1999, "powerKw": 110, "powerHp": 150, "yearRange": "2015-continue"},
+      {"make": "Jaguar", "model": "F-Pace", "engineCode": "204PT", "valves": 16, "actualCC": 1999, "powerKw": 147, "powerHp": 200, "yearRange": "2015-continue"},
+      {"make": "Jaguar", "model": "F-Pace", "engineCode": "306DT", "valves": 24, "actualCC": 2993, "powerKw": 177, "powerHp": 241, "yearRange": "2015-continue"},
+      {"make": "Jaguar", "model": "F-Pace", "engineCode": "AJ 126", "valves": 24, "actualCC": 2995, "powerKw": 250, "powerHp": 340, "yearRange": "2015-continue"},
+      {"make": "Jaguar", "model": "F-Pace", "engineCode": "PT204", "valves": 16, "actualCC": 1997, "powerKw": 147, "powerHp": 200, "yearRange": "2015-continue"}
+    ]
+  },
+  "jaguar-f-type-coupe-engines": {
+    "title": "Jaguar Engine Codes to Help You Find Your Vehicle",
+    "rows": [
+      {"make": "Jaguar", "model": "F-Type Coupe", "engineCode": "306PS", "valves": 24, "actualCC": 2995, "powerKw": 250, "powerHp": 340, "yearRange": "2013-continue"},
+      {"make": "Jaguar", "model": "F-Type Coupe", "engineCode": "508PS", "valves": 32, "actualCC": 5000, "powerKw": 346, "powerHp": 471, "yearRange": "2013-continue"},
+      {"make": "Jaguar", "model": "F-Type Coupe", "engineCode": "AJ 126", "valves": 24, "actualCC": 2995, "powerKw": 250, "powerHp": 340, "yearRange": "2013-continue"},
+      {"make": "Jaguar", "model": "F-Type Coupe", "engineCode": "AJ 133S", "valves": 32, "actualCC": 5000, "powerKw": 375, "powerHp": 510, "yearRange": "2013-continue"},
+      {"make": "Jaguar", "model": "F-Type Coupe", "engineCode": "PT204", "valves": 16, "actualCC": 1997, "powerKw": 147, "powerHp": 200, "yearRange": "2013-continue"}
+    ]
+  },
+  "jaguar-xe-engines": {
+    "title": "Jaguar Engine Codes to Help You Find Your Vehicle",
+    "rows": [
+      {"make": "Jaguar", "model": "XE", "engineCode": "204DTA", "valves": 16, "actualCC": 1999, "powerKw": 177, "powerHp": 241, "yearRange": "2015-continue"},
+      {"make": "Jaguar", "model": "XE", "engineCode": "204DTD", "valves": 16, "actualCC": 1999, "powerKw": 110, "powerHp": 150, "yearRange": "2015-continue"},
+      {"make": "Jaguar", "model": "XE", "engineCode": "204PT", "valves": 16, "actualCC": 1999, "powerKw": 147, "powerHp": 200, "yearRange": "2015-continue"},
+      {"make": "Jaguar", "model": "XE", "engineCode": "306PS", "valves": 24, "actualCC": 2995, "powerKw": 250, "powerHp": 340, "yearRange": "2015-continue"},
+      {"make": "Jaguar", "model": "XE", "engineCode": "PT204", "valves": 16, "actualCC": 1997, "powerKw": 147, "powerHp": 200, "yearRange": "2015-continue"}
+    ]
+  },
+  "jaguar-xf-engines": {
+    "title": "Jaguar Engine Codes to Help You Find Your Vehicle",
+    "rows": [
+      {"make": "Jaguar", "model": "XF", "engineCode": "204DTA", "valves": 16, "actualCC": 1999, "powerKw": 177, "powerHp": 241, "yearRange": "2008-2015"},
+      {"make": "Jaguar", "model": "XF", "engineCode": "204DTD", "valves": 16, "actualCC": 1999, "powerKw": 110, "powerHp": 150, "yearRange": "2008-2015"},
+      {"make": "Jaguar", "model": "XF", "engineCode": "204PT", "valves": 16, "actualCC": 1999, "powerKw": 147, "powerHp": 200, "yearRange": "2008-2015"},
+      {"make": "Jaguar", "model": "XF", "engineCode": "224DT", "valves": 16, "actualCC": 2179, "powerKw": 110, "powerHp": 150, "yearRange": "2008-2015"},
+      {"make": "Jaguar", "model": "XF", "engineCode": "306DT", "valves": 24, "actualCC": 2993, "powerKw": 177, "powerHp": 241, "yearRange": "2008-2015"},
+      {"make": "Jaguar", "model": "XF", "engineCode": "508PN", "valves": 32, "actualCC": 5000, "powerKw": 276, "powerHp": 375, "yearRange": "2008-2015"},
+      {"make": "Jaguar", "model": "XF", "engineCode": "508PS", "valves": 32, "actualCC": 5000, "powerKw": 346, "powerHp": 471, "yearRange": "2008-2015"},
+      {"make": "Jaguar", "model": "XF", "engineCode": "AJ 126", "valves": 24, "actualCC": 2995, "powerKw": 250, "powerHp": 340, "yearRange": "2008-2015"},
+      {"make": "Jaguar", "model": "XF", "engineCode": "AJ6WG", "valves": 24, "actualCC": 2967, "powerKw": 175, "powerHp": 238, "yearRange": "2008-2015"},
+      {"make": "Jaguar", "model": "XF", "engineCode": "AJD", "valves": 24, "actualCC": 2720, "powerKw": 152, "powerHp": 207, "yearRange": "2008-2015"},
+      {"make": "Jaguar", "model": "XF", "engineCode": "AJV6D", "valves": 24, "actualCC": 2993, "powerKw": 155, "powerHp": 211, "yearRange": "2008-2015"},
+      {"make": "Jaguar", "model": "XF", "engineCode": "FB", "valves": 24, "actualCC": 2967, "powerKw": 175, "powerHp": 238, "yearRange": "2008-2015"},
+      {"make": "Jaguar", "model": "XF", "engineCode": "PT204", "valves": 16, "actualCC": 1997, "powerKw": 147, "powerHp": 200, "yearRange": "2008-2015"},
+      {"make": "Jaguar", "model": "XF", "engineCode": "SV82G", "valves": 32, "actualCC": 4196, "powerKw": 218, "powerHp": 296, "yearRange": "2008-2015"},
+      {"make": "Jaguar", "model": "XF", "engineCode": "SV8TS", "valves": 32, "actualCC": 4196, "powerKw": 306, "powerHp": 416, "yearRange": "2008-2015"}
+    ]
+  },
+  "jaguar-xf-sportbrake-engines": {
+    "title": "Jaguar Engine Codes to Help You Find Your Vehicle",
+    "rows": [
+      {"make": "Jaguar", "model": "XF Sportbrake", "engineCode": "204DTA", "valves": 16, "actualCC": 1999, "powerKw": 177, "powerHp": 241, "yearRange": "2012-2014"},
+      {"make": "Jaguar", "model": "XF Sportbrake", "engineCode": "204DTD", "valves": 16, "actualCC": 1999, "powerKw": 110, "powerHp": 150, "yearRange": "2012-2014"},
+      {"make": "Jaguar", "model": "XF Sportbrake", "engineCode": "204PT", "valves": 16, "actualCC": 1999, "powerKw": 147, "powerHp": 200, "yearRange": "2012-2014"},
+      {"make": "Jaguar", "model": "XF Sportbrake", "engineCode": "224DT", "valves": 16, "actualCC": 2179, "powerKw": 110, "powerHp": 150, "yearRange": "2012-2014"},
+      {"make": "Jaguar", "model": "XF Sportbrake", "engineCode": "306DT", "valves": 24, "actualCC": 2993, "powerKw": 177, "powerHp": 241, "yearRange": "2012-2014"},
+      {"make": "Jaguar", "model": "XF Sportbrake", "engineCode": "508PS", "valves": 32, "actualCC": 5000, "powerKw": 346, "powerHp": 471, "yearRange": "2012-2014"},
+      {"make": "Jaguar", "model": "XF Sportbrake", "engineCode": "AJV6D", "valves": 24, "actualCC": 2993, "powerKw": 155, "powerHp": 211, "yearRange": "2012-2014"},
+      {"make": "Jaguar", "model": "XF Sportbrake", "engineCode": "PT204", "valves": 16, "actualCC": 1997, "powerKw": 147, "powerHp": 200, "yearRange": "2012-2014"}
+    ]
+  },
+  "jaguar-xj-engines": {
+    "title": "Jaguar Engine Codes to Help You Find Your Vehicle",
+    "rows": [
+      {"make": "Jaguar", "model": "XJ", "engineCode": "204PT", "valves": 16, "actualCC": 1999, "powerKw": 147, "powerHp": 200, "yearRange": "1996-2003"},
+      {"make": "Jaguar", "model": "XJ", "engineCode": "306DT", "valves": 24, "actualCC": 2993, "powerKw": 177, "powerHp": 241, "yearRange": "1996-2003"},
+      {"make": "Jaguar", "model": "XJ", "engineCode": "508PN", "valves": 32, "actualCC": 5000, "powerKw": 276, "powerHp": 375, "yearRange": "1996-2003"},
+      {"make": "Jaguar", "model": "XJ", "engineCode": "508PS", "valves": 32, "actualCC": 5000, "powerKw": 346, "powerHp": 471, "yearRange": "1996-2003"},
+      {"make": "Jaguar", "model": "XJ", "engineCode": "AJ 126", "valves": 24, "actualCC": 2995, "powerKw": 250, "powerHp": 340, "yearRange": "1996-2003"},
+      {"make": "Jaguar", "model": "XJ", "engineCode": "AJ-V6", "valves": 24, "actualCC": 2967, "powerKw": 169, "powerHp": 230, "yearRange": "1996-2003"},
+      {"make": "Jaguar", "model": "XJ", "engineCode": "AJV6D", "valves": 24, "actualCC": 2993, "powerKw": 155, "powerHp": 211, "yearRange": "1996-2003"}
+    ]
+  },
+  "jaguar-xk-engines": {
+    "title": "Jaguar Engine Codes to Help You Find Your Vehicle",
+    "rows": [
+      {"make": "Jaguar", "model": "XK", "engineCode": "508PN", "valves": 32, "actualCC": 5000, "powerKw": 276, "powerHp": 375, "yearRange": "2006-2014"},
+      {"make": "Jaguar", "model": "XK", "engineCode": "AJ8FT", "valves": 32, "actualCC": 4196, "powerKw": 218, "powerHp": 296, "yearRange": "2006-2014"}
+    ]
+  },
+  "jaguar-xkr-engines": {
+    "title": "Jaguar Engine Codes to Help You Find Your Vehicle",
+    "rows": [
+      {"make": "Jaguar", "model": "XKR", "engineCode": "508PS", "valves": 32, "actualCC": 5000, "powerKw": 346, "powerHp": 471, "yearRange": "2006-2014"},
+      {"make": "Jaguar", "model": "XKR", "engineCode": "AJ8FT", "valves": 32, "actualCC": 4196, "powerKw": 218, "powerHp": 296, "yearRange": "2006-2014"},
+      {"make": "Jaguar", "model": "XKR", "engineCode": "SV8TS", "valves": 32, "actualCC": 4196, "powerKw": 306, "powerHp": 416, "yearRange": "2006-2014"}
+    ]
+  },
+  "jaguar-xkr-s-engines": {
+    "title": "Jaguar Engine Codes to Help You Find Your Vehicle",
+    "rows": [
+      {"make": "Jaguar", "model": "XKR-S", "engineCode": "508PS", "valves": 32, "actualCC": 5000, "powerKw": 346, "powerHp": 471, "yearRange": "2006-2014"}
+    ]
+  },
+  "jaguar-f-type-engines": {
+    "title": "Jaguar Engine Codes to Help You Find Your Vehicle",
+    "rows": [
+      {"make": "Jaguar", "model": "F-Type Coupe", "engineCode": "306PS", "valves": 24, "actualCC": 2995, "powerKw": 250, "powerHp": 340, "yearRange": "2013-continue"},
+      {"make": "Jaguar", "model": "F-Type Coupe", "engineCode": "508PS", "valves": 32, "actualCC": 5000, "powerKw": 346, "powerHp": 471, "yearRange": "2013-continue"},
+      {"make": "Jaguar", "model": "F-Type Coupe", "engineCode": "AJ 126", "valves": 24, "actualCC": 2995, "powerKw": 250, "powerHp": 340, "yearRange": "2013-continue"},
+      {"make": "Jaguar", "model": "F-Type Coupe", "engineCode": "AJ 133S", "valves": 32, "actualCC": 5000, "powerKw": 375, "powerHp": 510, "yearRange": "2013-continue"},
+      {"make": "Jaguar", "model": "F-Type Coupe", "engineCode": "PT204", "valves": 16, "actualCC": 1997, "powerKw": 147, "powerHp": 200, "yearRange": "2013-continue"}
     ]
   }
 }

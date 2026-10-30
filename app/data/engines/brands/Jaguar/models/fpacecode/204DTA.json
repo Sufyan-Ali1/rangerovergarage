@@ -1,0 +1,456 @@
+{
+  "eyebrow": "Engineering Matrix",
+  "title": "204DTA Engine Specifications",
+  "description": "Engine catalogue specifications for the Jaguar F-Pace. Confirm the exact vehicle variant using your registration or VIN.",
+  "fields": [
+    {
+      "label": "Engine Make",
+      "value": "Jaguar",
+      "icon": "car"
+    },
+    {
+      "label": "Model",
+      "value": "F-Pace",
+      "icon": "car"
+    },
+    {
+      "label": "Engine Code",
+      "value": "204DTA",
+      "icon": "code",
+      "highlight": true
+    },
+    {
+      "label": "Engine Actual CC",
+      "value": "1999 cc",
+      "icon": "capacity"
+    },
+    {
+      "label": "Engine Horse Power",
+      "value": "241 hp",
+      "icon": "gauge"
+    },
+    {
+      "label": "Engine Power KW",
+      "value": "177 kW",
+      "icon": "power"
+    },
+    {
+      "label": "Engine Valves",
+      "value": "16 valves",
+      "icon": "valves"
+    },
+    {
+      "label": "Year Range",
+      "value": "2015-continue",
+      "icon": "car"
+    }
+  ],
+  "note": "Specifications shown reflect standard factory configuration. Exact vehicle variant must be confirmed via VIN or registration.",
+  "cta": {
+    "label": "Check Engine Compatibility",
+    "href": "/get-quote"
+  },
+  "modelShowcase": {
+    "eyebrow": "Direct Engine Matches",
+    "title": "Jaguar Models",
+    "description": "Explore Jaguar models listed with this engine code. Compatibility must be confirmed for your vehicle.",
+    "badge": "Confirm Compatibility",
+    "transmissionLabel": "Transmission:",
+    "engineCodeLabel": "Engine Code:",
+    "ctaLabel": "Contact / Quote – CTA",
+    "cards": [
+      {
+        "name": "Jaguar E-Pace",
+        "years": "2017-continue",
+        "description": "1999 cc / 177 kW / 241 hp",
+        "transmission": "Confirm using VIN",
+        "engineCode": "204DTA",
+        "image": "/images/models/e-pace.webp",
+        "imageAlt": "Jaguar E-Pace",
+        "href": "/engines/jaguar/e-pace",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Jaguar F-Pace",
+        "years": "2015-continue",
+        "description": "1999 cc / 177 kW / 241 hp",
+        "transmission": "Confirm using VIN",
+        "engineCode": "204DTA",
+        "image": "/images/models/f-pace.webp",
+        "imageAlt": "Jaguar F-Pace",
+        "href": "/engines/jaguar/f-pace",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Jaguar XE",
+        "years": "2015-continue",
+        "description": "1999 cc / 177 kW / 241 hp",
+        "transmission": "Confirm using VIN",
+        "engineCode": "204DTA",
+        "image": "/images/models/xe.webp",
+        "imageAlt": "Jaguar XE",
+        "href": "/engines/jaguar/xe",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Jaguar XF",
+        "years": "2008-2015",
+        "description": "1999 cc / 177 kW / 241 hp",
+        "transmission": "Confirm using VIN",
+        "engineCode": "204DTA",
+        "image": "/images/models/xf.webp",
+        "imageAlt": "Jaguar XF",
+        "href": "/engines/jaguar/xf",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Jaguar XF Sportbrake",
+        "years": "2012-2014",
+        "description": "1999 cc / 177 kW / 241 hp",
+        "transmission": "Confirm using VIN",
+        "engineCode": "204DTA",
+        "image": "/images/models/xf-sportbrake-e4d028ff27.webp",
+        "imageAlt": "Jaguar XF Sportbrake",
+        "href": "/engines/jaguar/xf-sportbrake",
+        "quoteHref": "/get-quote"
+      }
+    ]
+  },
+  "specialistsBanner": {
+    "eyebrow": "Dedicated Powertrain Facility",
+    "title": "Jaguar F-Pace 204DTA Engine Replacement Specialists",
+    "description": "Our dedicated workshop specialises in Jaguar engine rebuilds, precision timing chain replacements, crank calibrations, and complete turnkey engine swaps. All installations include full system bleeding, ECU adaptation, and rigorous road testing.",
+    "features": [
+      {
+        "icon": "gauge",
+        "title": "50-Mile Road Protocol",
+        "description": "Rigorous live diagnostic log"
+      },
+      {
+        "icon": "badge",
+        "title": "JLR Diagnostic Level",
+        "description": "TOPIx & Pathfinder coded"
+      }
+    ],
+    "image": "/images/workshop-8.webp",
+    "imageAlt": "Vehicle and removed engine in the workshop",
+    "imageCaption": "Certified JLR Master Engineers On-Site",
+    "callLabel": "Call our Experts (01708 592377)",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Request a Quote",
+    "quoteHref": "/get-quote"
+  },
+  "engineOverview": {
+    "eyebrow": "Marque Authority",
+    "title": "About the Jaguar F-Pace 204DTA Engine",
+    "paragraphs": [
+      "The Jaguar F-Pace is listed with the 204DTA engine, 1999 cc capacity and 177 kW / 241 hp output. Confirm your exact model year, transmission and engine specification before ordering a replacement.",
+      "Choosing the right replacement begins with identifying your vehicle’s exact specification. Our team can help you check the engine code and discuss your repair, rebuild, or replacement options. Have your registration or VIN ready when requesting a quote so we can assess the requirements for your vehicle.",
+      "From initial assessment through to fitting and final checks, our workshop can guide you through the next steps for your 204DTA engine. Contact our specialists to discuss engine availability, compatibility, and the work required for your Jaguar."
+    ]
+  },
+  "engineProblems": {
+    "eyebrow": "Diagnostic Advisory",
+    "title": "Jaguar F-Pace Engine Symptoms to Check",
+    "description": "Early symptoms requiring specialist diagnosis. Prompt assessment helps prevent further internal component wear.",
+    "actionLabel": "Action:",
+    "ctaLabel": "Book an Engine Diagnostic",
+    "ctaHref": "/get-quote",
+    "cards": [
+      {
+        "icon": "bell",
+        "title": "Unusual Engine Noise",
+        "description": "New rattling, knocking or ticking requires inspection to identify its source.",
+        "action": "Arrange a mechanical inspection"
+      },
+      {
+        "icon": "power",
+        "title": "Loss of Power",
+        "description": "Reduced performance can have several causes. Diagnosis helps establish the repair required.",
+        "action": "Check fault codes and live engine data"
+      },
+      {
+        "icon": "start",
+        "title": "Starting Difficulties",
+        "description": "Slow starting or a non-start condition requires checks of the starting, fuel and control systems.",
+        "action": "Book a starting-system diagnosis"
+      },
+      {
+        "icon": "smoke",
+        "title": "Exhaust Smoke",
+        "description": "Unusual exhaust smoke should be assessed alongside fluid levels and running symptoms.",
+        "action": "Inspect the engine and exhaust systems"
+      },
+      {
+        "icon": "drop",
+        "title": "Coolant or Oil Loss",
+        "description": "Fluid loss or contamination needs investigation before further damage occurs.",
+        "action": "Check leaks and fluid condition"
+      },
+      {
+        "icon": "warning",
+        "title": "Engine Warning Light",
+        "description": "A warning light requires a diagnostic scan and checks appropriate to the stored faults.",
+        "action": "Arrange engine diagnostics"
+      }
+    ]
+  },
+  "buyingGuide": {
+    "eyebrow": "Buyer's comparison",
+    "title": "Used, Reconditioned or Rebuilt Jaguar 204DTA: Which One to Choose?",
+    "description": "Selecting the ideal powertrain solution depends on budget, vehicle age, and long-term ownership plans.",
+    "subtitle": "Review our verified tiers below to find the correct fit for your Jaguar.",
+    "cards": [
+      {
+        "tier": "Tier 01",
+        "badge": "Tested Core",
+        "title": "Used Engine",
+        "description": "Inspected low-mileage original units. Ideal for cost-conscious replacements with verified compression and leakdown testing before release.",
+        "features": [
+          "Endoscopic cylinder wall inspection",
+          "Hot compression test verified",
+          "Clean salvage pedigree verification"
+        ],
+        "linkLabel": "Explore Used Engines",
+        "href": "/engines",
+        "highlighted": false,
+        "recommendation": ""
+      },
+      {
+        "tier": "Tier 02",
+        "badge": "12-Mo Warranty",
+        "title": "Reconditioned Engine",
+        "description": "Completely stripped, cleaned, ultrasonic treated, with new bearings, piston rings, gaskets, and updated timing chain kit installed.",
+        "features": [
+          "Brand new timing chains & tensioners",
+          "New big-end & main crankshaft bearings",
+          "Fully pressure & leak-down tested"
+        ],
+        "linkLabel": "Explore Reconditioned",
+        "href": "/get-quote",
+        "highlighted": true,
+        "recommendation": "Most popular choice"
+      },
+      {
+        "tier": "Tier 03",
+        "badge": "Zero-Hour Spec",
+        "title": "Rebuilt Engine",
+        "description": "Zero-hour specification rebuild with brand new crankshaft, upgraded timing components, re-honed cylinders, and comprehensive dyno verification.",
+        "features": [
+          "New forged OEM crankshaft assembly",
+          "Precision CNC cylinder line boring",
+          "Maximum longevity for high-mileage fleets"
+        ],
+        "linkLabel": "Explore Rebuilt Engines",
+        "href": "/services/engine-rebuild",
+        "highlighted": false,
+        "recommendation": ""
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Priority Engineering Advice",
+    "titleBefore": "Need a Jaguar",
+    "titleHighlight": "204DTA",
+    "titleAfter": "Engine?",
+    "description": "Tell us your vehicle registration or VIN and our mechanical team will verify exact compatibility, provide current workshop availability, and supply a clear fixed quote.",
+    "callLabel": "Call us: 01708 592377",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Get a Quote",
+    "quoteHref": "/get-quote",
+    "highlights": [
+      {
+        "icon": "location",
+        "label": "Grays, Essex Workshop"
+      },
+      {
+        "icon": "delivery",
+        "label": "UK Nationwide Pallet Delivery"
+      },
+      {
+        "icon": "warranty",
+        "label": "12-Month Mechanical Warranty"
+      }
+    ]
+  },
+  "engineServices": {
+    "eyebrow": "Specialist Workshop",
+    "title": "Our Jaguar Engine Services",
+    "description": "Precision mechanical solutions delivered by JLR trained technicians with dealer-level diagnostic equipment.",
+    "linkLabel": "Learn More",
+    "cards": [
+      {
+        "icon": "replacement",
+        "title": "Engine Replacement",
+        "description": "Complete turnkey replacement service with professional removal of the failed engine and installation of a warranty-backed unit.",
+        "href": "/services/engine-replacement"
+      },
+      {
+        "icon": "delivery",
+        "title": "Engine Supply (Nationwide)",
+        "description": "Palletised dispatch across England, Scotland, Wales, and Northern Ireland with transit insurance and secure pallet crating.",
+        "href": "/supply-fit"
+      },
+      {
+        "icon": "tools",
+        "title": "Specialist Engine Fitting",
+        "description": "In-house bay fitting adhering to manufacturer torque specifications, coolant vacuum filling, and high-pressure fuel bleeding.",
+        "href": "/supply-fit"
+      },
+      {
+        "icon": "recycle",
+        "title": "Engine Reconditioning",
+        "description": "Complete teardown, ultrasonic cleaning, crank journal micro-polishing, and replacement of worn components with OEM parts.",
+        "href": "/reconditioned-engine"
+      },
+      {
+        "icon": "tools",
+        "title": "Full Engine Rebuild",
+        "description": "Engine strip-down, inspection and rebuilding with the replacement parts agreed for your engine specification.",
+        "href": "/services/engine-rebuild"
+      },
+      {
+        "icon": "diagnostics",
+        "title": "Dealer-Level Diagnostics",
+        "description": "JLR TOPIx Cloud and Pathfinder diagnostic systems to read live datalogs, adaptation values, and cylinder balancing.",
+        "href": "/contact"
+      },
+      {
+        "icon": "chip",
+        "title": "VIN & ECU Compatibility",
+        "description": "Electronic control unit synchronisation, injector code calibration, and software alignment to match your specific vehicle VIN.",
+        "href": "/contact"
+      },
+      {
+        "icon": "refit",
+        "title": "In-House Engine Refit",
+        "description": "Safe removal of the old powertrain, subframe degreasing, transmission mating inspection, and replacement of auxiliary belts.",
+        "href": "/services/engine-swap"
+      }
+    ]
+  },
+  "compatibilityFitting": {
+    "cards": [
+      {
+        "icon": "compatibility",
+        "eyebrow": "Engineering Diligence",
+        "title": "Engine Compatibility and Selection",
+        "description": "Our team checks your Jaguar F-Pace registration or VIN, engine code, model year, transmission and ancillary components before recommending a replacement.",
+        "checks": [
+          "Engine code and model-year confirmation",
+          "Ancillary component compatibility",
+          "Transmission and electronic compatibility"
+        ],
+        "ctaLabel": "Check My Engine Code",
+        "ctaHref": "/get-quote"
+      },
+      {
+        "icon": "workshop",
+        "eyebrow": "Workshop Integrity",
+        "title": "Professional Engine Fitting & Workshop",
+        "description": "Professional engine installation includes the agreed mechanical work, fluids, compatibility checks and testing before handover.",
+        "checks": [
+          "JLR TOPIx live ECU adaptation coding",
+          "New oil feed and return lines installed",
+          "Mandatory 50-mile dynamic validation"
+        ],
+        "ctaLabel": "Get a Fitting Quote",
+        "ctaHref": "/get-quote"
+      }
+    ]
+  },
+  "engineGallery": {
+    "eyebrow": "Workshop Evidence",
+    "title": "Jaguar 204DTA Engine Gallery",
+    "description": "Workshop photography of complete assemblies, precision tooling, and vehicle installations.",
+    "images": [
+      {
+        "src": "/images/service/engine_swap/engine_swap 1.webp",
+        "alt": "Complete engine mounted on a workshop stand"
+      },
+      {
+        "src": "/images/workshop-8.webp",
+        "alt": "Vehicle and removed engine in the workshop"
+      },
+      {
+        "src": "/images/service/engine_repair/engine_repair 3.webp",
+        "alt": "Exposed camshafts on an engine undergoing repairs"
+      },
+      {
+        "src": "/images/service/turbo_replacement/turbo_replacement 1.webp",
+        "alt": "Engine with turbocharger and intake components exposed in the workshop"
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "The RRG Standard",
+    "title": "Why Choose Range Rover Garage?",
+    "description": "Specialist Jaguar engine assessment, rebuilding and replacement support.",
+    "cards": [
+      {
+        "icon": "shield",
+        "title": "Specialist Knowledge",
+        "description": "Our workshop supports Jaguar engine repair, rebuild and replacement with checks tailored to your vehicle."
+      },
+      {
+        "icon": "checklist",
+        "title": "Compatibility Focused",
+        "description": "Every quote is cross-referenced with official JLR EPC parts software to prevent mismatches or harness-incompatible variants."
+      },
+      {
+        "icon": "fitting",
+        "title": "Turnkey Fitting Options",
+        "description": "Fully equipped workshop in Essex offering full vehicle collection, engine swap, coding, dynamic testing, and warranty sign-off."
+      },
+      {
+        "icon": "message",
+        "title": "Clear Communication",
+        "description": "Itemised quotes with clear scopes, zero surprise extras, regular photographic updates during rebuild, and dedicated telephone support."
+      }
+    ]
+  },
+  "faq": {
+    "description": "Answers to common questions about 204DTA engine compatibility, replacement, reconditioning, and fitting. Share your registration or VIN for advice specific to your vehicle.",
+    "accordionName": "engine-code-faq",
+    "faqs": [
+      {
+        "q": "How do I confirm that a 204DTA engine fits my vehicle?",
+        "a": "Send us your registration or VIN along with your engine code, if available. Our team will check your vehicle specification, installation layout, transmission, and electronic compatibility before recommending an engine."
+      },
+      {
+        "q": "Can I choose between a used, reconditioned, or rebuilt engine?",
+        "a": "We can discuss these options based on your vehicle, budget, and the condition of your existing engine. Ask what inspections, replacement parts, testing, and warranty terms are included in the proposed option."
+      },
+      {
+        "q": "Can you supply the engine and fit it for me?",
+        "a": "Contact us about engine supply or supply and fitting. Your quotation will confirm the proposed engine, installation work, fluids, ancillary parts, and any additional work required."
+      },
+      {
+        "q": "How much does a 204DTA engine replacement cost?",
+        "a": "The price depends on the engine specification, condition, availability, and the work required. Send your vehicle details for a quotation that explains the included parts and labour."
+      },
+      {
+        "q": "Does a replacement engine come with a warranty?",
+        "a": "Warranty cover depends on the engine and service agreed. Confirm the duration, covered components, exclusions, and maintenance requirements in your written quotation before ordering."
+      },
+      {
+        "q": "Can you arrange collection or engine delivery?",
+        "a": "Ask our team about collection and delivery options for your location. Availability, costs, and arrangements will be confirmed with your quotation."
+      },
+      {
+        "q": "How long will the replacement take?",
+        "a": "Timing depends on engine availability, workshop scheduling, and any additional repairs identified during inspection. Our team will discuss the expected turnaround when assessing your vehicle."
+      }
+    ]
+  },
+  "workshopIntro": {
+    "eyebrow": "From Assessment to Installation",
+    "title": "Specialist Care for Your Jaguar 204DTA Engine",
+    "description": "Whether you need an engine assessment, a replacement unit, or professional fitting, our team can help you understand the next steps. Share your registration or VIN to discuss compatibility, available options, and a quotation tailored to your vehicle.",
+    "paragraphs": [
+      "Finding a suitable 204DTA engine starts with understanding your vehicle’s exact specification and the condition of its current powertrain. Engine code, model year, transmission, and installation layout all help determine the right approach. Our team can review your registration or VIN and discuss whether diagnosis, repair, rebuilding, or replacement is the appropriate next step.",
+      "When comparing engine options, look beyond the unit itself. Ask which components are included, what inspection and restoration work has been completed, and how the engine will be checked before installation. We can explain the proposed scope of work, discuss supply-only or fitting options, and identify any ancillary parts that need attention as part of your quotation.",
+      "Clear information makes it easier to plan your vehicle’s return to the road. Before work is agreed, discuss expected availability, workshop scheduling, collection or delivery arrangements, and the warranty terms attached to your chosen option. The workshop gallery below offers a closer look at engine assemblies, repair work, and vehicle installations at Range Rover Garage."
+    ]
+  }
+}

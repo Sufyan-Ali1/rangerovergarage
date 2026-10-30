@@ -7,6 +7,7 @@ import { getModelsByBrandSlug, toModelSlug } from "@/app/data/models";
 const brandFolders: Record<string, string> = {
   "range-rover": "RangeRower",
   "land-rover": "LandRower",
+  "jaguar": "Jaguar",
 };
 
 type Specifications = typeof evoqueSpecifications;
@@ -22,7 +23,7 @@ export function getEngineSpecifications(
   );
   const code = engineCode.toUpperCase();
 
-  if (!folder || !knownModel || !/^[A-Z0-9-]+$/.test(code)) {
+  if (!folder || !knownModel || !/^[A-Z0-9 .-]+$/.test(code)) {
     return evoqueSpecifications;
   }
 

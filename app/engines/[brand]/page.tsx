@@ -1,5 +1,5 @@
 import ServiceGallery from "../../components/ServiceGallery";
-import { rangeRoverWorkshopImages, landRoverWorkshopImages } from "../../data/workshopImages";
+import { rangeRoverWorkshopImages, landRoverWorkshopImages, jaguarWorkshopImages } from "../../data/workshopImages";
 import Navbar from "../../components/Navbar";
 import Header from "../../components/Header";
 import BrowseByModelStatic from "../../components/BrowseByModelStatic";
@@ -24,6 +24,7 @@ import SupplyFitPrecision from "../../components/SupplyFitPrecision";
 import SupplyFitContent from "../../components/SupplyFitContent";
 import SupplyFitGetParts from "../../components/SupplyFitGetParts";
 import engineCodesData from "../../data/engineCodesData.json";
+import { getEngineCodeHref } from "../../data/engines/engineCodeLinks.cjs";
 import SupplyFitCatalogue from "../../components/SupplyFitCatalogue";
 import { engineSizes } from "../../data/engineSizes";
 import {
@@ -193,13 +194,31 @@ export default async function BrandPage({ params }: Props) {
   } = data;
   const brandTitle = slugToTitle(brand);
   const models = getModelsByBrandSlug(brand);
-  const showModels = brand === "range-rover" || brand === "land-rover";
+  const galleryImages = ({
+    "range-rover": rangeRoverWorkshopImages,
+    "land-rover": landRoverWorkshopImages,
+    jaguar: jaguarWorkshopImages,
+  } as Record<string, typeof rangeRoverWorkshopImages>)[brand] ?? [];
   const brandTableRows = models.flatMap((model) => {
     const dataKey =
       `${brand}-${toModelSlug(model.model)}-engines` as keyof typeof engineCodesData;
     const modelEngineData = engineCodesData[dataKey];
     return modelEngineData ? mapTableRows(modelEngineData.rows) : [];
   });
+  // Size tables can contain additional model/code pairs included in the sitemap.
+  // Keep the model rows first, then add each missing engine URL once.
+  const brandEngineUrls = new Set(brandTableRows.map(getEngineCodeHref));
+  for (const group of Object.values(engineCodesData)) {
+    for (const row of group.rows) {
+      const href = getEngineCodeHref(row);
+      if (!href.startsWith(`/engines/${brand}/`) || brandEngineUrls.has(href)) {
+        continue;
+      }
+      brandEngineUrls.add(href);
+      const model = row.model.replace(/^Range Rover /i, "");
+      brandTableRows.push(...mapTableRows([{ ...row, make: brandTitle, model }]));
+    }
+  }
   const schemaPath = path.join(
     process.cwd(),
     `app/data/schema/engines/${brand}.json`
@@ -226,16 +245,16 @@ export default async function BrandPage({ params }: Props) {
         ]}
       />
       <SupplyFitCatalogue services={engineServices} />
-      {showModels && (
+      {galleryImages.length > 0 && (
         <ServiceGallery
           title={`${brandTitle} Workshop Gallery`}
           subtitle={`Explore our ${brandTitle} vehicles and engine work at the garage.`}
-          images={brand === "range-rover" ? rangeRoverWorkshopImages : landRoverWorkshopImages}
+          images={galleryImages}
           imageFit="contain"
         />
       )}
       <PopularEngineSizes brandSlug={brand} brandTitle={brandTitle} />
-      {showModels && (
+      {models.length > 0 && (
         <BrowseByModelStatic
           allModels={models}
           light
