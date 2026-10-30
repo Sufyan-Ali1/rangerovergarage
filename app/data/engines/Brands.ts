@@ -26,6 +26,6 @@ export const brands: Brand[] = [
     name: "Jaguar",
     tagline: "ENGINE SOLUTION",
     desc: "Reconditioned and remanufactured engines available for select Jaguar models, tested with the same rigour as our Land Rover work.",
-    modelCount: 10,
+    modelCount: 11,
   },
 ];
