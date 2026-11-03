@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback, useEffect } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { submitQuote } from "../actions/submitQuote";
@@ -77,6 +77,7 @@ interface GetQuoteProps {
 
 export default function GetQuote({ initialReg = "", showNotFound = false, lookupError, vehicleInfo }: GetQuoteProps) {
   const router = useRouter();
+  const submitLock = useRef(false);
   const [math, setMath] = useState({ a: 3, b: 5, answer: 8 });
   const [captcha, setCaptcha] = useState("");
   const [vehicleNotFound, setVehicleNotFound] = useState(showNotFound);
@@ -116,35 +117,61 @@ export default function GetQuote({ initialReg = "", showNotFound = false, lookup
     }
   };
 
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
+    // Prevent multiple submissions immediately
+    if (submitLock.current) return;
+
     const errors = validate(form);
+
     if (Object.keys(errors).length > 0) {
       setFieldErrors(errors);
       return;
     }
 
     if (!captcha.trim() || Number(captcha) !== math.answer) {
-      setSubmitError("Incorrect answer to the verification question. Please try again.");
+      setSubmitError(
+        "Incorrect answer to the verification question. Please try again."
+      );
       refreshMath();
       return;
     }
 
-    setSubmitError("");
+    // Lock form submission
+    submitLock.current = true;
     setSubmitting(true);
-    const { ok, message } = await submitQuote({
-      ...form,
-      browser: navigator.userAgent,
-      vehicle: vehicleInfo?.data,
-    });
-    setSubmitting(false);
-    if (ok) {
-      router.push("/quote-success");
-    } else {
-      setSubmitError(message ?? "Something went wrong. Please try again or call us directly.");
+    setSubmitError("");
+
+    try {
+      const { ok, message } = await submitQuote({
+        ...form,
+        browser: navigator.userAgent,
+        vehicle: vehicleInfo?.data,
+      });
+
+      if (ok) {
+        // Keep button disabled during redirect
+        router.replace("/quote-success");
+        return;
+      }
+
+      setSubmitError(
+        message ??
+        "Something went wrong. Please try again or call us directly."
+      );
+    } catch {
+      setSubmitError(
+        "Something went wrong. Please try again or call us directly."
+      );
     }
+
+    // Unlock only when submission fails
+    submitLock.current = false;
+    setSubmitting(false);
   };
+
 
   const inputBorder = (field: keyof FormFields) =>
     fieldErrors[field] ? "border-red-400" : "border-gray-200";
@@ -180,10 +207,10 @@ export default function GetQuote({ initialReg = "", showNotFound = false, lookup
           >
             <div className="mt-0.5 shrink-0">
               <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C9963A" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                <rect x="1" y="9" width="22" height="9" rx="2"/>
-                <path d="M5 9V6a1 1 0 0 1 1-1h4l2 4"/>
-                <path d="M13 9l2-4h2a1 1 0 0 1 1 1v3"/>
-                <circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/>
+                <rect x="1" y="9" width="22" height="9" rx="2" />
+                <path d="M5 9V6a1 1 0 0 1 1-1h4l2 4" />
+                <path d="M13 9l2-4h2a1 1 0 0 1 1 1v3" />
+                <circle cx="7" cy="18" r="2" /><circle cx="17" cy="18" r="2" />
               </svg>
             </div>
             <div>
@@ -221,147 +248,147 @@ export default function GetQuote({ initialReg = "", showNotFound = false, lookup
           <div className="rounded-2xl bg-white p-6 shadow-sm sm:p-8">
             <form onSubmit={handleSubmit} noValidate className="flex flex-col gap-5">
 
-                {/* Vehicle Registration */}
-                <div>
-                  <p className="mb-1.5 text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">
-                    Vehicle Registration <span className="text-red-500">*</span>
-                  </p>
-                  <div className={`flex overflow-hidden rounded-lg border transition focus-within:border-[#4CA66B] focus-within:ring-1 focus-within:ring-[#4CA66B] ${fieldErrors.reg ? "border-red-400" : "border-gray-300"}`}>
-                    <div aria-hidden="true" className="flex shrink-0 flex-col items-center justify-center gap-0.5 bg-[#003087] px-3 py-2">
-                      <svg viewBox="0 0 60 40" className="h-7 w-10">
-                        <rect width="60" height="40" fill="#012169" />
-                        <path d="M0,0 L60,40 M60,0 L0,40" stroke="white" strokeWidth="8" />
-                        <path d="M0,0 L60,40 M60,0 L0,40" stroke="#C8102E" strokeWidth="4" />
-                        <path d="M30,0 V40 M0,20 H60" stroke="white" strokeWidth="12" />
-                        <path d="M30,0 V40 M0,20 H60" stroke="#C8102E" strokeWidth="8" />
-                      </svg>
-                      <span className="text-[10px] font-bold tracking-widest text-white">UK</span>
-                    </div>
-                    <input
-                      name="reg"
-                      required
-                      maxLength={8}
-                      aria-label="Vehicle registration"
-                      value={form.reg}
-                      onChange={handleChange}
-                      placeholder="ENTER REGISTRATION"
-                      className="min-w-0 flex-1 bg-[#F5C400] px-3 py-3 text-[13px] font-black uppercase tracking-[0.1em] text-[#1a1a1a] placeholder:font-bold placeholder:text-[#8B7200] outline-none sm:px-3.5 sm:text-[16px]"
-                    />
-                  </div>
-                  <FieldError field="reg" />
-                </div>
-
-                {/* Name + Email */}
-                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                  <div>
-                    <p className="mb-1.5 text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">
-                      Full Name <span className="text-red-500">*</span>
-                    </p>
-                    <div className={`flex items-center gap-2 rounded-lg border px-3 py-2.5 ${inputBorder("name")}`}>
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9ca3af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
-                      </svg>
-                      <input name="name" value={form.name} onChange={handleChange} placeholder="Enter Full Name" className="flex-1 text-[13.5px] text-gray-700 placeholder:text-gray-400 focus:outline-none" />
-                    </div>
-                    <FieldError field="name" />
-                  </div>
-                  <div>
-                    <p className="mb-1.5 text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">
-                      Email Address <span className="text-red-500">*</span>
-                    </p>
-                    <div className={`flex items-center gap-2 rounded-lg border px-3 py-2.5 ${inputBorder("email")}`}>
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9ca3af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
-                      </svg>
-                      <input type="email" name="email" value={form.email} onChange={handleChange} placeholder="Enter Email Address" className="flex-1 text-[13.5px] text-gray-700 placeholder:text-gray-400 focus:outline-none" />
-                    </div>
-                    <FieldError field="email" />
-                  </div>
-                </div>
-
-                {/* Phone + Postcode */}
-                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                  <div>
-                    <p className="mb-1.5 text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">
-                      Phone Number <span className="text-red-500">*</span>
-                    </p>
-                    <div className={`flex items-center gap-2 rounded-lg border px-3 py-2.5 ${inputBorder("phone")}`}>
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9ca3af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.78a16 16 0 0 0 6 6l.94-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
-                      </svg>
-                      <input name="phone" value={form.phone} onChange={handleChange} placeholder="07123456789" className="flex-1 text-[13.5px] text-gray-700 placeholder:text-gray-400 focus:outline-none" />
-                    </div>
-                    <FieldError field="phone" />
-                  </div>
-                  <div>
-                    <p className="mb-1.5 text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">
-                      Post Code <span className="text-red-500">*</span>
-                    </p>
-                    <div className={`flex items-center gap-2 rounded-lg border px-3 py-2.5 ${inputBorder("postcode")}`}>
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9ca3af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
-                      </svg>
-                      <input name="postcode" value={form.postcode} onChange={handleChange} placeholder="Enter Post Code" className="flex-1 text-[13.5px] text-gray-700 placeholder:text-gray-400 focus:outline-none" />
-                    </div>
-                    <FieldError field="postcode" />
-                  </div>
-                </div>
-
-                {/* Issue */}
-                <div>
-                  <p className="mb-1.5 text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">
-                    Issue With Vehicle <span className="text-red-500">*</span>
-                  </p>
-                  <textarea
-                    name="issue"
-                    value={form.issue}
-                    onChange={handleChange}
-                    rows={4}
-                    placeholder="Describe your vehicle's issue in as much detail as possible..."
-                    className={`w-full rounded-lg border px-3 py-2.5 text-[13.5px] text-gray-700 placeholder:text-gray-400 focus:outline-none resize-none ${inputBorder("issue")}`}
-                  />
-                  <FieldError field="issue" />
-                </div>
-
-                {/* Human Verification */}
-                <div className="rounded-lg border border-gray-200 px-4 py-3">
-                  <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">
-                    Human Verification
-                  </p>
-                  <div className="flex items-center gap-3">
-                    <div className="flex flex-1 items-center gap-2">
-                      <span className="text-[14px] font-bold text-gray-800">
-                        What is {math.a} + {math.b}?
-                      </span>
-                      <button type="button" onClick={refreshMath} className="text-gray-400 hover:text-gray-600">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                          <polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/>
-                        </svg>
-                      </button>
-                    </div>
-                    <input
-                      value={captcha}
-                      onChange={(e) => setCaptcha(e.target.value.replace(/[^0-9]/g, ""))}
-                      placeholder="?"
-                      className="w-14 rounded-lg border border-gray-200 px-2 py-2 text-center text-[14px] font-bold text-gray-800 focus:outline-none"
-                    />
-                  </div>
-                  {submitError && <p className="mt-1.5 text-[12px] text-red-500">{submitError}</p>}
-                </div>
-
-                {/* Submit */}
-                <button
-                  type="submit"
-                  disabled={submitting}
-                  className="w-full rounded-xl py-4 text-[13px] font-black uppercase tracking-widest text-white transition hover:bg-[#0d4f2d] disabled:opacity-60 disabled:cursor-not-allowed"
-                  style={{ background: "#11633A" }}
-                >
-                  {submitting ? "Submitting…" : "Submit Quote Request"}
-                </button>
-
-                <p className="text-center text-[11px] text-gray-400">
-                  By submitting, you agree to our contact terms. We never share your data.
+              {/* Vehicle Registration */}
+              <div>
+                <p className="mb-1.5 text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">
+                  Vehicle Registration <span className="text-red-500">*</span>
                 </p>
+                <div className={`flex overflow-hidden rounded-lg border transition focus-within:border-[#4CA66B] focus-within:ring-1 focus-within:ring-[#4CA66B] ${fieldErrors.reg ? "border-red-400" : "border-gray-300"}`}>
+                  <div aria-hidden="true" className="flex shrink-0 flex-col items-center justify-center gap-0.5 bg-[#003087] px-3 py-2">
+                    <svg viewBox="0 0 60 40" className="h-7 w-10">
+                      <rect width="60" height="40" fill="#012169" />
+                      <path d="M0,0 L60,40 M60,0 L0,40" stroke="white" strokeWidth="8" />
+                      <path d="M0,0 L60,40 M60,0 L0,40" stroke="#C8102E" strokeWidth="4" />
+                      <path d="M30,0 V40 M0,20 H60" stroke="white" strokeWidth="12" />
+                      <path d="M30,0 V40 M0,20 H60" stroke="#C8102E" strokeWidth="8" />
+                    </svg>
+                    <span className="text-[10px] font-bold tracking-widest text-white">UK</span>
+                  </div>
+                  <input
+                    name="reg"
+                    required
+                    maxLength={8}
+                    aria-label="Vehicle registration"
+                    value={form.reg}
+                    onChange={handleChange}
+                    placeholder="ENTER REGISTRATION"
+                    className="min-w-0 flex-1 bg-[#F5C400] px-3 py-3 text-[13px] font-black uppercase tracking-[0.1em] text-[#1a1a1a] placeholder:font-bold placeholder:text-[#8B7200] outline-none sm:px-3.5 sm:text-[16px]"
+                  />
+                </div>
+                <FieldError field="reg" />
+              </div>
+
+              {/* Name + Email */}
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                <div>
+                  <p className="mb-1.5 text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">
+                    Full Name <span className="text-red-500">*</span>
+                  </p>
+                  <div className={`flex items-center gap-2 rounded-lg border px-3 py-2.5 ${inputBorder("name")}`}>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9ca3af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" />
+                    </svg>
+                    <input name="name" value={form.name} onChange={handleChange} placeholder="Enter Full Name" className="flex-1 text-[13.5px] text-gray-700 placeholder:text-gray-400 focus:outline-none" />
+                  </div>
+                  <FieldError field="name" />
+                </div>
+                <div>
+                  <p className="mb-1.5 text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">
+                    Email Address <span className="text-red-500">*</span>
+                  </p>
+                  <div className={`flex items-center gap-2 rounded-lg border px-3 py-2.5 ${inputBorder("email")}`}>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9ca3af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <rect x="2" y="4" width="20" height="16" rx="2" /><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                    </svg>
+                    <input type="email" name="email" value={form.email} onChange={handleChange} placeholder="Enter Email Address" className="flex-1 text-[13.5px] text-gray-700 placeholder:text-gray-400 focus:outline-none" />
+                  </div>
+                  <FieldError field="email" />
+                </div>
+              </div>
+
+              {/* Phone + Postcode */}
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                <div>
+                  <p className="mb-1.5 text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">
+                    Phone Number <span className="text-red-500">*</span>
+                  </p>
+                  <div className={`flex items-center gap-2 rounded-lg border px-3 py-2.5 ${inputBorder("phone")}`}>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9ca3af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.78a16 16 0 0 0 6 6l.94-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+                    </svg>
+                    <input name="phone" value={form.phone} onChange={handleChange} placeholder="07123456789" className="flex-1 text-[13.5px] text-gray-700 placeholder:text-gray-400 focus:outline-none" />
+                  </div>
+                  <FieldError field="phone" />
+                </div>
+                <div>
+                  <p className="mb-1.5 text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">
+                    Post Code <span className="text-red-500">*</span>
+                  </p>
+                  <div className={`flex items-center gap-2 rounded-lg border px-3 py-2.5 ${inputBorder("postcode")}`}>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9ca3af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" /><circle cx="12" cy="10" r="3" />
+                    </svg>
+                    <input name="postcode" value={form.postcode} onChange={handleChange} placeholder="Enter Post Code" className="flex-1 text-[13.5px] text-gray-700 placeholder:text-gray-400 focus:outline-none" />
+                  </div>
+                  <FieldError field="postcode" />
+                </div>
+              </div>
+
+              {/* Issue */}
+              <div>
+                <p className="mb-1.5 text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">
+                  Issue With Vehicle <span className="text-red-500">*</span>
+                </p>
+                <textarea
+                  name="issue"
+                  value={form.issue}
+                  onChange={handleChange}
+                  rows={4}
+                  placeholder="Describe your vehicle's issue in as much detail as possible..."
+                  className={`w-full rounded-lg border px-3 py-2.5 text-[13.5px] text-gray-700 placeholder:text-gray-400 focus:outline-none resize-none ${inputBorder("issue")}`}
+                />
+                <FieldError field="issue" />
+              </div>
+
+              {/* Human Verification */}
+              <div className="rounded-lg border border-gray-200 px-4 py-3">
+                <p className="mb-2 text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">
+                  Human Verification
+                </p>
+                <div className="flex items-center gap-3">
+                  <div className="flex flex-1 items-center gap-2">
+                    <span className="text-[14px] font-bold text-gray-800">
+                      What is {math.a} + {math.b}?
+                    </span>
+                    <button type="button" onClick={refreshMath} className="text-gray-400 hover:text-gray-600">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <polyline points="23 4 23 10 17 10" /><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10" />
+                      </svg>
+                    </button>
+                  </div>
+                  <input
+                    value={captcha}
+                    onChange={(e) => setCaptcha(e.target.value.replace(/[^0-9]/g, ""))}
+                    placeholder="?"
+                    className="w-14 rounded-lg border border-gray-200 px-2 py-2 text-center text-[14px] font-bold text-gray-800 focus:outline-none"
+                  />
+                </div>
+                {submitError && <p className="mt-1.5 text-[12px] text-red-500">{submitError}</p>}
+              </div>
+
+              {/* Submit */}
+              <button
+                type="submit"
+                disabled={submitting}
+                className="w-full rounded-xl py-4 text-[13px] font-black uppercase tracking-widest text-white transition hover:bg-[#0d4f2d] disabled:opacity-60 disabled:cursor-not-allowed"
+                style={{ background: "#11633A" }}
+              >
+                {submitting ? "Submitting…" : "Submit Quote Request"}
+              </button>
+
+              <p className="text-center text-[11px] text-gray-400">
+                By submitting, you agree to our contact terms. We never share your data.
+              </p>
 
             </form>
           </div>
@@ -378,7 +405,7 @@ export default function GetQuote({ initialReg = "", showNotFound = false, lookup
                   <li key={item} className="flex items-start gap-3">
                     <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full border-2 border-[#4CA66B]">
                       <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#4CA66B" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
-                        <polyline points="20 6 9 17 4 12"/>
+                        <polyline points="20 6 9 17 4 12" />
                       </svg>
                     </span>
                     <span className="text-[13px] leading-snug text-gray-700">{item}</span>
@@ -397,19 +424,19 @@ export default function GetQuote({ initialReg = "", showNotFound = false, lookup
               <div className="flex flex-col gap-3">
                 <a href="tel:01708592377" className="flex items-center gap-3 text-[15px] font-bold text-white hover:text-[#4CA66B] transition">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#4CA66B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.78a16 16 0 0 0 6 6l.94-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.78a16 16 0 0 0 6 6l.94-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
                   </svg>
                   01708 592377
                 </a>
                 <a href="tel:07477733313" className="flex items-center gap-3 text-[15px] font-bold text-white hover:text-[#4CA66B] transition">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#4CA66B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.78a16 16 0 0 0 6 6l.94-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.78a16 16 0 0 0 6 6l.94-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
                   </svg>
                   07477 733313
                 </a>
                 <div className="flex items-center gap-3 text-[13px] text-white/60">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#4CA66B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" /><circle cx="12" cy="10" r="3" />
                   </svg>
                   UNIT 1 Hedley Ave, Grays RM20 4EL
                 </div>

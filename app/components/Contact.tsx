@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { submitContact, type ContactPayload } from "../actions/submitContact";
 
@@ -67,6 +67,7 @@ export default function Contact() {
   const router = useRouter();
   const [math, setMath] = useState({ a: 3, b: 5, answer: 8 });
   const [captcha, setCaptcha] = useState("");
+  const submitLock = useRef(false);
 
   useEffect(() => {
     const frame = requestAnimationFrame(() => setMath(randomMath()));
@@ -105,25 +106,52 @@ export default function Contact() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    // Prevent duplicate submissions immediately
+    if (submitLock.current) return;
+
     const errors = validate(form);
+
     if (Object.keys(errors).length > 0) {
       setFieldErrors(errors);
       return;
     }
+
     if (!captcha.trim() || Number(captcha) !== math.answer) {
       setSubmitError("Incorrect answer to the verification question. Please try again.");
       refreshMath();
       return;
     }
-    setSubmitError("");
+
+    // Lock submission
+    submitLock.current = true;
     setSubmitting(true);
-    const { ok, message } = await submitContact({ ...form, browser: navigator.userAgent });
-    setSubmitting(false);
-    if (ok) {
-      router.push("/quote-success");
-    } else {
-      setSubmitError(message ?? "Something went wrong. Please try again or call us directly.");
+    setSubmitError("");
+
+    try {
+      const { ok, message } = await submitContact({
+        ...form,
+        browser: navigator.userAgent,
+      });
+
+      if (ok) {
+        // Keep button disabled until navigation completes
+        router.replace("/quote-success");
+        return;
+      }
+
+      setSubmitError(
+        message ?? "Something went wrong. Please try again."
+      );
+    } catch {
+      setSubmitError(
+        "Something went wrong. Please try again."
+      );
     }
+
+    // Unlock only when submission fails
+    submitLock.current = false;
+    setSubmitting(false);
   };
 
   const borderClass = (field: keyof FormFields) =>
@@ -153,20 +181,20 @@ export default function Contact() {
 
             <form onSubmit={handleSubmit} noValidate className="mt-7 flex flex-col gap-4">
 
-                {/* Registration */}
-                <div>
-                  <label htmlFor="contact-registration" className="mb-1.5 block text-[12.5px] text-gray-700">Reg Number *</label>
-                  <div className={`flex overflow-hidden rounded-lg border transition focus-within:border-[#4CA66B] focus-within:ring-1 focus-within:ring-[#4CA66B] ${borderClass("reg")}`}>
-                    <div aria-hidden="true" className="flex shrink-0 flex-col items-center justify-center gap-0.5 bg-[#003087] px-3 py-2">
-                      <svg viewBox="0 0 60 40" className="h-7 w-10">
-                        <rect width="60" height="40" fill="#012169" />
-                        <path d="M0,0 L60,40 M60,0 L0,40" stroke="white" strokeWidth="8" />
-                        <path d="M0,0 L60,40 M60,0 L0,40" stroke="#C8102E" strokeWidth="4" />
-                        <path d="M30,0 V40 M0,20 H60" stroke="white" strokeWidth="12" />
-                        <path d="M30,0 V40 M0,20 H60" stroke="#C8102E" strokeWidth="8" />
-                      </svg>
-                      <span className="text-[10px] font-bold tracking-widest text-white">UK</span>
-                    </div>
+              {/* Registration */}
+              <div>
+                <label htmlFor="contact-registration" className="mb-1.5 block text-[12.5px] text-gray-700">Reg Number *</label>
+                <div className={`flex overflow-hidden rounded-lg border transition focus-within:border-[#4CA66B] focus-within:ring-1 focus-within:ring-[#4CA66B] ${borderClass("reg")}`}>
+                  <div aria-hidden="true" className="flex shrink-0 flex-col items-center justify-center gap-0.5 bg-[#003087] px-3 py-2">
+                    <svg viewBox="0 0 60 40" className="h-7 w-10">
+                      <rect width="60" height="40" fill="#012169" />
+                      <path d="M0,0 L60,40 M60,0 L0,40" stroke="white" strokeWidth="8" />
+                      <path d="M0,0 L60,40 M60,0 L0,40" stroke="#C8102E" strokeWidth="4" />
+                      <path d="M30,0 V40 M0,20 H60" stroke="white" strokeWidth="12" />
+                      <path d="M30,0 V40 M0,20 H60" stroke="#C8102E" strokeWidth="8" />
+                    </svg>
+                    <span className="text-[10px] font-bold tracking-widest text-white">UK</span>
+                  </div>
                   <input
                     id="contact-registration"
                     name="reg"
@@ -177,123 +205,123 @@ export default function Contact() {
                     placeholder="ENTER REGISTRATION"
                     className="min-w-0 flex-1 bg-[#F5C400] px-3 py-3 text-[13px] font-black uppercase tracking-[0.1em] text-[#1a1a1a] placeholder:font-bold placeholder:text-[#8B7200] outline-none sm:px-3.5 sm:text-[16px]"
                   />
-                  </div>
-                  <FieldError field="reg" />
                 </div>
+                <FieldError field="reg" />
+              </div>
 
-                {/* Full Name + Phone */}
-                <div className="grid grid-cols-2 gap-4">
-                  <div>
-                    <label className="mb-1.5 block text-[12.5px] text-gray-700">Full Name *</label>
-                    <input
-                      name="name"
-                      value={form.name}
-                      onChange={handleChange}
-                      placeholder="John Smith"
-                      className={`${baseInput} ${borderClass("name")}`}
-                    />
-                    <FieldError field="name" />
-                  </div>
-                  <div>
-                    <label className="mb-1.5 block text-[12.5px] text-gray-700">Phone Number *</label>
-                    <div className={`relative flex items-center rounded-md border transition focus-within:border-[#4CA66B] focus-within:ring-1 focus-within:ring-[#4CA66B] ${borderClass("phone")}`}>
-                      <input
-                        type="tel"
-                        name="phone"
-                        value={form.phone}
-                        onChange={handleChange}
-                        placeholder="07123456789"
-                        className="w-full rounded-md py-2.5 px-3.5 text-[13.5px] text-gray-800 placeholder-gray-400 outline-none"
-                      />
-                    </div>
-                    <FieldError field="phone" />
-                  </div>
-                </div>
-
-                {/* Email */}
+              {/* Full Name + Phone */}
+              <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <label className="mb-1.5 block text-[12.5px] text-gray-700">Email *</label>
+                  <label className="mb-1.5 block text-[12.5px] text-gray-700">Full Name *</label>
                   <input
-                    type="email"
-                    name="email"
-                    value={form.email}
+                    name="name"
+                    value={form.name}
                     onChange={handleChange}
-                    placeholder="john@example.com"
-                    className={`${baseInput} ${borderClass("email")}`}
+                    placeholder="John Smith"
+                    className={`${baseInput} ${borderClass("name")}`}
                   />
-                  <FieldError field="email" />
+                  <FieldError field="name" />
                 </div>
-
-                {/* Postcode */}
-                  <div>
-                    <label className="mb-1.5 block text-[12.5px] text-gray-700">Postcode *</label>
-                    <input
-                      name="postcode"
-                      required
-                      value={form.postcode}
-                      onChange={handleChange}
-                      placeholder="RM20 4EL"
-                      className={`${baseInput} ${borderClass("postcode")}`}
-                    />
-                    <FieldError field="postcode" />
-                  </div>
-
-                {/* Message */}
                 <div>
-                  <label className="mb-1.5 block text-[12.5px] text-gray-700">Message *</label>
-                  <textarea
-                    name="message"
-                    value={form.message}
-                    onChange={handleChange}
-                    rows={7}
-                    placeholder="Tell us how we can help you..."
-                    className={`${baseInput} resize-none ${borderClass("message")}`}
-                  />
-                  <FieldError field="message" />
-                </div>
-
-                <div className="rounded-lg border border-gray-200 px-4 py-3">
-                  <p className="mb-2 text-[12.5px] text-gray-700">Human Verification *</p>
-                  <div className="flex items-center gap-3">
-                    <label htmlFor="contact-verification" className="flex-1 text-[14px] font-bold text-gray-800">
-                      What is {math.a} + {math.b}?
-                    </label>
-                    <button type="button" onClick={refreshMath} aria-label="Refresh verification question" className="cursor-pointer text-[12px] text-gray-500 hover:text-[#11633A]">
-                      Refresh
-                    </button>
+                  <label className="mb-1.5 block text-[12.5px] text-gray-700">Phone Number *</label>
+                  <div className={`relative flex items-center rounded-md border transition focus-within:border-[#4CA66B] focus-within:ring-1 focus-within:ring-[#4CA66B] ${borderClass("phone")}`}>
                     <input
-                      id="contact-verification"
-                      value={captcha}
-                      onChange={(e) => setCaptcha(e.target.value.replace(/[^0-9]/g, ""))}
-                      inputMode="numeric"
-                      required
-                      placeholder="?"
-                      className="w-14 rounded-lg border border-gray-200 px-2 py-2 text-center text-[14px] font-bold text-gray-800 focus:outline-none focus:ring-1 focus:ring-[#4CA66B]"
+                      type="tel"
+                      name="phone"
+                      value={form.phone}
+                      onChange={handleChange}
+                      placeholder="07123456789"
+                      className="w-full rounded-md py-2.5 px-3.5 text-[13.5px] text-gray-800 placeholder-gray-400 outline-none"
                     />
                   </div>
+                  <FieldError field="phone" />
                 </div>
+              </div>
 
-                {submitError && (
-                  <p className="text-[12px] text-red-500">{submitError}</p>
-                )}
+              {/* Email */}
+              <div>
+                <label className="mb-1.5 block text-[12.5px] text-gray-700">Email *</label>
+                <input
+                  type="email"
+                  name="email"
+                  value={form.email}
+                  onChange={handleChange}
+                  placeholder="john@example.com"
+                  className={`${baseInput} ${borderClass("email")}`}
+                />
+                <FieldError field="email" />
+              </div>
 
-                {/* Submit */}
-                <button
-                  type="submit"
-                  disabled={submitting}
-                  className="flex items-center justify-center gap-2 rounded-md bg-[#4CA66B] py-3 text-[14px] font-semibold text-white transition hover:bg-[#3D9258] active:bg-[#11633A] disabled:opacity-60 disabled:cursor-not-allowed"
-                >
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <line x1="22" y1="2" x2="11" y2="13" />
-                    <polygon points="22 2 15 22 11 13 2 9 22 2" />
-                  </svg>
-                  {submitting ? "Sending…" : "Send Message"}
-                </button>
+              {/* Postcode */}
+              <div>
+                <label className="mb-1.5 block text-[12.5px] text-gray-700">Postcode *</label>
+                <input
+                  name="postcode"
+                  required
+                  value={form.postcode}
+                  onChange={handleChange}
+                  placeholder="RM20 4EL"
+                  className={`${baseInput} ${borderClass("postcode")}`}
+                />
+                <FieldError field="postcode" />
+              </div>
 
-                <p className="text-center text-[12px] text-gray-400">
-                  We&apos;ll respond to your message within 24 hours during business days.
-                </p>
-              </form>
+              {/* Message */}
+              <div>
+                <label className="mb-1.5 block text-[12.5px] text-gray-700">Message *</label>
+                <textarea
+                  name="message"
+                  value={form.message}
+                  onChange={handleChange}
+                  rows={7}
+                  placeholder="Tell us how we can help you..."
+                  className={`${baseInput} resize-none ${borderClass("message")}`}
+                />
+                <FieldError field="message" />
+              </div>
+
+              <div className="rounded-lg border border-gray-200 px-4 py-3">
+                <p className="mb-2 text-[12.5px] text-gray-700">Human Verification *</p>
+                <div className="flex items-center gap-3">
+                  <label htmlFor="contact-verification" className="flex-1 text-[14px] font-bold text-gray-800">
+                    What is {math.a} + {math.b}?
+                  </label>
+                  <button type="button" onClick={refreshMath} aria-label="Refresh verification question" className="cursor-pointer text-[12px] text-gray-500 hover:text-[#11633A]">
+                    Refresh
+                  </button>
+                  <input
+                    id="contact-verification"
+                    value={captcha}
+                    onChange={(e) => setCaptcha(e.target.value.replace(/[^0-9]/g, ""))}
+                    inputMode="numeric"
+                    required
+                    placeholder="?"
+                    className="w-14 rounded-lg border border-gray-200 px-2 py-2 text-center text-[14px] font-bold text-gray-800 focus:outline-none focus:ring-1 focus:ring-[#4CA66B]"
+                  />
+                </div>
+              </div>
+
+              {submitError && (
+                <p className="text-[12px] text-red-500">{submitError}</p>
+              )}
+
+              {/* Submit */}
+              <button
+                type="submit"
+                disabled={submitting}
+                className="flex items-center justify-center gap-2 rounded-md bg-[#4CA66B] py-3 text-[14px] font-semibold text-white transition hover:bg-[#3D9258] active:bg-[#11633A] disabled:opacity-60 disabled:cursor-not-allowed"
+              >
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13" />
+                  <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                </svg>
+                {submitting ? "Sending…" : "Send Message"}
+              </button>
+
+              <p className="text-center text-[12px] text-gray-400">
+                We&apos;ll respond to your message within 24 hours during business days.
+              </p>
+            </form>
           </div>
 
           {/* ── Right: Contact Info ── */}
