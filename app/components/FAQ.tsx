@@ -1,13 +1,13 @@
 import type { Faq } from "../data/faqs";
 
-export default function FAQ({ faqs, accordionName, description = "Everything you need to know about our Range Rover and Land Rover engine rebuild, replacement and repair services - answered by our JLR-trained specialists." }: { faqs: Faq[] | undefined; accordionName?: string; description?: string }) {
+export default function FAQ({ faqs, accordionName, title = "Frequently Asked Questions", description = "Everything you need to know about our Range Rover and Land Rover engine rebuild, replacement and repair services - answered by our JLR-trained specialists." }: { faqs: Faq[] | undefined; accordionName?: string; title?: string; description?: string }) {
   return (
     <section className="w-full bg-[#F3F4F6]">
       <div className="mx-auto w-full max-w-[1728px] px-6 py-16 sm:px-10 xl:px-[101px] xl:py-20">
         <div className="flex flex-col gap-12 lg:flex-row lg:gap-16">
           <div className="flex w-full flex-col lg:w-[380px] lg:shrink-0">
             <h2 className="mb-4 text-[28px] font-black leading-tight text-gray-900 sm:text-[36px]">
-              Frequently Asked Questions
+              {title}
             </h2>
             <p className="mb-8 text-[14px] leading-relaxed text-gray-500">
               {description}

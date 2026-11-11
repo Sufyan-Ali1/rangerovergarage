@@ -55,8 +55,9 @@ export default async function EngineCodePage({ params }: Props) {
       <main>
         <Header
           compact
-          title={`${engine.make} ${engine.model} ${engine.engineCode} Engines`}
-          subtitle="Specialist Engine Rebuild, Repair & Replacement"
+          title={engineData.header?.title ?? `${engine.make} ${engine.model} ${engine.engineCode} Engines`}
+          subtitle={engineData.header?.subtitle ?? "Specialist Engine Rebuild, Repair & Replacement"}
+          highlights={engineData.header?.highlights}
         />
         <EngineSpecifications data={engineData} />
         <EngineModelShowcase data={engineData.modelShowcase} />
@@ -71,6 +72,7 @@ export default async function EngineCodePage({ params }: Props) {
         <EngineGallery data={engineData.engineGallery} />
         <EngineWhyChoose data={engineData.whyChoose} />
         <FAQ
+          title={engineData.faq.title}
           faqs={engineData.faq.faqs}
           description={engineData.faq.description}
           accordionName={engineData.faq.accordionName}

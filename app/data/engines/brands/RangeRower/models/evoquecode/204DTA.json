@@ -77,11 +77,11 @@
     "badge": "100% In-Stock Options",
     "transmissionLabel": "Transmission:",
     "engineCodeLabel": "Engine Code:",
-    "ctaLabel": "Contact / Quote \u2013 CTA",
+    "ctaLabel": "Contact / Quote – CTA",
     "cards": [
       {
         "name": "Range Rover Velar",
-        "years": "2017 \u2013 2020",
+        "years": "2017 – 2020",
         "description": "2.0 D240 Twin-Turbo Diesel (240 PS / 500 Nm)",
         "transmission": "ZF 8-Speed",
         "engineCode": "204DTA",
@@ -92,7 +92,7 @@
       },
       {
         "name": "Range Rover Evoque",
-        "years": "2019 \u2013 2021",
+        "years": "2019 – 2021",
         "description": "2.0 D240 Ingenium AWD (240 PS / 500 Nm)",
         "transmission": "ZF 9-Speed",
         "engineCode": "204DTA",
@@ -103,7 +103,7 @@
       },
       {
         "name": "Discovery Sport",
-        "years": "2017 \u2013 2020",
+        "years": "2017 – 2020",
         "description": "2.0 D240 Bi-Turbo Diesel (240 PS / 500 Nm)",
         "transmission": "9-Speed Auto",
         "engineCode": "204DTA",
@@ -114,7 +114,7 @@
       },
       {
         "name": "Discovery 5 Sd4",
-        "years": "2016 \u2013 2020",
+        "years": "2016 – 2020",
         "description": "2.0 Twin Turbocharged Diesel (240 PS / 500 Nm)",
         "transmission": "ZF 8-Speed Auto",
         "engineCode": "204DTA",
@@ -127,18 +127,18 @@
   },
   "specialistsBanner": {
     "eyebrow": "Dedicated Powertrain Facility",
-    "title": "Range Rover 204DTA Engine Replacement Specialists",
-    "description": "Our dedicated workshop specialises in Land Rover & Range Rover engine rebuilds, precision timing chain replacements, crank calibrations, and complete turnkey engine swaps. All installations include full system bleeding, ECU adaptation, and rigorous road testing.",
+    "title": "Range Rover Evoque 204DTA Engine Specialists",
+    "description": "Our Grays workshop specialises in the Range Rover Evoque 204DTA Ingenium diesel, carrying out full engine rebuilds, timing chain replacements, turbo work and complete engine swaps. Every installation includes system bleeding, ECU adaptation and a thorough road test.",
     "features": [
       {
         "icon": "gauge",
-        "title": "50-Mile Road Protocol",
-        "description": "Rigorous live diagnostic log"
+        "title": "50-Mile Road Test",
+        "description": "Live diagnostic data logged"
       },
       {
         "icon": "badge",
-        "title": "JLR Diagnostic Level",
-        "description": "TOPIx & Pathfinder coded"
+        "title": "JLR Diagnostic Equipment",
+        "description": "TOPIx and Pathfinder coding"
       }
     ],
     "image": "/images/workshop-8.webp",
@@ -151,74 +151,74 @@
   },
   "engineOverview": {
     "eyebrow": "Marque Authority",
-    "title": "Everything You Need to Know About the Range Rover 204DTA Engine",
+    "title": "The Complete Guide to the Range Rover Evoque 204DTA Engine",
     "paragraphs": [
-      "The 204DTA is a 2.0-litre twin-turbocharged Ingenium inline-four diesel engine found across several modern Range Rover and Land Rover platforms. When considering replacement, verifying compatibility against your vehicle\u2019s VIN, transmission type, and software calibration is critical. Range Rover Garage provides comprehensive supply, reconditioning, and professional fitting solutions to restore factory performance and longevity.",
-      "Choosing the right replacement begins with identifying your vehicle\u2019s exact specification. Our team can help you check the engine code and discuss your repair, rebuild, or replacement options. Have your registration or VIN ready when requesting a quote so we can assess the requirements for your vehicle.",
-      "From initial assessment through to fitting and final checks, our workshop can guide you through the next steps for your 204DTA engine. Contact our specialists to discuss engine availability, compatibility, and the work required for your Range Rover or Land Rover."
+      "The Range Rover Evoque 204DTA engine is a 2.0-litre, four-cylinder Ingenium diesel built by Jaguar Land Rover. It powers many Evoque models and also features in other Land Rover vehicles. Owners usually search for a replacement or repair after timing chain noise, turbo faults, oil dilution or major internal damage.",
+      "Ingenium engines share a family name but differ in output, emissions equipment and ancillaries, so matching the right unit matters. Before any Range Rover Evoque 2.0 diesel engine is supplied, we confirm compatibility using your VIN, the engine code stamped on the block and your registration details.",
+      "Whether you need a single repair or a full Range Rover Evoque 204DTA engine replacement, our team assesses the vehicle and explains your options clearly. Send us your registration or VIN, or call our team, and we will come back with a clear quotation."
     ]
   },
   "engineProblems": {
     "eyebrow": "Diagnostic Advisory",
-    "title": "Common Range Rover 204DTA Engine Problems",
-    "description": "Early symptoms requiring specialist diagnosis. Prompt assessment helps prevent further internal component wear.",
+    "title": "Common 204DTA Engine Problems",
+    "description": "Spotting early warning signs can stop minor faults turning into complete engine failure and higher repair bills.",
     "actionLabel": "Action:",
     "ctaLabel": "Book an Engine Diagnostic",
     "ctaHref": "/get-quote",
     "cards": [
       {
         "icon": "bell",
-        "title": "Timing Chain Noise & Rattle",
-        "description": "Metallic slapping or ticking audible on cold start from the rear of the engine block can indicate chain elongation or hydraulic tensioner wear.",
+        "title": "Timing Chain Rattle or Stretch",
+        "description": "A rattle on cold start or engine warning lights can point to a stretched timing chain, worn guides or a failing tensioner on the rear-mounted chain. We inspect chain stretch and assess internal wear.",
         "action": "High-precision chain guide inspection"
       },
       {
-        "icon": "power",
-        "title": "Loss of Power & Restricted Mode",
-        "description": "A \u201cPerformance Restricted\u201d dash warning may be associated with turbocharger actuator or boost control issues. Specialist testing can identify the cause.",
+        "icon": "drop",
+        "title": "Rising Oil Level or Oil Dilution",
+        "description": "An oil level that rises between services may mean diesel is entering the sump, often linked to interrupted DPF regeneration on short journeys. We check oil condition and regeneration history.",
         "action": "Twin-turbo actuator boost analysis"
       },
       {
-        "icon": "start",
-        "title": "Starting Difficulties / Long Crank",
-        "description": "Extended cranking cycles or non-start events can be linked to common rail fuel pressure loss or injector return leakage.",
+        "icon": "power",
+        "title": "Turbocharger Faults and Boost Loss",
+        "description": "Loss of power, limp mode, whistling or blue smoke can indicate turbocharger wear, oil feed problems or a boost leak in the intake pipework. We test boost pressure and inspect the turbo.",
         "action": "Fuel rail and injector leak-off test"
       },
       {
         "icon": "smoke",
-        "title": "Excessive Exhaust Smoke",
-        "description": "Blue or dense black tailpipe emissions under acceleration may indicate oil burning, turbo wear, or issues with the fuel and exhaust systems.",
+        "title": "DPF Blockage Warnings",
+        "description": "Repeated DPF warnings, frequent regenerations or reduced performance usually show the diesel particulate filter is loading faster than it can clear. We read fault codes and assess the DPF.",
         "action": "Turbo seal & DPF saturation check"
       },
       {
         "icon": "drop",
-        "title": "Coolant or Oil Cross-Contamination",
-        "description": "Unexplained coolant loss or oil discoloration requires investigation of the cooling system, oil cooler, and possible internal leaks.",
+        "title": "EGR and Coolant Problems",
+        "description": "Rough running, poor economy or unexplained coolant loss may relate to EGR valve or cooler faults, which can affect engine temperature and emissions. We inspect the EGR system and coolant circuit.",
         "action": "Heat exchanger pressure test"
       },
       {
         "icon": "warning",
-        "title": "Engine Warning Light / Fault Codes",
-        "description": "Persistent Check Engine lights can accompany timing synchronisation, oil pressure, or boost sensor faults. A diagnostic scan helps guide further testing.",
+        "title": "Knocking or Low Oil Pressure",
+        "description": "A deep knock, a low oil pressure warning or metal particles in the oil often signal bearing wear and need attention before further driving. We assess whether a rebuild or replacement is required.",
         "action": "JLR TOPIx dealer-level scan"
       }
     ]
   },
   "buyingGuide": {
     "eyebrow": "Buyer's comparison",
-    "title": "Used, Reconditioned or Rebuilt Range Rover 204DTA: Which One to Choose?",
-    "description": "Selecting the ideal powertrain solution depends on budget, vehicle age, and long-term ownership plans.",
+    "title": "Used, Reconditioned or Rebuilt: Which 204DTA Engine Is Right?",
+    "description": "Each option suits a different budget, mileage and ownership plan, so we explain exactly what is included before you decide.",
     "subtitle": "Review our verified tiers below to find the correct fit for your Land Rover or Range Rover.",
     "cards": [
       {
         "tier": "Tier 01",
         "badge": "Tested Core",
         "title": "Used Engine",
-        "description": "Inspected low-mileage original units. Ideal for cost-conscious replacements with verified compression and leakdown testing before release.",
+        "description": "A good-condition donor engine removed from a compatible Evoque, suited to owners wanting the most cost-effective route back on the road.",
         "features": [
-          "Endoscopic cylinder wall inspection",
-          "Hot compression test verified",
-          "Clean salvage pedigree verification"
+          "Compatible donor unit sourced and checked",
+          "Mileage and history shared where available",
+          "Supply only, or supply and fit"
         ],
         "linkLabel": "Explore Used Engines",
         "href": "/engines",
@@ -229,11 +229,11 @@
         "tier": "Tier 02",
         "badge": "12-Mo Warranty",
         "title": "Reconditioned Engine",
-        "description": "Completely stripped, cleaned, ultrasonic treated, with new bearings, piston rings, gaskets, and updated timing chain kit installed.",
+        "description": "A Range Rover Evoque 204DTA reconditioned engine is stripped, inspected and rebuilt with replacement wear parts before it is supplied to you.",
         "features": [
-          "Brand new timing chains & tensioners",
-          "New big-end & main crankshaft bearings",
-          "Fully pressure & leak-down tested"
+          "Key wear components renewed",
+          "Ready to fit, reducing vehicle downtime",
+          "Fitment matched to your VIN"
         ],
         "linkLabel": "Explore Reconditioned",
         "href": "/get-quote",
@@ -244,11 +244,11 @@
         "tier": "Tier 03",
         "badge": "Zero-Hour Spec",
         "title": "Rebuilt Engine",
-        "description": "Zero-hour specification rebuild with brand new crankshaft, upgraded timing components, re-honed cylinders, and comprehensive dyno verification.",
+        "description": "Your own engine is removed, stripped and rebuilt in our Grays workshop, keeping the original block and engine number with the vehicle.",
         "features": [
-          "New forged OEM crankshaft assembly",
-          "Precision CNC cylinder line boring",
-          "Maximum longevity for high-mileage fleets"
+          "Original engine number retained",
+          "Damage assessed after full strip-down",
+          "Parts replaced as findings require"
         ],
         "linkLabel": "Explore Rebuilt Engines",
         "href": "/services/engine-rebuild",
@@ -259,10 +259,10 @@
   },
   "finalCta": {
     "eyebrow": "Priority Engineering Advice",
-    "titleBefore": "Need a Range Rover",
+    "titleBefore": "Need a",
     "titleHighlight": "204DTA",
-    "titleAfter": "Engine?",
-    "description": "Tell us your vehicle registration or VIN and our mechanical team will verify exact compatibility, provide current workshop availability, and supply a clear fixed quote.",
+    "titleAfter": "Engine Quote?",
+    "description": "Share your registration or VIN and our team will confirm the right engine option for your Evoque. We are based in Grays, Essex, and supply engines across the United Kingdom.",
     "callLabel": "Call us: 01708 592377",
     "callHref": "tel:+441708592377",
     "quoteLabel": "Get a Quote",
@@ -284,71 +284,72 @@
   },
   "engineServices": {
     "eyebrow": "Specialist Workshop",
-    "title": "Our Range Rover Engine Services",
-    "description": "Precision mechanical solutions delivered by JLR trained technicians with dealer-level diagnostic equipment.",
+    "title": "Evoque Engine Services We Offer",
+    "description": "From diagnosis to full replacement, we handle every stage of your Evoque engine work.",
     "linkLabel": "Learn More",
     "cards": [
       {
-        "icon": "replacement",
-        "title": "Engine Replacement",
-        "description": "Complete turnkey replacement service with professional removal of the failed engine and installation of a warranty-backed unit.",
-        "href": "/services/engine-replacement"
-      },
-      {
-        "icon": "delivery",
-        "title": "Engine Supply (Nationwide)",
-        "description": "Palletised dispatch across England, Scotland, Wales, and Northern Ireland with transit insurance and secure pallet crating.",
-        "href": "/supply-fit"
-      },
-      {
         "icon": "tools",
-        "title": "Specialist Engine Fitting",
-        "description": "In-house bay fitting adhering to manufacturer torque specifications, coolant vacuum filling, and high-pressure fuel bleeding.",
-        "href": "/supply-fit"
-      },
-      {
-        "icon": "recycle",
-        "title": "Engine Reconditioning",
-        "description": "Complete teardown, ultrasonic cleaning, crank journal micro-polishing, and replacement of worn components with OEM parts.",
-        "href": "/reconditioned-engine"
-      },
-      {
-        "icon": "tools",
-        "title": "Full Engine Rebuild",
-        "description": "Comprehensive rebuild addressing AJ200D Ingenium oil gallery restrictions and timing chain vulnerabilities.",
+        "title": "Engine Rebuild",
+        "description": "Your 204DTA engine is stripped, measured and rebuilt in our Grays workshop, with worn or damaged components replaced according to what the inspection finds.",
         "href": "/services/engine-rebuild"
       },
       {
-        "icon": "diagnostics",
-        "title": "Dealer-Level Diagnostics",
-        "description": "JLR TOPIx Cloud and Pathfinder diagnostic systems to read live datalogs, adaptation values, and cylinder balancing.",
-        "href": "/contact"
-      },
-      {
-        "icon": "chip",
-        "title": "VIN & ECU Compatibility",
-        "description": "Electronic control unit synchronisation, injector code calibration, and software alignment to match your specific vehicle VIN.",
-        "href": "/contact"
+        "icon": "tools",
+        "title": "Timing Chain Replacement",
+        "description": "Replacement of the timing chain, guides and tensioner on the Ingenium 2.0 diesel engine, ideally before chain stretch causes serious internal damage.",
+        "href": "/services/timing-chain-replacement"
       },
       {
         "icon": "refit",
-        "title": "In-House Engine Refit",
-        "description": "Safe removal of the old powertrain, subframe degreasing, transmission mating inspection, and replacement of auxiliary belts.",
+        "title": "Turbo Replacement",
+        "description": "Diagnosis and replacement of worn or failed turbochargers, with checks on the oil supply and intake pipework to help protect the new unit.",
+        "href": "/services/turbo-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Head Gasket Replacement",
+        "description": "Overheating, coolant loss or white exhaust smoke can point to a failed head gasket. We replace the gasket and check the cylinder head.",
+        "href": "/services/head-gasket-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Repair",
+        "description": "Targeted repairs for specific 204DTA faults, so you only pay for the work your engine genuinely needs rather than a full replacement.",
+        "href": "/services/engine-repair"
+      },
+      {
+        "icon": "replacement",
+        "title": "Engine Replacement",
+        "description": "Where the existing engine is beyond economical repair, we supply and fit a compatible used or reconditioned Range Rover Evoque engine.",
+        "href": "/services/engine-replacement"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Swap",
+        "description": "Engine swaps carried out with careful attention to compatibility, wiring, mounts and ECU requirements, so the replacement unit works correctly with your vehicle.",
         "href": "/services/engine-swap"
+      },
+      {
+        "icon": "tools",
+        "title": "Timing Belt Replacement",
+        "description": "The 204DTA uses a chain-driven timing system, but we also replace timing belts on the other Land Rover and Range Rover engines we work on.",
+        "href": "/services/timing-belt-replacement"
       }
     ]
   },
   "compatibilityFitting": {
+    "title": "Compatibility Checks and Engine Fitting",
     "cards": [
       {
         "icon": "compatibility",
         "eyebrow": "Engineering Diligence",
-        "title": "Engine Compatibility and Selection",
-        "description": "The 204DTA Ingenium variant features subtle differences across model years and body configurations, notably between transverse (Evoque, Discovery Sport) and longitudinal layouts (Velar, Discovery 5). Oil pans, turbo routing, and cooling pipes vary. Our engineering team reviews your vehicle\u2019s VIN and registration details to confirm the mechanical and electronic match before engine preparation.",
+        "title": "Getting the Right Engine First Time",
+        "description": "Before any engine is supplied, we check your VIN and engine code against the donor or reconditioned unit. We also confirm the transmission type, two- or four-wheel-drive layout and ancillary configuration, so the 2.0 Ingenium engine matches your vehicle.",
         "checks": [
-          "Transverse vs Longitudinal sump verification",
-          "D240 twin-turbo oil supply pipe checks",
-          "Transmission adapter & flexplate alignment"
+          "VIN and engine code checked",
+          "Transmission and drive layout confirmed",
+          "Ancillary and sensor differences reviewed"
         ],
         "ctaLabel": "Check My Engine Code",
         "ctaHref": "/get-quote"
@@ -356,12 +357,12 @@
       {
         "icon": "workshop",
         "eyebrow": "Workshop Integrity",
-        "title": "Professional Engine Fitting & Workshop",
-        "description": "Fitting an Ingenium diesel engine requires precision tools and disciplined technical procedures. Our installation process incorporates replacement of coolant hoses, turbo oil feed lines, fuel injector copper seals, and vacuum bleeding of the thermal management circuit. Every vehicle undergoes a 50-mile road testing cycle accompanied by dealer-grade TOPIx data logging prior to handover.",
+        "title": "How We Fit Your Engine",
+        "description": "Engines are fitted by our technicians at our Grays workshop. After installation, the vehicle is checked for leaks, correct fluid levels and stored ECU fault codes before handover, and we talk you through the work completed.",
         "checks": [
-          "JLR TOPIx live ECU adaptation coding",
-          "New oil feed and return lines installed",
-          "Mandatory 50-mile dynamic validation"
+          "Fitted at our Grays, Essex workshop",
+          "Leaks, fluids and fault codes checked",
+          "Work explained clearly at handover"
         ],
         "ctaLabel": "Get a Fitting Quote",
         "ctaHref": "/get-quote"
@@ -393,73 +394,82 @@
   },
   "whyChoose": {
     "eyebrow": "The RRG Standard",
-    "title": "Why Choose Range Rover Garage?",
-    "description": "Independent Land Rover engineering excellence without dealer markups.",
+    "title": "Why Owners and Garages Choose Range Rover Garage",
+    "description": "Evoque owners and trade customers rely on us for specialist knowledge and straightforward service.",
     "cards": [
       {
         "icon": "shield",
-        "title": "Specialist Knowledge",
-        "description": "100% focused on Land Rover & Range Rover platforms. Our engineers have rebuilt hundreds of Ingenium power units."
+        "title": "Land Rover Specialists",
+        "description": "We concentrate on Land Rover and Range Rover engines, so the Ingenium diesel is familiar ground rather than an occasional job."
       },
       {
         "icon": "checklist",
-        "title": "Compatibility Focused",
-        "description": "Every quote is cross-referenced with official JLR EPC parts software to prevent mismatches or harness-incompatible variants."
+        "title": "Compatibility Checked",
+        "description": "Every engine is matched to your vehicle's VIN and specification before it leaves us, reducing the risk of an incorrect or incompatible unit."
       },
       {
         "icon": "fitting",
-        "title": "Turnkey Fitting Options",
-        "description": "Fully equipped workshop in Essex offering full vehicle collection, engine swap, coding, dynamic testing, and warranty sign-off."
+        "title": "Flexible Fitting Options",
+        "description": "Choose supply only for your own garage, or supply and fit at our Grays, Essex workshop, with engines delivered across the UK."
       },
       {
         "icon": "message",
         "title": "Clear Communication",
-        "description": "Itemised quotes with clear scopes, zero surprise extras, regular photographic updates during rebuild, and dedicated telephone support."
+        "description": "You receive a straightforward explanation of the fault, the options and the quote, with updates as work progresses on your vehicle."
       }
     ]
   },
   "faq": {
-    "description": "Answers to common questions about 204DTA engine compatibility, replacement, reconditioning, and fitting. Share your registration or VIN for advice specific to your vehicle.",
+    "description": "These are common questions about the Range Rover Evoque 204DTA engine, from compatibility to warranty. If you cannot find your answer here, our team is happy to help.",
     "accordionName": "engine-code-faq",
     "faqs": [
       {
-        "q": "How do I confirm that a 204DTA engine fits my vehicle?",
-        "a": "Send us your registration or VIN along with your engine code, if available. Our team will check your vehicle specification, installation layout, transmission, and electronic compatibility before recommending an engine."
+        "q": "How do I know a 204DTA engine fits my Evoque?",
+        "a": "Send us your VIN or registration. We check the engine code, model year, transmission and drive layout against the replacement unit, because Ingenium variants can differ in ancillaries and emissions equipment even when the engine family looks the same."
       },
       {
-        "q": "Can I choose between a used, reconditioned, or rebuilt engine?",
-        "a": "We can discuss these options based on your vehicle, budget, and the condition of your existing engine. Ask what inspections, replacement parts, testing, and warranty terms are included in the proposed option."
+        "q": "Should I choose a used, reconditioned or rebuilt engine?",
+        "a": "A used engine suits tighter budgets, a reconditioned engine has renewed wear parts and is ready to fit, and a rebuild keeps your original block. We recommend an option after assessing mileage, damage and your plans for the vehicle."
       },
       {
-        "q": "Can you supply the engine and fit it for me?",
-        "a": "Contact us about engine supply or supply and fitting. Your quotation will confirm the proposed engine, installation work, fluids, ancillary parts, and any additional work required."
+        "q": "Can I buy the engine only and fit it elsewhere?",
+        "a": "Yes. Trade customers and independent garages can buy supply only, with the engine prepared for collection or delivery. Alternatively, choose supply and fit and our technicians in Grays will complete the installation for you."
       },
       {
-        "q": "How much does a 204DTA engine replacement cost?",
-        "a": "The price depends on the engine specification, condition, availability, and the work required. Send your vehicle details for a quotation that explains the included parts and labour."
+        "q": "How much does a Range Rover Evoque 204DTA engine replacement cost?",
+        "a": "The price depends on whether you choose a used, reconditioned or rebuilt engine, the extent of the damage, the ancillary parts required and whether fitting is included. Send your registration or VIN and we will provide a clear written quotation."
       },
       {
-        "q": "Does a replacement engine come with a warranty?",
-        "a": "Warranty cover depends on the engine and service agreed. Confirm the duration, covered components, exclusions, and maintenance requirements in your written quotation before ordering."
+        "q": "What warranty comes with a replacement 204DTA engine?",
+        "a": "Warranty cover depends on the engine option you choose and whether we carry out the fitting. We explain the exact terms in writing with your quote, so you know what is covered before any work begins."
       },
       {
-        "q": "Can you arrange collection or engine delivery?",
-        "a": "Ask our team about collection and delivery options for your location. Availability, costs, and arrangements will be confirmed with your quotation."
+        "q": "Do you deliver engines across the UK or collect vehicles?",
+        "a": "We supply engines across the United Kingdom from our workshop in Grays, Essex. Delivery arrangements and any associated costs are confirmed when we quote, and supply and fit customers can bring their vehicle to our workshop."
       },
       {
-        "q": "How long will the replacement take?",
-        "a": "Timing depends on engine availability, workshop scheduling, and any additional repairs identified during inspection. Our team will discuss the expected turnaround when assessing your vehicle."
+        "q": "How long does a 204DTA engine replacement usually take?",
+        "a": "Timing depends on engine availability, whether a rebuild is required and how much additional work the inspection reveals. We give you an expected timescale with your quote and keep you updated as the job progresses."
       }
     ]
   },
   "workshopIntro": {
     "eyebrow": "From Assessment to Installation",
-    "title": "Specialist Care for Your Range Rover 204DTA Engine",
-    "description": "Whether you need an engine assessment, a replacement unit, or professional fitting, our team can help you understand the next steps. Share your registration or VIN to discuss compatibility, available options, and a quotation tailored to your vehicle.",
+    "title": "Expert Advice Before You Choose an Engine",
+    "description": "The right choice depends on what has failed, the vehicle's mileage and value, and how long you plan to keep it. A contained fault, such as a stretched timing chain caught early, may only need repair. Where internal damage is severe, a rebuild or a Range Rover Evoque 204DTA engine replacement is often more practical.",
     "paragraphs": [
-      "Finding a suitable 204DTA engine starts with understanding your vehicle\u2019s exact specification and the condition of its current powertrain. Engine code, model year, transmission, and installation layout all help determine the right approach. Our team can review your registration or VIN and discuss whether diagnosis, repair, rebuilding, or replacement is the appropriate next step.",
-      "When comparing engine options, look beyond the unit itself. Ask which components are included, what inspection and restoration work has been completed, and how the engine will be checked before installation. We can explain the proposed scope of work, discuss supply-only or fitting options, and identify any ancillary parts that need attention as part of your quotation.",
-      "Clear information makes it easier to plan your vehicle\u2019s return to the road. Before work is agreed, discuss expected availability, workshop scheduling, collection or delivery arrangements, and the warranty terms attached to your chosen option. The workshop gallery below offers a closer look at engine assemblies, repair work, and vehicle installations at Range Rover Garage."
+      "Replacing the engine alone does not always solve the problem. Where relevant, we check the turbocharger, intercooler pipework, DPF, EGR system and cooling components, and renew the oil, filters and coolant, so contamination left in the old system does not damage the new engine.",
+      "To get started, send us your registration or VIN with a short description of the symptoms. We will confirm compatibility, explain your options and quote for supply only, supply and fit at our Grays workshop, or delivery elsewhere in the UK."
+    ]
+  },
+  "header": {
+    "title": "Range Rover Evoque 204DTA Engine Supply, Rebuild and Fitting",
+    "subtitle": "Specialist supply, repair, rebuild and fitting for the Evoque 2.0 Ingenium diesel engine.",
+    "highlights": [
+      "Fitment checked against your VIN and engine code before supply",
+      "Used, reconditioned and rebuilt 204DTA engine options available",
+      "Supply only, or supply and fit at our Grays, Essex workshop",
+      "Engines supplied to private owners and trade customers across the UK"
     ]
   }
 }

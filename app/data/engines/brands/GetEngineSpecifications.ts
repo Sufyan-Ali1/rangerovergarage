@@ -2,6 +2,7 @@ import "server-only";
 import fs from "node:fs";
 import path from "node:path";
 import evoqueSpecifications from "./RangeRower/models/evoquecode/204DTA.json";
+import defaultSpecifications from "./defaultSpecifications.json";
 import { getModelsByBrandSlug, toModelSlug } from "@/app/data/models";
 
 const brandFolders: Record<string, string> = {
@@ -10,7 +11,13 @@ const brandFolders: Record<string, string> = {
   "jaguar": "Jaguar",
 };
 
-type Specifications = typeof evoqueSpecifications;
+type Specifications = typeof defaultSpecifications & {
+  header?: typeof evoqueSpecifications.header;
+  faq: typeof defaultSpecifications.faq & { title?: string };
+  compatibilityFitting: typeof defaultSpecifications.compatibilityFitting & {
+    title?: string;
+  };
+};
 
 export function getEngineSpecifications(
   brand: string,
@@ -24,7 +31,7 @@ export function getEngineSpecifications(
   const code = engineCode.toUpperCase();
 
   if (!folder || !knownModel || !/^[A-Z0-9 .-]+$/.test(code)) {
-    return evoqueSpecifications;
+    return defaultSpecifications;
   }
 
   // Each model can supply a separate JSON file for each engine code.
@@ -37,12 +44,12 @@ export function getEngineSpecifications(
     `${code}.json`,
   );
 
-  if (!fs.existsSync(filePath)) return evoqueSpecifications;
+  if (!fs.existsSync(filePath)) return defaultSpecifications;
 
   const data: Specifications | { template: string } = JSON.parse(
     fs.readFileSync(filePath, "utf8"),
   );
 
-  // Other models reuse Evoque's 204DTA data until their own specs are added.
-  return "template" in data ? evoqueSpecifications : data;
+  // Preserve the shared template independently of Evoque's model-specific copy.
+  return "template" in data ? defaultSpecifications : data;
 }

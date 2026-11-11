@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 interface CompatibilityFittingData {
+  title?: string;
   cards: {
     icon: string;
     eyebrow: string;
@@ -23,6 +24,7 @@ function PanelIcon({ name }: { name: string }) {
 export default function EngineCompatibilityFitting({ data }: { data: CompatibilityFittingData }) {
   return (
     <section className="bg-[#F9FAFB] px-5 py-10 sm:px-8 lg:py-14">
+      {data.title && <h2 className="mx-auto mb-8 max-w-[1216px] text-center text-3xl font-extrabold text-brand-dark sm:text-4xl">{data.title}</h2>}
       <div className="mx-auto grid max-w-[1216px] gap-6 lg:grid-cols-2 lg:gap-8">
         {data.cards.map((card) => (
           <article key={card.title} className="flex min-w-0 flex-col rounded-2xl border border-[#11633A]/10 bg-[#dff0df] p-6 sm:p-8">
