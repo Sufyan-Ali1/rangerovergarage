@@ -1,0 +1,475 @@
+{
+  "eyebrow": "Engineering Matrix",
+  "title": "204DTA Engine Specifications",
+  "description": "Verified engineering parameters for the 2.0L 4-cylinder AJ200D Ingenium diesel powertrain",
+  "fields": [
+    {
+      "label": "Engine Make",
+      "value": "Land Rover / Range Rover",
+      "icon": "car"
+    },
+    {
+      "label": "Engine Fuel",
+      "value": "Diesel",
+      "icon": "fuel"
+    },
+    {
+      "label": "Engine Horse Power",
+      "value": "240 PS (approx. 237 bhp)",
+      "icon": "gauge"
+    },
+    {
+      "label": "Engine Size",
+      "value": "2.0 Litres",
+      "icon": "ruler"
+    },
+    {
+      "label": "Engine Code",
+      "value": "204DTA (AJ200D)",
+      "icon": "code",
+      "highlight": true
+    },
+    {
+      "label": "Engine Layout",
+      "value": "Inline-4 (Transverse / Longitudinal)",
+      "icon": "layout"
+    },
+    {
+      "label": "Engine Actual CC",
+      "value": "1,999 cc",
+      "icon": "capacity"
+    },
+    {
+      "label": "Engine Cylinders",
+      "value": "4 Cylinders, Twin-Turbocharged",
+      "icon": "cylinders"
+    },
+    {
+      "label": "Engine Valves",
+      "value": "16 Valves (DOHC Chain Driven)",
+      "icon": "valves"
+    },
+    {
+      "label": "Engine Power KW",
+      "value": "177 kW @ 4,000 RPM",
+      "icon": "power"
+    },
+    {
+      "label": "Engine Fuel Supply",
+      "value": "Common Rail Direct Injection",
+      "icon": "supply"
+    },
+    {
+      "label": "Engine Charge",
+      "value": "Sequential Twin Turbochargers",
+      "icon": "charge"
+    }
+  ],
+  "note": "Specifications shown reflect standard factory configuration. Exact vehicle variant must be confirmed via VIN or registration.",
+  "cta": {
+    "label": "Check Engine Compatibility",
+    "href": "/get-quote"
+  },
+  "modelShowcase": {
+    "eyebrow": "Direct Engine Matches",
+    "title": "Top Land Rover Models",
+    "description": "Select your model to view compatible engine and fitting options.",
+    "badge": "100% In-Stock Options",
+    "transmissionLabel": "Transmission:",
+    "engineCodeLabel": "Engine Code:",
+    "ctaLabel": "Contact / Quote – CTA",
+    "cards": [
+      {
+        "name": "Land Rover Freelander 2",
+        "years": "2016-continue",
+        "description": "2.0L Si4 Turbocharged Petrol (240 PS / 340 Nm)",
+        "transmission": "Aisin AWF21 6-speed automatic",
+        "engineCode": "204PT",
+        "image": "/images/models/freelander-2.webp",
+        "imageAlt": "Land Rover Freelander 2",
+        "href": "/engines/land-rover/freelander-2",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery 5",
+        "years": "2016-continue",
+        "description": "2.0L Ingenium SD4 Twin-Turbo Diesel (241 PS / 500 Nm)",
+        "transmission": "8-speed ZF automatic",
+        "engineCode": "204DTA",
+        "image": "/images/models/discovery-5.webp",
+        "imageAlt": "Land Rover Discovery 5",
+        "href": "/engines/land-rover/discovery-5",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Freelander 1",
+        "years": "1993-1998",
+        "description": "2.0L MPI Naturally Aspirated Petrol (98 PS / 167 Nm)",
+        "transmission": "5-speed R380 manual",
+        "engineCode": "2.0 Mpi",
+        "image": "/images/models/freelander-1.webp",
+        "imageAlt": "Land Rover Freelander 1",
+        "href": "/engines/land-rover/freelander-1",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery Sport",
+        "years": "2014-continue",
+        "description": "2.0L Ingenium SD4 Twin-Turbo Diesel (241 PS / 500 Nm)",
+        "transmission": "9-speed automatic",
+        "engineCode": "204DTA",
+        "image": "/images/models/discovery-sport.webp",
+        "imageAlt": "Land Rover Discovery Sport",
+        "href": "/engines/land-rover/discovery-sport",
+        "quoteHref": "/get-quote"
+      }
+    ]
+  },
+  "engineGallery": {
+    "eyebrow": "Workshop Evidence",
+    "title": "Range Rover 204DTA Engine Gallery",
+    "description": "Workshop photography of complete assemblies, precision tooling, and vehicle installations.",
+    "images": [
+      {
+        "src": "/images/service/engine_swap/engine_swap 1.webp",
+        "alt": "Complete engine mounted on a workshop stand"
+      },
+      {
+        "src": "/images/workshop-8.webp",
+        "alt": "Range Rover with its bonnet open and removed engine in the workshop"
+      },
+      {
+        "src": "/images/service/engine_repair/engine_repair 3.webp",
+        "alt": "Exposed camshafts on an engine undergoing repairs"
+      },
+      {
+        "src": "/images/service/turbo_replacement/turbo_replacement 1.webp",
+        "alt": "Engine with turbocharger and intake components exposed in the workshop"
+      }
+    ]
+  },
+  "faq": {
+    "description": "Answers to common questions about the KV6 engine in the Land Rover Freelander 1. If yours is not covered, our team can help.",
+    "accordionName": "engine-code-faq",
+    "faqs": [
+      {
+        "q": "Can a Rover or MG KV6 engine fit my Freelander?",
+        "a": "Not directly. KV6 engines from Rover and MG cars can differ in sumps, ancillaries and engine management, so we check your engine number and VIN before recommending a compatible replacement."
+      },
+      {
+        "q": "How do used, reconditioned and rebuilt KV6 engines compare?",
+        "a": "A used engine comes from a donor vehicle, a reconditioned engine is stripped and given new wear parts, and a rebuild restores your existing engine. We recommend an option after assessing the fault and vehicle."
+      },
+      {
+        "q": "Can I buy a KV6 engine supply only?",
+        "a": "Yes. Trade buyers, independent garages and private customers with their own mechanic can buy supply only. Alternatively, choose supply and fit and our technicians will install the engine at our Grays, Essex workshop."
+      },
+      {
+        "q": "What affects the cost of a Freelander 1 25K4F engine replacement?",
+        "a": "The cost depends on the engine option, the condition of your current engine, any cooling or timing parts needed and whether fitting is included. Send your registration or VIN for a written quote."
+      },
+      {
+        "q": "Is there a warranty on a replacement KV6 engine?",
+        "a": "Warranty cover depends on the engine option and whether we carry out the installation. We confirm the exact terms in writing with your quote, so you know what is covered before work begins."
+      },
+      {
+        "q": "Do you deliver Freelander engines across the UK?",
+        "a": "Yes. We deliver engines throughout the United Kingdom from our Grays workshop. Delivery arrangements and costs are confirmed in your quote, and supply and fit customers can bring their Freelander to us."
+      },
+      {
+        "q": "How long does a KV6 engine replacement usually take?",
+        "a": "The timescale depends on engine availability, whether a rebuild is needed and any additional work found during inspection. We give you an estimated timeframe with your quote and keep you informed throughout."
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "The RRG Standard",
+    "title": "Why Freelander V6 Owners Choose Us",
+    "description": "Freelander V6 owners and trade buyers rely on our Land Rover knowledge and honest advice.",
+    "cards": [
+      {
+        "icon": "shield",
+        "title": "Land Rover Specialists",
+        "description": "Land Rover and Range Rover engines are our core work, including the 2.5 KV6 petrol used in the Freelander 1."
+      },
+      {
+        "icon": "checklist",
+        "title": "Freelander Version Matched",
+        "description": "We confirm the engine number and Freelander specification before supply, avoiding confusion with KV6 engines from Rover or MG cars."
+      },
+      {
+        "icon": "fitting",
+        "title": "Supply or Fitted",
+        "description": "Buy the engine for your own garage or project, or let our Grays technicians supply and fit it for you."
+      },
+      {
+        "icon": "message",
+        "title": "Clear Quotations",
+        "description": "We explain the findings, options and costs in plain English, and keep you updated while your Freelander is with us."
+      }
+    ]
+  },
+  "workshopIntro": {
+    "eyebrow": "From Assessment to Installation",
+    "title": "Repair, Rebuild or Replace Your KV6?",
+    "description": "The extent of the damage and the value of your Freelander guide the best route. Cambelt, water pump and gasket faults caught early can often be repaired. If a belt has failed, the liners have moved or the engine has overheated badly, a rebuild or Land Rover Freelander 1 25K4F engine replacement is usually more practical.",
+    "paragraphs": [
+      "Like the K-Series, the KV6 depends on a healthy cooling system. Where relevant, we inspect the radiator, water pump, thermostat, hoses, expansion tank and cooling fans, check the gearbox, and renew the oil, filters and coolant before the engine runs.",
+      "Send your registration or VIN with a short description of the symptoms. We will confirm compatibility, explain the options and quote for supply only, supply and fit at our Grays workshop, or delivery across the UK."
+    ]
+  },
+  "compatibilityFitting": {
+    "title": "25K4F Compatibility and Workshop Fitting",
+    "cards": [
+      {
+        "icon": "compatibility",
+        "eyebrow": "Engineering Diligence",
+        "title": "Matching the Right KV6 Engine",
+        "description": "KV6 engines from Rover and MG cars differ in sumps, ancillaries and engine management from the Freelander version. We check the engine number, VIN and registration, and confirm the gearbox and four-wheel-drive layout, before supply.",
+        "checks": [
+          "Engine number and VIN checked",
+          "Freelander KV6 specification confirmed",
+          "Gearbox and drive layout checked"
+        ],
+        "ctaLabel": "Check My Engine Code",
+        "ctaHref": "/get-quote"
+      },
+      {
+        "icon": "workshop",
+        "eyebrow": "Workshop Integrity",
+        "title": "Fitting, Testing and Handover",
+        "description": "Our technicians install each engine at our Grays workshop. After fitting, the cooling system is filled and carefully bled, engine management faults are checked, and the Freelander is road tested before handover.",
+        "checks": [
+          "Installed by our own technicians",
+          "Cooling system carefully bled",
+          "Road tested before handover"
+        ],
+        "ctaLabel": "Get a Fitting Quote",
+        "ctaHref": "/get-quote"
+      }
+    ]
+  },
+  "engineServices": {
+    "eyebrow": "Specialist Workshop",
+    "title": "Freelander 1 KV6 Engine Services",
+    "description": "Practical services for the 2.5 KV6 petrol, from diagnosis to complete engine replacement.",
+    "linkLabel": "Learn More",
+    "cards": [
+      {
+        "icon": "tools",
+        "title": "Engine Diagnostics",
+        "description": "We read engine management faults, run compression and cooling system tests and inspect the engine to identify the likely cause of your symptoms.",
+        "href": "/services/engine-diagnostics"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Rebuild",
+        "description": "The KV6 is stripped and measured, with both heads, the liners and bottom end assessed before worn parts and gaskets are renewed.",
+        "href": "/services/engine-rebuild"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Replacement",
+        "description": "When repair is not worthwhile, we supply and fit a compatible used or reconditioned Rover KV6 engine matched to your Freelander 1.",
+        "href": "/services/engine-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Timing Belt Replacement",
+        "description": "We renew the KV6 timing belts, tensioners and related components, checking the water pump at the same time to reduce future risk.",
+        "href": "/services/timing-belt-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Head Gasket Replacement",
+        "description": "We replace the head gaskets, check both cylinder heads for distortion and inspect the liners before carefully refilling the cooling system.",
+        "href": "/services/head-gasket-replacement"
+      },
+      {
+        "icon": "replacement",
+        "title": "Engine Swap",
+        "description": "Complete Freelander KV6 engine swaps with attention to mounts, sump fitment, wiring, engine management and cooling connections for correct running.",
+        "href": "/services/engine-swap"
+      },
+      {
+        "icon": "refit",
+        "title": "Gearbox Replacement",
+        "description": "If the automatic gearbox is also faulty, we can supply and fit a compatible replacement while the engine work is completed.",
+        "href": "/services/gearbox-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Repair",
+        "description": "A detailed Engine Repair for the KV6, including oil, filters, spark plugs and checks on the timing belts and cooling system.",
+        "href": "/services/engine-repair"
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Priority Engineering Advice",
+    "titleBefore": "Get a Quote for Your",
+    "titleHighlight": "KV6",
+    "titleAfter": "Engine",
+    "description": "Send your registration or VIN and we will confirm the right KV6 engine option for your Freelander 1. We are based in Grays, Essex, and supply engines UK-wide.",  
+    "callLabel": "Call us: 01708 592377",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Get a Quote",
+    "quoteHref": "/get-quote",
+    "highlights": [
+      {
+        "icon": "location",
+        "label": "Grays, Essex Workshop"
+      },
+      {
+        "icon": "delivery",
+        "label": "UK Nationwide Pallet Delivery"
+      },
+      {
+        "icon": "warranty",
+        "label": "12-Month Mechanical Warranty"
+      }
+    ]
+  },
+  "buyingGuide": {
+    "eyebrow": "Buyer's comparison",
+    "title": "Used, Reconditioned or Rebuilt: Your KV6 Engine Options",
+    "description": "We explain what each option includes, so you can balance cost, condition and the future of your Freelander.",
+    "subtitle": "Review our verified tiers below to find the correct fit for your Land Rover or Range Rover.",
+    "cards": [
+      {
+        "tier": "Tier 01",
+        "badge": "Tested Core",
+        "title": "Used Engine",
+        "description": "A compatible KV6 engine from a donor vehicle, offering an affordable way to keep your Freelander 1 V6 on the road.",
+        "features": [
+          "Compatible donor engine sourced",
+          "Engine number and condition checked",
+          "Supply only or supply and fit"
+        ],
+        "linkLabel": "Explore Used Engines",
+        "href": "/engines",
+        "highlighted": false,
+        "recommendation": ""
+      },
+      {
+        "tier": "Tier 02",
+        "badge": "12-Mo Warranty",
+        "title": "Reconditioned Engine",
+        "description": "A Land Rover Freelander 1 25K4F reconditioned engine is stripped, inspected and rebuilt with new wear components, including gaskets and belts, before supply.",
+        "features": [
+          "New gasket and wear parts",
+          "Prepared ready for installation",
+          "Matched to your engine code"
+        ],
+        "linkLabel": "Explore Reconditioned",
+        "href": "/get-quote",
+        "highlighted": true,
+        "recommendation": "Most popular choice"
+      },
+      {
+        "tier": "Tier 03",
+        "badge": "Zero-Hour Spec",
+        "title": "Rebuilt Engine",
+        "description": "Your own 25K4F engine is rebuilt at our Grays workshop, keeping its original block and engine number with your Freelander.",
+        "features": [
+          "Original engine identity retained",
+          "Full strip-down and measurement",
+          "Parts renewed based on findings"
+        ],
+        "linkLabel": "Explore Rebuilt Engines",
+        "href": "/services/engine-rebuild",
+        "highlighted": false,
+        "recommendation": ""
+      }
+    ]
+  },
+  "engineProblems": {
+    "eyebrow": "Diagnostic Advisory",
+    "title": "Common Freelander KV6 Problems",
+    "description": "The KV6 rewards careful maintenance, so early warning signs should be investigated promptly.",
+    "actionLabel": "Action:",
+    "ctaLabel": "Book an Engine Diagnostic",
+    "ctaHref": "/get-quote",
+    "cards": [
+      {
+        "icon": "bell",
+        "title": "Cambelt Neglect and Failure",
+        "description": "The KV6 uses timing belts, and an overdue change or worn tensioner can lead to sudden failure with serious valve damage. We inspect the belts, tensioners and service history.",
+        "action": "High-precision chain guide inspection"
+      },
+      {
+        "icon": "drop",
+        "title": "Overheating and Gasket Failure",
+        "description": "A rising temperature gauge, coolant loss, white smoke or pressurised hoses can point to head gasket failure, often after a cooling fault. We test for combustion gases and inspect the heads.",
+        "action": "Twin-turbo actuator boost analysis"
+      },
+      {
+        "icon": "power",
+        "title": "Slipped Liners and Porous Block",
+        "description": "Coolant in the oil, misfires or gasket failures that keep returning may indicate liner movement or a porous block after overheating. We measure liner height and assess the block.",
+        "action": "Fuel rail and injector leak-off test"
+      },
+      {
+        "icon": "smoke",
+        "title": "Water Pump and Coolant Leaks",
+        "description": "A falling coolant level, a sweet smell or damp patches may come from a leaking water pump, hoses or the expansion tank. We pressure-test the cooling system for leaks.",
+        "action": "Turbo seal & DPF saturation check"
+      },
+      {
+        "icon": "drop",
+        "title": "Oil Leaks and Breather Faults",
+        "description": "Oil on the undertray, a burning smell or rising oil use may come from ageing cam cover gaskets, crankshaft seals or a blocked breather. We trace leaks and check the breather.",
+        "action": "Heat exchanger pressure test"
+      },
+      {
+        "icon": "warning",
+        "title": "Intake and Idle Problems",
+        "description": "A hunting idle, hesitation or poor economy can relate to air leaks, intake manifold faults, sensors or ignition components. We read faults and check the intake for leaks.",
+        "action": "JLR TOPIx dealer-level scan"
+      }
+    ]
+  },
+  "engineOverview": {
+    "eyebrow": "Marque Authority",
+    "title": "Land Rover Freelander 1 25K4F Engine: The Complete KV6 Guide",
+    "paragraphs": [
+      "The Land Rover Freelander 1 25K4F engine is the 2.5-litre Rover KV6 petrol V6 fitted to V6 versions of the Freelander 1. Smooth and refined, it shares the K-Series sensitivity to heat, and cambelt neglect, overheating, head gasket failure and liner problems often lead owners to seek repair or replacement.",
+      "The Rover KV6 engine was also used in Rover and MG cars, with different sumps, ancillaries and engine management. We identify the correct Freelander KV6 engine by checking the engine number, your VIN and registration before any unit is supplied.",
+      "Whether you need a cambelt or gasket repair, a full rebuild or a Land Rover Freelander 1 25K4F engine replacement, our team inspects the vehicle and explains each option. Call us or send your registration for a written quote."
+    ]
+  },
+  "specialistsBanner": {
+    "eyebrow": "KV6 Engine Specialists",
+    "title": "Land Rover Freelander 1 25K4F Engine Specialists",
+    "description": "Range Rover Garage repairs, rebuilds and replaces the Land Rover Freelander 1 25K4F 2.5 KV6 at our Grays workshop, covering cambelt renewal, overheating, head gasket and liner problems and complete engine swaps, with careful cooling system bleeding and a road test.",
+    "features": [
+      {
+        "icon": "gauge",
+        "title": "KV6 Cambelt Kits",
+        "description": "Belts, tensioners and pump renewed"
+      },
+      {
+        "icon": "badge",
+        "title": "Overheating Investigation",
+        "description": "Cooling faults traced before refitting"
+      }
+    ],
+    "image": "/images/workshop-8.webp",
+    "imageAlt": "Range Rover with its bonnet open and removed engine in the workshop",
+    "imageCaption": "Certified JLR Master Engineers On-Site",
+    "callLabel": "Call our Experts (01708 592377)",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Request a Quote",
+    "quoteHref": "/get-quote"
+  },
+  "header": {
+    "title": "Land Rover Freelander 1 25K4F Engine Supply and Rebuilds",
+    "subtitle": "Supply, repair, rebuild and fitting for the Freelander 1 2.5 KV6 petrol.",
+    "highlights": [
+      "Engine number and code checked before any supply",
+      "Used, reconditioned and rebuilt KV6 engines available",
+      "Supply only, or supply and fit in Grays, Essex",
+      "Freelander engines delivered to customers across the UK"
+    ]
+  }
+}

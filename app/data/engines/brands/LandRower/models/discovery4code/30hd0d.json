@@ -1,0 +1,475 @@
+{
+  "eyebrow": "Engineering Matrix",
+  "title": "204DTA Engine Specifications",
+  "description": "Verified engineering parameters for the 2.0L 4-cylinder AJ200D Ingenium diesel powertrain",
+  "fields": [
+    {
+      "label": "Engine Make",
+      "value": "Land Rover / Range Rover",
+      "icon": "car"
+    },
+    {
+      "label": "Engine Fuel",
+      "value": "Diesel",
+      "icon": "fuel"
+    },
+    {
+      "label": "Engine Horse Power",
+      "value": "240 PS (approx. 237 bhp)",
+      "icon": "gauge"
+    },
+    {
+      "label": "Engine Size",
+      "value": "2.0 Litres",
+      "icon": "ruler"
+    },
+    {
+      "label": "Engine Code",
+      "value": "204DTA (AJ200D)",
+      "icon": "code",
+      "highlight": true
+    },
+    {
+      "label": "Engine Layout",
+      "value": "Inline-4 (Transverse / Longitudinal)",
+      "icon": "layout"
+    },
+    {
+      "label": "Engine Actual CC",
+      "value": "1,999 cc",
+      "icon": "capacity"
+    },
+    {
+      "label": "Engine Cylinders",
+      "value": "4 Cylinders, Twin-Turbocharged",
+      "icon": "cylinders"
+    },
+    {
+      "label": "Engine Valves",
+      "value": "16 Valves (DOHC Chain Driven)",
+      "icon": "valves"
+    },
+    {
+      "label": "Engine Power KW",
+      "value": "177 kW @ 4,000 RPM",
+      "icon": "power"
+    },
+    {
+      "label": "Engine Fuel Supply",
+      "value": "Common Rail Direct Injection",
+      "icon": "supply"
+    },
+    {
+      "label": "Engine Charge",
+      "value": "Sequential Twin Turbochargers",
+      "icon": "charge"
+    }
+  ],
+  "note": "Specifications shown reflect standard factory configuration. Exact vehicle variant must be confirmed via VIN or registration.",
+  "cta": {
+    "label": "Check Engine Compatibility",
+    "href": "/get-quote"
+  },
+  "modelShowcase": {
+    "eyebrow": "Direct Engine Matches",
+    "title": "Top Land Rover Models",
+    "description": "Select your model to view compatible engine and fitting options.",
+    "badge": "100% In-Stock Options",
+    "transmissionLabel": "Transmission:",
+    "engineCodeLabel": "Engine Code:",
+    "ctaLabel": "Contact / Quote – CTA",
+    "cards": [
+      {
+        "name": "Land Rover Discovery 3",
+        "years": "2004-2009",
+        "description": "4.0L V6 Naturally Aspirated Petrol (212 PS / 360 Nm)",
+        "transmission": "6-speed automatic",
+        "engineCode": "406PN",
+        "image": "/images/models/discovery-3.webp",
+        "imageAlt": "Land Rover Discovery 3",
+        "href": "/engines/land-rover/discovery-3",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Freelander 1",
+        "years": "1993-1998",
+        "description": "2.0L MPI Naturally Aspirated Petrol (98 PS / 167 Nm)",
+        "transmission": "5-speed R380 manual",
+        "engineCode": "2.0 Mpi",
+        "image": "/images/models/freelander-1.webp",
+        "imageAlt": "Land Rover Freelander 1",
+        "href": "/engines/land-rover/freelander-1",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery 4",
+        "years": "2009-continue",
+        "description": "3.0L V6 Supercharged Petrol (340 PS / 450 Nm)",
+        "transmission": "8-speed ZF automatic",
+        "engineCode": "306PS",
+        "image": "/images/models/discovery-4.webp",
+        "imageAlt": "Land Rover Discovery 4",
+        "href": "/engines/land-rover/discovery-4",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery Sport",
+        "years": "2014-continue",
+        "description": "2.0L Ingenium SD4 Twin-Turbo Diesel (241 PS / 500 Nm)",
+        "transmission": "9-speed automatic",
+        "engineCode": "204DTA",
+        "image": "/images/models/discovery-sport.webp",
+        "imageAlt": "Land Rover Discovery Sport",
+        "href": "/engines/land-rover/discovery-sport",
+        "quoteHref": "/get-quote"
+      }
+    ]
+  },
+  "engineGallery": {
+    "eyebrow": "Workshop Evidence",
+    "title": "Range Rover 204DTA Engine Gallery",
+    "description": "Workshop photography of complete assemblies, precision tooling, and vehicle installations.",
+    "images": [
+      {
+        "src": "/images/service/engine_swap/engine_swap 1.webp",
+        "alt": "Complete engine mounted on a workshop stand"
+      },
+      {
+        "src": "/images/workshop-8.webp",
+        "alt": "Range Rover with its bonnet open and removed engine in the workshop"
+      },
+      {
+        "src": "/images/service/engine_repair/engine_repair 3.webp",
+        "alt": "Exposed camshafts on an engine undergoing repairs"
+      },
+      {
+        "src": "/images/service/turbo_replacement/turbo_replacement 1.webp",
+        "alt": "Engine with turbocharger and intake components exposed in the workshop"
+      }
+    ]
+  },
+  "faq": {
+    "description": "Answers to common questions about the 30HD0D engine in the Land Rover Discovery 4. If yours is not covered, our team can help.",
+    "accordionName": "engine-code-faq",
+    "faqs": [
+      {
+        "q": "How do 30HD0D, 306DT and 30DDTX engines differ for Discovery 4?",
+        "a": "They belong to the same 3.0 V6 diesel family but can differ in emissions equipment, calibration and ancillaries by model year. We check your VIN and engine code before recommending a compatible replacement."
+      },
+      {
+        "q": "How do used, reconditioned and rebuilt 30HD0D engines compare?",
+        "a": "A used engine comes from a donor vehicle, a reconditioned engine is stripped and given new wear parts, and a rebuild restores your existing engine. We recommend an option after assessing the fault and vehicle."
+      },
+      {
+        "q": "Can I buy a Discovery 4 30HD0D engine supply only?",
+        "a": "Yes. Trade buyers, independent garages and private customers with their own mechanic can buy supply only. Alternatively, choose supply and fit and our technicians will install the engine at our Grays, Essex workshop."
+      },
+      {
+        "q": "What affects the Discovery 4 engine replacement cost for a 30HD0D?",
+        "a": "The cost depends on the engine option, the condition of your current engine, any parts needed such as turbos or a DPF, and the labour involved, including body lifting. Send your registration or VIN for a quote."
+      },
+      {
+        "q": "Is there a warranty on a replacement 30HD0D engine?",
+        "a": "Warranty cover depends on the engine option and whether we carry out the installation. We confirm the exact terms in writing with your quote, so you know what is covered before work begins."
+      },
+      {
+        "q": "Do you deliver Land Rover 3.0 TDV6 engines across the UK?",
+        "a": "Yes. We deliver engines throughout the United Kingdom from our Grays workshop. Delivery arrangements and costs are confirmed in your quote, and supply and fit customers can bring their Discovery to us."
+      },
+      {
+        "q": "How long does a 30HD0D engine replacement usually take?",
+        "a": "The timescale depends on engine availability, whether a rebuild is needed, any body-lift work and additional repairs found during inspection. We give you an estimated timeframe with your quote and keep you informed."
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "The RRG Standard",
+    "title": "Why Discovery 4 Owners Trust Us",
+    "description": "Discovery 4 owners and trade buyers rely on our V6 diesel knowledge and clear, honest advice.",
+    "cards": [
+      {
+        "icon": "shield",
+        "title": "Land Rover Engine Focus",
+        "description": "Land Rover and Range Rover engines are our core work, including every main code in the 3.0 V6 diesel family."
+      },
+      {
+        "icon": "checklist",
+        "title": "Code Matched First",
+        "description": "We confirm the engine code and specification against your VIN before supply, avoiding mix-ups between similar 3.0 V6 versions."
+      },
+      {
+        "icon": "fitting",
+        "title": "Supply or Fitted",
+        "description": "Order the engine for your own garage to install, or let our Grays technicians supply and fit it for you."
+      },
+      {
+        "icon": "message",
+        "title": "Plain-English Quotes",
+        "description": "We explain the findings, options and costs clearly, and keep you updated while your Discovery is with us."
+      }
+    ]
+  },
+  "workshopIntro": {
+    "eyebrow": "From Assessment to Installation",
+    "title": "Repair, Rebuild or Replace Your 30HD0D?",
+    "description": "The fault, mileage and value of your Discovery 4 decide the best route. Glow plug, turbo, DPF and oil cooler faults can often be repaired individually. If the bearings have failed or the crankshaft is damaged, a rebuild or Land Rover Discovery 4 30HD0D engine replacement is usually the more dependable choice.",
+    "paragraphs": [
+      "Bottom-end damage is often linked to oil supply or contamination, so we investigate beyond the engine itself. Where relevant, we inspect the oil cooler, turbos, intercooler, EGR, DPF and cooling system, and renew the oil, filters and coolant before the engine runs.",
+      "Send your registration or VIN with a short description of the symptoms. We will confirm compatibility, explain the options and quote for supply only, supply and fit at our Grays workshop, or delivery across the UK."
+    ]
+  },
+  "compatibilityFitting": {
+    "title": "30HD0D Fitment and Installation",
+    "cards": [
+      {
+        "icon": "compatibility",
+        "eyebrow": "Engineering Diligence",
+        "title": "Matching the Right 30HD0D Engine",
+        "description": "3.0 V6 diesel engines differ in code, output, emissions equipment and ancillaries between model years and vehicles. We check your VIN and engine code, and confirm the TDV6 or SDV6 specification, gearbox and drive layout, before supply.",
+        "checks": [
+          "VIN and 30HD0D code verified",
+          "TDV6 or SDV6 specification confirmed",
+          "Gearbox and drive layout checked"
+        ],
+        "ctaLabel": "Check My Engine Code",
+        "ctaHref": "/get-quote"
+      },
+      {
+        "icon": "workshop",
+        "eyebrow": "Workshop Integrity",
+        "title": "Fitting, Testing and Handover",
+        "description": "Our technicians install each engine at our Grays workshop, lifting the body where access requires. After fitting, the fuel and cooling systems are bled, the ECU is adapted using JLR diagnostic software, and the vehicle is road tested.",
+        "checks": [
+          "Fitted by our own technicians",
+          "ECU adaptation with TOPIx and Pathfinder",
+          "Road tested before handover"
+        ],
+        "ctaLabel": "Get a Fitting Quote",
+        "ctaHref": "/get-quote"
+      }
+    ]
+  },
+  "engineServices": {
+    "eyebrow": "Specialist Workshop",
+    "title": "Discovery 4 3.0 V6 Diesel Services",
+    "description": "Specialist services for the 30HD0D, from fault finding to complete engine replacement.",
+    "linkLabel": "Learn More",
+    "cards": [
+      {
+        "icon": "tools",
+        "title": "Engine Diagnostics",
+        "description": "We combine JLR diagnostic software, live data and physical checks to identify the likely cause of knocking, smoke, limp mode or warning lights.",
+        "href": "/services/engine-diagnostics"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Rebuild",
+        "description": "The 30HD0D is stripped and measured, then rebuilt with new bearings, seals and other components wherever wear or damage is found.",
+        "href": "/services/engine-rebuild"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Replacement",
+        "description": "When repair is not worthwhile, we supply and fit a compatible used or reconditioned 3.0 TDV6 engine matched to your Discovery 4.",
+        "href": "/services/engine-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Timing Belt Replacement",
+        "description": "We renew the camshaft belt, fuel pump belt, tensioners and pulleys, helping reduce the risk of sudden belt failure and engine damage.",
+        "href": "/services/timing-belt-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Turbo Replacement",
+        "description": "Worn primary or secondary turbochargers are replaced, with checks on the control valves, actuators and oil feeds to protect the new units.",
+        "href": "/services/turbo-replacement"
+      },
+      {
+        "icon": "refit",
+        "title": "Head Gasket Replacement",
+        "description": "Coolant loss, overheating or combustion gases in the coolant may indicate head gasket failure. We replace the gaskets and inspect both cylinder heads.",
+        "href": "/services/head-gasket-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "DPF Replacement",
+        "description": "If the particulate filter cannot be recovered, we replace the DPF and investigate the underlying cause to help prevent a repeat failure.",
+        "href": "/services/dpf-replacement"
+      },
+      {
+        "icon": "replacement",
+        "title": "Engine Swap",
+        "description": "Complete Discovery 4 engine swaps, including body lifting where required, with careful attention to mounts, wiring, sensors and ECU adaptation.",
+        "href": "/services/engine-swap"
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Priority Engineering Advice",
+    "titleBefore": "Talk to Us About Your",
+    "titleHighlight": "30HD0D",
+    "titleAfter": "",
+    "description": "Send your registration or VIN and we will confirm the right 30DDTX engine option for your Discovery 4. We are based in Grays, Essex, and supply engines UK-wide.",  
+    "callLabel": "Call us: 01708 592377",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Get a Quote",
+    "quoteHref": "/get-quote",
+    "highlights": [
+      {
+        "icon": "location",
+        "label": "Grays, Essex Workshop"
+      },
+      {
+        "icon": "delivery",
+        "label": "UK Nationwide Pallet Delivery"
+      },
+      {
+        "icon": "warranty",
+        "label": "12-Month Mechanical Warranty"
+      }
+    ]
+  },
+  "buyingGuide": {
+    "eyebrow": "Buyer's comparison",
+    "title": "Used, Reconditioned or Rebuilt: Your 30HD0D Engine Options",
+    "description": "From a used engine to a Land Rover Discovery 3.0 TDV6 recon engine, we explain clearly what each option includes.",
+    "subtitle": "Review our verified tiers below to find the correct fit for your Land Rover or Range Rover.",
+    "cards": [
+      {
+        "tier": "Tier 01",
+        "badge": "Tested Core",
+        "title": "Used Engine",
+        "description": "A compatible 30HD0D engine from a donor vehicle, offering a lower-cost way to return your Discovery 4 to the road.",
+        "features": [
+          "Compatible donor engine sourced",
+          "Engine code and mileage confirmed",
+          "Supply only or supply and fit"
+        ],
+        "linkLabel": "Explore Used Engines",
+        "href": "/engines",
+        "highlighted": false,
+        "recommendation": ""
+      },
+      {
+        "tier": "Tier 02",
+        "badge": "12-Mo Warranty",
+        "title": "Reconditioned Engine",
+        "description": "A Land Rover Discovery 4 30HD0D reconditioned engine is stripped, inspected and rebuilt with new wear components, including bearings, before supply.",
+        "features": [
+          "New bearings and wear parts",
+          "Prepared ready for installation",
+          "Matched to your vehicle's VIN"
+        ],
+        "linkLabel": "Explore Reconditioned",
+        "href": "/get-quote",
+        "highlighted": true,
+        "recommendation": "Most popular choice"
+      },
+      {
+        "tier": "Tier 03",
+        "badge": "Zero-Hour Spec",
+        "title": "Rebuilt Engine",
+        "description": "Your own 30HD0D engine is rebuilt at our Grays workshop, keeping its original block and engine number with your Discovery.",
+        "features": [
+          "Original engine identity retained",
+          "Full strip-down and measurement",
+          "Parts renewed based on findings"
+        ],
+        "linkLabel": "Explore Rebuilt Engines",
+        "href": "/services/engine-rebuild",
+        "highlighted": false,
+        "recommendation": ""
+      }
+    ]
+  },
+  "engineProblems": {
+    "eyebrow": "Diagnostic Advisory",
+    "title": "Common Discovery 4 30HD0D Faults",
+    "description": "This 3.0 V6 diesel usually shows warning signs early, so prompt checks can prevent wider engine damage.",
+    "actionLabel": "Action:",
+    "ctaLabel": "Book an Engine Diagnostic",
+    "ctaHref": "/get-quote",
+    "cards": [
+      {
+        "icon": "bell",
+        "title": "Main Bearing Wear and Crank Damage",
+        "description": "A rumbling or knocking noise, oil pressure warnings or a sudden loss of power may indicate main bearing wear and possible crankshaft damage. We check oil pressure and bottom-end condition.",
+        "action": "High-precision chain guide inspection"
+      },
+      {
+        "icon": "drop",
+        "title": "Cam and Pump Belt Failure Risk",
+        "description": "The engine relies on belts to drive the camshafts and high-pressure fuel pump. Overdue belts or worn tensioners can fail without warning. We inspect both belt drives and their tensioners.",
+        "action": "Twin-turbo actuator boost analysis"
+      },
+      {
+        "icon": "power",
+        "title": "Secondary Turbo Not Engaging",
+        "description": "Flat performance at higher revs, boost fault codes or limp mode may point to a secondary turbo, valve or actuator fault in the twin-turbo system. We test both turbos and their controls.",
+        "action": "Fuel rail and injector leak-off test"
+      },
+      {
+        "icon": "smoke",
+        "title": "Leaking Oil Cooler Seals",
+        "description": "A milky film under the cap, oil traces in the coolant or a falling coolant level may come from a leaking oil cooler or seal. We check the fluids and pressure-test the system.",
+        "action": "Turbo seal & DPF saturation check"
+      },
+      {
+        "icon": "drop",
+        "title": "Glow Plug and Cold-Start Faults",
+        "description": "Long cranking times, rough running when cold or glow plug warnings may be caused by failed glow plugs or a faulty glow plug control module. We test the glow plugs and their circuit.",
+        "action": "Heat exchanger pressure test"
+      },
+      {
+        "icon": "warning",
+        "title": "Exhaust Soot and DPF Faults",
+        "description": "DPF warning lights, frequent regenerations or reduced power may follow short journeys, EGR problems or sensor faults that stop the filter clearing. We read soot data and assess the DPF.",
+        "action": "JLR TOPIx dealer-level scan"
+      }
+    ]
+  },
+  "engineOverview": {
+    "eyebrow": "Marque Authority",
+    "title": "Land Rover Discovery 4 30HD0D Engine: Your Complete 3.0 V6 Diesel Guide",
+    "paragraphs": [
+      "The Land Rover Discovery 4 30HD0D engine is a version of the 3.0-litre twin-turbo V6 diesel, used in TDV6 and SDV6 Discovery 4 models as well as other Land Rover vehicles. Many are now high-mileage, and bearing wear, belt neglect, turbo faults and DPF problems often lead owners to seek repair or replacement.",
+      "The Land Rover 3.0 TDV6 engine family includes several codes, such as 306DT, 30DDTX and 30HD0D, with differences in emissions equipment, calibration and ancillaries. We identify the correct Discovery 4 engine by checking your VIN, engine code and registration.",
+      "Whether you need a targeted repair, an engine rebuild or a complete Land Rover Discovery 4 30HD0D engine replacement, our team assesses the vehicle and explains each option. Call us or send your registration for a written quote."
+    ]
+  },
+  "specialistsBanner": {
+    "eyebrow": "3.0 V6 Diesel Specialists",
+    "title": "Land Rover Discovery 4 30HD0D Engine Specialists",
+    "description": "Range Rover Garage repairs, rebuilds and replaces the Land Rover Discovery 4 30HD0D 3.0 V6 diesel at our Grays workshop, covering bearing damage, belt renewal, turbo and DPF faults and complete engine swaps, with system bleeding, ECU adaptation and road testing.",
+    "features": [
+      {
+        "icon": "gauge",
+        "title": "Engine Code Identification",
+        "description": "30HD0D units checked and matched"
+      },
+      {
+        "icon": "badge",
+        "title": "Oil System Investigation",
+        "description": "Root causes of bearing failure checked"
+      }
+    ],
+    "image": "/images/workshop-8.webp",
+    "imageAlt": "Range Rover with its bonnet open and removed engine in the workshop",
+    "imageCaption": "Certified JLR Master Engineers On-Site",
+    "callLabel": "Call our Experts (01708 592377)",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Request a Quote",
+    "quoteHref": "/get-quote"
+  },
+  "header": {
+    "title": "Land Rover Discovery 4 30HD0D Engine Supply and Replacement",
+    "subtitle": "Supply, repair, rebuild and fitting for the Discovery 4 3.0 V6 twin-turbo diesel.",
+    "highlights": [
+      "30HD0D engine code checked against your VIN first",
+      "Used, reconditioned and rebuilt 3.0 TDV6 engines available",
+      "Supply only, or supply and fit in Grays, Essex",
+      "Discovery 4 engines delivered to customers across the UK"
+    ]
+  }
+}

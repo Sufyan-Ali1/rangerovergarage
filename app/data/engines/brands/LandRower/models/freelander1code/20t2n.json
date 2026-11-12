@@ -1,0 +1,475 @@
+{
+  "eyebrow": "Engineering Matrix",
+  "title": "204DTA Engine Specifications",
+  "description": "Verified engineering parameters for the 2.0L 4-cylinder AJ200D Ingenium diesel powertrain",
+  "fields": [
+    {
+      "label": "Engine Make",
+      "value": "Land Rover / Range Rover",
+      "icon": "car"
+    },
+    {
+      "label": "Engine Fuel",
+      "value": "Diesel",
+      "icon": "fuel"
+    },
+    {
+      "label": "Engine Horse Power",
+      "value": "240 PS (approx. 237 bhp)",
+      "icon": "gauge"
+    },
+    {
+      "label": "Engine Size",
+      "value": "2.0 Litres",
+      "icon": "ruler"
+    },
+    {
+      "label": "Engine Code",
+      "value": "204DTA (AJ200D)",
+      "icon": "code",
+      "highlight": true
+    },
+    {
+      "label": "Engine Layout",
+      "value": "Inline-4 (Transverse / Longitudinal)",
+      "icon": "layout"
+    },
+    {
+      "label": "Engine Actual CC",
+      "value": "1,999 cc",
+      "icon": "capacity"
+    },
+    {
+      "label": "Engine Cylinders",
+      "value": "4 Cylinders, Twin-Turbocharged",
+      "icon": "cylinders"
+    },
+    {
+      "label": "Engine Valves",
+      "value": "16 Valves (DOHC Chain Driven)",
+      "icon": "valves"
+    },
+    {
+      "label": "Engine Power KW",
+      "value": "177 kW @ 4,000 RPM",
+      "icon": "power"
+    },
+    {
+      "label": "Engine Fuel Supply",
+      "value": "Common Rail Direct Injection",
+      "icon": "supply"
+    },
+    {
+      "label": "Engine Charge",
+      "value": "Sequential Twin Turbochargers",
+      "icon": "charge"
+    }
+  ],
+  "note": "Specifications shown reflect standard factory configuration. Exact vehicle variant must be confirmed via VIN or registration.",
+  "cta": {
+    "label": "Check Engine Compatibility",
+    "href": "/get-quote"
+  },
+  "modelShowcase": {
+    "eyebrow": "Direct Engine Matches",
+    "title": "Top Land Rover Models",
+    "description": "Select your model to view compatible engine and fitting options.",
+    "badge": "100% In-Stock Options",
+    "transmissionLabel": "Transmission:",
+    "engineCodeLabel": "Engine Code:",
+    "ctaLabel": "Contact / Quote – CTA",
+    "cards": [
+      {
+        "name": "Land Rover Freelander 1",
+        "years": "1997-2006",
+        "description": "1.8L K-Series Petrol (120 PS / 160 Nm)",
+        "transmission": "5-speed manual",
+        "engineCode": "18K4F",
+        "image": "/images/models/freelander-1.webp",
+        "imageAlt": "Land Rover Freelander 1",
+        "href": "/engines/land-rover/freelander-1",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery 1",
+        "years": "1989-1994",
+        "description": "2.5L 200Tdi Turbo Diesel (113 PS / 265 Nm)",
+        "transmission": "LT77 5-speed manual",
+        "engineCode": "200TDI",
+        "image": "/images/models/discovery-1.webp",
+        "imageAlt": "Land Rover Discovery 1",
+        "href": "/engines/land-rover/discovery-1",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery Sport",
+        "years": "2014-continue",
+        "description": "2.0L Ingenium SD4 Twin-Turbo Diesel (241 PS / 500 Nm)",
+        "transmission": "9-speed automatic",
+        "engineCode": "204DTA",
+        "image": "/images/models/discovery-sport.webp",
+        "imageAlt": "Land Rover Discovery Sport",
+        "href": "/engines/land-rover/discovery-sport",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Freelander 2",
+        "years": "2006-2014",
+        "description": "2.0L Si4 Turbocharged Petrol (240 PS / 340 Nm)",
+        "transmission": "Aisin AWF21 6-speed automatic",
+        "engineCode": "204PT",
+        "image": "/images/models/freelander-2.webp",
+        "imageAlt": "Land Rover Freelander 2",
+        "href": "/engines/land-rover/freelander-2",
+        "quoteHref": "/get-quote"
+      }
+    ]
+  },
+  "engineGallery": {
+    "eyebrow": "Workshop Evidence",
+    "title": "Range Rover 204DTA Engine Gallery",
+    "description": "Workshop photography of complete assemblies, precision tooling, and vehicle installations.",
+    "images": [
+      {
+        "src": "/images/service/engine_swap/engine_swap 1.webp",
+        "alt": "Complete engine mounted on a workshop stand"
+      },
+      {
+        "src": "/images/workshop-8.webp",
+        "alt": "Range Rover with its bonnet open and removed engine in the workshop"
+      },
+      {
+        "src": "/images/service/engine_repair/engine_repair 3.webp",
+        "alt": "Exposed camshafts on an engine undergoing repairs"
+      },
+      {
+        "src": "/images/service/turbo_replacement/turbo_replacement 1.webp",
+        "alt": "Engine with turbocharger and intake components exposed in the workshop"
+      }
+    ]
+  },
+  "faq": {
+    "description": "Answers to common questions about the 20T2N diesel engine in the Land Rover Freelander 1. If yours is not covered, our team can help.",
+    "accordionName": "engine-code-faq",
+    "faqs": [
+      {
+        "q": "Is the 20T2N the same as the Freelander 1 Td4 engine?",
+        "a": "No. The 20T2N is the earlier L-Series diesel, while the Freelander Td4 engine is a different later design. We check your engine number and VIN to confirm which one your vehicle needs."
+      },
+      {
+        "q": "How do used, reconditioned and rebuilt 20T2N engines compare?",
+        "a": "A used engine comes from a donor vehicle, a reconditioned engine is stripped and given new wear parts, and a rebuild restores your existing engine. We recommend an option after assessing the fault and vehicle."
+      },
+      {
+        "q": "Can I buy a Freelander 1 diesel engine supply only?",
+        "a": "Yes. Trade buyers, independent garages and private customers with their own mechanic can buy supply only. Alternatively, choose supply and fit and our technicians will install the engine at our Grays, Essex workshop."
+      },
+      {
+        "q": "What affects the cost of a Freelander 1 20T2N engine replacement?",
+        "a": "The cost depends on the engine option, the condition of your current engine, any parts needed such as a turbo, injection pump or clutch, and whether fitting is included. Send your registration for a quote."
+      },
+      {
+        "q": "Is there a warranty on a replacement 20T2N engine?",
+        "a": "Warranty cover depends on the engine option and whether we carry out the installation. We confirm the exact terms in writing with your quote, so you know what is covered before work begins."
+      },
+      {
+        "q": "Do you deliver Freelander engines across the UK?",
+        "a": "Yes. We deliver engines throughout the United Kingdom from our Grays workshop. Delivery arrangements and costs are confirmed in your quote, and supply and fit customers can bring their Freelander to us."
+      },
+      {
+        "q": "How long does a 20T2N engine replacement usually take?",
+        "a": "The timescale depends on engine availability, whether a rebuild is needed and any additional work found during inspection. We give you an estimated timeframe with your quote and keep you informed throughout."
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "The RRG Standard",
+    "title": "Why Freelander Diesel Owners Trust Us",
+    "description": "Freelander owners and trade buyers rely on our Land Rover diesel knowledge and honest advice.",
+    "cards": [
+      {
+        "icon": "shield",
+        "title": "Land Rover Specialists",
+        "description": "Land Rover and Range Rover engines are our core work, including both Freelander 1 diesel engines, the L-Series and the Td4."
+      },
+      {
+        "icon": "checklist",
+        "title": "Engine Family Confirmed",
+        "description": "We confirm whether your Freelander has the 20T2N or the later Td4 before supply, so the right engine is fitted."
+      },
+      {
+        "icon": "fitting",
+        "title": "Supply or Fitted",
+        "description": "Buy the engine for your own garage or project, or let our Grays technicians supply and fit it for you."
+      },
+      {
+        "icon": "message",
+        "title": "Clear Quotations",
+        "description": "We explain the findings, options and costs in plain English, and keep you updated while your Freelander is with us."
+      }
+    ]
+  },
+  "workshopIntro": {
+    "eyebrow": "From Assessment to Installation",
+    "title": "Repair, Rebuild or Replace Your 20T2N?",
+    "description": "The fault, the engine's condition and the value of your Freelander guide the decision. Glow plug, turbo, pump and oil leak faults can often be repaired individually. If the timing belt has failed, the engine has overheated badly or wear is extensive, a rebuild or Land Rover Freelander 1 20T2N engine replacement is usually more practical.",
+    "paragraphs": [
+      "An older diesel needs healthy supporting systems to run reliably. Where relevant, we inspect the radiator, water pump, hoses, injection pump, turbo and intercooler pipework, check the clutch and gearbox, and renew the oil, filters and coolant before the engine runs.",
+      "Send your registration or VIN with a short description of the symptoms. We will confirm compatibility, explain the options and quote for supply only, supply and fit at our Grays workshop, or delivery across the UK."
+    ]
+  },
+  "compatibilityFitting": {
+    "title": "20T2N Compatibility and Workshop Fitting",
+    "cards": [
+      {
+        "icon": "compatibility",
+        "eyebrow": "Engineering Diligence",
+        "title": "Matching the Right 20T2N Engine",
+        "description": "L-Series engines from Rover cars, and the later Freelander Td4, differ in sumps, ancillaries and engine management. We check the engine number, VIN and registration, and confirm the gearbox and four-wheel-drive layout, before supply.",
+        "checks": [
+          "Engine number and VIN checked",
+          "L-Series or Td4 family confirmed",
+          "Gearbox and drive layout checked"
+        ],
+        "ctaLabel": "Check My Engine Code",
+        "ctaHref": "/get-quote"
+      },
+      {
+        "icon": "workshop",
+        "eyebrow": "Workshop Integrity",
+        "title": "Fitting, Testing and Handover",
+        "description": "Our technicians install each engine at our Grays workshop. After fitting, the fuel and cooling systems are bled, stored faults are checked, and the Freelander is road tested before we explain the completed work.",
+        "checks": [
+          "Installed by our own technicians",
+          "Fuel and cooling systems bled",
+          "Road tested before handover"
+        ],
+        "ctaLabel": "Get a Fitting Quote",
+        "ctaHref": "/get-quote"
+      }
+    ]
+  },
+  "engineServices": {
+    "eyebrow": "Specialist Workshop",
+    "title": "Freelander 1 20T2N Engine Services",
+    "description": "Practical services for the 2.0 L-Series diesel, from diagnosis to complete engine replacement.",
+    "linkLabel": "Learn More",
+    "cards": [
+      {
+        "icon": "tools",
+        "title": "Engine Diagnostics",
+        "description": "We read stored faults, test compression and fuel delivery, and inspect the engine to identify the likely cause of smoke, poor starting or power loss.",
+        "href": "/services/engine-diagnostics"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Rebuild",
+        "description": "The 20T2N is stripped and measured, then rebuilt with new bearings, seals, gaskets and other parts wherever wear or damage is found.",
+        "href": "/services/engine-rebuild"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Replacement",
+        "description": "When repair is not worthwhile, we supply and fit a compatible used or reconditioned 20T2N engine matched to your Freelander 1.",
+        "href": "/services/engine-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Timing Belt Replacement",
+        "description": "We renew the timing belt, tensioner and related seals on the L-Series diesel, helping prevent belt failure and expensive valve damage.",
+        "href": "/services/timing-belt-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Head Gasket Replacement",
+        "description": "Overheating, coolant loss or white smoke may signal head gasket failure. We replace the gasket and check the cylinder head for distortion.",
+        "href": "/services/head-gasket-replacement"
+      },
+      {
+        "icon": "replacement",
+        "title": "Turbo Replacement",
+        "description": "Worn turbochargers are replaced, with checks on the oil feed, return pipe and intercooler hoses to help protect the new unit.",
+        "href": "/services/turbo-replacement"
+      },
+      {
+        "icon": "refit",
+        "title": "Clutch Replacement",
+        "description": "On manual Freelander 1 models, we can replace a worn clutch while the engine is out, avoiding repeated labour later on.",
+        "href": "/services/clutch-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Swap",
+        "description": "Complete Freelander diesel engine swaps with attention to mounts, sump fitment, wiring, injection pump connections and cooling for correct running.",
+        "href": "/services/engine-swap"
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Priority Engineering Advice",
+    "titleBefore": "Get a Quote for Your",
+    "titleHighlight": "Freelander Diesel",
+    "titleAfter": "",
+    "description": "Send your registration or VIN and we will confirm whether you need a 20T2N or Td4 engine option. We are based in Grays, Essex, and supply engines UK-wide.",  
+    "callLabel": "Call us: 01708 592377",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Get a Quote",
+    "quoteHref": "/get-quote",
+    "highlights": [
+      {
+        "icon": "location",
+        "label": "Grays, Essex Workshop"
+      },
+      {
+        "icon": "delivery",
+        "label": "UK Nationwide Pallet Delivery"
+      },
+      {
+        "icon": "warranty",
+        "label": "12-Month Mechanical Warranty"
+      }
+    ]
+  },
+  "buyingGuide": {
+    "eyebrow": "Buyer's comparison",
+    "title": "Used, Reconditioned or Rebuilt: Your 20T2N Engine Options",
+    "description": "We explain what each option includes, so you can balance cost, condition and the future of your Freelander.",
+    "subtitle": "Review our verified tiers below to find the correct fit for your Land Rover or Range Rover.",
+    "cards": [
+      {
+        "tier": "Tier 01",
+        "badge": "Tested Core",
+        "title": "Used Engine",
+        "description": "A compatible 20T2N engine from a donor vehicle, offering an affordable way to keep your Freelander 1 diesel running.",
+        "features": [
+          "Compatible donor engine sourced",
+          "Engine number and condition checked",
+          "Supply only or supply and fit"
+        ],
+        "linkLabel": "Explore Used Engines",
+        "href": "/engines",
+        "highlighted": false,
+        "recommendation": ""
+      },
+      {
+        "tier": "Tier 02",
+        "badge": "12-Mo Warranty",
+        "title": "Reconditioned Engine",
+        "description": "A Land Rover Freelander 1 20T2N reconditioned engine is stripped, inspected and rebuilt with new wear components before it is supplied.",
+        "features": [
+          "New wear parts fitted",
+          "Prepared ready for installation",
+          "Matched to your vehicle's specification"
+        ],
+        "linkLabel": "Explore Reconditioned",
+        "href": "/get-quote",
+        "highlighted": true,
+        "recommendation": "Most popular choice"
+      },
+      {
+        "tier": "Tier 03",
+        "badge": "Zero-Hour Spec",
+        "title": "Rebuilt Engine",
+        "description": "Your own 20T2N engine is rebuilt at our Grays workshop, keeping its original block and engine number with your Freelander.",
+        "features": [
+          "Original engine identity retained",
+          "Full strip-down and measurement",
+          "Parts renewed based on findings"
+        ],
+        "linkLabel": "Explore Rebuilt Engines",
+        "href": "/services/engine-rebuild",
+        "highlighted": false,
+        "recommendation": ""
+      }
+    ]
+  },
+  "engineProblems": {
+    "eyebrow": "Diagnostic Advisory",
+    "title": "Common Freelander 20T2N Problems",
+    "description": "This older diesel usually gives clear warning signs, so early checks can prevent serious damage.",
+    "actionLabel": "Action:",
+    "ctaLabel": "Book an Engine Diagnostic",
+    "ctaHref": "/get-quote",
+    "cards": [
+      {
+        "icon": "bell",
+        "title": "Timing Belt Wear and Failure",
+        "description": "An overdue belt, a worn tensioner or oil contamination can lead to belt failure, stopping the engine suddenly and risking valve damage. We inspect the belt, tensioner and seals.",
+        "action": "High-precision chain guide inspection"
+      },
+      {
+        "icon": "drop",
+        "title": "Head Gasket and Overheating",
+        "description": "Coolant loss, white smoke, pressurised hoses or overheating may indicate a failing head gasket, often linked to cooling system problems. We pressure-test the cooling system and head.",
+        "action": "Twin-turbo actuator boost analysis"
+      },
+      {
+        "icon": "power",
+        "title": "Injection Pump Faults",
+        "description": "Hard starting, stalling, poor power or diesel leaks around the pump may point to wear or electronic faults in the fuel injection pump. We test fuel delivery and read stored faults.",
+        "action": "Fuel rail and injector leak-off test"
+      },
+      {
+        "icon": "smoke",
+        "title": "Turbocharger Wear",
+        "description": "Blue smoke, whining, oil in the intercooler hoses or loss of boost can come from worn turbocharger bearings or seals. We check turbo play, oil feed and boost.",
+        "action": "Turbo seal & DPF saturation check"
+      },
+      {
+        "icon": "drop",
+        "title": "Glow Plug and Cold-Start Problems",
+        "description": "Long cranking, rough running when cold or heavy smoke at start-up may be caused by failed glow plugs or a faulty relay. We test the glow plugs and their circuit.",
+        "action": "Heat exchanger pressure test"
+      },
+      {
+        "icon": "warning",
+        "title": "Oil Leaks and Seal Wear",
+        "description": "Oil drips under the engine, a burning smell or rising oil use may come from ageing gaskets, crankshaft seals or a blocked breather. We trace the leak and inspect the seals.",
+        "action": "JLR TOPIx dealer-level scan"
+      }
+    ]
+  },
+  "engineOverview": {
+    "eyebrow": "Marque Authority",
+    "title": "Land Rover Freelander 1 20T2N Engine: The Complete L-Series Diesel Guide",
+    "paragraphs": [
+      "The Land Rover Freelander 1 20T2N engine is the 2.0-litre Rover L-Series turbodiesel fitted to early diesel Freelander 1 models before the later Td4 arrived. Simple and economical, it is now ageing, and timing belt wear, head gasket failure, injection pump faults and turbo problems often lead owners to seek repair or replacement.",
+      "The 20T2N is often confused with the Freelander 1 Td4 engine, which is a different unit, and L-Series engines from Rover cars also vary. We identify the correct Freelander engine by checking the engine number, VIN and registration.",
+      "Whether you need a targeted repair, an engine rebuild or a complete Land Rover Freelander 1 20T2N engine replacement, our team inspects the vehicle and explains each option. Call us or send your registration for a written quote."
+    ]
+  },
+  "specialistsBanner": {
+    "eyebrow": "Freelander Diesel Specialists",
+    "title": "Land Rover Freelander 1 20T2N Engine Specialists",
+    "description": "Range Rover Garage repairs, rebuilds and replaces the Land Rover Freelander 1 20T2N 2.0 diesel at our Grays workshop, covering timing belt renewal, head gasket and injection pump faults, turbo wear and complete engine swaps, with fuel system bleeding and road testing.",
+    "features": [
+      {
+        "icon": "gauge",
+        "title": "L-Series Diesel Repairs",
+        "description": "Belts, pumps and gaskets renewed"
+      },
+      {
+        "icon": "badge",
+        "title": "Diesel Family Identified",
+        "description": "L-Series and Td4 units distinguished"
+      }
+    ],
+    "image": "/images/workshop-8.webp",
+    "imageAlt": "Range Rover with its bonnet open and removed engine in the workshop",
+    "imageCaption": "Certified JLR Master Engineers On-Site",
+    "callLabel": "Call our Experts (01708 592377)",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Request a Quote",
+    "quoteHref": "/get-quote"
+  },
+  "header": {
+    "title": "Land Rover Freelander 1 20T2N Engine Supply and Replacement",
+    "subtitle": "Supply, repair, rebuild and fitting for the Freelander 1 2.0 L-Series diesel.",
+    "highlights": [
+      "Engine number and code checked before any supply",
+      "Used, reconditioned and rebuilt 20T2N engines available",
+      "Supply only, or supply and fit in Grays, Essex",
+      "Freelander engines delivered to customers across the UK"
+    ]
+  }
+}

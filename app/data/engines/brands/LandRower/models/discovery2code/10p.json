@@ -1,0 +1,475 @@
+{
+  "eyebrow": "Engineering Matrix",
+  "title": "204DTA Engine Specifications",
+  "description": "Verified engineering parameters for the 2.0L 4-cylinder AJ200D Ingenium diesel powertrain",
+  "fields": [
+    {
+      "label": "Engine Make",
+      "value": "Land Rover / Range Rover",
+      "icon": "car"
+    },
+    {
+      "label": "Engine Fuel",
+      "value": "Diesel",
+      "icon": "fuel"
+    },
+    {
+      "label": "Engine Horse Power",
+      "value": "240 PS (approx. 237 bhp)",
+      "icon": "gauge"
+    },
+    {
+      "label": "Engine Size",
+      "value": "2.0 Litres",
+      "icon": "ruler"
+    },
+    {
+      "label": "Engine Code",
+      "value": "204DTA (AJ200D)",
+      "icon": "code",
+      "highlight": true
+    },
+    {
+      "label": "Engine Layout",
+      "value": "Inline-4 (Transverse / Longitudinal)",
+      "icon": "layout"
+    },
+    {
+      "label": "Engine Actual CC",
+      "value": "1,999 cc",
+      "icon": "capacity"
+    },
+    {
+      "label": "Engine Cylinders",
+      "value": "4 Cylinders, Twin-Turbocharged",
+      "icon": "cylinders"
+    },
+    {
+      "label": "Engine Valves",
+      "value": "16 Valves (DOHC Chain Driven)",
+      "icon": "valves"
+    },
+    {
+      "label": "Engine Power KW",
+      "value": "177 kW @ 4,000 RPM",
+      "icon": "power"
+    },
+    {
+      "label": "Engine Fuel Supply",
+      "value": "Common Rail Direct Injection",
+      "icon": "supply"
+    },
+    {
+      "label": "Engine Charge",
+      "value": "Sequential Twin Turbochargers",
+      "icon": "charge"
+    }
+  ],
+  "note": "Specifications shown reflect standard factory configuration. Exact vehicle variant must be confirmed via VIN or registration.",
+  "cta": {
+    "label": "Check Engine Compatibility",
+    "href": "/get-quote"
+  },
+  "modelShowcase": {
+    "eyebrow": "Direct Engine Matches",
+    "title": "Top Land Rover Models",
+    "description": "Select your model to view compatible engine and fitting options.",
+    "badge": "100% In-Stock Options",
+    "transmissionLabel": "Transmission:",
+    "engineCodeLabel": "Engine Code:",
+    "ctaLabel": "Contact / Quote – CTA",
+    "cards": [
+      {
+        "name": "Land Rover Discovery 3",
+        "years": "2004-2009",
+        "description": "4.0L V6 Naturally Aspirated Petrol (212 PS / 360 Nm)",
+        "transmission": "6-speed automatic",
+        "engineCode": "406PN",
+        "image": "/images/models/discovery-3.webp",
+        "imageAlt": "Land Rover Discovery 3",
+        "href": "/engines/land-rover/discovery-3",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Freelander 1",
+        "years": "1993-1998",
+        "description": "2.0L MPI Naturally Aspirated Petrol (98 PS / 167 Nm)",
+        "transmission": "5-speed R380 manual",
+        "engineCode": "2.0 Mpi",
+        "image": "/images/models/freelander-1.webp",
+        "imageAlt": "Land Rover Freelander 1",
+        "href": "/engines/land-rover/freelander-1",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery 4",
+        "years": "2009-continue",
+        "description": "3.0L V6 Supercharged Petrol (340 PS / 450 Nm)",
+        "transmission": "8-speed ZF automatic",
+        "engineCode": "306PS",
+        "image": "/images/models/discovery-4.webp",
+        "imageAlt": "Land Rover Discovery 4",
+        "href": "/engines/land-rover/discovery-4",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery Sport",
+        "years": "2014-continue",
+        "description": "2.0L Ingenium SD4 Twin-Turbo Diesel (241 PS / 500 Nm)",
+        "transmission": "9-speed automatic",
+        "engineCode": "204DTA",
+        "image": "/images/models/discovery-sport.webp",
+        "imageAlt": "Land Rover Discovery Sport",
+        "href": "/engines/land-rover/discovery-sport",
+        "quoteHref": "/get-quote"
+      }
+    ]
+  },
+  "engineGallery": {
+    "eyebrow": "Workshop Evidence",
+    "title": "Range Rover 204DTA Engine Gallery",
+    "description": "Workshop photography of complete assemblies, precision tooling, and vehicle installations.",
+    "images": [
+      {
+        "src": "/images/service/engine_swap/engine_swap 1.webp",
+        "alt": "Complete engine mounted on a workshop stand"
+      },
+      {
+        "src": "/images/workshop-8.webp",
+        "alt": "Range Rover with its bonnet open and removed engine in the workshop"
+      },
+      {
+        "src": "/images/service/engine_repair/engine_repair 3.webp",
+        "alt": "Exposed camshafts on an engine undergoing repairs"
+      },
+      {
+        "src": "/images/service/turbo_replacement/turbo_replacement 1.webp",
+        "alt": "Engine with turbocharger and intake components exposed in the workshop"
+      }
+    ]
+  },
+  "faq": {
+    "description": "Answers to common questions about the 10P Td5 engine in the Land Rover Discovery 2. If yours is not covered, our team can help.",
+    "accordionName": "engine-code-faq",
+    "faqs": [
+      {
+        "q": "Can a 15P Td5 engine replace a 10P in my Discovery 2?",
+        "a": "Sometimes, but not always directly. 10P and 15P engines differ in emissions equipment and engine management, so we check your engine number, VIN and ECU before recommending a compatible replacement."
+      },
+      {
+        "q": "How do used, reconditioned and rebuilt 10P engines compare?",
+        "a": "A used engine comes from a donor vehicle, a reconditioned engine is stripped and given new wear parts, and a rebuild restores your existing engine. We recommend an option after assessing the fault and vehicle."
+      },
+      {
+        "q": "Can I buy a Td5 engine supply only for my mechanic?",
+        "a": "Yes. Trade buyers, independent garages, restorers and private customers can buy supply only. Alternatively, choose supply and fit and our technicians will install the engine at our Grays, Essex workshop."
+      },
+      {
+        "q": "What affects the cost of a Discovery 2 10P engine replacement?",
+        "a": "The cost depends on the engine option, the condition of your current engine, any parts needed such as injectors, a loom or an ECU match, and whether fitting is included. Send your registration or VIN for a quote."
+      },
+      {
+        "q": "Do replacement 10P engines come with a warranty?",
+        "a": "Warranty cover depends on the engine option and whether we carry out the installation. We confirm the exact terms in writing with your quote, so you know what is covered before work begins."
+      },
+      {
+        "q": "Do you deliver Td5 engines across the UK?",
+        "a": "Yes. We deliver engines throughout the United Kingdom from our Grays workshop. Delivery arrangements and costs are confirmed in your quote, and supply and fit customers can bring their Discovery to us."
+      },
+      {
+        "q": "How long does a 10P engine replacement usually take?",
+        "a": "The timescale depends on engine availability, whether a rebuild is needed and any additional work found during inspection. We give you an estimated timeframe with your quote and keep you informed throughout."
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "The RRG Standard",
+    "title": "Why Td5 Owners Trust Us",
+    "description": "Discovery owners, restorers and trade buyers rely on our Land Rover knowledge and clear, honest service.",
+    "cards": [
+      {
+        "icon": "shield",
+        "title": "Land Rover Engine Focus",
+        "description": "Land Rover and Range Rover engines are our core work, including both early 10P and later 15P Td5 diesels."
+      },
+      {
+        "icon": "checklist",
+        "title": "Prefix Checked First",
+        "description": "We confirm the engine prefix and specification before supply, so you receive a Td5 engine that suits your Discovery 2."
+      },
+      {
+        "icon": "fitting",
+        "title": "Supply or Fitted",
+        "description": "Buy the engine for your own garage or project, or let our Grays technicians supply and fit it for you."
+      },
+      {
+        "icon": "message",
+        "title": "Straightforward Quotes",
+        "description": "We explain the fault, the options and the costs in plain English, and keep you updated while your Discovery is with us."
+      }
+    ]
+  },
+  "workshopIntro": {
+    "eyebrow": "From Assessment to Installation",
+    "title": "Repair, Rebuild or Replace Your 10P Td5?",
+    "description": "The fault, mileage and value of your Discovery 2 decide the right route. Loom, injector, fuel pressure and sensor faults can often be repaired individually. If the cylinder head has cracked, the engine has overheated badly or wear is extensive, a rebuild or Land Rover Discovery 2 10P engine replacement is usually more practical.",
+    "paragraphs": [
+      "A replacement Td5 relies on healthy supporting systems and correct electrical connections. Where relevant, we inspect the radiator, water pump, viscous fan, hoses, injector loom, ECU connector and turbo, and renew the oil, filters and coolant before the engine runs.",
+      "Send your registration or VIN with a short description of the symptoms. We will confirm compatibility, explain your options and quote for supply only, supply and fit at our Grays workshop, or delivery across the UK."
+    ]
+  },
+  "compatibilityFitting": {
+    "title": "10P and 15P Compatibility Checks",
+    "cards": [
+      {
+        "icon": "compatibility",
+        "eyebrow": "Engineering Diligence",
+        "title": "Matching the Right Td5 Engine",
+        "description": "10P and 15P Td5 engines differ in emissions equipment and engine management, and Defender units vary again. We check the engine number, VIN and registration, and confirm the ECU, gearbox and transfer box setup, before any engine is supplied.",
+        "checks": [
+          "Engine prefix and number verified",
+          "ECU and loom compatibility checked",
+          "Gearbox and transfer box confirmed"
+        ],
+        "ctaLabel": "Check My Engine Code",
+        "ctaHref": "/get-quote"
+      },
+      {
+        "icon": "workshop",
+        "eyebrow": "Workshop Integrity",
+        "title": "Fitting and Road Testing",
+        "description": "Each engine is fitted by our technicians at our Grays workshop. After installation, the fuel system is primed, the cooling system is bled, fault codes are checked and the Discovery is road tested before handover.",
+        "checks": [
+          "Installed by our own technicians",
+          "Fuel and cooling systems bled",
+          "Road tested before handover"
+        ],
+        "ctaLabel": "Get a Fitting Quote",
+        "ctaHref": "/get-quote"
+      }
+    ]
+  },
+  "engineServices": {
+    "eyebrow": "Specialist Workshop",
+    "title": "Discovery 2 10P Engine Services",
+    "description": "Specialist services for the early Td5 engine, from fault finding to full replacement.",
+    "linkLabel": "Learn More",
+    "cards": [
+      {
+        "icon": "tools",
+        "title": "Engine Diagnostics",
+        "description": "We read ECU fault codes, test fuel pressure and boost, and physically inspect the engine to identify the likely cause of your Td5's symptoms.",
+        "href": "/services/engine-diagnostics"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Rebuild",
+        "description": "The 10P Td5 is stripped and measured, then rebuilt with new bearings, seals and other parts wherever wear or damage is found.",
+        "href": "/services/engine-rebuild"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Replacement",
+        "description": "When repair is not worthwhile, we supply and fit a compatible used or reconditioned Td5 engine matched to your Discovery 2's specification.",
+        "href": "/services/engine-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Head Gasket Replacement",
+        "description": "Overheating, coolant loss or white smoke may signal head gasket failure. We replace the gasket and inspect the cylinder head for cracking.",
+        "href": "/services/head-gasket-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Turbo Replacement",
+        "description": "Worn turbochargers are replaced, with checks on the oil feed, wastegate operation and intercooler pipework to help protect the new unit.",
+        "href": "/services/turbo-replacement"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Swap",
+        "description": "Td5 engine swaps completed with attention to prefix compatibility, the ECU, injector loom, mounts and fuel connections, so the engine runs correctly.",
+        "href": "/services/engine-swap"
+      },
+      {
+        "icon": "tools",
+        "title": "Clutch Replacement",
+        "description": "On manual Discovery 2 models, we can renew a worn clutch while the engine is removed, avoiding further gearbox removal later.",
+        "href": "/services/clutch-replacement"
+      },
+      {
+        "icon": "replacement",
+        "title": "Major Service",
+        "description": "A detailed major service for the Td5, including oil, filters and checks on the injector loom, cooling system and fuel system.",
+        "href": "/services/major-service"
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Priority Engineering Advice",
+    "titleBefore": "Request Your",
+    "titleHighlight": "10P",
+    "titleAfter": "Engine Quote",
+    "description": "Send your registration or VIN and we will confirm whether a 10P or Td5 15P engine suits your Discovery 2. We are based in Grays, Essex, and deliver engines UK-wide.",
+    "callLabel": "Call us: 01708 592377",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Get a Quote",
+    "quoteHref": "/get-quote",
+    "highlights": [
+      {
+        "icon": "location",
+        "label": "Grays, Essex Workshop"
+      },
+      {
+        "icon": "delivery",
+        "label": "UK Nationwide Pallet Delivery"
+      },
+      {
+        "icon": "warranty",
+        "label": "12-Month Mechanical Warranty"
+      }
+    ]
+  },
+  "buyingGuide": {
+    "eyebrow": "Buyer's comparison",
+    "title": "Used, Reconditioned or Rebuilt: Your 10P Td5 Engine Options",
+    "description": "We explain what each option includes, helping you balance cost, condition and the future of your Discovery 2.",
+    "subtitle": "Review our verified tiers below to find the correct fit for your Land Rover or Range Rover.",
+    "cards": [
+      {
+        "tier": "Tier 01",
+        "badge": "Tested Core",
+        "title": "Used Engine",
+        "description": "A compatible 10P or suitable Td5 engine from a donor vehicle, offering an affordable way back on the road.",
+        "features": [
+          "Compatible donor engine sourced",
+          "Engine prefix and condition checked",
+          "Supply only or supply and fit"
+        ],
+        "linkLabel": "Explore Used Engines",
+        "href": "/engines",
+        "highlighted": false,
+        "recommendation": ""
+      },
+      {
+        "tier": "Tier 02",
+        "badge": "12-Mo Warranty",
+        "title": "Reconditioned Engine",
+        "description": "A Land Rover Discovery 2 10P reconditioned engine is stripped, inspected and rebuilt with new wear components before it is supplied.",
+        "features": [
+          "New wear parts fitted",
+          "Prepared ready for installation",
+          "Matched to your engine prefix"
+        ],
+        "linkLabel": "Explore Reconditioned",
+        "href": "/get-quote",
+        "highlighted": true,
+        "recommendation": "Most popular choice"
+      },
+      {
+        "tier": "Tier 03",
+        "badge": "Zero-Hour Spec",
+        "title": "Rebuilt Engine",
+        "description": "Your existing 10P engine is rebuilt in our Grays workshop, keeping its original block and engine number with your Discovery.",
+        "features": [
+          "Original engine identity retained",
+          "Full strip-down and measurement",
+          "Parts renewed based on findings"
+        ],
+        "linkLabel": "Explore Rebuilt Engines",
+        "href": "/services/engine-rebuild",
+        "highlighted": false,
+        "recommendation": ""
+      }
+    ]
+  },
+  "engineProblems": {
+    "eyebrow": "Diagnostic Advisory",
+    "title": "Common Td5 10P Engine Problems",
+    "description": "Early Td5 engines often give clear warning signs, and acting quickly can prevent expensive damage.",
+    "actionLabel": "Action:",
+    "ctaLabel": "Book an Engine Diagnostic",
+    "ctaHref": "/get-quote",
+    "cards": [
+      {
+        "icon": "bell",
+        "title": "Injector Harness Oil Wicking",
+        "description": "Oil travelling along the injector harness can reach the ECU connector, causing misfires, limp mode and electrical faults if left unchecked. We inspect the harness, connectors and seals.",
+        "action": "High-precision chain guide inspection"
+      },
+      {
+        "icon": "drop",
+        "title": "Cracked Cylinder Head",
+        "description": "Persistent coolant loss, overheating or combustion gases in the coolant may indicate a cracked cylinder head, particularly on older, high-mileage engines. We pressure-test and inspect the cylinder head.",
+        "action": "Twin-turbo actuator boost analysis"
+      },
+      {
+        "icon": "power",
+        "title": "Unit Injector Faults",
+        "description": "Rough idle, smoke, knocking or a misfire on one cylinder may be caused by a worn unit injector or leaking injector seals. We test the injectors and check seal condition.",
+        "action": "Fuel rail and injector leak-off test"
+      },
+      {
+        "icon": "smoke",
+        "title": "Fuel Pressure Regulator Problems",
+        "description": "Poor starting, hesitation or power loss can come from a failing fuel pressure regulator, a weak fuel pump or a restricted fuel filter. We test fuel pressure and delivery.",
+        "action": "Turbo seal & DPF saturation check"
+      },
+      {
+        "icon": "drop",
+        "title": "Boost and MAP Sensor Faults",
+        "description": "Lack of power, limp mode or boost-related fault codes may point to turbocharger wear, boost leaks or a faulty MAP sensor. We check boost, sensors and turbo condition.",
+        "action": "Heat exchanger pressure test"
+      },
+      {
+        "icon": "warning",
+        "title": "Coolant Leaks and Overheating",
+        "description": "A falling coolant level, steam or rising temperature may come from leaking hoses, a tired radiator, a failing water pump or the viscous fan. We pressure-test the cooling system for leaks.",
+        "action": "JLR TOPIx dealer-level scan"
+      }
+    ]
+  },
+  "engineOverview": {
+    "eyebrow": "Marque Authority",
+    "title": "Land Rover Discovery 2 10P Engine: The Complete Td5 Guide",
+    "paragraphs": [
+      "The Land Rover Discovery 2 10P engine is the earlier version of the 2.5-litre five-cylinder Td5 turbodiesel, identified by its 10P engine number prefix. Robust but now ageing, it can suffer injector loom leaks, cracked cylinder heads, fuel pressure faults and turbo wear, leading owners to repair or replace it.",
+      "Later Discovery 2 Td5 engines carry a 15P prefix with revised emissions and engine management, so the two are not always directly interchangeable. We confirm the correct Td5 engine for your Discovery 2 by checking the engine number, VIN and registration.",
+      "Whether you need a targeted repair, a full rebuild or a Land Rover Discovery 2 10P engine replacement, our team inspects the vehicle and explains each option. Call us or send your registration for a written quote."
+    ]
+  },
+  "specialistsBanner": {
+    "eyebrow": "Td5 10P Specialists",
+    "title": "Land Rover Discovery 2 10P Engine Experts",
+    "description": "From our Grays, Essex workshop, we repair, rebuild and replace the Land Rover Discovery 2 10P Td5, covering injector loom faults, cylinder head problems, fuel pressure issues and complete engine swaps, with fault codes checked and every fitted engine road tested.",
+    "features": [
+      {
+        "icon": "gauge",
+        "title": "Engine Prefix Matching",
+        "description": "10P and 15P units identified"
+      },
+      {
+        "icon": "badge",
+        "title": "Td5 Loom and Injectors",
+        "description": "Wiring and injector faults repaired"
+      }
+    ],
+    "image": "/images/workshop-8.webp",
+    "imageAlt": "Range Rover with its bonnet open and removed engine in the workshop",
+    "imageCaption": "Certified JLR Master Engineers On-Site",
+    "callLabel": "Call our Experts (01708 592377)",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Request a Quote",
+    "quoteHref": "/get-quote"
+  },
+  "header": {
+    "title": "Land Rover Discovery 2 10P Engine Supply and Replacement",
+    "subtitle": "Supply, repair, rebuild and fitting for early Discovery 2 Td5 10P diesel engines.",
+    "highlights": [
+      "Engine prefix and number checked before any supply",
+      "Used, reconditioned and rebuilt 10P Td5 engines available",
+      "Supply only, or supply and fit in Grays, Essex",
+      "Td5 engines for sale with UK delivery"
+    ]
+  }
+}

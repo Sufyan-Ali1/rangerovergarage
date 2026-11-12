@@ -1,0 +1,475 @@
+{
+  "eyebrow": "Engineering Matrix",
+  "title": "204DTA Engine Specifications",
+  "description": "Verified engineering parameters for the 2.0L 4-cylinder AJ200D Ingenium diesel powertrain",
+  "fields": [
+    {
+      "label": "Engine Make",
+      "value": "Land Rover / Range Rover",
+      "icon": "car"
+    },
+    {
+      "label": "Engine Fuel",
+      "value": "Diesel",
+      "icon": "fuel"
+    },
+    {
+      "label": "Engine Horse Power",
+      "value": "240 PS (approx. 237 bhp)",
+      "icon": "gauge"
+    },
+    {
+      "label": "Engine Size",
+      "value": "2.0 Litres",
+      "icon": "ruler"
+    },
+    {
+      "label": "Engine Code",
+      "value": "204DTA (AJ200D)",
+      "icon": "code",
+      "highlight": true
+    },
+    {
+      "label": "Engine Layout",
+      "value": "Inline-4 (Transverse / Longitudinal)",
+      "icon": "layout"
+    },
+    {
+      "label": "Engine Actual CC",
+      "value": "1,999 cc",
+      "icon": "capacity"
+    },
+    {
+      "label": "Engine Cylinders",
+      "value": "4 Cylinders, Twin-Turbocharged",
+      "icon": "cylinders"
+    },
+    {
+      "label": "Engine Valves",
+      "value": "16 Valves (DOHC Chain Driven)",
+      "icon": "valves"
+    },
+    {
+      "label": "Engine Power KW",
+      "value": "177 kW @ 4,000 RPM",
+      "icon": "power"
+    },
+    {
+      "label": "Engine Fuel Supply",
+      "value": "Common Rail Direct Injection",
+      "icon": "supply"
+    },
+    {
+      "label": "Engine Charge",
+      "value": "Sequential Twin Turbochargers",
+      "icon": "charge"
+    }
+  ],
+  "note": "Specifications shown reflect standard factory configuration. Exact vehicle variant must be confirmed via VIN or registration.",
+  "cta": {
+    "label": "Check Engine Compatibility",
+    "href": "/get-quote"
+  },
+  "modelShowcase": {
+    "eyebrow": "Direct Engine Matches",
+    "title": "Top Land Rover Models",
+    "description": "Select your model to view compatible engine and fitting options.",
+    "badge": "100% In-Stock Options",
+    "transmissionLabel": "Transmission:",
+    "engineCodeLabel": "Engine Code:",
+    "ctaLabel": "Contact / Quote – CTA",
+    "cards": [
+      {
+        "name": "Land Rover Freelander 2",
+        "years": "2016-continue",
+        "description": "2.0L Si4 Turbocharged Petrol (240 PS / 340 Nm)",
+        "transmission": "Aisin AWF21 6-speed automatic",
+        "engineCode": "204PT",
+        "image": "/images/models/freelander-2.webp",
+        "imageAlt": "Land Rover Freelander 2",
+        "href": "/engines/land-rover/freelander-2",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery 5",
+        "years": "2016-continue",
+        "description": "2.0L Ingenium SD4 Twin-Turbo Diesel (241 PS / 500 Nm)",
+        "transmission": "8-speed ZF automatic",
+        "engineCode": "204DTA",
+        "image": "/images/models/discovery-5.webp",
+        "imageAlt": "Land Rover Discovery 5",
+        "href": "/engines/land-rover/discovery-5",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Freelander 1",
+        "years": "1993-1998",
+        "description": "2.0L MPI Naturally Aspirated Petrol (98 PS / 167 Nm)",
+        "transmission": "5-speed R380 manual",
+        "engineCode": "2.0 Mpi",
+        "image": "/images/models/freelander-1.webp",
+        "imageAlt": "Land Rover Freelander 1",
+        "href": "/engines/land-rover/freelander-1",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery Sport",
+        "years": "2014-continue",
+        "description": "2.0L Ingenium SD4 Twin-Turbo Diesel (241 PS / 500 Nm)",
+        "transmission": "9-speed automatic",
+        "engineCode": "204DTA",
+        "image": "/images/models/discovery-sport.webp",
+        "imageAlt": "Land Rover Discovery Sport",
+        "href": "/engines/land-rover/discovery-sport",
+        "quoteHref": "/get-quote"
+      }
+    ]
+  },
+  "engineGallery": {
+    "eyebrow": "Workshop Evidence",
+    "title": "Range Rover 204DTA Engine Gallery",
+    "description": "Workshop photography of complete assemblies, precision tooling, and vehicle installations.",
+    "images": [
+      {
+        "src": "/images/service/engine_swap/engine_swap 1.webp",
+        "alt": "Complete engine mounted on a workshop stand"
+      },
+      {
+        "src": "/images/workshop-8.webp",
+        "alt": "Range Rover with its bonnet open and removed engine in the workshop"
+      },
+      {
+        "src": "/images/service/engine_repair/engine_repair 3.webp",
+        "alt": "Exposed camshafts on an engine undergoing repairs"
+      },
+      {
+        "src": "/images/service/turbo_replacement/turbo_replacement 1.webp",
+        "alt": "Engine with turbocharger and intake components exposed in the workshop"
+      }
+    ]
+  },
+  "faq": {
+    "description": "Answers to common questions about the 4.0 V6 petrol engine in the Land Rover Discovery 3. If yours is not covered, our team can help.",
+    "accordionName": "engine-code-faq",
+    "faqs": [
+      {
+        "q": "How do you confirm a 406PN engine fits my Discovery 3?",
+        "a": "We check your VIN or registration against the engine code, model year, market specification and gearbox. V6 engines from other vehicles can differ in ancillaries and wiring, so fitment is confirmed before supply."
+      },
+      {
+        "q": "How do used, reconditioned and rebuilt 4.0 V6 engines compare?",
+        "a": "A used engine comes from a donor vehicle, a reconditioned engine is stripped and given new wear parts, and a rebuild restores your existing engine. We recommend an option after assessing the fault and vehicle."
+      },
+      {
+        "q": "Can I buy a Discovery 3 V6 engine supply only?",
+        "a": "Yes. Trade buyers, independent garages and private customers with their own mechanic can buy supply only. Alternatively, choose supply and fit and our technicians will install the engine at our Grays, Essex workshop."
+      },
+      {
+        "q": "What affects the Discovery 3 engine replacement cost for a 406PN?",
+        "a": "The cost depends on the engine option, the condition of your current engine, any ancillary parts required and the labour involved, including body-lift work where needed. Send your registration or VIN for a written quote."
+      },
+      {
+        "q": "Is there a warranty on a replacement 406PN engine?",
+        "a": "Warranty cover depends on the engine option and whether we carry out the installation. We confirm the exact terms in writing with your quote, so you know what is covered before work begins."
+      },
+      {
+        "q": "Do you deliver Land Rover V6 engines across the UK?",
+        "a": "Yes. We deliver engines throughout the United Kingdom from our Grays workshop. Delivery arrangements and costs are confirmed in your quote, and supply and fit customers can bring their Discovery to us."
+      },
+      {
+        "q": "How long does a 406PN engine replacement usually take?",
+        "a": "The timescale depends on engine availability, whether a rebuild is needed and any additional work found during inspection. We give you an estimated timeframe with your quote and keep you informed throughout."
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "The RRG Standard",
+    "title": "Why Discovery 3 Owners Trust Us",
+    "description": "Discovery 3 owners and trade buyers rely on our Land Rover knowledge and straightforward, honest service.",
+    "cards": [
+      {
+        "icon": "shield",
+        "title": "Land Rover Specialists",
+        "description": "Land Rover and Range Rover engines are our core work, including the less common 4.0 V6 petrol in the Discovery 3."
+      },
+      {
+        "icon": "checklist",
+        "title": "Correct Specification",
+        "description": "We match every replacement to your VIN and specification before supply, so the engine suits your Discovery 3 correctly."
+      },
+      {
+        "icon": "fitting",
+        "title": "Supply or Fitted",
+        "description": "Buy the engine for your own garage to install, or let our Grays technicians supply and fit it for you."
+      },
+      {
+        "icon": "message",
+        "title": "Transparent Quotes",
+        "description": "We explain the fault, the options and the costs in plain English, and keep you informed while your vehicle is with us."
+      }
+    ]
+  },
+  "workshopIntro": {
+    "eyebrow": "From Assessment to Installation",
+    "title": "Repair, Rebuild or Replace Your 4.0 V6?",
+    "description": "The fault, the mileage and the value of your Discovery 3 decide the right approach. Coil, vacuum, coolant and oil leak faults can usually be repaired individually. If timing chain failure or severe overheating has damaged the engine, a rebuild or Land Rover Discovery 3 406PN engine replacement is often more practical.",
+    "paragraphs": [
+      "Because major engine work on the Discovery 3 can involve lifting the body, it makes sense to check related parts at the same time. Where relevant, we inspect the radiator, water pump, thermostat, hoses and ignition system, and renew the oil, filters and coolant.",
+      "Send your registration or VIN with a short description of the symptoms. We will confirm compatibility, explain your options and quote for supply only, supply and fit at our Grays workshop, or delivery anywhere in the UK."
+    ]
+  },
+  "compatibilityFitting": {
+    "title": "406PN Compatibility and Workshop Fitting",
+    "cards": [
+      {
+        "icon": "compatibility",
+        "eyebrow": "Engineering Diligence",
+        "title": "Confirming the Correct 406PN Engine",
+        "description": "4.0 V6 engines fitted to other vehicles differ in ancillaries, wiring and engine management from the Discovery 3 version. We check your VIN, engine code and registration, and confirm the gearbox and four-wheel-drive configuration, before supply.",
+        "checks": [
+          "VIN and engine code verified",
+          "Discovery 3 specification confirmed",
+          "Gearbox and drive layout checked"
+        ],
+        "ctaLabel": "Check My Engine Code",
+        "ctaHref": "/get-quote"
+      },
+      {
+        "icon": "workshop",
+        "eyebrow": "Workshop Integrity",
+        "title": "Installation and Road Testing",
+        "description": "Our technicians fit each engine at our Grays workshop, including body-lift work where needed. After installation, the cooling and fuel systems are bled, the ECU is adapted and the Discovery is road tested before handover.",
+        "checks": [
+          "Fitted by our own technicians",
+          "Cooling and fuel systems bled",
+          "Road tested before handover"
+        ],
+        "ctaLabel": "Get a Fitting Quote",
+        "ctaHref": "/get-quote"
+      }
+    ]
+  },
+  "engineServices": {
+    "eyebrow": "Specialist Workshop",
+    "title": "Discovery 3 4.0 V6 Services",
+    "description": "Specialist services for the 406PN petrol engine, from diagnosis to full engine replacement.",
+    "linkLabel": "Learn More",
+    "cards": [
+      {
+        "icon": "tools",
+        "title": "Engine Diagnostics",
+        "description": "We read fault codes, review live data and inspect the engine physically to identify the likely cause of rattles, misfires or overheating.",
+        "href": "/services/engine-diagnostics"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Rebuild",
+        "description": "The 4.0 V6 is stripped, measured and rebuilt, with bearings, seals, timing components and other worn parts renewed as the inspection requires.",
+        "href": "/services/engine-rebuild"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Replacement",
+        "description": "When repair is not worthwhile, we supply and fit a compatible used or reconditioned Land Rover 4.0 V6 engine matched to your VIN.",
+        "href": "/services/engine-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Timing Chain Replacement",
+        "description": "We renew the timing chains, guides and tensioners on the 4.0 V6, then confirm camshaft timing for smooth, quiet running.",
+        "href": "/services/timing-chain-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Head Gasket Replacement",
+        "description": "Overheating, coolant loss or white smoke can indicate head gasket failure. We replace the gaskets and check both cylinder heads for distortion.",
+        "href": "/services/head-gasket-replacement"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Swap",
+        "description": "Complete Discovery 3 engine swaps, including body-lift work where required, with attention to mounts, wiring, sensors and ECU adaptation.",
+        "href": "/services/engine-swap"
+      },
+      {
+        "icon": "tools",
+        "title": "Gearbox Replacement",
+        "description": "If the automatic gearbox is also faulty, we can supply and fit a compatible replacement gearbox while the engine work is completed.",
+        "href": "/services/gearbox-replacement"
+      },
+      {
+        "icon": "replacement",
+        "title": "Major Service",
+        "description": "A thorough major service for the 4.0 V6 petrol, including oil, filters, spark plugs and checks on the cooling and timing systems.",
+        "href": "/services/major-service"
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Priority Engineering Advice",
+    "titleBefore": "Request Your",
+    "titleHighlight": "406PN",
+    "titleAfter": "Engine Quote",
+    "description": "Send your registration or VIN and we will confirm the right 4.0 V6 engine option for your Discovery 3. We are based in Grays, Essex, and supply engines across the UK.",
+    "callLabel": "Call us: 01708 592377",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Get a Quote",
+    "quoteHref": "/get-quote",
+    "highlights": [
+      {
+        "icon": "location",
+        "label": "Grays, Essex Workshop"
+      },
+      {
+        "icon": "delivery",
+        "label": "UK Nationwide Pallet Delivery"
+      },
+      {
+        "icon": "warranty",
+        "label": "12-Month Mechanical Warranty"
+      }
+    ]
+  },
+  "buyingGuide": {
+    "eyebrow": "Buyer's comparison",
+    "title": "Used, Reconditioned or Rebuilt: Choosing Your 4.0 V6 Engine",
+    "description": "We explain what each engine option includes, helping you balance cost, condition and the value of your Discovery 3.",
+    "subtitle": "Review our verified tiers below to find the correct fit for your Land Rover or Range Rover.",
+    "cards": [
+      {
+        "tier": "Tier 01",
+        "badge": "Tested Core",
+        "title": "Used Engine",
+        "description": "A compatible 406PN engine from a donor vehicle, offering a cost-effective way to get your Discovery 3 back on the road.",
+        "features": [
+          "Compatible donor engine sourced",
+          "Engine code and mileage confirmed",
+          "Supply only or supply and fit"
+        ],
+        "linkLabel": "Explore Used Engines",
+        "href": "/engines",
+        "highlighted": false,
+        "recommendation": ""
+      },
+      {
+        "tier": "Tier 02",
+        "badge": "12-Mo Warranty",
+        "title": "Reconditioned Engine",
+        "description": "A Land Rover Discovery 3 406PN reconditioned engine is stripped, inspected and rebuilt with new wear components before it is supplied.",
+        "features": [
+          "New wear parts fitted",
+          "Prepared ready for installation",
+          "Matched to your vehicle's VIN"
+        ],
+        "linkLabel": "Explore Reconditioned",
+        "href": "/get-quote",
+        "highlighted": true,
+        "recommendation": "Most popular choice"
+      },
+      {
+        "tier": "Tier 03",
+        "badge": "Zero-Hour Spec",
+        "title": "Rebuilt Engine",
+        "description": "Your own 406PN engine is rebuilt at our Grays workshop, keeping the original block and engine number with your Discovery.",
+        "features": [
+          "Original engine identity retained",
+          "Full strip-down and measurement",
+          "Parts renewed based on findings"
+        ],
+        "linkLabel": "Explore Rebuilt Engines",
+        "href": "/services/engine-rebuild",
+        "highlighted": false,
+        "recommendation": ""
+      }
+    ]
+  },
+  "engineProblems": {
+    "eyebrow": "Diagnostic Advisory",
+    "title": "Common Discovery 3 4.0 V6 Problems",
+    "description": "The 4.0 V6 often gives warning signs before major failure, so early checks can prevent costly damage.",
+    "actionLabel": "Action:",
+    "ctaLabel": "Book an Engine Diagnostic",
+    "ctaHref": "/get-quote",
+    "cards": [
+      {
+        "icon": "bell",
+        "title": "Timing Chain Guide and Tensioner Failure",
+        "description": "A rattle on start-up or acceleration, rough running or timing fault codes can point to worn timing chain guides, tensioners or stretched chains. We inspect the timing components and chain wear.",
+        "action": "High-precision chain guide inspection"
+      },
+      {
+        "icon": "drop",
+        "title": "Coolant Leaks and Overheating",
+        "description": "A falling coolant level, a sweet smell or rising temperature may come from leaking hoses, the water pump, the thermostat housing or the radiator. We pressure-test the cooling system for leaks.",
+        "action": "Twin-turbo actuator boost analysis"
+      },
+      {
+        "icon": "power",
+        "title": "Head Gasket Problems",
+        "description": "White smoke, unexplained coolant loss, overheating or a creamy residue under the oil cap may indicate a failing head gasket. We test for combustion gases and check the heads.",
+        "action": "Fuel rail and injector leak-off test"
+      },
+      {
+        "icon": "smoke",
+        "title": "Misfires and Coil Pack Faults",
+        "description": "Juddering, a flashing engine light or a rough idle are often caused by a failing ignition coil, worn spark plugs or injector problems. We test the ignition system cylinder by cylinder.",
+        "action": "Turbo seal & DPF saturation check"
+      },
+      {
+        "icon": "drop",
+        "title": "Oil Leaks and Burning Smells",
+        "description": "Oil drips, smoke from the engine bay or a burning smell can come from ageing rocker cover gaskets, seals or the rear crankshaft seal. We locate the leak and inspect the seals.",
+        "action": "Heat exchanger pressure test"
+      },
+      {
+        "icon": "warning",
+        "title": "Vacuum Leaks and Idle Faults",
+        "description": "A hunting idle, hesitation or lean-running fault codes may relate to vacuum leaks, a faulty breather valve or intake gasket problems. We check for vacuum leaks and read stored faults.",
+        "action": "JLR TOPIx dealer-level scan"
+      }
+    ]
+  },
+  "engineOverview": {
+    "eyebrow": "Marque Authority",
+    "title": "Land Rover Discovery 3 406PN Engine: A Complete 4.0 V6 Guide",
+    "paragraphs": [
+      "The Land Rover Discovery 3 406PN engine is a 4.0-litre V6 petrol, fitted to Discovery 3 models in certain markets as an alternative to the V8 and diesel options. With age and mileage, timing chain guide wear, coolant leaks, misfires and oil leaks often lead owners to seek a repair or a replacement engine.",
+      "The Land Rover 4.0 V6 engine shares its design with V6 units used in other vehicles, but the ancillaries, wiring and engine management differ. We identify the correct Discovery 3 engine by checking your VIN, the engine code and your registration before supply.",
+      "Whether you need a targeted repair, an engine rebuild or a complete Discovery 3 406PN engine replacement, our team inspects the vehicle and explains each option. Call us or send your registration for a written quote."
+    ]
+  },
+  "specialistsBanner": {
+    "eyebrow": "Discovery 3 Petrol Specialists",
+    "title": "Land Rover Discovery 3 406PN Engine Specialists",
+    "description": "Range Rover Garage repairs, rebuilds and replaces the Land Rover Discovery 3 406PN 4.0 V6 petrol at our Grays workshop, covering timing chain faults, cooling problems, misfires and complete engine swaps, with system bleeding, ECU adaptation and road testing included.",
+    "features": [
+      {
+        "icon": "gauge",
+        "title": "Timing Chain Repairs",
+        "description": "Guides, tensioners and chains renewed"
+      },
+      {
+        "icon": "badge",
+        "title": "Body-Lift Engine Work",
+        "description": "Discovery 3 removal handled"
+      }
+    ],
+    "image": "/images/workshop-8.webp",
+    "imageAlt": "Range Rover with its bonnet open and removed engine in the workshop",
+    "imageCaption": "Certified JLR Master Engineers On-Site",
+    "callLabel": "Call our Experts (01708 592377)",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Request a Quote",
+    "quoteHref": "/get-quote"
+  },
+  "header": {
+    "title": "Land Rover Discovery 3 406PN Engine Supply and Replacement",
+    "subtitle": "Supply, repair, rebuild and fitting for the Discovery 3 4.0 V6 petrol.",
+    "highlights": [
+      "Engine matched to your VIN and engine code before supply",
+      "Used, reconditioned and rebuilt 4.0 V6 engines available",
+      "Supply only, or supply and fit in Grays, Essex",
+      "Discovery 3 engines for sale with UK delivery"
+    ]
+  }
+}

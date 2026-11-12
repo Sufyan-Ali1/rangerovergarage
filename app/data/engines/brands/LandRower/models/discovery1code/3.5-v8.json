@@ -1,0 +1,475 @@
+{
+  "eyebrow": "Engineering Matrix",
+  "title": "204DTA Engine Specifications",
+  "description": "Verified engineering parameters for the 2.0L 4-cylinder AJ200D Ingenium diesel powertrain",
+  "fields": [
+    {
+      "label": "Engine Make",
+      "value": "Land Rover / Range Rover",
+      "icon": "car"
+    },
+    {
+      "label": "Engine Fuel",
+      "value": "Diesel",
+      "icon": "fuel"
+    },
+    {
+      "label": "Engine Horse Power",
+      "value": "240 PS (approx. 237 bhp)",
+      "icon": "gauge"
+    },
+    {
+      "label": "Engine Size",
+      "value": "2.0 Litres",
+      "icon": "ruler"
+    },
+    {
+      "label": "Engine Code",
+      "value": "204DTA (AJ200D)",
+      "icon": "code",
+      "highlight": true
+    },
+    {
+      "label": "Engine Layout",
+      "value": "Inline-4 (Transverse / Longitudinal)",
+      "icon": "layout"
+    },
+    {
+      "label": "Engine Actual CC",
+      "value": "1,999 cc",
+      "icon": "capacity"
+    },
+    {
+      "label": "Engine Cylinders",
+      "value": "4 Cylinders, Twin-Turbocharged",
+      "icon": "cylinders"
+    },
+    {
+      "label": "Engine Valves",
+      "value": "16 Valves (DOHC Chain Driven)",
+      "icon": "valves"
+    },
+    {
+      "label": "Engine Power KW",
+      "value": "177 kW @ 4,000 RPM",
+      "icon": "power"
+    },
+    {
+      "label": "Engine Fuel Supply",
+      "value": "Common Rail Direct Injection",
+      "icon": "supply"
+    },
+    {
+      "label": "Engine Charge",
+      "value": "Sequential Twin Turbochargers",
+      "icon": "charge"
+    }
+  ],
+  "note": "Specifications shown reflect standard factory configuration. Exact vehicle variant must be confirmed via VIN or registration.",
+  "cta": {
+    "label": "Check Engine Compatibility",
+    "href": "/get-quote"
+  },
+  "modelShowcase": {
+    "eyebrow": "Direct Engine Matches",
+    "title": "Top Land Rover Models",
+    "description": "Select your model to view compatible engine and fitting options.",
+    "badge": "100% In-Stock Options",
+    "transmissionLabel": "Transmission:",
+    "engineCodeLabel": "Engine Code:",
+    "ctaLabel": "Contact / Quote – CTA",
+    "cards": [
+      {
+        "name": "Land Rover Freelander 1",
+        "years": "1997-2006",
+        "description": "1.8L K-Series Petrol (120 PS / 160 Nm)",
+        "transmission": "5-speed manual",
+        "engineCode": "18K4F",
+        "image": "/images/models/freelander-1.webp",
+        "imageAlt": "Land Rover Freelander 1",
+        "href": "/engines/land-rover/freelander-1",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery 1",
+        "years": "1989-1994",
+        "description": "2.5L 200Tdi Turbo Diesel (113 PS / 265 Nm)",
+        "transmission": "LT77 5-speed manual",
+        "engineCode": "200TDI",
+        "image": "/images/models/discovery-1.webp",
+        "imageAlt": "Land Rover Discovery 1",
+        "href": "/engines/land-rover/discovery-1",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery Sport",
+        "years": "2014-continue",
+        "description": "2.0L Ingenium SD4 Twin-Turbo Diesel (241 PS / 500 Nm)",
+        "transmission": "9-speed automatic",
+        "engineCode": "204DTA",
+        "image": "/images/models/discovery-sport.webp",
+        "imageAlt": "Land Rover Discovery Sport",
+        "href": "/engines/land-rover/discovery-sport",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Freelander 2",
+        "years": "2006-2014",
+        "description": "2.0L Si4 Turbocharged Petrol (240 PS / 340 Nm)",
+        "transmission": "Aisin AWF21 6-speed automatic",
+        "engineCode": "204PT",
+        "image": "/images/models/freelander-2.webp",
+        "imageAlt": "Land Rover Freelander 2",
+        "href": "/engines/land-rover/freelander-2",
+        "quoteHref": "/get-quote"
+      }
+    ]
+  },
+  "engineGallery": {
+    "eyebrow": "Workshop Evidence",
+    "title": "Range Rover 204DTA Engine Gallery",
+    "description": "Workshop photography of complete assemblies, precision tooling, and vehicle installations.",
+    "images": [
+      {
+        "src": "/images/service/engine_swap/engine_swap 1.webp",
+        "alt": "Complete engine mounted on a workshop stand"
+      },
+      {
+        "src": "/images/workshop-8.webp",
+        "alt": "Range Rover with its bonnet open and removed engine in the workshop"
+      },
+      {
+        "src": "/images/service/engine_repair/engine_repair 3.webp",
+        "alt": "Exposed camshafts on an engine undergoing repairs"
+      },
+      {
+        "src": "/images/service/turbo_replacement/turbo_replacement 1.webp",
+        "alt": "Engine with turbocharger and intake components exposed in the workshop"
+      }
+    ]
+  },
+  "faq": {
+    "description": "Answers to common questions about the 3.5 Rover V8 in the Land Rover Discovery 1. If yours is not covered, our team can help.",
+    "accordionName": "engine-code-faq",
+    "faqs": [
+      {
+        "q": "How do you confirm a 3.5 V8 engine fits my Discovery 1?",
+        "a": "We check the engine number, VIN and registration, then compare the sump, mounts, ancillaries and fuel system with the replacement. Rover V8 engines from other vehicles can differ, so compatibility is confirmed before supply."
+      },
+      {
+        "q": "How do used, reconditioned and rebuilt Rover V8 engines compare?",
+        "a": "A used engine comes from a donor vehicle, a reconditioned engine is stripped and given new wear parts, and a rebuild restores your original V8. We recommend an option after assessing the fault and vehicle."
+      },
+      {
+        "q": "Can I buy a Rover V8 3.5 engine supply only?",
+        "a": "Yes. Trade buyers, independent garages, restorers and private customers can buy supply only. Alternatively, choose supply and fit and our technicians will install the engine at our Grays, Essex workshop."
+      },
+      {
+        "q": "What affects the cost of a Discovery 1 3.5 V8 engine replacement?",
+        "a": "The cost depends on the engine option, the condition of your current engine, any ancillary parts needed for the fuel or cooling system, and whether fitting is included. Send your registration or VIN for a written quote."
+      },
+      {
+        "q": "Do replacement 3.5 V8 engines come with a warranty?",
+        "a": "Warranty cover depends on the engine option and whether we carry out the installation. We confirm the exact terms in writing with your quote, so you know what is covered before work begins."
+      },
+      {
+        "q": "Do you deliver Rover V8 engines across the UK?",
+        "a": "Yes. We deliver engines throughout the United Kingdom from our Grays workshop. Delivery arrangements and costs are confirmed in your quote, and supply and fit customers can bring their Discovery to us."
+      },
+      {
+        "q": "How long does a 3.5 V8 engine replacement usually take?",
+        "a": "The timescale depends on engine availability, whether a rebuild is needed and any additional work found during inspection. We give you an estimated timeframe with your quote and keep you informed throughout."
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "The RRG Standard",
+    "title": "Why Classic V8 Owners Choose Us",
+    "description": "Discovery owners, restorers and trade buyers rely on our Land Rover knowledge and honest, practical service.",
+    "cards": [
+      {
+        "icon": "shield",
+        "title": "Land Rover Specialists",
+        "description": "Land Rover and Range Rover engines are our core work, from modern units to the classic 3.5 Rover V8."
+      },
+      {
+        "icon": "checklist",
+        "title": "Engine Number Checks",
+        "description": "We confirm the engine number, fuel system and specification before supply, so the replacement suits your Discovery 1."
+      },
+      {
+        "icon": "fitting",
+        "title": "Supply or Fitted",
+        "description": "Buy the engine for your own restoration or garage, or let our Grays technicians supply and fit it for you."
+      },
+      {
+        "icon": "message",
+        "title": "Clear Communication",
+        "description": "We explain the fault, the options and the costs in plain English, and keep you updated while your Discovery is with us."
+      }
+    ]
+  },
+  "workshopIntro": {
+    "eyebrow": "From Assessment to Installation",
+    "title": "Repair, Rebuild or Replace Your Rover V8?",
+    "description": "The fault, the engine's condition and how original you want the Discovery to remain all guide the decision. Ignition, fuelling, timing chain and oil leak faults can often be repaired individually. If the engine has overheated badly or shows heavy internal wear, a rebuild or Land Rover Discovery 1 3.5 V8 engine replacement is usually more practical.",
+    "paragraphs": [
+      "Classic aluminium V8s depend on a healthy cooling system and correct maintenance. Where relevant, we inspect the radiator, water pump, viscous fan, hoses and thermostat, check the ignition and fuelling components, and renew the oil, filters and coolant before the engine runs.",
+      "Send your registration or VIN with a short description of the symptoms. We will confirm compatibility, explain your options and quote for supply only, supply and fit at our Grays workshop, or delivery anywhere in the UK."
+    ]
+  },
+  "compatibilityFitting": {
+    "title": "Rover V8 Compatibility and Fitting",
+    "cards": [
+      {
+        "icon": "compatibility",
+        "eyebrow": "Engineering Diligence",
+        "title": "Confirming the Correct 3.5 V8 Engine",
+        "description": "Rover V8 engines were fitted to many vehicles with different sumps, ancillaries and fuel systems. We check the engine number, VIN and registration, and confirm the gearbox and transfer box configuration, before any Discovery 1 engine is supplied.",
+        "checks": [
+          "Engine number and VIN checked",
+          "Carburettor or injection specification confirmed",
+          "Sump, mounts and gearbox compared"
+        ],
+        "ctaLabel": "Check My Engine Code",
+        "ctaHref": "/get-quote"
+      },
+      {
+        "icon": "workshop",
+        "eyebrow": "Workshop Integrity",
+        "title": "Installation and Road Testing",
+        "description": "Our technicians fit each engine at our Grays workshop. After installation, the cooling system is filled and bled, the ignition timing and fuelling are set, and the Discovery is road tested before we explain the completed work.",
+        "checks": [
+          "Fitted by our own technicians",
+          "Ignition timing and fuelling set",
+          "Road tested before handover"
+        ],
+        "ctaLabel": "Get a Fitting Quote",
+        "ctaHref": "/get-quote"
+      }
+    ]
+  },
+  "engineServices": {
+    "eyebrow": "Specialist Workshop",
+    "title": "Discovery 1 V8 Engine Services",
+    "description": "Practical services for the 3.5 Rover V8, from fault finding to full engine replacement.",
+    "linkLabel": "Learn More",
+    "cards": [
+      {
+        "icon": "tools",
+        "title": "Engine Diagnostics",
+        "description": "We investigate rattles, misfires, overheating and poor running through compression tests, ignition and fuelling checks and a careful engine inspection.",
+        "href": "/services/engine-diagnostics"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Rebuild",
+        "description": "As part of our Land Rover engine rebuild service across the UK, we strip the Rover V8, measure key parts and renew worn components.",
+        "href": "/services/engine-rebuild"
+      },
+      {
+        "icon": "replacement",
+        "title": "Engine Replacement",
+        "description": "When repair is not worthwhile, we supply and fit a compatible used or reconditioned 3.5 Rover V8 engine for your Discovery 1.",
+        "href": "/services/engine-replacement"
+      },
+      {
+        "icon": "replacement",
+        "title": "Timing Chain Replacement",
+        "description": "We renew the timing chain, gears and front seals on the Rover V8, then confirm valve and ignition timing for smooth running.",
+        "href": "/services/timing-chain-replacement"
+      },
+      {
+        "icon": "replacement",
+        "title": "Head Gasket Replacement",
+        "description": "Overheating, coolant loss or white smoke can signal head gasket failure. We replace the gaskets and check both cylinder heads for flatness.",
+        "href": "/services/head-gasket-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Swap",
+        "description": "Complete V8 engine swaps with attention to mounts, sump fitment, ancillaries, wiring and fuel connections, so the replacement fits and runs correctly.",
+        "href": "/services/engine-swap"
+      },
+      {
+        "icon": "replacement",
+        "title": "Clutch Replacement",
+        "description": "On manual Discovery 1 models, we can replace a worn clutch while the engine is out, avoiding further gearbox removal later.",
+        "href": "/services/clutch-replacement"
+      },
+      {
+        "icon": "refit",
+        "title": "Major Service",
+        "description": "A thorough major service for the 3.5 V8, including oil, filters, spark plugs and checks on the ignition, fuelling and cooling components.",
+        "href": "/services/major-service"
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Priority Engineering Advice",
+    "titleBefore": "Get a Quote for Your Rover",
+    "titleHighlight": "V8",
+    "titleAfter": "",
+    "description": "Send your registration or VIN and we will confirm the right 3.5 V8 engine option for your Discovery. We are based in Grays, Essex, and supply engines across the UK.",
+    "callLabel": "Call us: 01708 592377",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Get a Quote",
+    "quoteHref": "/get-quote",
+    "highlights": [
+      {
+        "icon": "location",
+        "label": "Grays, Essex Workshop"
+      },
+      {
+        "icon": "delivery",
+        "label": "UK Nationwide Pallet Delivery"
+      },
+      {
+        "icon": "warranty",
+        "label": "12-Month Mechanical Warranty"
+      }
+    ]
+  },
+  "buyingGuide": {
+    "eyebrow": "Buyer's comparison",
+    "title": "Used, Reconditioned or Rebuilt: Choosing Your 3.5 V8 Engine",
+    "description": "We explain what each engine option includes, helping you balance cost, originality and long-term reliability for your Discovery.",
+    "subtitle": "Review our verified tiers below to find the correct fit for your Land Rover or Range Rover.",
+    "cards": [
+      {
+        "tier": "Tier 01",
+        "badge": "Tested Core",
+        "title": "Used Engine",
+        "description": "A compatible 3.5 Rover V8 from a donor vehicle, offering an affordable way to keep your Discovery 1 on the road.",
+        "features": [
+          "Compatible donor engine sourced",
+          "Engine number and condition checked",
+          "Supply only or supply and fit"
+        ],
+        "linkLabel": "Explore Used Engines",
+        "href": "/engines",
+        "highlighted": false,
+        "recommendation": ""
+      },
+      {
+        "tier": "Tier 02",
+        "badge": "12-Mo Warranty",
+        "title": "Reconditioned Engine",
+        "description": "A Land Rover Discovery 1 3.5 V8 reconditioned engine is stripped, inspected and rebuilt with new wear components before it is supplied.",
+        "features": [
+          "New wear parts fitted",
+          "Prepared ready for installation",
+          "Matched to your vehicle's specification"
+        ],
+        "linkLabel": "Explore Reconditioned",
+        "href": "/get-quote",
+        "highlighted": true,
+        "recommendation": "Most popular choice"
+      },
+      {
+        "tier": "Tier 03",
+        "badge": "Zero-Hour Spec",
+        "title": "Rebuilt Engine",
+        "description": "Your original 3.5 V8 is rebuilt at our Grays workshop, keeping the matching block and engine number with your Discovery.",
+        "features": [
+          "Original engine identity retained",
+          "Full strip-down and measurement",
+          "Parts renewed based on findings"
+        ],
+        "linkLabel": "Explore Rebuilt Engines",
+        "href": "/services/engine-rebuild",
+        "highlighted": false,
+        "recommendation": ""
+      }
+    ]
+  },
+  "engineProblems": {
+    "eyebrow": "Diagnostic Advisory",
+    "title": "Common 3.5 Rover V8 Problems",
+    "description": "The Rover V8 is an older design, so early symptoms deserve attention before wear causes wider damage.",
+    "actionLabel": "Action:",
+    "ctaLabel": "Book an Engine Diagnostic",
+    "ctaHref": "/get-quote",
+    "cards": [
+      {
+        "icon": "bell",
+        "title": "Timing Chain Stretch",
+        "description": "A rattle from the front cover, poor running or retarded ignition timing can indicate a stretched timing chain or worn gears. We check chain slack and valve timing.",
+        "action": "High-precision chain guide inspection"
+      },
+      {
+        "icon": "drop",
+        "title": "Camshaft and Follower Wear",
+        "description": "A persistent ticking or tapping, loss of power or rough running may come from worn camshaft lobes, followers or hydraulic tappets. We inspect the valve train and camshaft.",
+        "action": "Twin-turbo actuator boost analysis"
+      },
+      {
+        "icon": "power",
+        "title": "Head Gasket and Overheating",
+        "description": "Coolant loss, white smoke, overheating or oil contamination can indicate head gasket failure, often linked to cooling system faults on older engines. We pressure-test the cooling system and heads.",
+        "action": "Fuel rail and injector leak-off test"
+      },
+      {
+        "icon": "smoke",
+        "title": "Rear Main Seal Oil Leaks",
+        "description": "Oil dripping from the bellhousing area, smoke from the engine bay or falling oil levels may come from the rear crankshaft seal or gaskets. We trace the leak and inspect the seals.",
+        "action": "Turbo seal & DPF saturation check"
+      },
+      {
+        "icon": "drop",
+        "title": "Fuel and Mixture Problems",
+        "description": "Hesitation, rough idle, poor economy or hard starting can relate to carburettor, fuel injection or vacuum leak problems, depending on the engine version. We check fuelling, vacuum and mixture settings.",
+        "action": "Heat exchanger pressure test"
+      },
+      {
+        "icon": "warning",
+        "title": "Ignition and Misfire Faults",
+        "description": "Misfires, backfiring or poor starting are often caused by worn distributor parts, ignition leads, spark plugs or incorrect ignition timing. We test the ignition system and set the timing.",
+        "action": "JLR TOPIx dealer-level scan"
+      }
+    ]
+  },
+  "engineOverview": {
+    "eyebrow": "Marque Authority",
+    "title": "Land Rover Discovery 1 3.5 V8 Engine: The Complete Owner's Guide",
+    "paragraphs": [
+      "The Land Rover Discovery 1 3.5 V8 engine is the 3.5-litre aluminium Rover V8 petrol fitted to early Discovery models. Smooth and torquey, it is now a classic engine, and timing chain wear, camshaft problems, head gasket failures and oil leaks often lead owners to repair, rebuild or replace it.",
+      "The 3.5 Rover V8 was used in many vehicles and produced in carburettor and fuel-injected forms, with different ancillaries and sumps. We identify the correct Land Rover Discovery 1 engine by checking the engine number, VIN and registration before supply.",
+      "Whether you need a targeted repair, a Land Rover engine rebuild or a complete Discovery 1 3.5 V8 engine replacement, our team inspects the vehicle and explains each option. Call us or send your registration for a written quote."
+    ]
+  },
+  "specialistsBanner": {
+    "eyebrow": "Classic V8 Specialists",
+    "title": "Land Rover Discovery 1 3.5 V8 Engine Specialists",
+    "description": "Range Rover Garage repairs, rebuilds and replaces the Land Rover Discovery 1 3.5 V8 at our Grays workshop, covering timing chain wear, camshaft and head gasket problems, oil leaks and complete engine swaps, with ignition timing set and every engine road tested.",
+    "features": [
+      {
+        "icon": "gauge",
+        "title": "Rover V8 Rebuilds",
+        "description": "Classic V8s stripped and rebuilt"
+      },
+      {
+        "icon": "badge",
+        "title": "Timing Chain Kits",
+        "description": "Chain, gears and seals renewed"
+      }
+    ],
+    "image": "/images/workshop-8.webp",
+    "imageAlt": "Range Rover with its bonnet open and removed engine in the workshop",
+    "imageCaption": "Certified JLR Master Engineers On-Site",
+    "callLabel": "Call our Experts (01708 592377)",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Request a Quote",
+    "quoteHref": "/get-quote"
+  },
+  "header": {
+    "title": "Land Rover Discovery 1 3.5 V8 Engine Supply and Rebuilds",
+    "subtitle": "Supply, repair, rebuild and fitting for the Discovery 1 3.5 Rover V8 petrol.",
+    "highlights": [
+      "Engine number and specification checked before any supply",
+      "Used, reconditioned and rebuilt 3.5 Rover V8 engines",
+      "Supply only, or supply and fit in Grays, Essex",
+      "Rover V8 3.5 engines for sale with UK delivery"
+    ]
+  }
+}

@@ -1,0 +1,475 @@
+{
+  "eyebrow": "Engineering Matrix",
+  "title": "204DTA Engine Specifications",
+  "description": "Verified engineering parameters for the 2.0L 4-cylinder AJ200D Ingenium diesel powertrain",
+  "fields": [
+    {
+      "label": "Engine Make",
+      "value": "Land Rover / Range Rover",
+      "icon": "car"
+    },
+    {
+      "label": "Engine Fuel",
+      "value": "Diesel",
+      "icon": "fuel"
+    },
+    {
+      "label": "Engine Horse Power",
+      "value": "240 PS (approx. 237 bhp)",
+      "icon": "gauge"
+    },
+    {
+      "label": "Engine Size",
+      "value": "2.0 Litres",
+      "icon": "ruler"
+    },
+    {
+      "label": "Engine Code",
+      "value": "204DTA (AJ200D)",
+      "icon": "code",
+      "highlight": true
+    },
+    {
+      "label": "Engine Layout",
+      "value": "Inline-4 (Transverse / Longitudinal)",
+      "icon": "layout"
+    },
+    {
+      "label": "Engine Actual CC",
+      "value": "1,999 cc",
+      "icon": "capacity"
+    },
+    {
+      "label": "Engine Cylinders",
+      "value": "4 Cylinders, Twin-Turbocharged",
+      "icon": "cylinders"
+    },
+    {
+      "label": "Engine Valves",
+      "value": "16 Valves (DOHC Chain Driven)",
+      "icon": "valves"
+    },
+    {
+      "label": "Engine Power KW",
+      "value": "177 kW @ 4,000 RPM",
+      "icon": "power"
+    },
+    {
+      "label": "Engine Fuel Supply",
+      "value": "Common Rail Direct Injection",
+      "icon": "supply"
+    },
+    {
+      "label": "Engine Charge",
+      "value": "Sequential Twin Turbochargers",
+      "icon": "charge"
+    }
+  ],
+  "note": "Specifications shown reflect standard factory configuration. Exact vehicle variant must be confirmed via VIN or registration.",
+  "cta": {
+    "label": "Check Engine Compatibility",
+    "href": "/get-quote"
+  },
+  "modelShowcase": {
+    "eyebrow": "Direct Engine Matches",
+    "title": "Top Land Rover Models",
+    "description": "Select your model to view compatible engine and fitting options.",
+    "badge": "100% In-Stock Options",
+    "transmissionLabel": "Transmission:",
+    "engineCodeLabel": "Engine Code:",
+    "ctaLabel": "Contact / Quote – CTA",
+    "cards": [
+      {
+        "name": "Land Rover Discovery 3",
+        "years": "2004-2009",
+        "description": "4.0L V6 Naturally Aspirated Petrol (212 PS / 360 Nm)",
+        "transmission": "6-speed automatic",
+        "engineCode": "406PN",
+        "image": "/images/models/discovery-3.webp",
+        "imageAlt": "Land Rover Discovery 3",
+        "href": "/engines/land-rover/discovery-3",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Freelander 1",
+        "years": "1993-1998",
+        "description": "2.0L MPI Naturally Aspirated Petrol (98 PS / 167 Nm)",
+        "transmission": "5-speed R380 manual",
+        "engineCode": "2.0 Mpi",
+        "image": "/images/models/freelander-1.webp",
+        "imageAlt": "Land Rover Freelander 1",
+        "href": "/engines/land-rover/freelander-1",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery 4",
+        "years": "2009-continue",
+        "description": "3.0L V6 Supercharged Petrol (340 PS / 450 Nm)",
+        "transmission": "8-speed ZF automatic",
+        "engineCode": "306PS",
+        "image": "/images/models/discovery-4.webp",
+        "imageAlt": "Land Rover Discovery 4",
+        "href": "/engines/land-rover/discovery-4",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery Sport",
+        "years": "2014-continue",
+        "description": "2.0L Ingenium SD4 Twin-Turbo Diesel (241 PS / 500 Nm)",
+        "transmission": "9-speed automatic",
+        "engineCode": "204DTA",
+        "image": "/images/models/discovery-sport.webp",
+        "imageAlt": "Land Rover Discovery Sport",
+        "href": "/engines/land-rover/discovery-sport",
+        "quoteHref": "/get-quote"
+      }
+    ]
+  },
+  "engineGallery": {
+    "eyebrow": "Workshop Evidence",
+    "title": "Range Rover 204DTA Engine Gallery",
+    "description": "Workshop photography of complete assemblies, precision tooling, and vehicle installations.",
+    "images": [
+      {
+        "src": "/images/service/engine_swap/engine_swap 1.webp",
+        "alt": "Complete engine mounted on a workshop stand"
+      },
+      {
+        "src": "/images/workshop-8.webp",
+        "alt": "Range Rover with its bonnet open and removed engine in the workshop"
+      },
+      {
+        "src": "/images/service/engine_repair/engine_repair 3.webp",
+        "alt": "Exposed camshafts on an engine undergoing repairs"
+      },
+      {
+        "src": "/images/service/turbo_replacement/turbo_replacement 1.webp",
+        "alt": "Engine with turbocharger and intake components exposed in the workshop"
+      }
+    ]
+  },
+  "faq": {
+    "description": "Answers to common questions about the 18K4G K-Series engine in the Land Rover Freelander 1. If yours is not covered, our team can help.",
+    "accordionName": "engine-code-faq",
+    "faqs": [
+      {
+        "q": "Is an 18K4G engine the same as an 18K4F?",
+        "a": "They are closely related 1.8 K-Series engines, but they can differ in engine management and ancillaries. We check your engine number and VIN before recommending a compatible replacement for your Freelander."
+      },
+      {
+        "q": "How do used, reconditioned and rebuilt 18K4G engines compare?",
+        "a": "A used engine comes from a donor vehicle, a reconditioned engine is stripped and given new wear parts, and a rebuild restores your existing engine. We recommend an option after assessing the fault and vehicle."
+      },
+      {
+        "q": "Can I buy a K-Series engine for sale without fitting?",
+        "a": "Yes. Trade buyers, independent garages and private customers with their own mechanic can buy supply only. Alternatively, choose supply and fit and our technicians will install the engine at our Grays, Essex workshop."
+      },
+      {
+        "q": "What affects the cost of a Freelander 1 18K4G engine replacement?",
+        "a": "The cost depends on the engine option, the condition of your current engine, any cooling parts needed and whether fitting is included. Send your registration or VIN for a written quote tailored to your Freelander."
+      },
+      {
+        "q": "Is there a warranty on a replacement 18K4G engine?",
+        "a": "Warranty cover depends on the engine option and whether we carry out the installation. We confirm the exact terms in writing with your quote, so you know what is covered before work begins."
+      },
+      {
+        "q": "Do you deliver Freelander 1 engines across the UK?",
+        "a": "Yes. We deliver engines throughout the United Kingdom from our Grays workshop. Delivery arrangements and costs are confirmed in your quote, and supply and fit customers can bring their Freelander to us."
+      },
+      {
+        "q": "How long does an 18K4G engine replacement usually take?",
+        "a": "The timescale depends on engine availability, whether a rebuild is needed and any additional work found during inspection. We give you an estimated timeframe with your quote and keep you informed throughout."
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "The RRG Standard",
+    "title": "Why Freelander Owners Trust Us",
+    "description": "Freelander owners and trade buyers rely on our K-Series knowledge and straightforward advice.",
+    "cards": [
+      {
+        "icon": "shield",
+        "title": "Land Rover Engine Focus",
+        "description": "Land Rover and Range Rover engines are our core work, including both K-Series petrol variants used in the Freelander 1."
+      },
+      {
+        "icon": "checklist",
+        "title": "Code Matched First",
+        "description": "We confirm whether your engine is an 18K4G or another K-Series variant before supply, so the replacement suits your Freelander."
+      },
+      {
+        "icon": "fitting",
+        "title": "Supply or Fitted",
+        "description": "Order the engine for your own mechanic or project, or let our Grays technicians supply and fit it for you."
+      },
+      {
+        "icon": "message",
+        "title": "Plain-English Quotes",
+        "description": "We explain the findings, options and costs clearly, and keep you informed while your Freelander is with us."
+      }
+    ]
+  },
+  "workshopIntro": {
+    "eyebrow": "From Assessment to Installation",
+    "title": "Repair, Rebuild or Replace Your 18K4G?",
+    "description": "How far the damage has spread and the value of your Freelander guide the best route. A gasket, thermostat or cambelt fault caught early can usually be repaired. If the head is distorted, the liners have moved or the engine has overheated more than once, a rebuild or Land Rover Freelander 1 18K4G engine replacement is often more practical.",
+    "paragraphs": [
+      "A K-Series engine is only as reliable as its cooling system. Where relevant, we inspect the radiator, water pump, thermostat, hoses, expansion tank and cooling fans, check the sensors, and renew the oil, filters and coolant before the engine runs.",
+      "Send your registration or VIN with a short description of the symptoms. We will confirm compatibility, explain the options and quote for supply only, supply and fit at our Grays workshop, or delivery across the UK."
+    ]
+  },
+  "compatibilityFitting": {
+    "title": "18K4G Compatibility and Fitting",
+    "cards": [
+      {
+        "icon": "compatibility",
+        "eyebrow": "Engineering Diligence",
+        "title": "Confirming the Right K-Series Engine",
+        "description": "K-Series engines vary in code, engine management, sump and ancillaries between Freelander, Rover and MG applications. We check the engine number, VIN and registration, and confirm the gearbox and drive layout, before any engine is supplied.",
+        "checks": [
+          "Engine number and 18K4G code checked",
+          "Engine management version confirmed",
+          "Gearbox and drive layout checked"
+        ],
+        "ctaLabel": "Check My Engine Code",
+        "ctaHref": "/get-quote"
+      },
+      {
+        "icon": "workshop",
+        "eyebrow": "Workshop Integrity",
+        "title": "Installation and Road Testing",
+        "description": "Our technicians fit each engine at our Grays workshop. After installation, the cooling system is filled and bled with care, stored faults are checked, and the Freelander is road tested before we explain the completed work.",
+        "checks": [
+          "Fitted by our own technicians",
+          "Coolant bled and leaks checked",
+          "Road tested before handover"
+        ],
+        "ctaLabel": "Get a Fitting Quote",
+        "ctaHref": "/get-quote"
+      }
+    ]
+  },
+  "engineServices": {
+    "eyebrow": "Specialist Workshop",
+    "title": "Freelander 1 18K4G Engine Services",
+    "description": "Practical services for the 1.8 K-Series petrol, from diagnosis to complete replacement.",
+    "linkLabel": "Learn More",
+    "cards": [
+      {
+        "icon": "tools",
+        "title": "Engine Diagnostics",
+        "description": "We combine fault code reading, compression checks and cooling system pressure tests to identify the likely cause of overheating or poor running.",
+        "href": "/services/engine-diagnostics"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Rebuild",
+        "description": "The 18K4G is stripped and measured, with the cylinder head, liners and bottom end assessed before worn parts and gaskets are replaced.",
+        "href": "/services/engine-rebuild"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Replacement",
+        "description": "When repair is not worthwhile, we supply and fit a compatible used or reconditioned K-Series engine matched to your Freelander 1.",
+        "href": "/services/engine-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Head Gasket Replacement",
+        "description": "We replace the head gasket, check the head for distortion and renew related parts, then refill and carefully bleed the cooling system.",
+        "href": "/services/head-gasket-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Timing Belt Replacement",
+        "description": "We renew the cambelt, tensioner and related seals on the K-Series, reducing the risk of belt failure and expensive valve damage.",
+        "href": "/services/timing-belt-replacement"
+      },
+      {
+        "icon": "replacement",
+        "title": "Engine Swap",
+        "description": "Complete Freelander engine swaps with attention to mounts, sump fitment, wiring, engine management and cooling connections for correct running.",
+        "href": "/services/engine-swap"
+      },
+      {
+        "icon": "refit",
+        "title": "Gearbox Replacement",
+        "description": "If the gearbox is also worn or noisy, we can supply and fit a compatible replacement while the engine work is carried out.",
+        "href": "/services/gearbox-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Repair",
+        "description": "A detailed Engine Repair for the K-Series petrol, including oil, filters, spark plugs and checks on the cambelt and cooling system.",
+        "href": "/services/engine-repair"
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Priority Engineering Advice",
+    "titleBefore": "Ask About Your",
+    "titleHighlight": "18K4G",
+    "titleAfter": "Engine",
+    "description": "Send your registration or VIN and we will confirm the right K-Series engine option for your Freelander 1. We are based in Grays, Essex, and supply engines nationwide.",  
+    "callLabel": "Call us: 01708 592377",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Get a Quote",
+    "quoteHref": "/get-quote",
+    "highlights": [
+      {
+        "icon": "location",
+        "label": "Grays, Essex Workshop"
+      },
+      {
+        "icon": "delivery",
+        "label": "UK Nationwide Pallet Delivery"
+      },
+      {
+        "icon": "warranty",
+        "label": "12-Month Mechanical Warranty"
+      }
+    ]
+  },
+  "buyingGuide": {
+    "eyebrow": "Buyer's comparison",
+    "title": "Used, Reconditioned or Rebuilt: Choosing Your 18K4G Engine",
+    "description": "We explain clearly what each option includes, so you can balance cost, condition and the future of your Freelander.",
+    "subtitle": "Review our verified tiers below to find the correct fit for your Land Rover or Range Rover.",
+    "cards": [
+      {
+        "tier": "Tier 01",
+        "badge": "Tested Core",
+        "title": "Used Engine",
+        "description": "A compatible K-Series engine from a donor vehicle, offering a budget-friendly way to keep your Freelander 1 running.",
+        "features": [
+          "Compatible donor engine sourced",
+          "Engine number and condition checked",
+          "Supply only or supply and fit"
+        ],
+        "linkLabel": "Explore Used Engines",
+        "href": "/engines",
+        "highlighted": false,
+        "recommendation": ""
+      },
+      {
+        "tier": "Tier 02",
+        "badge": "12-Mo Warranty",
+        "title": "Reconditioned Engine",
+        "description": "A Land Rover Freelander 1 18K4G reconditioned engine is stripped, inspected and rebuilt with new wear components, including gaskets, before supply.",
+        "features": [
+          "New gasket and wear parts",
+          "Prepared ready for installation",
+          "Matched to your engine code"
+        ],
+        "linkLabel": "Explore Reconditioned",
+        "href": "/get-quote",
+        "highlighted": true,
+        "recommendation": "Most popular choice"
+      },
+      {
+        "tier": "Tier 03",
+        "badge": "Zero-Hour Spec",
+        "title": "Rebuilt Engine",
+        "description": "Your existing 18K4G is rebuilt at our Grays workshop, keeping its original block and engine number with your Freelander.",
+        "features": [
+          "Original engine identity retained",
+          "Full strip-down and measurement",
+          "Parts renewed based on findings"
+        ],
+        "linkLabel": "Explore Rebuilt Engines",
+        "href": "/services/engine-rebuild",
+        "highlighted": false,
+        "recommendation": ""
+      }
+    ]
+  },
+  "engineProblems": {
+    "eyebrow": "Diagnostic Advisory",
+    "title": "Common Freelander 18K4G Faults",
+    "description": "Most K-Series problems begin with heat, so early symptoms deserve prompt attention.",
+    "actionLabel": "Action:",
+    "ctaLabel": "Book an Engine Diagnostic",
+    "ctaHref": "/get-quote",
+    "cards": [
+      {
+        "icon": "bell",
+        "title": "Recurring Gasket Breakdown",
+        "description": "Coolant disappearing, white exhaust vapour or overheating soon after a previous repair may point to the head gasket failing again. We test for combustion gases and check the head.",
+        "action": "High-precision chain guide inspection"
+      },
+      {
+        "icon": "drop",
+        "title": "Thermostat and Radiator Faults",
+        "description": "A temperature gauge rising in traffic, a cold heater or coolant loss can come from a sticking thermostat, blocked radiator or failing fan. We test cooling performance and components.",
+        "action": "Twin-turbo actuator boost analysis"
+      },
+      {
+        "icon": "power",
+        "title": "Head Distortion After Overheating",
+        "description": "Poor compression, persistent coolant loss or gasket failures that return quickly may indicate a distorted or cracked cylinder head. We check the head for flatness and cracks.",
+        "action": "Fuel rail and injector leak-off test"
+      },
+      {
+        "icon": "smoke",
+        "title": "Liner Movement and Oil Contamination",
+        "description": "Mayonnaise-like oil, coolant traces in the sump or misfires after severe overheating can point to liner movement in the block. We measure liner height and assess the block.",
+        "action": "Turbo seal & DPF saturation check"
+      },
+      {
+        "icon": "drop",
+        "title": "Cambelt Slip or Snap",
+        "description": "An overdue cambelt, tensioner noise or oil soaking the belt can lead to slipping or sudden failure with possible valve damage. We inspect the belt, tensioner and seals.",
+        "action": "Heat exchanger pressure test"
+      },
+      {
+        "icon": "warning",
+        "title": "Engine Management Sensor Faults",
+        "description": "Rough idle, stalling, poor starting or a warning light may relate to failing sensors, such as the coolant temperature or crankshaft position sensor. We read faults and test the sensors.",
+        "action": "JLR TOPIx dealer-level scan"
+      }
+    ]
+  },
+  "engineOverview": {
+    "eyebrow": "Marque Authority",
+    "title": "Land Rover Freelander 1 18K4G Engine: Your Complete K-Series Guide",
+    "paragraphs": [
+      "The Land Rover Freelander 1 18K4G engine is a version of the 1.8-litre Rover K-Series petrol fitted to Freelander 1 models. Like other K-Series units, it is sensitive to overheating, and recurring gasket failures, head distortion, liner movement and timing belt wear often lead owners to seek repair or replacement.",
+      "The 18K4G code distinguishes this unit from the 18K4F and other K-Series engines, which can differ in engine management and ancillaries. We identify the correct Freelander engine by checking the engine number, your VIN and registration before supply.",
+      "Whether you need a gasket repair, an engine rebuild or a complete Land Rover Freelander 1 18K4G engine replacement, our team inspects the vehicle and explains each option. Call us or send your registration for a written quote."
+    ]
+  },
+  "specialistsBanner": {
+    "eyebrow": "Freelander Petrol Specialists",
+    "title": "Land Rover Freelander 1 18K4G Engine Experts",
+    "description": "Our Grays, Essex workshop repairs, rebuilds and replaces the Land Rover Freelander 1 18K4G 1.8 K-Series, covering repeat gasket failures, overheating damage, timing belt renewal and complete engine swaps, with careful coolant bleeding and a road test before handover.",
+    "features": [
+      {
+        "icon": "gauge",
+        "title": "K-Series Variant Matching",
+        "description": "18K4F and 18K4G units distinguished"
+      },
+      {
+        "icon": "badge",
+        "title": "Overheat Damage Assessment",
+        "description": "Head, liners and block checked"
+      }
+    ],
+    "image": "/images/workshop-8.webp",
+    "imageAlt": "Range Rover with its bonnet open and removed engine in the workshop",
+    "imageCaption": "Certified JLR Master Engineers On-Site",
+    "callLabel": "Call our Experts (01708 592377)",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Request a Quote",
+    "quoteHref": "/get-quote"
+  },
+  "header": {
+    "title": "Land Rover Freelander 1 18K4G Engine Rebuild and Replacement",
+    "subtitle": "Supply, repair, rebuild and fitting for the Freelander 1 18K4G K-Series petrol.",
+    "highlights": [
+      "18K4G engine number checked before any supply",
+      "Used, reconditioned and rebuilt K-Series engines available",
+      "Supply only, or supply and fit at our Grays workshop",
+      "Freelander 1 engines delivered to customers UK-wide"
+    ]
+  }
+}

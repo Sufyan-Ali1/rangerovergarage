@@ -1,0 +1,475 @@
+{
+  "eyebrow": "Engineering Matrix",
+  "title": "204DTA Engine Specifications",
+  "description": "Verified engineering parameters for the 2.0L 4-cylinder AJ200D Ingenium diesel powertrain",
+  "fields": [
+    {
+      "label": "Engine Make",
+      "value": "Land Rover / Range Rover",
+      "icon": "car"
+    },
+    {
+      "label": "Engine Fuel",
+      "value": "Diesel",
+      "icon": "fuel"
+    },
+    {
+      "label": "Engine Horse Power",
+      "value": "240 PS (approx. 237 bhp)",
+      "icon": "gauge"
+    },
+    {
+      "label": "Engine Size",
+      "value": "2.0 Litres",
+      "icon": "ruler"
+    },
+    {
+      "label": "Engine Code",
+      "value": "204DTA (AJ200D)",
+      "icon": "code",
+      "highlight": true
+    },
+    {
+      "label": "Engine Layout",
+      "value": "Inline-4 (Transverse / Longitudinal)",
+      "icon": "layout"
+    },
+    {
+      "label": "Engine Actual CC",
+      "value": "1,999 cc",
+      "icon": "capacity"
+    },
+    {
+      "label": "Engine Cylinders",
+      "value": "4 Cylinders, Twin-Turbocharged",
+      "icon": "cylinders"
+    },
+    {
+      "label": "Engine Valves",
+      "value": "16 Valves (DOHC Chain Driven)",
+      "icon": "valves"
+    },
+    {
+      "label": "Engine Power KW",
+      "value": "177 kW @ 4,000 RPM",
+      "icon": "power"
+    },
+    {
+      "label": "Engine Fuel Supply",
+      "value": "Common Rail Direct Injection",
+      "icon": "supply"
+    },
+    {
+      "label": "Engine Charge",
+      "value": "Sequential Twin Turbochargers",
+      "icon": "charge"
+    }
+  ],
+  "note": "Specifications shown reflect standard factory configuration. Exact vehicle variant must be confirmed via VIN or registration.",
+  "cta": {
+    "label": "Check Engine Compatibility",
+    "href": "/get-quote"
+  },
+  "modelShowcase": {
+    "eyebrow": "Direct Engine Matches",
+    "title": "Top Land Rover Models",
+    "description": "Select your model to view compatible engine and fitting options.",
+    "badge": "100% In-Stock Options",
+    "transmissionLabel": "Transmission:",
+    "engineCodeLabel": "Engine Code:",
+    "ctaLabel": "Contact / Quote – CTA",
+    "cards": [
+      {
+        "name": "Land Rover Freelander 2",
+        "years": "2016-continue",
+        "description": "2.0L Si4 Turbocharged Petrol (240 PS / 340 Nm)",
+        "transmission": "Aisin AWF21 6-speed automatic",
+        "engineCode": "204PT",
+        "image": "/images/models/freelander-2.webp",
+        "imageAlt": "Land Rover Freelander 2",
+        "href": "/engines/land-rover/freelander-2",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery 5",
+        "years": "2016-continue",
+        "description": "2.0L Ingenium SD4 Twin-Turbo Diesel (241 PS / 500 Nm)",
+        "transmission": "8-speed ZF automatic",
+        "engineCode": "204DTA",
+        "image": "/images/models/discovery-5.webp",
+        "imageAlt": "Land Rover Discovery 5",
+        "href": "/engines/land-rover/discovery-5",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Freelander 1",
+        "years": "1993-1998",
+        "description": "2.0L MPI Naturally Aspirated Petrol (98 PS / 167 Nm)",
+        "transmission": "5-speed R380 manual",
+        "engineCode": "2.0 Mpi",
+        "image": "/images/models/freelander-1.webp",
+        "imageAlt": "Land Rover Freelander 1",
+        "href": "/engines/land-rover/freelander-1",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery Sport",
+        "years": "2014-continue",
+        "description": "2.0L Ingenium SD4 Twin-Turbo Diesel (241 PS / 500 Nm)",
+        "transmission": "9-speed automatic",
+        "engineCode": "204DTA",
+        "image": "/images/models/discovery-sport.webp",
+        "imageAlt": "Land Rover Discovery Sport",
+        "href": "/engines/land-rover/discovery-sport",
+        "quoteHref": "/get-quote"
+      }
+    ]
+  },
+  "engineGallery": {
+    "eyebrow": "Workshop Evidence",
+    "title": "Range Rover 204DTA Engine Gallery",
+    "description": "Workshop photography of complete assemblies, precision tooling, and vehicle installations.",
+    "images": [
+      {
+        "src": "/images/service/engine_swap/engine_swap 1.webp",
+        "alt": "Complete engine mounted on a workshop stand"
+      },
+      {
+        "src": "/images/workshop-8.webp",
+        "alt": "Range Rover with its bonnet open and removed engine in the workshop"
+      },
+      {
+        "src": "/images/service/engine_repair/engine_repair 3.webp",
+        "alt": "Exposed camshafts on an engine undergoing repairs"
+      },
+      {
+        "src": "/images/service/turbo_replacement/turbo_replacement 1.webp",
+        "alt": "Engine with turbocharger and intake components exposed in the workshop"
+      }
+    ]
+  },
+  "faq": {
+    "description": "Answers to common questions about the 2.0 Mpi engine in the Land Rover Discovery 1. If yours is not covered, our team can help.",
+    "accordionName": "engine-code-faq",
+    "faqs": [
+      {
+        "q": "How do you confirm a 2.0 Mpi engine fits my Discovery 1?",
+        "a": "We check the engine number, VIN and registration, then compare the sump, mounts, ancillaries and engine management with the replacement. T16 engines from Rover cars can differ, so compatibility is confirmed before supply."
+      },
+      {
+        "q": "How do used, reconditioned and rebuilt 2.0 Mpi engines compare?",
+        "a": "A used engine comes from a donor vehicle, a reconditioned engine is stripped and given new wear parts, and a rebuild restores your existing engine. We recommend an option after assessing the fault and availability."
+      },
+      {
+        "q": "Can I buy a 2.0 Mpi engine for my own mechanic?",
+        "a": "Yes. Trade buyers, independent garages, restorers and private customers can buy supply only. Alternatively, choose supply and fit and our technicians will install the engine at our Grays, Essex workshop."
+      },
+      {
+        "q": "What affects the cost of a Discovery 1 2.0 Mpi engine replacement?",
+        "a": "The cost depends on the engine option, parts availability, the condition of your current engine, any cooling or ancillary parts needed and whether fitting is included. Send your registration or VIN for a written quote."
+      },
+      {
+        "q": "Is there a warranty on a replacement 2.0 Mpi engine?",
+        "a": "Warranty cover depends on the engine option and whether we carry out the installation. We confirm the exact terms in writing with your quote, so you know what is covered before work begins."
+      },
+      {
+        "q": "Do you deliver Land Rover engines across the UK?",
+        "a": "Yes. We deliver engines throughout the United Kingdom from our Grays workshop. Delivery arrangements and costs are confirmed in your quote, and supply and fit customers can bring their Discovery to us."
+      },
+      {
+        "q": "How long does a 2.0 Mpi engine replacement usually take?",
+        "a": "The timescale depends on engine and parts availability, whether a rebuild is needed and any additional work found during inspection. We give you an estimated timeframe with your quote and keep you informed throughout."
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "The RRG Standard",
+    "title": "Why Discovery Owners Trust Us",
+    "description": "Discovery owners, restorers and trade buyers rely on our Land Rover knowledge and straightforward advice.",
+    "cards": [
+      {
+        "icon": "shield",
+        "title": "Land Rover Specialists",
+        "description": "Land Rover and Range Rover engines are our core work, including less common units such as the Discovery 1 2.0 Mpi."
+      },
+      {
+        "icon": "checklist",
+        "title": "Correct Engine Matched",
+        "description": "We check the engine number and specification before supply, so the replacement suits your Discovery and its ancillaries."
+      },
+      {
+        "icon": "fitting",
+        "title": "Supply or Fitted",
+        "description": "Buy the engine for your own garage or project, or let our Grays technicians supply and fit it for you."
+      },
+      {
+        "icon": "message",
+        "title": "Honest Advice",
+        "description": "We explain the fault, the realistic options and the costs in plain English, and keep you updated throughout the work."
+      }
+    ]
+  },
+  "workshopIntro": {
+    "eyebrow": "From Assessment to Installation",
+    "title": "Repair, Rebuild or Replace Your 2.0 Mpi?",
+    "description": "Because the 2.0 Mpi is less common than other Discovery engines, the fault, the engine's condition and parts availability all guide the decision. Belt, ignition and sensor faults can often be repaired. If the engine has overheated badly or suffered belt failure, a rebuild or Land Rover Discovery 1 2.0 Mpi engine replacement may be more practical.",
+    "paragraphs": [
+      "Overheating is a common cause of damage on this engine. Where relevant, we inspect the radiator, water pump, thermostat, viscous fan and hoses, check the ignition and fuelling components, and renew the oil, filters and coolant before the engine runs.",
+      "Send your registration or VIN with a short description of the symptoms. We will confirm compatibility, explain your options and quote for supply only, supply and fit at our Grays workshop, or delivery across the UK."
+    ]
+  },
+  "compatibilityFitting": {
+    "title": "2.0 Mpi Compatibility and Workshop Fitting",
+    "cards": [
+      {
+        "icon": "compatibility",
+        "eyebrow": "Engineering Diligence",
+        "title": "Confirming the Correct 2.0 Mpi Engine",
+        "description": "T16-based engines were used in several Rover cars with different sumps, ancillaries and engine management. We check the engine number, VIN and registration, and confirm the gearbox and transfer box setup, before any engine is supplied for your Discovery.",
+        "checks": [
+          "Engine number and VIN checked",
+          "Sump, mounts and ancillaries compared",
+          "Gearbox and transfer box confirmed"
+        ],
+        "ctaLabel": "Check My Engine Code",
+        "ctaHref": "/get-quote"
+      },
+      {
+        "icon": "workshop",
+        "eyebrow": "Workshop Integrity",
+        "title": "Installation and Road Testing",
+        "description": "Our technicians fit each engine at our Grays workshop. After installation, the cooling system is filled and bled, the ignition and fuelling are checked, and the Discovery is road tested before we explain the work completed.",
+        "checks": [
+          "Fitted by our own technicians",
+          "Ignition and fuelling checked",
+          "Road tested before handover"
+        ],
+        "ctaLabel": "Get a Fitting Quote",
+        "ctaHref": "/get-quote"
+      }
+    ]
+  },
+  "engineServices": {
+    "eyebrow": "Specialist Workshop",
+    "title": "Discovery 1 2.0 Mpi Services",
+    "description": "Practical services for the Rover T16-based engine, from diagnosis to complete replacement.",
+    "linkLabel": "Learn More",
+    "cards": [
+      {
+        "icon": "tools",
+        "title": "Engine Diagnostics",
+        "description": "We combine fault code reading, compression tests, cooling system checks and a physical inspection to find the likely cause of the problem.",
+        "href": "/services/engine-diagnostics"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Rebuild",
+        "description": "As part of our Land Rover engine rebuild service across the UK, we strip the 2.0 Mpi, measure key parts and renew worn components.",
+        "href": "/services/engine-rebuild"
+      },
+      {
+        "icon": "replacement",
+        "title": "Engine Replacement",
+        "description": "When repair is not worthwhile, we supply and fit a compatible used or reconditioned 2.0 Mpi engine, subject to availability for your Discovery.",
+        "href": "/services/engine-replacement"
+      },
+      {
+        "icon": "replacement",
+        "title": "Timing Belt Replacement",
+        "description": "We renew the timing belt, tensioner and related components on the 2.0 Mpi, helping prevent belt failure and costly valve damage.",
+        "href": "/services/timing-belt-replacement"
+      },
+      {
+        "icon": "replacement",
+        "title": "Head Gasket Replacement",
+        "description": "Overheating, coolant loss or white smoke may signal head gasket failure. We replace the gasket and check the cylinder head for distortion.",
+        "href": "/services/head-gasket-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Swap",
+        "description": "Complete engine swaps with attention to mounts, sump fitment, wiring, engine management and fuel connections, so the replacement runs correctly.",
+        "href": "/services/engine-swap"
+      },
+      {
+        "icon": "replacement",
+        "title": "Clutch Replacement",
+        "description": "With the engine removed, we can replace a worn clutch on your Discovery 1, avoiding repeated gearbox removal later on.",
+        "href": "/services/clutch-replacement"
+      },
+      {
+        "icon": "refit",
+        "title": "Major Service",
+        "description": "A thorough major service for the 2.0 Mpi, including oil, filters, spark plugs and checks on the cooling system and timing belt.",
+        "href": "/services/major-service"
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Priority Engineering Advice",
+    "titleBefore": "Get a Quote for Your",
+    "titleHighlight": "2.0 Mpi",
+    "titleAfter": "",
+    "description": "Send your registration or VIN and we will confirm the most suitable 2.0 Mpi option for your Discovery. We are based in Grays, Essex, and supply engines across the UK.",
+    "callLabel": "Call us: 01708 592377",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Get a Quote",
+    "quoteHref": "/get-quote",
+    "highlights": [
+      {
+        "icon": "location",
+        "label": "Grays, Essex Workshop"
+      },
+      {
+        "icon": "delivery",
+        "label": "UK Nationwide Pallet Delivery"
+      },
+      {
+        "icon": "warranty",
+        "label": "12-Month Mechanical Warranty"
+      }
+    ]
+  },
+  "buyingGuide": {
+    "eyebrow": "Buyer's comparison",
+    "title": "Used, Reconditioned or Rebuilt: Your 2.0 Mpi Engine Options",
+    "description": "We explain what each option involves, so you can balance cost, availability and the long-term plans for your Discovery.",
+    "subtitle": "Review our verified tiers below to find the correct fit for your Land Rover or Range Rover.",
+    "cards": [
+      {
+        "tier": "Tier 01",
+        "badge": "Tested Core",
+        "title": "Used Engine",
+        "description": "A compatible 2.0 Mpi engine from a suitable donor vehicle, offering an affordable route back on the road where available.",
+        "features": [
+          "Compatible donor engine sourced where possible",
+          "Engine number and condition checked",
+          "Supply only or supply and fit"
+        ],
+        "linkLabel": "Explore Used Engines",
+        "href": "/engines",
+        "highlighted": false,
+        "recommendation": ""
+      },
+      {
+        "tier": "Tier 02",
+        "badge": "12-Mo Warranty",
+        "title": "Reconditioned Engine",
+        "description": "A Land Rover Discovery 1 2.0 Mpi reconditioned engine is stripped, inspected and rebuilt with new wear parts before supply.",
+        "features": [
+          "New wear components fitted",
+          "Prepared ready for installation",
+          "Matched to your vehicle's specification"
+        ],
+        "linkLabel": "Explore Reconditioned",
+        "href": "/get-quote",
+        "highlighted": true,
+        "recommendation": "Most popular choice"
+      },
+      {
+        "tier": "Tier 03",
+        "badge": "Zero-Hour Spec",
+        "title": "Rebuilt Engine",
+        "description": "Your own 2.0 Mpi engine is rebuilt at our Grays workshop, often a practical route for this less common engine.",
+        "features": [
+          "Original engine identity retained",
+          "Full strip-down and measurement",
+          "Parts renewed based on findings"
+        ],
+        "linkLabel": "Explore Rebuilt Engines",
+        "href": "/services/engine-rebuild",
+        "highlighted": false,
+        "recommendation": ""
+      }
+    ]
+  },
+  "engineProblems": {
+    "eyebrow": "Diagnostic Advisory",
+    "title": "Common Discovery 2.0 Mpi Problems",
+    "description": "The 2.0 Mpi works hard in a large 4x4, so early symptoms should be checked promptly.",
+    "actionLabel": "Action:",
+    "ctaLabel": "Book an Engine Diagnostic",
+    "ctaHref": "/get-quote",
+    "cards": [
+      {
+        "icon": "bell",
+        "title": "Timing Belt Wear",
+        "description": "An overdue belt, cracked teeth or a noisy tensioner can lead to belt failure, causing the engine to stop and possibly damaging the valves. We inspect the belt, tensioner and pulleys.",
+        "action": "High-precision chain guide inspection"
+      },
+      {
+        "icon": "drop",
+        "title": "Head Gasket Failure",
+        "description": "Coolant loss, white smoke, a creamy residue under the oil cap or overheating may indicate a failing head gasket, often after the engine has run hot. We test for combustion gases and check the head.",
+        "action": "Twin-turbo actuator boost analysis"
+      },
+      {
+        "icon": "power",
+        "title": "Overheating Under Load",
+        "description": "Rising temperature when towing or climbing hills can come from a tired radiator, a failing water pump or thermostat, or perished coolant hoses. We pressure-test the cooling system and components.",
+        "action": "Fuel rail and injector leak-off test"
+      },
+      {
+        "icon": "smoke",
+        "title": "Hydraulic Tappet Noise",
+        "description": "A ticking or clattering from the top of the engine, especially when cold, may come from worn hydraulic tappets or poor oil condition. We check oil pressure and valve train condition.",
+        "action": "Turbo seal & DPF saturation check"
+      },
+      {
+        "icon": "drop",
+        "title": "Misfires and Ignition Faults",
+        "description": "Juddering, poor starting or a lumpy idle are often caused by worn spark plugs, leads, distributor components or ignition coil problems. We test the ignition system and its components.",
+        "action": "Heat exchanger pressure test"
+      },
+      {
+        "icon": "warning",
+        "title": "Injection and Sensor Faults",
+        "description": "Hesitation, stalling, a hunting idle or high fuel consumption can relate to engine management sensors, injectors, vacuum leaks or the idle control system. We read stored faults and check the fuelling.",
+        "action": "JLR TOPIx dealer-level scan"
+      }
+    ]
+  },
+  "engineOverview": {
+    "eyebrow": "Marque Authority",
+    "title": "Land Rover Discovery 1 2.0 Mpi Engine: A Complete Owner's Guide",
+    "paragraphs": [
+      "The Land Rover Discovery 1 2.0 Mpi engine is a 2.0-litre, 16-valve four-cylinder petrol from Rover's T16 family, fitted to a relatively small number of early Discovery models. Working hard in a heavy vehicle, it can suffer timing belt wear, head gasket failure, overheating and misfires, leading owners to seek repair or replacement.",
+      "The Rover T16 engine was used in various cars with different sumps, ancillaries, mounts and engine management. We identify the correct Land Rover 2.0 Mpi engine for your Discovery by checking the engine number, VIN and registration before supply.",
+      "Whether you need a targeted repair, a Land Rover engine rebuild or a complete Discovery 1 2.0 Mpi engine replacement, our team inspects the vehicle and explains each option. Call us or send your registration for a written quote."
+    ]
+  },
+  "specialistsBanner": {
+    "eyebrow": "Discovery Petrol Specialists",
+    "title": "Land Rover Discovery 1 2.0 Mpi Engine Specialists",
+    "description": "Range Rover Garage repairs, rebuilds and replaces the Land Rover Discovery 1 2.0 Mpi at our Grays workshop, covering timing belt renewal, head gasket failures, overheating, misfires and complete engine swaps, with the cooling system bled and every fitted engine road tested.",
+    "features": [
+      {
+        "icon": "gauge",
+        "title": "Timing Belt Work",
+        "description": "Belts and tensioners renewed"
+      },
+      {
+        "icon": "badge",
+        "title": "Cylinder Head Repairs",
+        "description": "Gaskets replaced, heads checked"
+      }
+    ],
+    "image": "/images/workshop-8.webp",
+    "imageAlt": "Range Rover with its bonnet open and removed engine in the workshop",
+    "imageCaption": "Certified JLR Master Engineers On-Site",
+    "callLabel": "Call our Experts (01708 592377)",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Request a Quote",
+    "quoteHref": "/get-quote"
+  },
+  "header": {
+    "title": "Land Rover Discovery 1 2.0 Mpi Engine Supply and Rebuilds",
+    "subtitle": "Supply, repair, rebuild and fitting for the Discovery 1 2.0 Mpi petrol engine.",
+    "highlights": [
+      "Engine number and specification checked before supply",
+      "Used, reconditioned and rebuilt options for the 2.0 Mpi",
+      "Supply only, or supply and fit in Grays, Essex",
+      "Land Rover engines delivered to customers across the UK"
+    ]
+  }
+}

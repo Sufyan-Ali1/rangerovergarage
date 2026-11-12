@@ -1,0 +1,475 @@
+{
+  "eyebrow": "Engineering Matrix",
+  "title": "204DTA Engine Specifications",
+  "description": "Verified engineering parameters for the 2.0L 4-cylinder AJ200D Ingenium diesel powertrain",
+  "fields": [
+    {
+      "label": "Engine Make",
+      "value": "Land Rover / Range Rover",
+      "icon": "car"
+    },
+    {
+      "label": "Engine Fuel",
+      "value": "Diesel",
+      "icon": "fuel"
+    },
+    {
+      "label": "Engine Horse Power",
+      "value": "240 PS (approx. 237 bhp)",
+      "icon": "gauge"
+    },
+    {
+      "label": "Engine Size",
+      "value": "2.0 Litres",
+      "icon": "ruler"
+    },
+    {
+      "label": "Engine Code",
+      "value": "204DTA (AJ200D)",
+      "icon": "code",
+      "highlight": true
+    },
+    {
+      "label": "Engine Layout",
+      "value": "Inline-4 (Transverse / Longitudinal)",
+      "icon": "layout"
+    },
+    {
+      "label": "Engine Actual CC",
+      "value": "1,999 cc",
+      "icon": "capacity"
+    },
+    {
+      "label": "Engine Cylinders",
+      "value": "4 Cylinders, Twin-Turbocharged",
+      "icon": "cylinders"
+    },
+    {
+      "label": "Engine Valves",
+      "value": "16 Valves (DOHC Chain Driven)",
+      "icon": "valves"
+    },
+    {
+      "label": "Engine Power KW",
+      "value": "177 kW @ 4,000 RPM",
+      "icon": "power"
+    },
+    {
+      "label": "Engine Fuel Supply",
+      "value": "Common Rail Direct Injection",
+      "icon": "supply"
+    },
+    {
+      "label": "Engine Charge",
+      "value": "Sequential Twin Turbochargers",
+      "icon": "charge"
+    }
+  ],
+  "note": "Specifications shown reflect standard factory configuration. Exact vehicle variant must be confirmed via VIN or registration.",
+  "cta": {
+    "label": "Check Engine Compatibility",
+    "href": "/get-quote"
+  },
+  "modelShowcase": {
+    "eyebrow": "Direct Engine Matches",
+    "title": "Top Land Rover Models",
+    "description": "Select your model to view compatible engine and fitting options.",
+    "badge": "100% In-Stock Options",
+    "transmissionLabel": "Transmission:",
+    "engineCodeLabel": "Engine Code:",
+    "ctaLabel": "Contact / Quote – CTA",
+    "cards": [
+      {
+        "name": "Land Rover Discovery 2",
+        "years": "1998-2004",
+        "description": "4.0L V8 Rover Naturally Aspirated Petrol (185 PS / 340 Nm)",
+        "transmission": "ZF 4-speed automatic",
+        "engineCode": "10P",
+        "image": "/images/models/discovery-2.webp",
+        "imageAlt": "Land Rover Discovery 2",
+        "href": "/engines/land-rover/discovery-2",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Freelander 1",
+        "years": "1993-1998",
+        "description": "2.0L MPI Naturally Aspirated Petrol (98 PS / 167 Nm)",
+        "transmission": "5-speed R380 manual",
+        "engineCode": "2.0 Mpi",
+        "image": "/images/models/freelander-1.webp",
+        "imageAlt": "Land Rover Freelander 1",
+        "href": "/engines/land-rover/freelander-1",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Freelander 2",
+        "years": "2006-2014",
+        "description": "2.2L TD4 Turbocharged Diesel (150 PS / 420 Nm)",
+        "transmission": "6-speed manual",
+        "engineCode": "224DT",
+        "image": "/images/models/freelander-2.webp",
+        "imageAlt": "Land Rover Freelander 2",
+        "href": "/engines/land-rover/freelander-2",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery 5",
+        "years": "2016-continue",
+        "description": "2.0L Ingenium SD4 Twin-Turbo Diesel (241 PS / 500 Nm)",
+        "transmission": "8-speed ZF automatic",
+        "engineCode": "204DTA",
+        "image": "/images/models/discovery-5.webp",
+        "imageAlt": "Land Rover Discovery 5",
+        "href": "/engines/land-rover/discovery-5",
+        "quoteHref": "/get-quote"
+      }
+    ]
+  },
+  "engineGallery": {
+    "eyebrow": "Workshop Evidence",
+    "title": "Range Rover 204DTA Engine Gallery",
+    "description": "Workshop photography of complete assemblies, precision tooling, and vehicle installations.",
+    "images": [
+      {
+        "src": "/images/service/engine_swap/engine_swap 1.webp",
+        "alt": "Complete engine mounted on a workshop stand"
+      },
+      {
+        "src": "/images/workshop-8.webp",
+        "alt": "Range Rover with its bonnet open and removed engine in the workshop"
+      },
+      {
+        "src": "/images/service/engine_repair/engine_repair 3.webp",
+        "alt": "Exposed camshafts on an engine undergoing repairs"
+      },
+      {
+        "src": "/images/service/turbo_replacement/turbo_replacement 1.webp",
+        "alt": "Engine with turbocharger and intake components exposed in the workshop"
+      }
+    ]
+  },
+  "faq": {
+    "description": "Answers to common questions about the supercharged 3.0 V6 petrol engine in the Land Rover Discovery 4. If yours is not covered, our team can help.",
+    "accordionName": "engine-code-faq",
+    "faqs": [
+      {
+        "q": "Can a Range Rover V6 engine fit my Discovery 4?",
+        "a": "Not without careful checks. Range Rover, Velar and Jaguar versions differ in output, ancillaries and wiring, so we compare your VIN and engine code with any replacement and confirm your market specification before supply."
+      },
+      {
+        "q": "How do used, reconditioned and rebuilt 306PS engines compare?",
+        "a": "A used engine comes from a donor vehicle, a reconditioned engine is stripped and given new wear parts, and a rebuild restores your existing engine. We recommend an option after assessing the fault and vehicle."
+      },
+      {
+        "q": "Can I buy a Discovery 4 V6 petrol engine supply only?",
+        "a": "Yes. Trade buyers, independent garages and private customers with their own mechanic can buy supply only. Alternatively, choose supply and fit and our technicians will install the engine at our Grays, Essex workshop."
+      },
+      {
+        "q": "What affects the Discovery 4 engine replacement cost for a 306PS?",
+        "a": "The cost depends on the engine option, the condition of your current engine, any supercharger or cooling parts needed and the labour involved, including body lifting. Send your registration or VIN for a written quote."
+      },
+      {
+        "q": "Is there a warranty on a replacement 306PS engine?",
+        "a": "Warranty cover depends on the engine option and whether we carry out the installation. We confirm the exact terms in writing with your quote, so you know what is covered before work begins."
+      },
+      {
+        "q": "Do you deliver Land Rover V6 engines across the UK?",
+        "a": "Yes. We deliver engines throughout the United Kingdom from our Grays workshop. Delivery arrangements and costs are confirmed in your quote, and supply and fit customers can bring their Discovery to us."
+      },
+      {
+        "q": "How long does a 306PS engine replacement usually take?",
+        "a": "The timescale depends on engine availability, whether a rebuild is needed, any body-lift work and additional repairs found during inspection. We give you an estimated timeframe with your quote and keep you informed."
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "The RRG Standard",
+    "title": "Why Discovery 4 Petrol Owners Choose Us",
+    "description": "Discovery 4 owners and trade buyers rely on our supercharged V6 knowledge and clear advice.",
+    "cards": [
+      {
+        "icon": "shield",
+        "title": "Land Rover Specialists",
+        "description": "Land Rover and Range Rover engines are our core work, including the less common supercharged V6 petrol in the Discovery 4."
+      },
+      {
+        "icon": "checklist",
+        "title": "Correct V6 Matched",
+        "description": "We check your VIN and specification before supply, avoiding confusion with similar Range Rover, Velar or Jaguar V6 engines."
+      },
+      {
+        "icon": "fitting",
+        "title": "Supply or Fitted",
+        "description": "Buy the engine for your own garage to install, or let our Grays technicians supply and fit it for you."
+      },
+      {
+        "icon": "message",
+        "title": "Honest Quotations",
+        "description": "We explain the findings, options and costs in plain English, and keep you updated while your Discovery is with us."
+      }
+    ]
+  },
+  "workshopIntro": {
+    "eyebrow": "From Assessment to Installation",
+    "title": "Repair, Rebuild or Replace Your 306PS?",
+    "description": "The fault, mileage and value of your Discovery 4 decide the right route. Coil, isolator, water pump and oil leak faults can usually be repaired individually. If timing chain failure or overheating has caused internal damage, a rebuild or Land Rover Discovery 4 306PS engine replacement is usually more practical.",
+    "paragraphs": [
+      "A supercharged V6 relies on an efficient cooling system and clean oil. Where relevant, we inspect the water pump, radiator, thermostat, coolant pipes and supercharger drive, check the ignition system and gearbox, and renew the oil, filters and coolant before the engine runs.",
+      "Send your registration or VIN with a short description of the symptoms. We will confirm compatibility, explain the options and quote for supply only, supply and fit at our Grays workshop, or delivery across the UK."
+    ]
+  },
+  "compatibilityFitting": {
+    "title": "Discovery 4 306PS Fitment and Installation",
+    "cards": [
+      {
+        "icon": "compatibility",
+        "eyebrow": "Engineering Diligence",
+        "title": "Confirming the Correct 306PS Engine",
+        "description": "Supercharged 3.0 V6 engines differ in output, ancillaries and wiring between Discovery 4, Range Rover, Velar and Jaguar models. We check your VIN and engine code, and confirm the gearbox and four-wheel-drive configuration, before supply.",
+        "checks": [
+          "VIN and engine code verified",
+          "Discovery 4 specification confirmed",
+          "Gearbox and drive layout checked"
+        ],
+        "ctaLabel": "Check My Engine Code",
+        "ctaHref": "/get-quote"
+      },
+      {
+        "icon": "workshop",
+        "eyebrow": "Workshop Integrity",
+        "title": "Fitting and Road Testing",
+        "description": "Our technicians install each engine at our Grays workshop, lifting the body where access requires. Afterwards, the cooling and fuel systems are bled, the ECU is adapted using JLR diagnostic software, and the vehicle is road tested.",
+        "checks": [
+          "Fitted by our own technicians",
+          "ECU adaptation with TOPIx and Pathfinder",
+          "Road tested before handover"
+        ],
+        "ctaLabel": "Get a Fitting Quote",
+        "ctaHref": "/get-quote"
+      }
+    ]
+  },
+  "engineServices": {
+    "eyebrow": "Specialist Workshop",
+    "title": "Discovery 4 3.0 V6 Petrol Services",
+    "description": "Specialist services for the supercharged 306PS, from diagnosis to complete engine replacement.",
+    "linkLabel": "Learn More",
+    "cards": [
+      {
+        "icon": "tools",
+        "title": "Engine Diagnostics",
+        "description": "Fault codes, live data and physical checks help us identify the likely cause of rattles, misfires, overheating or warning lights.",
+        "href": "/services/engine-diagnostics"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Rebuild",
+        "description": "The 306PS is stripped, measured and rebuilt, with bearings, seals, timing components and other worn parts renewed as the inspection requires.",
+        "href": "/services/engine-rebuild"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Replacement",
+        "description": "When repair is not worthwhile, we supply and fit a compatible used or reconditioned Land Rover V6 engine matched to your Discovery 4.",
+        "href": "/services/engine-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Timing Chain Replacement",
+        "description": "We renew the timing chains, tensioners and guides on the supercharged V6, then confirm camshaft timing for smooth, quiet running.",
+        "href": "/services/timing-chain-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Head Gasket Replacement",
+        "description": "Overheating, coolant loss or white smoke can indicate head gasket failure. We replace the gaskets and check both cylinder heads carefully.",
+        "href": "/services/head-gasket-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Swap",
+        "description": "Complete Discovery 4 engine swaps, including body lifting where required, with attention to mounts, wiring, cooling circuits and ECU adaptation.",
+        "href": "/services/engine-swap"
+      },
+      {
+        "icon": "refit",
+        "title": "Gearbox Replacement",
+        "description": "Complete Discovery 4 engine swaps, including body lifting where required, with careful attention to mounts, wiring, sensors and ECU adaptation.",
+        "href": "/services/gearbox-replacement"
+      },
+      {
+        "icon": "replacement",
+        "title": "Engine Repair",
+        "description": "A detailed engine repair for the 3.0 V6 petrol, including oil, filters, spark plugs and checks on the supercharger and cooling system.",
+        "href": "/services/engine-repair"
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Priority Engineering Advice",
+    "titleBefore": "Get a Quote for Your",
+    "titleHighlight": "Discovery 4 V6",
+    "titleAfter": "",
+    "description": "Send your registration or VIN and we will confirm the right supercharged V6 option for your Discovery 4. We are based in Grays, Essex, and deliver engines UK-wide.",  
+    "callLabel": "Call us: 01708 592377",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Get a Quote",
+    "quoteHref": "/get-quote",
+    "highlights": [
+      {
+        "icon": "location",
+        "label": "Grays, Essex Workshop"
+      },
+      {
+        "icon": "delivery",
+        "label": "UK Nationwide Pallet Delivery"
+      },
+      {
+        "icon": "warranty",
+        "label": "12-Month Mechanical Warranty"
+      }
+    ]
+  },
+  "buyingGuide": {
+    "eyebrow": "Buyer's comparison",
+    "title": "Used, Reconditioned or Rebuilt: Your Discovery 4 Petrol Options",
+    "description": "We explain what each option includes, so you can choose the right balance of cost, condition and reliability.",
+    "subtitle": "Review our verified tiers below to find the correct fit for your Land Rover or Range Rover.",
+    "cards": [
+      {
+        "tier": "Tier 01",
+        "badge": "Tested Core",
+        "title": "Used Engine",
+        "description": "A compatible 306PS engine from a donor vehicle, offering a cost-effective way to get your Discovery 4 back on the road.",
+        "features": [
+          "Compatible donor engine sourced",
+          "Engine code and mileage confirmed",
+          "Supply only or supply and fit"
+        ],
+        "linkLabel": "Explore Used Engines",
+        "href": "/engines",
+        "highlighted": false,
+        "recommendation": ""
+      },
+      {
+        "tier": "Tier 02",
+        "badge": "12-Mo Warranty",
+        "title": "Reconditioned Engine",
+        "description": "A Land Rover Discovery 4 306PS reconditioned engine is stripped, inspected and rebuilt with new wear components before it is supplied.",
+        "features": [
+          "New wear parts fitted",
+          "Prepared ready for installation",
+          "Matched to your vehicle's VIN"
+        ],
+        "linkLabel": "Explore Reconditioned",
+        "href": "/get-quote",
+        "highlighted": true,
+        "recommendation": "Most popular choice"
+      },
+      {
+        "tier": "Tier 03",
+        "badge": "Zero-Hour Spec",
+        "title": "Rebuilt Engine",
+        "description": "Your own 306PS engine is rebuilt at our Grays workshop, keeping its original block and engine number with your Discovery.",
+        "features": [
+          "Original engine identity retained",
+          "Full strip-down and measurement",
+          "Parts renewed based on findings"
+        ],
+        "linkLabel": "Explore Rebuilt Engines",
+        "href": "/services/engine-rebuild",
+        "highlighted": false,
+        "recommendation": ""
+      }
+    ]
+  },
+  "engineProblems": {
+    "eyebrow": "Diagnostic Advisory",
+    "title": "Common Discovery 4 V6 Petrol Problems",
+    "description": "The supercharged V6 usually gives early warnings, and prompt checks help prevent more serious engine damage.",
+    "actionLabel": "Action:",
+    "ctaLabel": "Book an Engine Diagnostic",
+    "ctaHref": "/get-quote",
+    "cards": [
+      {
+        "icon": "bell",
+        "title": "Timing Drive Rattle on Start-Up",
+        "description": "A brief rattle after a cold start, uneven idle or camshaft correlation codes may indicate worn timing chain tensioners, guides or chains. We inspect the timing drive and camshaft timing.",
+        "action": "High-precision chain guide inspection"
+      },
+      {
+        "icon": "drop",
+        "title": "Supercharger Isolator Knock",
+        "description": "A knocking or rattling sound at idle that fades with engine speed can point to a worn supercharger isolator or drive coupling. We assess the supercharger drive components.",
+        "action": "Twin-turbo actuator boost analysis"
+      },
+      {
+        "icon": "power",
+        "title": "Water Pump and Coolant Leaks",
+        "description": "Coolant loss, a sweet smell or rising temperature may come from a failing water pump, the thermostat housing or ageing coolant pipes. We pressure-test the cooling system for leaks.",
+        "action": "Fuel rail and injector leak-off test"
+      },
+      {
+        "icon": "smoke",
+        "title": "Intake Valve Carbon Build-Up",
+        "description": "Rough idle, hesitation or misfire codes on higher-mileage engines may be linked to carbon deposits forming on the intake valves. We assess running quality and inspect intake condition.",
+        "action": "Turbo seal & DPF saturation check"
+      },
+      {
+        "icon": "drop",
+        "title": "Ignition Coil and Plug Misfires",
+        "description": "Juddering, a flashing engine light or poor acceleration are often caused by worn spark plugs or failing ignition coils. We test the ignition system cylinder by cylinder.",
+        "action": "Heat exchanger pressure test"
+      },
+      {
+        "icon": "warning",
+        "title": "Cam Cover and Front Seal Leaks",
+        "description": "Oil seeping onto hot components, burning smells or smoke may come from hardened cam cover gaskets or the front crankshaft seal. We locate the leak and inspect the seals.",
+        "action": "JLR TOPIx dealer-level scan"
+      }
+    ]
+  },
+  "engineOverview": {
+    "eyebrow": "Marque Authority",
+    "title": "Land Rover Discovery 4 306PS Engine: The Complete Supercharged V6 Guide",
+    "paragraphs": [
+      "The Land Rover Discovery 4 306PS engine is the 3.0-litre supercharged V6 petrol fitted to later Discovery 4 models in certain markets. Refined and powerful, it can develop timing chain wear, supercharger isolator noise, water pump leaks and carbon build-up, leading owners to seek repair or replacement.",
+      "This 3.0 V6 Range Rover engine also appears in Range Rover, Range Rover Sport, Velar and Jaguar models, with different outputs, ancillaries and wiring. We identify the correct Discovery 4 engine by checking your VIN, engine code and registration before supply.",
+      "Whether you need a targeted repair, an engine rebuild or a complete Land Rover Discovery 4 306PS engine replacement, our team inspects the vehicle and explains each option. Call us or send your registration for a written quote."
+    ]
+  },
+  "specialistsBanner": {
+    "eyebrow": "Discovery 4 Petrol Specialists",
+    "title": "Land Rover Discovery 4 306PS Engine Specialists",
+    "description": "From our workshop in Grays, Essex, we repair, rebuild and replace the Land Rover Discovery 4 306PS supercharged V6, covering timing chain wear, supercharger noise, coolant leaks and complete engine swaps, with system bleeding, ECU adaptation and road testing.",
+    "features": [
+      {
+        "icon": "gauge",
+        "title": "Supercharged V6 Repairs",
+        "description": "Isolators, pumps and chains renewed"
+      },
+      {
+        "icon": "badge",
+        "title": "Body-Lift Access",
+        "description": "Discovery 4 removal managed"
+      }
+    ],
+    "image": "/images/workshop-8.webp",
+    "imageAlt": "Range Rover with its bonnet open and removed engine in the workshop",
+    "imageCaption": "Certified JLR Master Engineers On-Site",
+    "callLabel": "Call our Experts (01708 592377)",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Request a Quote",
+    "quoteHref": "/get-quote"
+  },
+  "header": {
+    "title": "Land Rover Discovery 4 306PS Engine Supply and Replacement",
+    "subtitle": "Supply, repair, rebuild and fitting for the Discovery 4 3.0 supercharged V6 petrol.",
+    "highlights": [
+      "Replacement engine matched to your VIN and engine code",
+      "Used, reconditioned and rebuilt 3.0 V6 petrol engines",
+      "Supply only, or supply and fit in Grays, Essex",
+      "Land Rover V6 engines for sale with UK delivery"
+    ]
+  }
+}

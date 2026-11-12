@@ -1,0 +1,475 @@
+{
+  "eyebrow": "Engineering Matrix",
+  "title": "204DTA Engine Specifications",
+  "description": "Verified engineering parameters for the 2.0L 4-cylinder AJ200D Ingenium diesel powertrain",
+  "fields": [
+    {
+      "label": "Engine Make",
+      "value": "Land Rover / Range Rover",
+      "icon": "car"
+    },
+    {
+      "label": "Engine Fuel",
+      "value": "Diesel",
+      "icon": "fuel"
+    },
+    {
+      "label": "Engine Horse Power",
+      "value": "240 PS (approx. 237 bhp)",
+      "icon": "gauge"
+    },
+    {
+      "label": "Engine Size",
+      "value": "2.0 Litres",
+      "icon": "ruler"
+    },
+    {
+      "label": "Engine Code",
+      "value": "204DTA (AJ200D)",
+      "icon": "code",
+      "highlight": true
+    },
+    {
+      "label": "Engine Layout",
+      "value": "Inline-4 (Transverse / Longitudinal)",
+      "icon": "layout"
+    },
+    {
+      "label": "Engine Actual CC",
+      "value": "1,999 cc",
+      "icon": "capacity"
+    },
+    {
+      "label": "Engine Cylinders",
+      "value": "4 Cylinders, Twin-Turbocharged",
+      "icon": "cylinders"
+    },
+    {
+      "label": "Engine Valves",
+      "value": "16 Valves (DOHC Chain Driven)",
+      "icon": "valves"
+    },
+    {
+      "label": "Engine Power KW",
+      "value": "177 kW @ 4,000 RPM",
+      "icon": "power"
+    },
+    {
+      "label": "Engine Fuel Supply",
+      "value": "Common Rail Direct Injection",
+      "icon": "supply"
+    },
+    {
+      "label": "Engine Charge",
+      "value": "Sequential Twin Turbochargers",
+      "icon": "charge"
+    }
+  ],
+  "note": "Specifications shown reflect standard factory configuration. Exact vehicle variant must be confirmed via VIN or registration.",
+  "cta": {
+    "label": "Check Engine Compatibility",
+    "href": "/get-quote"
+  },
+  "modelShowcase": {
+    "eyebrow": "Direct Engine Matches",
+    "title": "Top Land Rover Models",
+    "description": "Select your model to view compatible engine and fitting options.",
+    "badge": "100% In-Stock Options",
+    "transmissionLabel": "Transmission:",
+    "engineCodeLabel": "Engine Code:",
+    "ctaLabel": "Contact / Quote – CTA",
+    "cards": [
+      {
+        "name": "Land Rover Freelander 1",
+        "years": "1997-2006",
+        "description": "1.8L K-Series Petrol (120 PS / 160 Nm)",
+        "transmission": "5-speed manual",
+        "engineCode": "18K4F",
+        "image": "/images/models/freelander-1.webp",
+        "imageAlt": "Land Rover Freelander 1",
+        "href": "/engines/land-rover/freelander-1",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery 1",
+        "years": "1989-1994",
+        "description": "2.5L 200Tdi Turbo Diesel (113 PS / 265 Nm)",
+        "transmission": "LT77 5-speed manual",
+        "engineCode": "200TDI",
+        "image": "/images/models/discovery-1.webp",
+        "imageAlt": "Land Rover Discovery 1",
+        "href": "/engines/land-rover/discovery-1",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery Sport",
+        "years": "2014-continue",
+        "description": "2.0L Ingenium SD4 Twin-Turbo Diesel (241 PS / 500 Nm)",
+        "transmission": "9-speed automatic",
+        "engineCode": "204DTA",
+        "image": "/images/models/discovery-sport.webp",
+        "imageAlt": "Land Rover Discovery Sport",
+        "href": "/engines/land-rover/discovery-sport",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Freelander 2",
+        "years": "2006-2014",
+        "description": "2.0L Si4 Turbocharged Petrol (240 PS / 340 Nm)",
+        "transmission": "Aisin AWF21 6-speed automatic",
+        "engineCode": "204PT",
+        "image": "/images/models/freelander-2.webp",
+        "imageAlt": "Land Rover Freelander 2",
+        "href": "/engines/land-rover/freelander-2",
+        "quoteHref": "/get-quote"
+      }
+    ]
+  },
+  "engineGallery": {
+    "eyebrow": "Workshop Evidence",
+    "title": "Range Rover 204DTA Engine Gallery",
+    "description": "Workshop photography of complete assemblies, precision tooling, and vehicle installations.",
+    "images": [
+      {
+        "src": "/images/service/engine_swap/engine_swap 1.webp",
+        "alt": "Complete engine mounted on a workshop stand"
+      },
+      {
+        "src": "/images/workshop-8.webp",
+        "alt": "Range Rover with its bonnet open and removed engine in the workshop"
+      },
+      {
+        "src": "/images/service/engine_repair/engine_repair 3.webp",
+        "alt": "Exposed camshafts on an engine undergoing repairs"
+      },
+      {
+        "src": "/images/service/turbo_replacement/turbo_replacement 1.webp",
+        "alt": "Engine with turbocharger and intake components exposed in the workshop"
+      }
+    ]
+  },
+  "faq": {
+    "description": "Answers to the questions we hear most about the 300Tdi engine in the Land Rover Discovery 1. Need more help? Contact our team.",
+    "accordionName": "engine-code-faq",
+    "faqs": [
+      {
+        "q": "How do you check a 300Tdi engine fits my Discovery 1?",
+        "a": "We check the engine number, VIN and registration, then compare the mounts, ancillaries, EGR equipment and turbo fitment with the replacement. 300Tdi engines from other Land Rover models can differ, so compatibility is confirmed first."
+      },
+      {
+        "q": "What is the difference between used, reconditioned and rebuilt 300Tdi engines?",
+        "a": "A used engine comes from a donor vehicle, a reconditioned engine is stripped and given new wear parts, and a rebuild restores your existing engine. We recommend an option after assessing the fault."
+      },
+      {
+        "q": "Can I buy a 300Tdi engine without having it fitted?",
+        "a": "Yes. Trade buyers, independent garages, restorers and private customers can buy supply only. Alternatively, choose supply and fit and our technicians will install the engine at our Grays, Essex workshop."
+      },
+      {
+        "q": "What affects the cost of a Discovery 1 300Tdi engine replacement?",
+        "a": "The cost depends on the engine option, the condition of your current engine, any ancillary parts such as a turbo or injection pump, and whether fitting is included. Send your registration or VIN for a written quote."
+      },
+      {
+        "q": "Is there a warranty on a replacement 300Tdi engine?",
+        "a": "Warranty cover depends on the engine option and whether we carry out the installation. We confirm the exact terms in writing with your quote, so you know what is covered before work starts."
+      },
+      {
+        "q": "Do you deliver 300Tdi engines across the UK?",
+        "a": "Yes. We deliver engines throughout the United Kingdom from our Grays workshop. Delivery arrangements and costs are confirmed in your quote, and supply and fit customers can bring their Discovery to us."
+      },
+      {
+        "q": "How long does a 300Tdi engine replacement usually take?",
+        "a": "The timescale depends on engine availability, whether a rebuild is needed and any additional work found during inspection. We provide an estimated timeframe with your quote and keep you informed throughout."
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "The RRG Standard",
+    "title": "Why 300Tdi Owners Choose Us",
+    "description": "Discovery owners, restorers and trade buyers rely on our Land Rover knowledge and straightforward advice.",
+    "cards": [
+      {
+        "icon": "shield",
+        "title": "Land Rover Engine Focus",
+        "description": "Land Rover and Range Rover engines are our core work, including classic Tdi diesels such as the 300Tdi."
+      },
+      {
+        "icon": "checklist",
+        "title": "Correct Engine Supplied",
+        "description": "We check the engine number and specification against your vehicle before supply, so the replacement suits your Discovery 1."
+      },
+      {
+        "icon": "fitting",
+        "title": "Fitting Options",
+        "description": "Order the engine for your own mechanic or restoration project, or let our Grays technicians supply and fit it."
+      },
+      {
+        "icon": "message",
+        "title": "Honest Quotations",
+        "description": "We explain the fault, your options and the costs clearly, and keep you informed while your Discovery is with us."
+      }
+    ]
+  },
+  "workshopIntro": {
+    "eyebrow": "From Assessment to Installation",
+    "title": "Repair, Rebuild or Replace Your 300Tdi?",
+    "description": "The fault, the engine's overall condition and your plans for the Discovery guide the decision. Timing belt work, injectors, pump seals and oil leaks are usually repairable on their own. If the belt has failed, the engine has overheated badly or wear is extensive, a rebuild or Land Rover Discovery 1 300Tdi engine replacement is often the better choice.",
+    "paragraphs": [
+      "With no DPF and largely mechanical fuel injection, the 300Tdi depends on good cooling and clean fuel. Where relevant, we inspect the radiator, viscous fan, water pump, hoses, injection pump and turbo, and renew the oil, filters and coolant before the engine runs.",
+      "Send your registration or VIN with a short description of the symptoms. We will confirm compatibility, explain your options and quote for supply only, supply and fit at our Grays workshop, or delivery anywhere in the UK."
+    ]
+  },
+  "compatibilityFitting": {
+    "title": "Compatibility Checks and 300Tdi Fitting",
+    "cards": [
+      {
+        "icon": "compatibility",
+        "eyebrow": "Engineering Diligence",
+        "title": "Matching the Correct 300Tdi Engine",
+        "description": "300Tdi engines were fitted to several Land Rover models with differences in mounts, ancillaries, EGR equipment and turbos. We check the engine number, VIN and registration, and confirm the gearbox and transfer box setup, before supplying any engine.",
+        "checks": [
+          "Engine number and VIN verified",
+          "Ancillaries and EGR fitment compared",
+          "Gearbox and transfer box checked"
+        ],
+        "ctaLabel": "Check My Engine Code",
+        "ctaHref": "/get-quote"
+      },
+      {
+        "icon": "workshop",
+        "eyebrow": "Workshop Integrity",
+        "title": "Installation and Final Checks",
+        "description": "Each engine is fitted by our technicians at our Grays workshop. After installation, the fuel system is bled, the fluids are filled and checked for leaks, and the Discovery is road tested before handover.",
+        "checks": [
+          "Installed by our own technicians",
+          "Fuel system bled and fluids checked",
+          "Road tested before handover"
+        ],
+        "ctaLabel": "Get a Fitting Quote",
+        "ctaHref": "/get-quote"
+      }
+    ]
+  },
+  "engineServices": {
+    "eyebrow": "Specialist Workshop",
+    "title": "Discovery 1 300Tdi Engine Services",
+    "description": "Specialist services for the 300Tdi, from fault finding to complete engine replacement.",
+    "linkLabel": "Learn More",
+    "cards": [
+      {
+        "icon": "tools",
+        "title": "Engine Diagnostics",
+        "description": "We investigate smoke, overheating, knocking and poor starting through compression tests, fuel system checks and a careful inspection of the engine.",
+        "href": "/services/engine-diagnostics"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Rebuild",
+        "description": "As part of our Land Rover engine rebuild service across the UK, we strip the 300Tdi, measure key parts and renew worn components.",
+        "href": "/services/engine-rebuild"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Replacement",
+        "description": "When repair is uneconomical, we supply and fit a compatible used or reconditioned 300Tdi engine matched to your Discovery 1.",
+        "href": "/services/engine-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Timing Belt Replacement",
+        "description": "We renew the 300Tdi timing belt and tensioner, check pulley alignment and inspect the timing cover to reduce the risk of belt failure.",
+        "href": "/services/timing-belt-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Head Gasket Replacement",
+        "description": "Coolant loss, overheating or white smoke can indicate head gasket failure. We replace the gasket and check the cylinder head carefully.",
+        "href": "/services/head-gasket-replacement"
+      },
+      {
+        "icon": "replacement",
+        "title": "Turbo Replacement",
+        "description": "Worn turbochargers are replaced, with checks on the oil feed, return pipe and intercooler hoses to help protect the new unit.",
+        "href": "/services/turbo-replacement"
+      },
+      {
+        "icon": "refit",
+        "title": "Clutch Replacement",
+        "description": "With the engine removed, we can replace a worn clutch on manual Discovery 1 models, avoiding repeated gearbox removal later.",
+        "href": "/services/clutch-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Swap",
+        "description": "Complete 300Tdi engine swaps with attention to mounts, ancillaries, wiring and fuel connections, so the replacement fits and runs correctly.",
+        "href": "/services/engine-swap"
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Priority Engineering Advice",
+    "titleBefore": "Request Your",
+    "titleHighlight": "300Tdi",
+    "titleAfter": "Engine Quote",
+    "description": "Share your registration or VIN and we will confirm the right 300Tdi engine option for your Discovery. We are based in Grays, Essex, and supply engines nationwide.",
+    "callLabel": "Call us: 01708 592377",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Get a Quote",
+    "quoteHref": "/get-quote",
+    "highlights": [
+      {
+        "icon": "location",
+        "label": "Grays, Essex Workshop"
+      },
+      {
+        "icon": "delivery",
+        "label": "UK Nationwide Pallet Delivery"
+      },
+      {
+        "icon": "warranty",
+        "label": "12-Month Mechanical Warranty"
+      }
+    ]
+  },
+  "buyingGuide": {
+    "eyebrow": "Buyer's comparison",
+    "title": "Used, Reconditioned or Rebuilt: Your 300Tdi Engine Options",
+    "description": "Each option suits a different budget and plan for the vehicle, and we explain exactly what is included before you decide.",
+    "subtitle": "Review our verified tiers below to find the correct fit for your Land Rover or Range Rover.",
+    "cards": [
+      {
+        "tier": "Tier 01",
+        "badge": "Tested Core",
+        "title": "Used Engine",
+        "description": "A compatible 300Tdi engine from a donor vehicle, offering a practical lower-cost route to keep your Discovery 1 running.",
+        "features": [
+          "Compatible donor engine sourced",
+          "Engine number and condition checked",
+          "Supply only or supply and fit"
+        ],
+        "linkLabel": "Explore Used Engines",
+        "href": "/engines",
+        "highlighted": false,
+        "recommendation": ""
+      },
+      {
+        "tier": "Tier 02",
+        "badge": "12-Mo Warranty",
+        "title": "Reconditioned Engine",
+        "description": "A Land Rover Discovery 1 300Tdi reconditioned engine is stripped, inspected and rebuilt with new wear components before it is supplied.",
+        "features": [
+          "New wear parts fitted",
+          "Ready for straightforward installation",
+          "Matched to your vehicle's specification"
+        ],
+        "linkLabel": "Explore Reconditioned",
+        "href": "/get-quote",
+        "highlighted": true,
+        "recommendation": "Most popular choice"
+      },
+      {
+        "tier": "Tier 03",
+        "badge": "Zero-Hour Spec",
+        "title": "Rebuilt Engine",
+        "description": "Your existing 300Tdi is rebuilt at our Grays workshop, keeping the original block and engine number with your Discovery.",
+        "features": [
+          "Original engine identity retained",
+          "Complete strip-down and measurement",
+          "Parts renewed based on findings"
+        ],
+        "linkLabel": "Explore Rebuilt Engines",
+        "href": "/services/engine-rebuild",
+        "highlighted": false,
+        "recommendation": ""
+      }
+    ]
+  },
+  "engineProblems": {
+    "eyebrow": "Diagnostic Advisory",
+    "title": "Common 300Tdi Engine Faults",
+    "description": "Older 300Tdi engines usually give warning signs, and acting early can prevent a breakdown or major repair.",
+    "actionLabel": "Action:",
+    "ctaLabel": "Book an Engine Diagnostic",
+    "ctaHref": "/get-quote",
+    "cards": [
+      {
+        "icon": "bell",
+        "title": "Timing Belt Tracking Problems",
+        "description": "The 300Tdi timing belt can wear unevenly or wander on its pulleys, sometimes damaging the timing cover and risking sudden belt failure. We inspect belt alignment, pulleys and the cover.",
+        "action": "High-precision chain guide inspection"
+      },
+      {
+        "icon": "drop",
+        "title": "Overheating and Gasket Failure",
+        "description": "Rising temperature, coolant loss or white smoke may indicate a failing head gasket, often after radiator, viscous fan or water pump problems. We pressure-test the cooling system and head.",
+        "action": "Twin-turbo actuator boost analysis"
+      },
+      {
+        "icon": "power",
+        "title": "Injection Pump Seal Leaks",
+        "description": "Diesel weeping from the injection pump, hard starting or erratic idle can result from perished seals or wear in the mechanical pump. We inspect the pump and fuel delivery.",
+        "action": "Fuel rail and injector leak-off test"
+      },
+      {
+        "icon": "smoke",
+        "title": "Turbo Oil Seal Wear",
+        "description": "Blue smoke under acceleration, oil in the intercooler hoses or loss of boost may come from worn turbocharger seals or bearings. We check turbo play and oil supply.",
+        "action": "Turbo seal & DPF saturation check"
+      },
+      {
+        "icon": "drop",
+        "title": "Smoke and Injector Faults",
+        "description": "Black smoke, knocking, poor economy or uneven running are often linked to worn injectors or incorrect fuel delivery. We test the injectors and check compression.",
+        "action": "Heat exchanger pressure test"
+      },
+      {
+        "icon": "warning",
+        "title": "Rear Crank Seal and Oil Leaks",
+        "description": "Oil collecting on the gearbox bellhousing, drips under the vehicle or a burning smell may come from a leaking rear crankshaft seal or gaskets. We locate the leak and inspect the seals.",
+        "action": "JLR TOPIx dealer-level scan"
+      }
+    ]
+  },
+  "engineOverview": {
+    "eyebrow": "Marque Authority",
+    "title": "Land Rover Discovery 1 300Tdi Engine: The Complete Owner's Guide",
+    "paragraphs": [
+      "The Land Rover Discovery 1 300Tdi engine is the revised 2.5-litre four-cylinder turbodiesel fitted to later Discovery 1 models. Popular for its reliability and simple mechanical design, it is now ageing, and timing belt problems, overheating, injection leaks and oil smoke lead many owners to seek repair or replacement.",
+      "The 300Tdi was used in several Land Rover models, with different ancillaries, turbos, EGR fitments and mounts. We identify the correct Land Rover 300Tdi engine by checking the engine number, VIN and registration before any unit is supplied.",
+      "Whether you need a targeted repair, a Land Rover engine rebuild or a complete Discovery 1 300Tdi engine replacement, our team assesses the vehicle and explains each option. Call us or send your registration for a written quote."
+    ]
+  },
+  "specialistsBanner": {
+    "eyebrow": "300Tdi Engine Workshop",
+    "title": "Land Rover Discovery 1 300Tdi Engine Experts",
+    "description": "From our workshop in Grays, Essex, we repair, rebuild and replace the Land Rover Discovery 1 300Tdi, covering timing belt problems, overheating and head gasket faults, injection pump leaks and complete engine swaps, with fuel system bleeding and a road test.",
+    "features": [
+      {
+        "icon": "gauge",
+        "title": "Timing Belt and Cover Work",
+        "description": "Belt, tensioner and cover checks"
+      },
+      {
+        "icon": "badge",
+        "title": "Mechanical Diesel Rebuilds",
+        "description": "Older engines rebuilt in Grays"
+      }
+    ],
+    "image": "/images/workshop-8.webp",
+    "imageAlt": "Range Rover with its bonnet open and removed engine in the workshop",
+    "imageCaption": "Certified JLR Master Engineers On-Site",
+    "callLabel": "Call our Experts (01708 592377)",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Request a Quote",
+    "quoteHref": "/get-quote"
+  },
+  "header": {
+    "title": "Land Rover Discovery 1 300Tdi Engine Rebuild and Replacement",
+    "subtitle": "Supply, repair, rebuilding and fitting for the Discovery 1 2.5 300Tdi diesel.",
+    "highlights": [
+      "Engine number checked against your vehicle before supply",
+      "Used, reconditioned and rebuilt 300Tdi engines available",
+      "Supply only, or professional fitting in Grays, Essex",
+      "300Tdi engines for sale with delivery across the UK"
+    ]
+  }
+}

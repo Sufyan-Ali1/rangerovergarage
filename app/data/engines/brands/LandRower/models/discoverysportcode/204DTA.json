@@ -1,3 +1,475 @@
 {
-  "template": "204DTA"
+  "eyebrow": "Engineering Matrix",
+  "title": "204DTA Engine Specifications",
+  "description": "Verified engineering parameters for the 2.0L 4-cylinder AJ200D Ingenium diesel powertrain",
+  "fields": [
+    {
+      "label": "Engine Make",
+      "value": "Land Rover / Range Rover",
+      "icon": "car"
+    },
+    {
+      "label": "Engine Fuel",
+      "value": "Diesel",
+      "icon": "fuel"
+    },
+    {
+      "label": "Engine Horse Power",
+      "value": "240 PS (approx. 237 bhp)",
+      "icon": "gauge"
+    },
+    {
+      "label": "Engine Size",
+      "value": "2.0 Litres",
+      "icon": "ruler"
+    },
+    {
+      "label": "Engine Code",
+      "value": "204DTA (AJ200D)",
+      "icon": "code",
+      "highlight": true
+    },
+    {
+      "label": "Engine Layout",
+      "value": "Inline-4 (Transverse / Longitudinal)",
+      "icon": "layout"
+    },
+    {
+      "label": "Engine Actual CC",
+      "value": "1,999 cc",
+      "icon": "capacity"
+    },
+    {
+      "label": "Engine Cylinders",
+      "value": "4 Cylinders, Twin-Turbocharged",
+      "icon": "cylinders"
+    },
+    {
+      "label": "Engine Valves",
+      "value": "16 Valves (DOHC Chain Driven)",
+      "icon": "valves"
+    },
+    {
+      "label": "Engine Power KW",
+      "value": "177 kW @ 4,000 RPM",
+      "icon": "power"
+    },
+    {
+      "label": "Engine Fuel Supply",
+      "value": "Common Rail Direct Injection",
+      "icon": "supply"
+    },
+    {
+      "label": "Engine Charge",
+      "value": "Sequential Twin Turbochargers",
+      "icon": "charge"
+    }
+  ],
+  "note": "Specifications shown reflect standard factory configuration. Exact vehicle variant must be confirmed via VIN or registration.",
+  "cta": {
+    "label": "Check Engine Compatibility",
+    "href": "/get-quote"
+  },
+  "modelShowcase": {
+    "eyebrow": "Direct Engine Matches",
+    "title": "Top Land Rover Models",
+    "description": "Select your model to view compatible engine and fitting options.",
+    "badge": "100% In-Stock Options",
+    "transmissionLabel": "Transmission:",
+    "engineCodeLabel": "Engine Code:",
+    "ctaLabel": "Contact / Quote – CTA",
+    "cards": [
+      {
+        "name": "Land Rover Discovery 2",
+        "years": "1998-2004",
+        "description": "4.0L V8 Rover Naturally Aspirated Petrol (185 PS / 340 Nm)",
+        "transmission": "ZF 4-speed automatic",
+        "engineCode": "10P",
+        "image": "/images/models/discovery-2.webp",
+        "imageAlt": "Land Rover Discovery 2",
+        "href": "/engines/land-rover/discovery-2",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Freelander 1",
+        "years": "1993-1998",
+        "description": "2.0L MPI Naturally Aspirated Petrol (98 PS / 167 Nm)",
+        "transmission": "5-speed R380 manual",
+        "engineCode": "2.0 Mpi",
+        "image": "/images/models/freelander-1.webp",
+        "imageAlt": "Land Rover Freelander 1",
+        "href": "/engines/land-rover/freelander-1",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Freelander 2",
+        "years": "2006-2014",
+        "description": "2.2L TD4 Turbocharged Diesel (150 PS / 420 Nm)",
+        "transmission": "6-speed manual",
+        "engineCode": "224DT",
+        "image": "/images/models/freelander-2.webp",
+        "imageAlt": "Land Rover Freelander 2",
+        "href": "/engines/land-rover/freelander-2",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery 5",
+        "years": "2016-continue",
+        "description": "2.0L Ingenium SD4 Twin-Turbo Diesel (241 PS / 500 Nm)",
+        "transmission": "8-speed ZF automatic",
+        "engineCode": "204DTA",
+        "image": "/images/models/discovery-5.webp",
+        "imageAlt": "Land Rover Discovery 5",
+        "href": "/engines/land-rover/discovery-5",
+        "quoteHref": "/get-quote"
+      }
+    ]
+  },
+  "engineGallery": {
+    "eyebrow": "Workshop Evidence",
+    "title": "Range Rover 204DTA Engine Gallery",
+    "description": "Workshop photography of complete assemblies, precision tooling, and vehicle installations.",
+    "images": [
+      {
+        "src": "/images/service/engine_swap/engine_swap 1.webp",
+        "alt": "Complete engine mounted on a workshop stand"
+      },
+      {
+        "src": "/images/workshop-8.webp",
+        "alt": "Range Rover with its bonnet open and removed engine in the workshop"
+      },
+      {
+        "src": "/images/service/engine_repair/engine_repair 3.webp",
+        "alt": "Exposed camshafts on an engine undergoing repairs"
+      },
+      {
+        "src": "/images/service/turbo_replacement/turbo_replacement 1.webp",
+        "alt": "Engine with turbocharger and intake components exposed in the workshop"
+      }
+    ]
+  },
+  "faq": {
+    "description": "Answers to common questions about the 2.0 Ingenium diesel in the Land Rover Discovery Sport. If yours is not covered, our team can help.",
+    "accordionName": "engine-code-faq",
+    "faqs": [
+      {
+        "q": "Can an Evoque Ingenium engine fit my Discovery Sport?",
+        "a": "Sometimes, but only after checks. Both use transverse installations, yet outputs, ancillaries, emissions equipment and calibration can differ, so we compare your VIN and engine code with any replacement before supply."
+      },
+      {
+        "q": "How do used, reconditioned and rebuilt Ingenium engines compare?",
+        "a": "A used engine comes from a donor vehicle, a reconditioned engine is stripped and given new wear parts, and a rebuild restores your existing engine. We recommend an option after assessing the fault and vehicle."
+      },
+      {
+        "q": "Can I buy a Discovery Sport 2.0 diesel engine supply only?",
+        "a": "Yes. Trade buyers, independent garages and private customers with their own mechanic can buy supply only. Alternatively, choose supply and fit and our technicians will install the engine at our Grays, Essex workshop."
+      },
+      {
+        "q": "What affects the cost of a Discovery Sport 204DTA engine replacement?",
+        "a": "The cost depends on the engine option, the condition of your current engine, any parts needed such as a DPF, turbo or clutch, and whether fitting is included. Send your registration or VIN for a quote."
+      },
+      {
+        "q": "Is there a warranty on a replacement 204DTA engine?",
+        "a": "Warranty cover depends on the engine option and whether we carry out the installation. We confirm the exact terms in writing with your quote, so you know what is covered before work begins."
+      },
+      {
+        "q": "Do you deliver Discovery Sport engines across the UK?",
+        "a": "Yes. We deliver engines throughout the United Kingdom from our Grays workshop. Delivery arrangements and costs are confirmed in your quote, and supply and fit customers can bring their vehicle to us."
+      },
+      {
+        "q": "How long does a Discovery Sport engine replacement usually take?",
+        "a": "The timescale depends on engine availability, whether a rebuild is needed and any additional work found during inspection. We give you an estimated timeframe with your quote and keep you informed throughout."
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "The RRG Standard",
+    "title": "Why Discovery Sport Owners Choose Us",
+    "description": "Discovery Sport owners and trade buyers rely on our Ingenium knowledge and honest, practical advice.",
+    "cards": [
+      {
+        "icon": "shield",
+        "title": "Land Rover Specialists",
+        "description": "Land Rover and Range Rover engines are our core work, including the 2.0 Ingenium diesel in the Discovery Sport."
+      },
+      {
+        "icon": "checklist",
+        "title": "Version Matched",
+        "description": "We confirm the output, emissions specification and drive layout before supply, so the replacement engine suits your Discovery Sport."
+      },
+      {
+        "icon": "fitting",
+        "title": "Supply or Fitted",
+        "description": "Order the engine for your own garage to install, or let our Grays technicians supply and fit it for you."
+      },
+      {
+        "icon": "message",
+        "title": "Clear Quotations",
+        "description": "We explain the findings, options and costs in plain English, and keep you updated while your vehicle is with us."
+      }
+    ]
+  },
+  "workshopIntro": {
+    "eyebrow": "From Assessment to Installation",
+    "title": "Repair, Rebuild or Replace Your 204DTA?",
+    "description": "The fault, mileage and value of your Discovery Sport decide the best approach. DPF, EGR, AdBlue and turbo faults can often be repaired on their own. If chain failure has damaged the valves or oil dilution has worn the bearings, a rebuild or Land Rover Discovery Sport 204DTA engine replacement is usually more practical.",
+    "paragraphs": [
+      "A replacement engine needs healthy supporting systems to last. Where relevant, we inspect the DPF, EGR valve and cooler, turbo, intercooler, AdBlue components and cooling system, and renew the oil, filters and coolant before the engine runs.",
+      "Send your registration or VIN with a short description of the symptoms. We will confirm compatibility, explain the options and quote for supply only, supply and fit at our Grays workshop, or delivery across the UK."
+    ]
+  },
+  "compatibilityFitting": {
+    "title": "Discovery Sport 204DTA Fitment and Installation",
+    "cards": [
+      {
+        "icon": "compatibility",
+        "eyebrow": "Engineering Diligence",
+        "title": "Confirming the Correct 204DTA Engine",
+        "description": "Ingenium diesel engines vary in output, turbo layout, emissions equipment and installation between models. We check your VIN and engine code, and confirm whether your Discovery Sport is manual or automatic, front-wheel drive or all-wheel drive, before supply.",
+        "checks": [
+          "VIN and engine code verified",
+          "TD4, SD4 or eD4 version confirmed",
+          "Gearbox and drive layout checked"
+        ],
+        "ctaLabel": "Check My Engine Code",
+        "ctaHref": "/get-quote"
+      },
+      {
+        "icon": "workshop",
+        "eyebrow": "Workshop Integrity",
+        "title": "Fitting and Road Testing",
+        "description": "Our technicians install each engine at our Grays workshop. After fitting, the fuel and cooling systems are bled, the ECU is adapted using JLR diagnostic software, and the vehicle is road tested before handover.",
+        "checks": [
+          "Fitted by our own technicians",
+          "ECU adaptation with TOPIx and Pathfinder",
+          "Road tested before handover"
+        ],
+        "ctaLabel": "Get a Fitting Quote",
+        "ctaHref": "/get-quote"
+      }
+    ]
+  },
+  "engineServices": {
+    "eyebrow": "Specialist Workshop",
+    "title": "Discovery Sport 2.0 Diesel Services",
+    "description": "Specialist services for the 204DTA Ingenium diesel, from diagnosis to full engine replacement.",
+    "linkLabel": "Learn More",
+    "cards": [
+      {
+        "icon": "tools",
+        "title": "Engine Diagnostics",
+        "description": "We use JLR diagnostic software, live data and physical checks to identify the likely cause of rattles, warning lights or lost power.",
+        "href": "/services/engine-diagnostics"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Rebuild",
+        "description": "The Ingenium diesel is stripped and measured, then rebuilt with new timing parts, bearings, seals and other components wherever wear is found.",
+        "href": "/services/engine-rebuild"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Replacement",
+        "description": "When repair is not worthwhile, we supply and fit a compatible used or reconditioned 2.0 Ingenium engine matched to your Discovery Sport.",
+        "href": "/services/engine-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Timing Chain Replacement",
+        "description": "We renew the rear-mounted timing chain, tensioner and guides on the 204DTA, which usually requires removing the engine for access.",
+        "href": "/services/timing-chain-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Turbo Replacement",
+        "description": "Worn or faulty turbochargers are replaced, with checks on the actuator, oil feed and intake pipework to help protect the new unit.",
+        "href": "/services/turbo-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "DPF Replacement",
+        "description": "If the particulate filter cannot be recovered, we replace the DPF and investigate why regeneration failed to help prevent a repeat.",
+        "href": "/services/dpf-replacement"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Swap",
+        "description": "Complete Discovery Sport engine swaps with careful attention to mounts, wiring, sensors, emissions components and ECU adaptation for correct operation.",
+        "href": "/services/engine-swap"
+      },
+      {
+        "icon": "replacement",
+        "title": "Clutch Replacement",
+        "description": "On manual Discovery Sport models, we can replace a worn clutch while the engine is out, avoiding repeated labour later.",
+        "href": "/services/clutch-replacement"
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Priority Engineering Advice",
+    "titleBefore": "Get a Quote for Your",
+    "titleHighlight": "Discovery Sport",
+    "titleAfter": "",
+    "description": "Send your registration or VIN and we will confirm the right 2.0 Ingenium engine option for your Discovery Sport. We are based in Grays, Essex, and supply engines UK-wide.",  
+    "callLabel": "Call us: 01708 592377",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Get a Quote",
+    "quoteHref": "/get-quote",
+    "highlights": [
+      {
+        "icon": "location",
+        "label": "Grays, Essex Workshop"
+      },
+      {
+        "icon": "delivery",
+        "label": "UK Nationwide Pallet Delivery"
+      },
+      {
+        "icon": "warranty",
+        "label": "12-Month Mechanical Warranty"
+      }
+    ]
+  },
+  "buyingGuide": {
+    "eyebrow": "Buyer's comparison",
+    "title": "Used, Reconditioned or Rebuilt: Your Discovery Sport Engine Options",
+    "description": "We explain what each option includes, so you can balance cost, condition and reliability for your Discovery Sport.",
+    "subtitle": "Review our verified tiers below to find the correct fit for your Land Rover or Range Rover.",
+    "cards": [
+      {
+        "tier": "Tier 01",
+        "badge": "Tested Core",
+        "title": "Used Engine",
+        "description": "A compatible 204DTA engine from a donor vehicle, offering a lower-cost way to get your Discovery Sport back on the road.",
+        "features": [
+          "Compatible donor engine sourced",
+          "Engine code and mileage confirmed",
+          "Supply only or supply and fit"
+        ],
+        "linkLabel": "Explore Used Engines",
+        "href": "/engines",
+        "highlighted": false,
+        "recommendation": ""
+      },
+      {
+        "tier": "Tier 02",
+        "badge": "12-Mo Warranty",
+        "title": "Reconditioned Engine",
+        "description": "A Land Rover Discovery Sport 204DTA reconditioned engine is stripped, inspected and rebuilt with new wear components, including timing parts, before supply.",
+        "features": [
+          "New timing and wear parts",
+          "Prepared ready for installation",
+          "Matched to your vehicle's VIN"
+        ],
+        "linkLabel": "Explore Reconditioned",
+        "href": "/get-quote",
+        "highlighted": true,
+        "recommendation": "Most popular choice"
+      },
+      {
+        "tier": "Tier 03",
+        "badge": "Zero-Hour Spec",
+        "title": "Rebuilt Engine",
+        "description": "Your existing 204DTA engine is rebuilt at our Grays workshop, keeping its original block and engine number with your vehicle.",
+        "features": [
+          "Original engine identity retained",
+          "Full strip-down and measurement",
+          "Parts renewed based on findings"
+        ],
+        "linkLabel": "Explore Rebuilt Engines",
+        "href": "/services/engine-rebuild",
+        "highlighted": false,
+        "recommendation": ""
+      }
+    ]
+  },
+  "engineProblems": {
+    "eyebrow": "Diagnostic Advisory",
+    "title": "Common Discovery Sport Ingenium Faults",
+    "description": "The 2.0 Ingenium diesel often shows warning signs early, so prompt checks can prevent major engine damage.",
+    "actionLabel": "Action:",
+    "ctaLabel": "Book an Engine Diagnostic",
+    "ctaHref": "/get-quote",
+    "cards": [
+      {
+        "icon": "bell",
+        "title": "Timing Chain Elongation",
+        "description": "A rattle when starting, camshaft correlation codes or rough running may indicate an elongated timing chain or worn tensioner at the rear of the engine. We measure chain stretch and check timing.",
+        "action": "High-precision chain guide inspection"
+      },
+      {
+        "icon": "drop",
+        "title": "Oil Level Rising Between Services",
+        "description": "An oil level that climbs between services may indicate diesel entering the sump during repeated or interrupted DPF regeneration attempts. We check oil condition and regeneration history.",
+        "action": "Twin-turbo actuator boost analysis"
+      },
+      {
+        "icon": "power",
+        "title": "DPF Regeneration Struggles",
+        "description": "DPF warning lights, reduced power or frequent fan running after shutdown may follow short journeys or sensor faults that stop the filter clearing. We read soot data and assess the DPF.",
+        "action": "Fuel rail and injector leak-off test"
+      },
+      {
+        "icon": "smoke",
+        "title": "EGR Valve Carbon Clogging",
+        "description": "Hesitation, rough idle, smoke or EGR fault codes can be caused by carbon build-up in the EGR valve or a leaking EGR cooler. We test EGR operation and inspect the cooler.",
+        "action": "Turbo seal & DPF saturation check"
+      },
+      {
+        "icon": "drop",
+        "title": "Turbo Boost Pressure Faults",
+        "description": "Limp mode, flat spots or boost-related fault codes may come from turbocharger wear, a sticking actuator or split intake and intercooler hoses. We test boost control and turbo condition.",
+        "action": "Heat exchanger pressure test"
+      },
+      {
+        "icon": "warning",
+        "title": "SCR and AdBlue Faults",
+        "description": "On later models, AdBlue warnings, emissions faults or a restart countdown may come from a failing NOx sensor, heater, pump or AdBlue injector. We read fault codes and test the system.",
+        "action": "JLR TOPIx dealer-level scan"
+      }
+    ]
+  },
+  "engineOverview": {
+    "eyebrow": "Marque Authority",
+    "title": "Land Rover Discovery Sport 204DTA Engine: Your Complete Ingenium Guide",
+    "paragraphs": [
+      "The Land Rover Discovery Sport 204DTA engine is the 2.0-litre four-cylinder Ingenium diesel used in TD4, SD4 and eD4 versions of the Discovery Sport. Popular for its economy, it is now reaching higher mileages, and timing chain stretch, oil dilution, DPF and EGR problems often lead owners to seek repair or replacement.",
+      "The Discovery Sport Ingenium engine is mounted transversely, and outputs, turbo arrangements and emissions equipment vary between versions and model years. We identify the correct Discovery Sport 2.0 diesel engine by checking your VIN, engine code and registration.",
+      "Whether you need a targeted repair, an engine rebuild or a complete Land Rover Discovery Sport 204DTA engine replacement, our team assesses the vehicle and explains each option. Call us or send your registration for a written quote."
+    ]
+  },
+  "specialistsBanner": {
+    "eyebrow": "Discovery Sport Specialists",
+    "title": "Land Rover Discovery Sport 204DTA Engine Experts",
+    "description": "Range Rover Garage repairs, rebuilds and replaces the Land Rover Discovery Sport 204DTA 2.0 Ingenium diesel at our Grays workshop, covering timing chain stretch, oil dilution, DPF and turbo faults and complete engine swaps, with system bleeding, ECU adaptation and road testing.",
+    "features": [
+      {
+        "icon": "gauge",
+        "title": "Transverse Ingenium Swaps",
+        "description": "Front-wheel and AWD layouts handled"
+      },
+      {
+        "icon": "badge",
+        "title": "JLR Diagnostic Software",
+        "description": "TOPIx and Pathfinder coding"
+      }
+    ],
+    "image": "/images/workshop-8.webp",
+    "imageAlt": "Range Rover with its bonnet open and removed engine in the workshop",
+    "imageCaption": "Certified JLR Master Engineers On-Site",
+    "callLabel": "Call our Experts (01708 592377)",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Request a Quote",
+    "quoteHref": "/get-quote"
+  },
+  "header": {
+    "title": "Land Rover Discovery Sport 204DTA Engine Supply and Rebuilds",
+    "subtitle": "Supply, repair, rebuild and fitting for the Discovery Sport 2.0 Ingenium diesel.",
+    "highlights": [
+      "Replacement engine matched to your VIN and engine code",
+      "Used, reconditioned and rebuilt 204DTA engines available",
+      "Supply only, or supply and fit in Grays, Essex",
+      "Discovery Sport engines delivered to customers across the UK"
+    ]
+  }
 }

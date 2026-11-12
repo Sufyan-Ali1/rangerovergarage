@@ -1,0 +1,475 @@
+{
+  "eyebrow": "Engineering Matrix",
+  "title": "204DTA Engine Specifications",
+  "description": "Verified engineering parameters for the 2.0L 4-cylinder AJ200D Ingenium diesel powertrain",
+  "fields": [
+    {
+      "label": "Engine Make",
+      "value": "Land Rover / Range Rover",
+      "icon": "car"
+    },
+    {
+      "label": "Engine Fuel",
+      "value": "Diesel",
+      "icon": "fuel"
+    },
+    {
+      "label": "Engine Horse Power",
+      "value": "240 PS (approx. 237 bhp)",
+      "icon": "gauge"
+    },
+    {
+      "label": "Engine Size",
+      "value": "2.0 Litres",
+      "icon": "ruler"
+    },
+    {
+      "label": "Engine Code",
+      "value": "204DTA (AJ200D)",
+      "icon": "code",
+      "highlight": true
+    },
+    {
+      "label": "Engine Layout",
+      "value": "Inline-4 (Transverse / Longitudinal)",
+      "icon": "layout"
+    },
+    {
+      "label": "Engine Actual CC",
+      "value": "1,999 cc",
+      "icon": "capacity"
+    },
+    {
+      "label": "Engine Cylinders",
+      "value": "4 Cylinders, Twin-Turbocharged",
+      "icon": "cylinders"
+    },
+    {
+      "label": "Engine Valves",
+      "value": "16 Valves (DOHC Chain Driven)",
+      "icon": "valves"
+    },
+    {
+      "label": "Engine Power KW",
+      "value": "177 kW @ 4,000 RPM",
+      "icon": "power"
+    },
+    {
+      "label": "Engine Fuel Supply",
+      "value": "Common Rail Direct Injection",
+      "icon": "supply"
+    },
+    {
+      "label": "Engine Charge",
+      "value": "Sequential Twin Turbochargers",
+      "icon": "charge"
+    }
+  ],
+  "note": "Specifications shown reflect standard factory configuration. Exact vehicle variant must be confirmed via VIN or registration.",
+  "cta": {
+    "label": "Check Engine Compatibility",
+    "href": "/get-quote"
+  },
+  "modelShowcase": {
+    "eyebrow": "Direct Engine Matches",
+    "title": "Top Land Rover Models",
+    "description": "Select your model to view compatible engine and fitting options.",
+    "badge": "100% In-Stock Options",
+    "transmissionLabel": "Transmission:",
+    "engineCodeLabel": "Engine Code:",
+    "ctaLabel": "Contact / Quote – CTA",
+    "cards": [
+      {
+        "name": "Land Rover Freelander 1",
+        "years": "1997-2006",
+        "description": "1.8L K-Series Petrol (120 PS / 160 Nm)",
+        "transmission": "5-speed manual",
+        "engineCode": "18K4F",
+        "image": "/images/models/freelander-1.webp",
+        "imageAlt": "Land Rover Freelander 1",
+        "href": "/engines/land-rover/freelander-1",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery 1",
+        "years": "1989-1994",
+        "description": "2.5L 200Tdi Turbo Diesel (113 PS / 265 Nm)",
+        "transmission": "LT77 5-speed manual",
+        "engineCode": "200TDI",
+        "image": "/images/models/discovery-1.webp",
+        "imageAlt": "Land Rover Discovery 1",
+        "href": "/engines/land-rover/discovery-1",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery Sport",
+        "years": "2014-continue",
+        "description": "2.0L Ingenium SD4 Twin-Turbo Diesel (241 PS / 500 Nm)",
+        "transmission": "9-speed automatic",
+        "engineCode": "204DTA",
+        "image": "/images/models/discovery-sport.webp",
+        "imageAlt": "Land Rover Discovery Sport",
+        "href": "/engines/land-rover/discovery-sport",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Freelander 2",
+        "years": "2006-2014",
+        "description": "2.0L Si4 Turbocharged Petrol (240 PS / 340 Nm)",
+        "transmission": "Aisin AWF21 6-speed automatic",
+        "engineCode": "204PT",
+        "image": "/images/models/freelander-2.webp",
+        "imageAlt": "Land Rover Freelander 2",
+        "href": "/engines/land-rover/freelander-2",
+        "quoteHref": "/get-quote"
+      }
+    ]
+  },
+  "engineGallery": {
+    "eyebrow": "Workshop Evidence",
+    "title": "Range Rover 204DTA Engine Gallery",
+    "description": "Workshop photography of complete assemblies, precision tooling, and vehicle installations.",
+    "images": [
+      {
+        "src": "/images/service/engine_swap/engine_swap 1.webp",
+        "alt": "Complete engine mounted on a workshop stand"
+      },
+      {
+        "src": "/images/workshop-8.webp",
+        "alt": "Range Rover with its bonnet open and removed engine in the workshop"
+      },
+      {
+        "src": "/images/service/engine_repair/engine_repair 3.webp",
+        "alt": "Exposed camshafts on an engine undergoing repairs"
+      },
+      {
+        "src": "/images/service/turbo_replacement/turbo_replacement 1.webp",
+        "alt": "Engine with turbocharger and intake components exposed in the workshop"
+      }
+    ]
+  },
+  "faq": {
+    "description": "Answers to common questions about the 2.7 TDV6 engine in the Land Rover Discovery 3. If yours is not covered, our team can help.",
+    "accordionName": "engine-code-faq",
+    "faqs": [
+      {
+        "q": "How do you confirm a 276DT engine fits my Discovery 3?",
+        "a": "We check your VIN or registration against the engine code, model year, emissions equipment and gearbox. TDV6 engines from the Range Rover Sport can differ in ancillaries and wiring, so compatibility is confirmed before supply."
+      },
+      {
+        "q": "How do used, reconditioned and rebuilt TDV6 engines compare?",
+        "a": "A used engine comes from a donor vehicle, a reconditioned engine is stripped and given new wear parts, and a rebuild restores your existing engine. We recommend an option after assessing the fault and vehicle."
+      },
+      {
+        "q": "Can I buy a Discovery 3 TDV6 engine supply only?",
+        "a": "Yes. Trade buyers, independent garages and private customers with their own mechanic can buy supply only. Alternatively, choose supply and fit and our technicians will install the engine at our Grays, Essex workshop."
+      },
+      {
+        "q": "What affects the cost of a Discovery 3 276DT engine replacement?",
+        "a": "The cost depends on the engine option, the condition of your current engine, any parts needed such as a turbo or oil cooler, and the labour involved in fitting. Send your registration or VIN for a written quote."
+      },
+      {
+        "q": "Is there a warranty on a replacement 276DT engine?",
+        "a": "Warranty cover depends on the engine option and whether we carry out the installation. We confirm the exact terms in writing with your quote, so you know what is covered before work begins."
+      },
+      {
+        "q": "Do you deliver 2.7 TDV6 engines across the UK?",
+        "a": "Yes. We deliver engines throughout the United Kingdom from our Grays workshop. Delivery arrangements and costs are confirmed in your quote, and supply and fit customers can bring their Discovery to us."
+      },
+      {
+        "q": "How long does a Discovery 3 engine replacement usually take?",
+        "a": "The timescale depends on engine availability, whether a rebuild is needed, any body-lift work and additional repairs found during inspection. We give you an estimated timeframe with your quote and keep you informed."
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "The RRG Standard",
+    "title": "Why Discovery 3 Owners Choose Us",
+    "description": "Discovery 3 owners and trade buyers rely on our TDV6 knowledge and straightforward, honest service.",
+    "cards": [
+      {
+        "icon": "shield",
+        "title": "Land Rover Specialists",
+        "description": "Land Rover and Range Rover engines are our core work, including the 2.7 TDV6 found in most diesel Discovery 3 models."
+      },
+      {
+        "icon": "checklist",
+        "title": "VIN-Checked Supply",
+        "description": "Every replacement engine is matched to your VIN and specification before supply, so it suits your Discovery 3 correctly."
+      },
+      {
+        "icon": "fitting",
+        "title": "Supply or Fitted",
+        "description": "Order the engine for your own garage to install, or let our Grays technicians supply and fit it for you."
+      },
+      {
+        "icon": "message",
+        "title": "Clear Quotations",
+        "description": "We explain the findings, the options and the costs in plain English, and keep you updated while your Discovery is with us."
+      }
+    ]
+  },
+  "workshopIntro": {
+    "eyebrow": "From Assessment to Installation",
+    "title": "Repair, Rebuild or Replace Your Discovery 3 TDV6?",
+    "description": "The fault, the mileage and the value of your Discovery 3 decide the best approach. Glow plug, turbo, DPF or oil cooler faults can often be repaired individually. Where the crankshaft has failed or the bearings have spun, a rebuild or Land Rover Discovery 3 276DT engine replacement is usually the more sensible option.",
+    "paragraphs": [
+      "Major engine work on the Discovery 3 often involves lifting the body from the chassis, so it is sensible to check related parts at the same time. Where relevant, we inspect the turbo, oil cooler, intercooler, EGR, DPF and cooling system, and renew the fluids and filters.",
+      "Send your registration or VIN with a short description of the symptoms. We will confirm compatibility, explain the options and quote for supply only, supply and fit at our Grays workshop, or delivery across the UK."
+    ]
+  },
+  "compatibilityFitting": {
+    "title": "Discovery 3 Compatibility and Engine Fitting",
+    "cards": [
+      {
+        "icon": "compatibility",
+        "eyebrow": "Engineering Diligence",
+        "title": "Confirming the Right 276DT Engine",
+        "description": "TDV6 engines from the Discovery 3 and Range Rover Sport can differ in ancillaries, wiring and emissions equipment. We check your VIN and engine code, and confirm the gearbox and four-wheel-drive configuration, before any engine is supplied.",
+        "checks": [
+          "VIN and engine code verified",
+          "DPF and emissions specification checked",
+          "Gearbox and drive layout confirmed"
+        ],
+        "ctaLabel": "Check My Engine Code",
+        "ctaHref": "/get-quote"
+      },
+      {
+        "icon": "workshop",
+        "eyebrow": "Workshop Integrity",
+        "title": "Fitting and Road Testing",
+        "description": "Our technicians install each engine at our Grays workshop, including body-lift work where required. Afterwards, the fuel and cooling systems are bled, the ECU is adapted using JLR diagnostic software, and the Discovery is road tested.",
+        "checks": [
+          "Fitted by our own technicians",
+          "ECU adaptation with TOPIx and Pathfinder",
+          "Road tested before handover"
+        ],
+        "ctaLabel": "Get a Fitting Quote",
+        "ctaHref": "/get-quote"
+      }
+    ]
+  },
+  "engineServices": {
+    "eyebrow": "Specialist Workshop",
+    "title": "Discovery 3 2.7 TDV6 Services",
+    "description": "Specialist services for the Discovery 3 276DT, from diagnosis to complete engine replacement.",
+    "linkLabel": "Learn More",
+    "cards": [
+      {
+        "icon": "tools",
+        "title": "Engine Diagnostics",
+        "description": "Fault codes, live data and physical checks with JLR diagnostic software help us identify the likely cause of knocking, smoke or power loss.",
+        "href": "/services/engine-diagnostics"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Rebuild",
+        "description": "We strip the 2.7 TDV6, measure the crankshaft, bearings and cylinders, and rebuild the engine with new parts wherever wear is found.",
+        "href": "/services/engine-rebuild"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Replacement",
+        "description": "We strip the 2.7 TDV6, measure the crankshaft, bearings and cylinders, and rebuild the engine with new parts wherever wear is found.",
+        "href": "/services/engine-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Timing Belt Replacement",
+        "description": "We renew the camshaft and fuel pump belts, tensioners and pulleys on the 2.7 TDV6 to reduce the risk of belt failure.",
+        "href": "/services/timing-belt-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Turbo Replacement",
+        "description": "Worn or sticking turbochargers are replaced, with checks on the actuator, oil feed and intake pipework to help protect the new unit.",
+        "href": "/services/turbo-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "DPF Replacement",
+        "description": "On DPF-equipped Discovery 3 models, we replace blocked filters that cannot be recovered and investigate the cause of failed regenerations.",
+        "href": "/services/dpf-replacement"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Swap",
+        "description": "Complete Discovery 3 engine swaps, including body-lift work where needed, with careful attention to mounts, wiring, sensors and ECU adaptation.",
+        "href": "/services/engine-swap"
+      },
+      {
+        "icon": "replacement",
+        "title": "Gearbox Replacement",
+        "description": "If the automatic or manual gearbox is also faulty, we can supply and fit a compatible replacement while the engine is out.",
+        "href": "/services/gearbox-replacement"
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Priority Engineering Advice",
+    "titleBefore": "Get a Quote for Your",
+    "titleHighlight": "Discovery 3",
+    "titleAfter": "Engine",
+    "description": "Send your registration or VIN and we will confirm the right 2.7 TDV6 option for your Discovery 3. We are based in Grays, Essex, and supply engines across the UK.",
+    "callLabel": "Call us: 01708 592377",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Get a Quote",
+    "quoteHref": "/get-quote",
+    "highlights": [
+      {
+        "icon": "location",
+        "label": "Grays, Essex Workshop"
+      },
+      {
+        "icon": "delivery",
+        "label": "UK Nationwide Pallet Delivery"
+      },
+      {
+        "icon": "warranty",
+        "label": "12-Month Mechanical Warranty"
+      }
+    ]
+  },
+  "buyingGuide": {
+    "eyebrow": "Buyer's comparison",
+    "title": "Used, Reconditioned or Rebuilt: Choosing Your Discovery 3 TDV6",
+    "description": "We explain what each engine option includes, helping you balance cost, condition and the value of your Discovery 3.",
+    "subtitle": "Review our verified tiers below to find the correct fit for your Land Rover or Range Rover.",
+    "cards": [
+      {
+        "tier": "Tier 01",
+        "badge": "Tested Core",
+        "title": "Used Engine",
+        "description": "A compatible 276DT engine from a donor vehicle, offering a lower-cost way to get your Discovery 3 back on the road.",
+        "features": [
+          "Compatible donor engine sourced",
+          "Engine code and mileage confirmed",
+          "Supply only or supply and fit"
+        ],
+        "linkLabel": "Explore Used Engines",
+        "href": "/engines",
+        "highlighted": false,
+        "recommendation": ""
+      },
+      {
+        "tier": "Tier 02",
+        "badge": "12-Mo Warranty",
+        "title": "Reconditioned Engine",
+        "description": "A Land Rover Discovery 3 276DT reconditioned engine is stripped, inspected and rebuilt with new wear components, including bearings, before supply.",
+        "features": [
+          "New bearings and wear parts",
+          "Prepared ready for installation",
+          "Matched to your vehicle's VIN"
+        ],
+        "linkLabel": "Explore Reconditioned",
+        "href": "/get-quote",
+        "highlighted": true,
+        "recommendation": "Most popular choice"
+      },
+      {
+        "tier": "Tier 03",
+        "badge": "Zero-Hour Spec",
+        "title": "Rebuilt Engine",
+        "description": "Your own 276DT engine is rebuilt at our Grays workshop, keeping its original block and engine number with your Discovery.",
+        "features": [
+          "Original engine identity retained",
+          "Full strip-down and measurement",
+          "Parts renewed based on findings"
+        ],
+        "linkLabel": "Explore Rebuilt Engines",
+        "href": "/services/engine-rebuild",
+        "highlighted": false,
+        "recommendation": ""
+      }
+    ]
+  },
+  "engineProblems": {
+    "eyebrow": "Diagnostic Advisory",
+    "title": "Common Discovery 3 TDV6 Problems",
+    "description": "The 2.7 TDV6 usually gives warning signs before major failure, so early checks can limit costly damage.",
+    "actionLabel": "Action:",
+    "ctaLabel": "Book an Engine Diagnostic",
+    "ctaHref": "/get-quote",
+    "cards": [
+      {
+        "icon": "bell",
+        "title": "Bottom-End Knock and Crank Breakage",
+        "description": "A deep knock, an oil pressure warning or a sudden engine stop can point to spun bearings or a broken crankshaft, a recognised issue on high-mileage TDV6s. We assess the crankshaft, bearings and oil supply.",
+        "action": "High-precision chain guide inspection"
+      },
+      {
+        "icon": "drop",
+        "title": "Overdue Timing and Fuel Pump Belts",
+        "description": "The 2.7 TDV6 uses belt drives for its camshafts and fuel pump. Overdue replacement or worn tensioners can cause belt failure and severe damage. We inspect the belts, tensioners and service records.",
+        "action": "Twin-turbo actuator boost analysis"
+      },
+      {
+        "icon": "power",
+        "title": "Variable-Vane Turbo Sticking",
+        "description": "Rough idle, smoke, knocking or a misfire on one cylinder may be caused by a worn unit injector or leaking injector seals. We test the injectors and check seal condition.",
+        "action": "Fuel rail and injector leak-off test"
+      },
+      {
+        "icon": "smoke",
+        "title": "Oil and Coolant Contamination",
+        "description": "Oil in the coolant, coolant in the oil or a milky residue can come from a failing oil cooler or perished internal seals. We check both fluids and pressure-test the system.",
+        "action": "Turbo seal & DPF saturation check"
+      },
+      {
+        "icon": "drop",
+        "title": "Glow Plug and Cold Start Faults",
+        "description": "Hard starting in cold weather, smoke after start-up or glow plug warnings may point to failed glow plugs or a faulty control module. We test the glow plugs and control circuit.",
+        "action": "Heat exchanger pressure test"
+      },
+      {
+        "icon": "warning",
+        "title": "DPF Warnings on Later Models",
+        "description": "On Discovery 3 models fitted with a DPF, short journeys can cause warning lights, reduced power and frequent regeneration attempts. We read live data and assess the DPF.",
+        "action": "JLR TOPIx dealer-level scan"
+      }
+    ]
+  },
+  "engineOverview": {
+    "eyebrow": "Marque Authority",
+    "title": "Land Rover Discovery 3 276DT Engine: Your Complete TDV6 Guide",
+    "paragraphs": [
+      "The Land Rover Discovery 3 276DT engine is the 2.7-litre V6 turbodiesel, widely known as the 2.7 TDV6, fitted to most diesel Discovery 3 models. Many are now high-mileage, and crankshaft failure, timing belt neglect, turbo faults and oil cooler leaks often lead owners to need a repair or replacement.",
+      "The 2.7 TDV6 was also used in the Range Rover Sport, with differences in ancillaries, wiring and emissions equipment, including a DPF on later models. We identify the correct Land Rover Discovery 3 TDV6 engine by checking your VIN, engine code and registration.",
+      "Whether you need a targeted repair, a TDV6 engine rebuild or a complete Discovery 3 276DT engine replacement, our team assesses the vehicle and explains each option. Call us or send your registration for a written quote."
+    ]
+  },
+  "specialistsBanner": {
+    "eyebrow": "Discovery 3 Specialists",
+    "title": "Land Rover Discovery 3 276DT Engine Experts",
+    "description": "Range Rover Garage repairs, rebuilds and replaces the Land Rover Discovery 3 276DT 2.7 TDV6 at our Grays workshop, covering crankshaft failures, timing belt renewal, turbo faults and complete engine swaps, with system bleeding, ECU adaptation and road testing.",
+    "features": [
+      {
+        "icon": "gauge",
+        "title": "Body-Lift Engine Removal",
+        "description": "Discovery 3 chassis work handled"
+      },
+      {
+        "icon": "badge",
+        "title": "JLR Diagnostic Software",
+        "description": "TOPIx and Pathfinder coding"
+      }
+    ],
+    "image": "/images/workshop-8.webp",
+    "imageAlt": "Range Rover with its bonnet open and removed engine in the workshop",
+    "imageCaption": "Certified JLR Master Engineers On-Site",
+    "callLabel": "Call our Experts (01708 592377)",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Request a Quote",
+    "quoteHref": "/get-quote"
+  },
+  "header": {
+    "title": "Land Rover Discovery 3 276DT Engine Supply, Rebuild and Fitting",
+    "subtitle": "Supply, repair, rebuild and fitting for the Discovery 3 2.7 TDV6 diesel.",
+    "highlights": [
+      "Engine matched to your VIN and engine code before supply",
+      "Used, reconditioned and rebuilt 2.7 TDV6 engines available",
+      "Supply only, or supply and fit in Grays, Essex",
+      "TDV6 engines delivered to customers across the UK"
+    ]
+  }
+}

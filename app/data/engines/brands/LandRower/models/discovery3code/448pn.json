@@ -1,0 +1,475 @@
+{
+  "eyebrow": "Engineering Matrix",
+  "title": "204DTA Engine Specifications",
+  "description": "Verified engineering parameters for the 2.0L 4-cylinder AJ200D Ingenium diesel powertrain",
+  "fields": [
+    {
+      "label": "Engine Make",
+      "value": "Land Rover / Range Rover",
+      "icon": "car"
+    },
+    {
+      "label": "Engine Fuel",
+      "value": "Diesel",
+      "icon": "fuel"
+    },
+    {
+      "label": "Engine Horse Power",
+      "value": "240 PS (approx. 237 bhp)",
+      "icon": "gauge"
+    },
+    {
+      "label": "Engine Size",
+      "value": "2.0 Litres",
+      "icon": "ruler"
+    },
+    {
+      "label": "Engine Code",
+      "value": "204DTA (AJ200D)",
+      "icon": "code",
+      "highlight": true
+    },
+    {
+      "label": "Engine Layout",
+      "value": "Inline-4 (Transverse / Longitudinal)",
+      "icon": "layout"
+    },
+    {
+      "label": "Engine Actual CC",
+      "value": "1,999 cc",
+      "icon": "capacity"
+    },
+    {
+      "label": "Engine Cylinders",
+      "value": "4 Cylinders, Twin-Turbocharged",
+      "icon": "cylinders"
+    },
+    {
+      "label": "Engine Valves",
+      "value": "16 Valves (DOHC Chain Driven)",
+      "icon": "valves"
+    },
+    {
+      "label": "Engine Power KW",
+      "value": "177 kW @ 4,000 RPM",
+      "icon": "power"
+    },
+    {
+      "label": "Engine Fuel Supply",
+      "value": "Common Rail Direct Injection",
+      "icon": "supply"
+    },
+    {
+      "label": "Engine Charge",
+      "value": "Sequential Twin Turbochargers",
+      "icon": "charge"
+    }
+  ],
+  "note": "Specifications shown reflect standard factory configuration. Exact vehicle variant must be confirmed via VIN or registration.",
+  "cta": {
+    "label": "Check Engine Compatibility",
+    "href": "/get-quote"
+  },
+  "modelShowcase": {
+    "eyebrow": "Direct Engine Matches",
+    "title": "Top Land Rover Models",
+    "description": "Select your model to view compatible engine and fitting options.",
+    "badge": "100% In-Stock Options",
+    "transmissionLabel": "Transmission:",
+    "engineCodeLabel": "Engine Code:",
+    "ctaLabel": "Contact / Quote – CTA",
+    "cards": [
+      {
+        "name": "Land Rover Discovery 2",
+        "years": "1998-2004",
+        "description": "4.0L V8 Rover Naturally Aspirated Petrol (185 PS / 340 Nm)",
+        "transmission": "ZF 4-speed automatic",
+        "engineCode": "10P",
+        "image": "/images/models/discovery-2.webp",
+        "imageAlt": "Land Rover Discovery 2",
+        "href": "/engines/land-rover/discovery-2",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Freelander 1",
+        "years": "1993-1998",
+        "description": "2.0L MPI Naturally Aspirated Petrol (98 PS / 167 Nm)",
+        "transmission": "5-speed R380 manual",
+        "engineCode": "2.0 Mpi",
+        "image": "/images/models/freelander-1.webp",
+        "imageAlt": "Land Rover Freelander 1",
+        "href": "/engines/land-rover/freelander-1",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Freelander 2",
+        "years": "2006-2014",
+        "description": "2.2L TD4 Turbocharged Diesel (150 PS / 420 Nm)",
+        "transmission": "6-speed manual",
+        "engineCode": "224DT",
+        "image": "/images/models/freelander-2.webp",
+        "imageAlt": "Land Rover Freelander 2",
+        "href": "/engines/land-rover/freelander-2",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery 5",
+        "years": "2016-continue",
+        "description": "2.0L Ingenium SD4 Twin-Turbo Diesel (241 PS / 500 Nm)",
+        "transmission": "8-speed ZF automatic",
+        "engineCode": "204DTA",
+        "image": "/images/models/discovery-5.webp",
+        "imageAlt": "Land Rover Discovery 5",
+        "href": "/engines/land-rover/discovery-5",
+        "quoteHref": "/get-quote"
+      }
+    ]
+  },
+  "engineGallery": {
+    "eyebrow": "Workshop Evidence",
+    "title": "Range Rover 204DTA Engine Gallery",
+    "description": "Workshop photography of complete assemblies, precision tooling, and vehicle installations.",
+    "images": [
+      {
+        "src": "/images/service/engine_swap/engine_swap 1.webp",
+        "alt": "Complete engine mounted on a workshop stand"
+      },
+      {
+        "src": "/images/workshop-8.webp",
+        "alt": "Range Rover with its bonnet open and removed engine in the workshop"
+      },
+      {
+        "src": "/images/service/engine_repair/engine_repair 3.webp",
+        "alt": "Exposed camshafts on an engine undergoing repairs"
+      },
+      {
+        "src": "/images/service/turbo_replacement/turbo_replacement 1.webp",
+        "alt": "Engine with turbocharger and intake components exposed in the workshop"
+      }
+    ]
+  },
+  "faq": {
+    "description": "Answers to common questions about the 4.4 V8 petrol engine in the Land Rover Discovery 3. If yours is not covered, our team can help.",
+    "accordionName": "engine-code-faq",
+    "faqs": [
+      {
+        "q": "Can a Range Rover V8 engine fit my Discovery 3?",
+        "a": "Sometimes, but not without checks. Range Rover and Jaguar V8 engines can differ in ancillaries, wiring and calibration, so we compare your VIN and engine code with any replacement before supply."
+      },
+      {
+        "q": "How do used, reconditioned and rebuilt Discovery V8 engines compare?",
+        "a": "A used engine comes from a donor vehicle, a reconditioned engine is stripped and given new wear parts, and a rebuild restores your existing V8. We recommend an option after assessing the fault."
+      },
+      {
+        "q": "Can I buy a Discovery 3 V8 engine supply only?",
+        "a": "Yes. Trade buyers, independent garages and private customers with their own mechanic can buy supply only. Alternatively, choose supply and fit and our technicians will install the engine at our Grays, Essex workshop."
+      },
+      {
+        "q": "What affects the Discovery 3 engine replacement cost for a 448PN?",
+        "a": "The cost depends on the engine option, the condition of your current engine, any cooling or ancillary parts needed and the labour involved, including body-lift work. Send your registration or VIN for a written quote."
+      },
+      {
+        "q": "Is there a warranty on a replacement 448PN engine?",
+        "a": "Warranty cover depends on the engine option and whether we carry out the installation. We confirm the exact terms in writing with your quote, so you know what is covered before work begins."
+      },
+      {
+        "q": "Do you deliver Land Rover V8 engines across the UK?",
+        "a": "Yes. We deliver engines throughout the United Kingdom from our Grays workshop. Delivery arrangements and costs are confirmed in your quote, and supply and fit customers can bring their Discovery to us."
+      },
+      {
+        "q": "How long does a 448PN engine replacement usually take?",
+        "a": "The timescale depends on engine availability, whether a rebuild is needed, any body-lift work and additional repairs found during inspection. We give you an estimated timeframe with your quote and keep you informed."
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "The RRG Standard",
+    "title": "Why Discovery V8 Owners Choose Us",
+    "description": "Discovery 3 owners and trade buyers rely on our V8 knowledge and clear, practical advice.",
+    "cards": [
+      {
+        "icon": "shield",
+        "title": "Land Rover Specialists",
+        "description": "Land Rover and Range Rover engines are our core work, including the 4.4 V8 petrol fitted to the Discovery 3."
+      },
+      {
+        "icon": "checklist",
+        "title": "Matched Before Supply",
+        "description": "Every replacement engine is checked against your VIN and specification, avoiding confusion with similar Range Rover or Jaguar V8s."
+      },
+      {
+        "icon": "fitting",
+        "title": "Supply or Fitted",
+        "description": "Order the engine for your own garage to install, or let our Grays technicians supply and fit it for you."
+      },
+      {
+        "icon": "message",
+        "title": "Honest Quotations",
+        "description": "We explain the findings, options and costs in plain English, and keep you updated while your Discovery is with us."
+      }
+    ]
+  },
+  "workshopIntro": {
+    "eyebrow": "From Assessment to Installation",
+    "title": "Repair, Rebuild or Replace Your Discovery V8?",
+    "description": "The fault, mileage and value of your Discovery 3 guide the decision. Coolant pipe, coil, sensor and gasket faults can usually be repaired individually. If timing chain failure or severe overheating has damaged the engine, a rebuild or Land Rover Discovery 3 448PN engine replacement is often more practical.",
+    "paragraphs": [
+      "Overheating is a leading cause of V8 damage, and body-lift access makes it sensible to check related parts at the same time. Where relevant, we inspect the radiator, water pump, coolant pipes and thermostat, check the ignition system and gearbox, and renew all fluids.",
+      "Send your registration or VIN with a brief description of the symptoms. We will confirm compatibility, explain your options and quote for supply only, supply and fit at our Grays workshop, or delivery across the UK."
+    ]
+  },
+  "compatibilityFitting": {
+    "title": "Discovery 3 V8 Compatibility and Fitting",
+    "cards": [
+      {
+        "icon": "compatibility",
+        "eyebrow": "Engineering Diligence",
+        "title": "Confirming the Correct 448PN Engine",
+        "description": "AJ-V8 engines from the Discovery 3, Range Rover, Range Rover Sport and Jaguar models differ in ancillaries, wiring and calibration. We check your VIN and engine code, and confirm the gearbox and four-wheel-drive setup, before any engine is supplied.",
+        "checks": [
+          "VIN and engine code verified",
+          "Discovery 3 V8 specification confirmed",
+          "Gearbox and drive layout checked"
+        ],
+        "ctaLabel": "Check My Engine Code",
+        "ctaHref": "/get-quote"
+      },
+      {
+        "icon": "workshop",
+        "eyebrow": "Workshop Integrity",
+        "title": "Fitting and Road Testing  ",
+        "description": "Each engine is installed by our technicians at our Grays workshop, including body-lift work where needed. After fitting, the cooling and fuel systems are bled, the ECU is adapted and the Discovery is road tested.",
+        "checks": [
+          "Fitted by our own technicians",
+          "Cooling and fuel systems bled",
+          "Road tested before handover"
+        ],
+        "ctaLabel": "Get a Fitting Quote",
+        "ctaHref": "/get-quote"
+      }
+    ]
+  },
+  "engineServices": {
+    "eyebrow": "Specialist Workshop",
+    "title": "Discovery 3 4.4 V8 Services",
+    "description": "Specialist services for the 448PN V8, from diagnosis through to complete engine replacement.",
+    "linkLabel": "Learn More",
+    "cards": [
+      {
+        "icon": "tools",
+        "title": "Engine Diagnostics",
+        "description": "Fault codes, live data and physical checks help us identify the likely cause of rattles, misfires, overheating or warning lights on your V8.",
+        "href": "/services/engine-diagnostics"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Rebuild",
+        "description": "The 4.4 V8 is stripped, measured and rebuilt, with bearings, seals, timing parts and other worn components renewed as required.",
+        "href": "/services/engine-rebuild"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Replacement",
+        "description": "When repair is not worthwhile, we supply and fit a compatible used or reconditioned Land Rover V8 engine matched to your Discovery 3.",
+        "href": "/services/engine-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Timing Chain Replacement",
+        "description": "We renew the primary and secondary timing chains, tensioners and guides on the V8, then confirm camshaft timing for smooth running.",
+        "href": "/services/timing-chain-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Head Gasket Replacement",
+        "description": "Overheating, coolant loss or white smoke can indicate head gasket failure. We replace the gaskets and check both cylinder heads for distortion.",
+        "href": "/services/head-gasket-replacement"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Swap",
+        "description": "Complete Discovery 3 V8 engine swaps, including body-lift work where required, with attention to mounts, wiring, sensors and ECU adaptation.",
+        "href": "/services/engine-swap"
+      },
+      {
+        "icon": "tools",
+        "title": "Gearbox Replacement",
+        "description": "If the automatic gearbox is also faulty, we can supply and fit a compatible replacement while your engine work is carried out.",
+        "href": "/services/gearbox-replacement"
+      },
+      {
+        "icon": "replacement",
+        "title": "Major Service",
+        "description": "A detailed major service for the Discovery V8, including oil, filters, spark plugs and checks on the cooling and timing systems.",
+        "href": "/services/major-service"
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Priority Engineering Advice",
+    "titleBefore": "Ask About Your",
+    "titleHighlight": "Discovery V8",
+    "titleAfter": "Engine",
+    "description": "Send your registration or VIN and we will confirm the right 4.4 V8 engine option for your Discovery 3. We are based in Grays, Essex, and supply engines UK-wide.",
+    "callLabel": "Call us: 01708 592377",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Get a Quote",
+    "quoteHref": "/get-quote",
+    "highlights": [
+      {
+        "icon": "location",
+        "label": "Grays, Essex Workshop"
+      },
+      {
+        "icon": "delivery",
+        "label": "UK Nationwide Pallet Delivery"
+      },
+      {
+        "icon": "warranty",
+        "label": "12-Month Mechanical Warranty"
+      }
+    ]
+  },
+  "buyingGuide": {
+    "eyebrow": "Buyer's comparison",
+    "title": "Used, Reconditioned or Rebuilt: Your Discovery 3 V8 Options",
+    "description": "We explain what each engine option includes, so you can choose the right balance of cost, condition and reliability.",
+    "subtitle": "Review our verified tiers below to find the correct fit for your Land Rover or Range Rover.",
+    "cards": [
+      {
+        "tier": "Tier 01",
+        "badge": "Tested Core",
+        "title": "Used Engine",
+        "description": "A compatible 448PN engine from a donor vehicle, offering an affordable way to return your Discovery 3 to the road.",
+        "features": [
+          "Compatible donor engine sourced",
+          "Engine code and mileage confirmed",
+          "Supply only or supply and fit"
+        ],
+        "linkLabel": "Explore Used Engines",
+        "href": "/engines",
+        "highlighted": false,
+        "recommendation": ""
+      },
+      {
+        "tier": "Tier 02",
+        "badge": "12-Mo Warranty",
+        "title": "Reconditioned Engine",
+        "description": "A Land Rover Discovery 3 448PN reconditioned engine is stripped, inspected and rebuilt with new wear components before it is supplied.",
+        "features": [
+          "New wear parts fitted",
+          "Prepared ready for installation",
+          "Matched to your vehicle's VIN"
+        ],
+        "linkLabel": "Explore Reconditioned",
+        "href": "/get-quote",
+        "highlighted": true,
+        "recommendation": "Most popular choice"
+      },
+      {
+        "tier": "Tier 03",
+        "badge": "Zero-Hour Spec",
+        "title": "Rebuilt Engine",
+        "description": "Your existing 448PN engine is rebuilt at our Grays workshop, keeping the original block and engine number with your Discovery.",
+        "features": [
+          "Original engine identity kept",
+          "Full strip-down and measurement",
+          "Parts renewed based on findings"
+        ],
+        "linkLabel": "Explore Rebuilt Engines",
+        "href": "/services/engine-rebuild",
+        "highlighted": false,
+        "recommendation": ""
+      }
+    ]
+  },
+  "engineProblems": {
+    "eyebrow": "Diagnostic Advisory",
+    "title": "Common Discovery V8 Engine Problems",
+    "description": "The 4.4 V8 usually gives early warning signs, and prompt investigation can prevent serious internal damage.",
+    "actionLabel": "Action:",
+    "ctaLabel": "Book an Engine Diagnostic",
+    "ctaHref": "/get-quote",
+    "cards": [
+      {
+        "icon": "bell",
+        "title": "Secondary Chain Tensioner Noise",
+        "description": "A rattle on cold start, uneven idle or camshaft timing fault codes can point to worn secondary tensioners, guides or stretched timing chains. We inspect the tensioners, guides and camshaft timing.",
+        "action": "High-precision chain guide inspection"
+      },
+      {
+        "icon": "drop",
+        "title": "Coolant Crossover and Hose Leaks",
+        "description": "Coolant loss, a sweet smell or damp patches can come from ageing plastic coolant pipes, the crossover pipe or perished hoses. We pressure-test the cooling system to find leaks.",
+        "action": "Twin-turbo actuator boost analysis"
+      },
+      {
+        "icon": "power",
+        "title": "Radiator and Water Pump Faults",
+        "description": "Rising temperature when towing, steam or coolant loss at the front may indicate a failing water pump, a thermostat fault or a blocked radiator. We check pump condition and cooling performance.",
+        "action": "Fuel rail and injector leak-off test"
+      },
+      {
+        "icon": "smoke",
+        "title": "Spark Plug and Coil Wear",
+        "description": "Juddering, a flashing engine light or rough idle are often caused by worn spark plugs or failing ignition coils on the V8. We test each coil and spark plug.",
+        "action": "Turbo seal & DPF saturation check"
+      },
+      {
+        "icon": "drop",
+        "title": "Camshaft Timing and Sensor Faults",
+        "description": "Hesitation, uneven running or timing-related fault codes may relate to variable camshaft timing components, camshaft sensors or degraded engine oil. We read live data and test the sensors.",
+        "action": "Heat exchanger pressure test"
+      },
+      {
+        "icon": "warning",
+        "title": "Rocker Cover and Seal Leaks",
+        "description": "Oil seeping onto the exhaust, burning smells or smoke from the engine bay may come from hardened rocker cover gaskets or ageing seals. We locate the leak and inspect the seals.",
+        "action": "JLR TOPIx dealer-level scan"
+      }
+    ]
+  },
+  "engineOverview": {
+    "eyebrow": "Marque Authority",
+    "title": "Land Rover Discovery 3 448PN Engine: Your Complete V8 Guide",
+    "paragraphs": [
+      "The Land Rover Discovery 3 448PN engine is the 4.4-litre V8 petrol from Jaguar Land Rover's AJ-V8 family, fitted to petrol V8 versions of the Discovery 3. Smooth and capable, it is now ageing, and timing chain wear, coolant leaks, misfires and oil leaks often lead owners to seek repair or replacement.",
+      "The Land Rover Discovery V8 engine shares its design with V8s used in the Range Rover, Range Rover Sport and Jaguar models, but the ancillaries and calibration differ. We identify the correct engine by checking your VIN, engine code and registration.",
+      "Whether you need a targeted repair, an engine rebuild or a complete Discovery 3 448PN engine replacement, our team inspects the vehicle and explains each option. Call us or send your registration for a written quote."
+    ]
+  },
+  "specialistsBanner": {
+    "eyebrow": "Discovery V8 Specialists",
+    "title": "Land Rover Discovery 3 448PN Engine Experts",
+    "description": "From our Grays, Essex workshop, we repair, rebuild and replace the Land Rover Discovery 3 448PN 4.4 V8, covering timing chain wear, coolant leaks, misfires and complete engine swaps, with system bleeding, ECU adaptation and a road test on every installation.",
+    "features": [
+      {
+        "icon": "gauge",
+        "title": "Discovery 3 V8 Removal",
+        "description": "Body-lift work where required"
+      },
+      {
+        "icon": "badge",
+        "title": "Cooling System Repairs",
+        "description": "Pipes, pumps and housings renewed"
+      }
+    ],
+    "image": "/images/workshop-8.webp",
+    "imageAlt": "Range Rover with its bonnet open and removed engine in the workshop",
+    "imageCaption": "Certified JLR Master Engineers On-Site",
+    "callLabel": "Call our Experts (01708 592377)",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Request a Quote",
+    "quoteHref": "/get-quote"
+  },
+  "header": {
+    "title": "Land Rover Discovery 3 448PN Engine Rebuild and Replacement",
+    "subtitle": "Supply, repair, rebuild and fitting for the Discovery 3 4.4 V8 petrol.",
+    "highlights": [
+      "Engine matched to your VIN and engine code before supply",
+      "Used, reconditioned and rebuilt 4.4 V8 engines available",
+      "Supply only, or supply and fit at our Grays workshop",
+      "Land Rover V8 engines for sale with UK delivery"
+    ]
+  }
+}
