@@ -6,31 +6,31 @@ export const FTYPECOUPEData: ModelData = {
     "description": "Specialist Jaguar F-Type Coupe engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle."
   },
   "headerData": {
-    "title": "Jaguar F-TYPE COUPE Engine Specialists",
-    "subtitle": "Specialist Jaguar F-Type Coupe engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle.",
+    "title": "Jaguar F-Type Coupe Engine Rebuild Experts",
+    "subtitle": "Specialist rebuild, repair and replacement for F-Type Coupe engines, including the supercharged 3.0 V6 and 5.0 V8, carried out at our Essex workshop.",
     "highlights": [
-      "Shared JLR platform knowledge across every brand",
-      "Every engine tested before dispatch or fitting",
-      "Warranty included on every engine supplied",
+      "Focused on Jaguar and Land Rover engines",
+      "Supercharged V6 and V8 engine expertise",
+      "Reconditioned engines supplied and professionally fitted",
       "UK-wide collection and delivery available"
     ]
   },
   "BrandsData": [
     {
       "title": "Range Rover",
-      "description": "Explore specialist engine rebuild, repair and replacement services for Range Rover models.",
+      "description": "Engine diagnosis, rebuilds and replacements for Range Rover Evoque, Velar, Sport and Vogue, handled with specialist care.",
       "image": "/images/models/sport.webp",
       "href": "/engines/range-rover"
     },
     {
       "title": "Land Rover",
-      "description": "Explore engine diagnostics, rebuilds and replacements for Land Rover Discovery, Defender and Freelander models.",
+      "description": "From Discovery to Freelander, we repair, rebuild and replace Land Rover engines, with collection available across the UK.",
       "image": "/images/models/discovery-1.webp",
       "href": "/engines/land-rover"
     },
     {
       "title": "Jaguar",
-      "description": "Explore Jaguar models and engine codes for specialist engine repair, rebuild and replacement services.",
+      "description": "Rebuilds, repairs and reconditioned replacements for Jaguar engines across the range, from the F-Type and XK to the F-Pace.",
       "image": "/jaguar.webp",
       "href": "/engines/jaguar"
     }
@@ -38,53 +38,46 @@ export const FTYPECOUPEData: ModelData = {
   "ReviewsData": [
     {
       "id": 1,
-      "name": "Adrian Solberg - F-Pace Diesel",
-      "date": "1 month ago",
-      "text": "F-Pace's Ingenium diesel was diagnosed and repaired quickly. Surprised to find a garage that understood Jaguar as well as Land Rover engines.",
+      "name": "Thomas G.",
+      "date": "3 weeks ago",
+      "text": "My F-Type R Coupe developed a misfire and rough idle. They found the cause, explained the options clearly and the V8 now runs beautifully again. Superb service.",
       "stars": 5
     },
     {
       "id": 2,
-      "name": "Melissa Thorne - XE Diagnostics",
+      "name": "Hannah J.",
       "date": "1 month ago",
-      "text": "XE's engine fault had been missed by two other garages before this team caught it straight away. Genuinely impressive knowledge.",
+      "text": "Really impressed with how they handled the supercharged V6 rebuild on my Coupe. Regular updates, honest advice and the car feels as sharp as ever.",
       "stars": 5
     },
     {
       "id": 3,
-      "name": "Gareth Vance - XF Replacement",
-      "date": "1 month ago",
-      "text": "Replaced my XF's engine with a fully tested unit and the whole process felt properly specialist, not generic like most places.",
+      "name": "Imran A.",
+      "date": "2 weeks ago",
+      "text": "Coolant loss on my F-Type had me fearing the worst. The team investigated thoroughly, repaired what was needed and didn't push unnecessary work. Genuinely trustworthy people.",
       "stars": 5
     },
     {
       "id": 4,
-      "name": "Natasha Ferris - F-Pace Petrol",
+      "name": "Sophie R.",
       "date": "1 month ago",
-      "text": "Didn't realise my F-Pace shared engine platforms with Range Rover until they explained it. Made total sense of the expertise on show.",
+      "text": "Needed a replacement engine for my F-Type Coupe after major damage. They sourced a reconditioned unit, fitted it and kept me informed at every stage.",
       "stars": 5
     },
     {
       "id": 5,
-      "name": "Oscar Bramwell - F-Pace SVR",
-      "date": "1 month ago",
-      "text": "AJ133 V8 in my F-Pace SVR rebuilt properly, with real understanding of how these units differ from the standard Ingenium engines.",
-      "stars": 5
-    },
-    {
-      "id": 6,
-      "name": "Sofia Lindqvist - XE Timing Chain",
-      "date": "1 month ago",
-      "text": "XE's timing chain replaced before it caused real damage. Clear advice throughout and fairly priced compared to other quotes.",
+      "name": "Richard F.",
+      "date": "4 days ago",
+      "text": "Live up north, so the collection service made this easy. My Coupe came back running perfectly, and the communication throughout was excellent. Would use again.",
       "stars": 5
     }
   ],
   "NationwideData": {
-    "titleBefore": "Genuine Cross-Brand Knowledge of Shared ",
-    "titleHighlight": "JLR Engine Platforms",
+    "titleBefore": "F-Type Coupe Engine Repair Specialist for ",
+    "titleHighlight": "Performance Engines",
     "paragraphs": [
-      "Many of the engines fitted to modern Jaguar models, including the F-Pace, XE and XF, share Ingenium and AJ133 architecture with Land Rover and Range Rover vehicles. Understanding this shared engineering gives our team a real advantage when diagnosing and repairing Jaguar engines that others might treat as unfamiliar.",
-      "Rather than approaching your Jaguar as a completely separate platform, we apply the same depth of Ingenium and AJ133 knowledge built through years of Land Rover and Range Rover work. That crossover experience means faster, more confident diagnosis for Jaguar owners too."
+      "The F-Type Coupe was offered with high-output engines, including the supercharged 3.0 V6 and 5.0 V8, plus a 2.0 Ingenium four-cylinder in later years. These engines work hard, and faults involving cooling, ignition or the supercharger system need careful investigation. Getting the diagnosis right first helps avoid replacing parts that were never the problem.",
+      "Our team works with Jaguar, Range Rover and Land Rover engines. We assess your Coupe, explain what we find in plain terms and recommend repair, rebuild or replacement based purely on the engine's actual condition."
     ],
     "badge": {
       "label": "Brand-Specific Tooling",
@@ -92,11 +85,11 @@ export const FTYPECOUPEData: ModelData = {
     }
   },
   "PrecisionData": {
-    "titleBefore": "A Specialist Advantage Most ",
-    "titleHighlight": "Jaguar Owners Don't Expect",
+    "titleBefore": "Jaguar F-Type Coupe Engine ",
+    "titleHighlight": "Rebuild or Replacement Engine?",
     "paragraphs": [
-      "Jaguar owners often assume their nearest option is a general garage or a costly main dealer visit, unaware that JLR's shared platform strategy means specialists in Land Rover engines are equally equipped to handle their vehicle. We've built genuine expertise across the group's engine range, not just one brand within it.",
-      "Every engine we work on, Jaguar included, is tested against factory tolerances and backed by a clear warranty explained upfront. Combined with UK-wide collection and delivery, this gives Jaguar owners access to specialist-level care that's often harder to find than it should be."
+      "An F-Type AJ126 engine rebuild can suit the supercharged 3.0 V6 when the block and heads are sound and the fault is limited. The same applies to an F-Type Coupe 5.0 V8 engine rebuild. We strip the engine, measure wear, machine where needed and reassemble with OEM-grade components, so you keep your car's original engine.",
+      "When damage is severe, an F-Type Coupe replacement engine may be the more practical choice. We can supply and fit an F-Type Coupe reconditioned engine matched to your engine code, including units for the F-Type R Coupe. F-Type Coupe engine replacement cost depends on the engine, its availability and the labour involved, so we quote after assessing your car."
     ],
     "badge": {
       "label": "Fixed-Price Quotes",
@@ -104,48 +97,48 @@ export const FTYPECOUPEData: ModelData = {
     }
   },
   "NationwideSupportData1": {
-    "titleBefore": "Why Jaguar and Land Rover Engines Are More ",
-    "titleHighlight": "Connected Than Owners Realise",
+    "titleBefore": "F-Type Coupe Engine Problems: ",
+    "titleHighlight": "Signs That May Need a Closer Look",
     "paragraphs": [
-      "Since the formation of Jaguar Land Rover, several engine families have been shared across both brands, most notably the Ingenium diesel and petrol range and the AJ133 supercharged V8. This means many of the same faults, maintenance patterns and rebuild techniques apply equally to Jaguar models as they do to Land Rover and Range Rover vehicles.",
-      "For owners, this shared engineering is genuinely useful to know. A specialist with deep experience in Range Rover Ingenium engines, for example, brings that same understanding directly to a Jaguar F-Pace fitted with the equivalent unit, rather than starting from scratch on an unfamiliar platform."
+      "Possible warning signs include misfires, rough running, coolant loss, overheating, unusual noises from the supercharger area or a check engine light. On supercharged V6 and V8 engines, cooling system components and supercharger-related parts are areas worth checking. These symptoms can have several causes, so none of them should be treated as a confirmed fault without inspection.",
+      "If your Coupe shows any of these signs, try to limit hard driving until it has been checked. Running a performance engine with a suspected fault can increase the risk of further damage. Get in touch early, and our team can advise on the next sensible step for your car."
     ]
   },
   "NationwideSupportData2": {
-    "titleBefore": "Find the Right Engine for Your ",
-    "titleHighlight": "Jaguar F-TYPE COUPE",
+    "titleBefore": "Start Your Jaguar F-Type Coupe Engine ",
+    "titleHighlight": "Rebuild With the Right Information",
     "paragraphs": [
-      "Compare the engine codes, capacity, power and year ranges in the table. Share your registration or VIN with our team to confirm the correct replacement before ordering."
+      "Whether your Coupe has the V6, V8 or four-cylinder engine, send us your registration or engine code and we will confirm the most suitable service."
     ]
   },
   "faqsData": [
     {
-      "q": "How do I find my Jaguar F-TYPE COUPE engine code?",
-      "a": "Check your vehicle documentation or engine identification marking. Our team can help confirm the correct engine from your registration or VIN."
+      "q": "Do you rebuild both V6 and V8 F-Type Coupe engines?",
+      "a": "Yes. We work on the supercharged 3.0 V6 and 5.0 V8 engines, as well as the 2.0 Ingenium unit, after a full assessment."
     },
     {
-      "q": "What engines does the Jaguar F-Pace use?",
-      "a": "The F-Pace has been fitted with Ingenium diesel and petrol engines across most trims, alongside the supercharged AJ133 V8 in SVR variants. The exact engine depends on model year and trim level, so it's worth confirming your specific code before ordering any parts."
+      "q": "What does an F-Type Coupe engine replacement cost?",
+      "a": "Cost depends on the engine type, unit availability and labour required. We provide a quote after assessing your Coupe rather than a fixed price."
     },
     {
-      "q": "Do Jaguar and Land Rover share the same engines?",
-      "a": "Yes, many Jaguar models use Ingenium and AJ133 engine platforms that are also fitted across Land Rover and Range Rover vehicles. This shared engineering means specialists experienced with one brand's engines are typically well placed to work confidently on the other."
+      "q": "Can you supply an F-Type Coupe reconditioned engine?",
+      "a": "Yes. Where replacement is the better option, we can supply and fit a reconditioned engine matched to your Coupe's engine code."
     },
     {
-      "q": "Is the Jaguar Ingenium engine considered reliable?",
-      "a": "Ingenium engines are generally dependable when serviced correctly, though like any engine family they have known issues to watch for, including timing chain wear on certain variants. Regular maintenance and prompt attention to early symptoms significantly reduce the risk of major failure."
+      "q": "Is the AJ126 engine worth rebuilding?",
+      "a": "Often, if the core components are in good condition. We inspect the engine first and only recommend a rebuild when it makes practical sense."
     },
     {
-      "q": "How much does a Jaguar engine replacement typically cost?",
-      "a": "Costs vary depending on the model, engine type and whether repair or full replacement is required. We provide a clear, itemised quote after diagnostics, so you know exactly what you're paying for before any work begins."
+      "q": "Does a misfire mean my Coupe needs a rebuild?",
+      "a": "Not necessarily. A misfire can come from ignition, fuel or mechanical causes. A diagnostic check is needed before any rebuild is considered."
     },
     {
-      "q": "Which Jaguar engine is considered the most reliable?",
-      "a": "Reliability depends heavily on maintenance history and generation rather than one engine being universally best. Later Ingenium updates have generally improved on earlier reliability concerns, though consistent servicing remains the biggest factor in long-term dependability."
+      "q": "How long does an F-Type Coupe engine rebuild take?",
+      "a": "It depends on the fault, parts availability and machining required. We will give you an estimated timeframe once the engine has been assessed."
     },
     {
-      "q": "Can you collect my Jaguar if I'm not local to your workshop?",
-      "a": "Yes, we offer UK-wide collection and delivery, so your location doesn't limit access to our specialist engine service. Simply share your address when booking and we'll arrange the logistics from there."
+      "q": "Can you collect my F-Type Coupe from outside Essex?",
+      "a": "Yes. We offer collection and delivery across the UK, so you can use our workshop wherever your Coupe is based."
     }
   ]
 };

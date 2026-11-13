@@ -6,31 +6,31 @@ export const XKRData: ModelData = {
     "description": "Specialist Jaguar XKR engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle."
   },
   "headerData": {
-    "title": "Jaguar XKR Engine Specialists",
-    "subtitle": "Specialist Jaguar XKR engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle.",
+    "title": "Jaguar XKR Engine Rebuild and Repair Specialists",
+    "subtitle": "Specialist rebuild, repair and replacement for supercharged Jaguar XKR engines, including the 4.2 and 5.0 V8, carried out at our Essex workshop.",
     "highlights": [
-      "Shared JLR platform knowledge across every brand",
-      "Every engine tested before dispatch or fitting",
-      "Warranty included on every engine supplied",
-      "UK-wide collection and delivery available"
+      "Jaguar, Range Rover and Land Rover specialists",
+      "Supercharged 4.2 and 5.0 V8 work",
+      "Supercharger and cooling system checks",
+      "Collection and delivery throughout the UK"
     ]
   },
   "BrandsData": [
     {
       "title": "Range Rover",
-      "description": "Explore specialist engine rebuild, repair and replacement services for Range Rover models.",
+      "description": "Engine rebuilds, repairs and reconditioned replacements for Range Rover Sport, Vogue, Velar and Evoque, including supercharged V8 models.",
       "image": "/images/models/sport.webp",
       "href": "/engines/range-rover"
     },
     {
       "title": "Land Rover",
-      "description": "Explore engine diagnostics, rebuilds and replacements for Land Rover Discovery, Defender and Freelander models.",
+      "description": "Discovery, Discovery Sport and Freelander engines repaired, rebuilt or replaced, with clear advice and UK-wide collection available.",
       "image": "/images/models/discovery-1.webp",
       "href": "/engines/land-rover"
     },
     {
       "title": "Jaguar",
-      "description": "Explore Jaguar models and engine codes for specialist engine repair, rebuild and replacement services.",
+      "description": "Specialist engine work for Jaguar performance and luxury models, including the XKR, XKR-S, XK, F-Type and XJ.",
       "image": "/jaguar.webp",
       "href": "/engines/jaguar"
     }
@@ -38,53 +38,46 @@ export const XKRData: ModelData = {
   "ReviewsData": [
     {
       "id": 1,
-      "name": "Adrian Solberg - F-Pace Diesel",
-      "date": "1 month ago",
-      "text": "F-Pace's Ingenium diesel was diagnosed and repaired quickly. Surprised to find a garage that understood Jaguar as well as Land Rover engines.",
+      "name": "Martin K.",
+      "date": "2 weeks ago",
+      "text": "My XKR 5.0 developed a rattle at idle. They traced it carefully, explained the supercharger findings clearly and the car now runs exactly as it should.",
       "stars": 5
     },
     {
       "id": 2,
-      "name": "Melissa Thorne - XE Diagnostics",
+      "name": "Caroline P.",
       "date": "1 month ago",
-      "text": "XE's engine fault had been missed by two other garages before this team caught it straight away. Genuinely impressive knowledge.",
+      "text": "Outstanding rebuild on my 4.2 supercharged XKR. Great communication, fair pricing and real care throughout. It pulls as strongly as I remember.",
       "stars": 5
     },
     {
       "id": 3,
-      "name": "Gareth Vance - XF Replacement",
-      "date": "1 month ago",
-      "text": "Replaced my XF's engine with a fully tested unit and the whole process felt properly specialist, not generic like most places.",
+      "name": "Bilal R.",
+      "date": "2 months ago",
+      "text": "After a major failure, they supplied and fitted a reconditioned V8 to my XKR. Kept me updated at every stage and delivered a superb result.",
       "stars": 5
     },
     {
       "id": 4,
-      "name": "Natasha Ferris - F-Pace Petrol",
-      "date": "1 month ago",
-      "text": "Didn't realise my F-Pace shared engine platforms with Range Rover until they explained it. Made total sense of the expertise on show.",
+      "name": "Jonathan W.",
+      "date": "3 weeks ago",
+      "text": "Overheating on my XKR had me worried. They found the real cause, didn't push unnecessary work and returned the car in excellent condition. Very trustworthy.",
       "stars": 5
     },
     {
       "id": 5,
-      "name": "Oscar Bramwell - F-Pace SVR",
-      "date": "1 month ago",
-      "text": "AJ133 V8 in my F-Pace SVR rebuilt properly, with real understanding of how these units differ from the standard Ingenium engines.",
-      "stars": 5
-    },
-    {
-      "id": 6,
-      "name": "Sofia Lindqvist - XE Timing Chain",
-      "date": "1 month ago",
-      "text": "XE's timing chain replaced before it caused real damage. Clear advice throughout and fairly priced compared to other quotes.",
+      "name": "Elaine T.",
+      "date": "4 days ago",
+      "text": "Collected my XKR from Manchester and returned it sounding fantastic. Proper specialists who clearly know supercharged Jaguars. Would happily recommend them to anyone.",
       "stars": 5
     }
   ],
   "NationwideData": {
-    "titleBefore": "Genuine Cross-Brand Knowledge of Shared ",
-    "titleHighlight": "JLR Engine Platforms",
+    "titleBefore": "Jaguar XKR Engine Repair Specialist for ",
+    "titleHighlight": "Supercharged V8s",
     "paragraphs": [
-      "Many of the engines fitted to modern Jaguar models, including the F-Pace, XE and XF, share Ingenium and AJ133 architecture with Land Rover and Range Rover vehicles. Understanding this shared engineering gives our team a real advantage when diagnosing and repairing Jaguar engines that others might treat as unfamiliar.",
-      "Rather than approaching your Jaguar as a completely separate platform, we apply the same depth of Ingenium and AJ133 knowledge built through years of Land Rover and Range Rover work. That crossover experience means faster, more confident diagnosis for Jaguar owners too."
+      "The X150 XKR was launched with the XKR 4.2 supercharged engine before switching to the XKR 5.0 supercharged V8 engine from 2009. These are high-performance units with extra components such as the supercharger and intercooler system. Faults can come from several areas, so careful diagnosis matters before any major work is recommended.",
+      "We specialise in Jaguar, Range Rover and Land Rover engines. Every XKR is assessed thoroughly, and we explain our findings clearly before recommending repair, rebuild or replacement based on the engine's real condition and your budget."
     ],
     "badge": {
       "label": "Brand-Specific Tooling",
@@ -92,11 +85,11 @@ export const XKRData: ModelData = {
     }
   },
   "PrecisionData": {
-    "titleBefore": "A Specialist Advantage Most ",
-    "titleHighlight": "Jaguar Owners Don't Expect",
+    "titleBefore": "Jaguar XKR Engine Rebuild or Replacement: ",
+    "titleHighlight": "Which Is Right?",
     "paragraphs": [
-      "Jaguar owners often assume their nearest option is a general garage or a costly main dealer visit, unaware that JLR's shared platform strategy means specialists in Land Rover engines are equally equipped to handle their vehicle. We've built genuine expertise across the group's engine range, not just one brand within it.",
-      "Every engine we work on, Jaguar included, is tested against factory tolerances and backed by a clear warranty explained upfront. Combined with UK-wide collection and delivery, this gives Jaguar owners access to specialist-level care that's often harder to find than it should be."
+      "A rebuild is often the right call when the block and heads are sound and the damage is contained. An XKR AJ133 engine rebuild on the 5.0 supercharged V8 involves stripping the engine, measuring wear, machining where needed and reassembling with OEM-grade parts. The same thorough approach applies to the earlier 4.2 supercharged V8 engine.",
+      "When damage is severe, a Jaguar XKR replacement engine may be the more practical solution. We can supply and fit a Jaguar XKR reconditioned engine matched to your engine code, whether your car has the 4.2 or 5.0 supercharged V8. Jaguar XKR engine replacement cost depends on the engine, availability and labour, so we quote after assessing your car."
     ],
     "badge": {
       "label": "Fixed-Price Quotes",
@@ -104,48 +97,48 @@ export const XKRData: ModelData = {
     }
   },
   "NationwideSupportData1": {
-    "titleBefore": "Why Jaguar and Land Rover Engines Are More ",
-    "titleHighlight": "Connected Than Owners Realise",
+    "titleBefore": "Jaguar XKR Engine Problems and Supercharger Issues ",
+    "titleHighlight": "Worth Checking Early",
     "paragraphs": [
-      "Since the formation of Jaguar Land Rover, several engine families have been shared across both brands, most notably the Ingenium diesel and petrol range and the AJ133 supercharged V8. This means many of the same faults, maintenance patterns and rebuild techniques apply equally to Jaguar models as they do to Land Rover and Range Rover vehicles.",
-      "For owners, this shared engineering is genuinely useful to know. A specialist with deep experience in Range Rover Ingenium engines, for example, brings that same understanding directly to a Jaguar F-Pace fitted with the equivalent unit, rather than starting from scratch on an unfamiliar platform."
+      "Possible warning signs include a rattle or whine from the front of the engine, loss of boost, misfires, overheating, coolant loss or warning lights. XKR supercharger problems, such as wear in the drive coupling, are among the issues often discussed by owners. None of these signs confirms a specific fault without proper inspection.",
+      "Supercharged engines rely heavily on effective cooling, so temperature-related symptoms deserve prompt attention. If you notice unusual noises or warning lights, avoid hard driving until the car has been checked. Early diagnosis can help prevent a smaller fault from developing into a far more expensive engine problem."
     ]
   },
   "NationwideSupportData2": {
-    "titleBefore": "Find the Right Engine for Your ",
-    "titleHighlight": "Jaguar XKR",
+    "titleBefore": "Getting the Details Right Before Your Jaguar ",
+    "titleHighlight": "XKR Engine Rebuild",
     "paragraphs": [
-      "Compare the engine codes, capacity, power and year ranges in the table. Share your registration or VIN with our team to confirm the correct replacement before ordering."
+      "The X150 XKR uses either the 4.2 or 5.0 supercharged V8. Share your registration or engine code, and we will confirm the most suitable service."
     ]
   },
   "faqsData": [
     {
-      "q": "How do I find my Jaguar XKR engine code?",
-      "a": "Check your vehicle documentation or engine identification marking. Our team can help confirm the correct engine from your registration or VIN."
+      "q": "Do you work on both XKR supercharged engines?",
+      "a": "Yes. We work on the XKR 4.2 supercharged engine and the 5.0 supercharged V8, starting every job with a thorough assessment."
     },
     {
-      "q": "What engines does the Jaguar F-Pace use?",
-      "a": "The F-Pace has been fitted with Ingenium diesel and petrol engines across most trims, alongside the supercharged AJ133 V8 in SVR variants. The exact engine depends on model year and trim level, so it's worth confirming your specific code before ordering any parts."
+      "q": "How much does a Jaguar XKR engine replacement cost?",
+      "a": "It depends on the engine type, unit availability and labour involved. We quote after assessing your XKR rather than offering a fixed price."
     },
     {
-      "q": "Do Jaguar and Land Rover share the same engines?",
-      "a": "Yes, many Jaguar models use Ingenium and AJ133 engine platforms that are also fitted across Land Rover and Range Rover vehicles. This shared engineering means specialists experienced with one brand's engines are typically well placed to work confidently on the other."
+      "q": "Can you supply a Jaguar XKR reconditioned engine?",
+      "a": "Yes. Where replacement is the better option, we can supply and fit a reconditioned supercharged V8 matched to your XKR's engine code."
     },
     {
-      "q": "Is the Jaguar Ingenium engine considered reliable?",
-      "a": "Ingenium engines are generally dependable when serviced correctly, though like any engine family they have known issues to watch for, including timing chain wear on certain variants. Regular maintenance and prompt attention to early symptoms significantly reduce the risk of major failure."
+      "q": "Do you have a Jaguar XKR engine for sale?",
+      "a": "We can source reconditioned XKR engines depending on availability. Contact us with your registration and we will check suitable options."
     },
     {
-      "q": "How much does a Jaguar engine replacement typically cost?",
-      "a": "Costs vary depending on the model, engine type and whether repair or full replacement is required. We provide a clear, itemised quote after diagnostics, so you know exactly what you're paying for before any work begins."
+      "q": "Does a rattle at idle mean supercharger failure?",
+      "a": "Not necessarily. A rattle can come from several components. An inspection is needed to confirm whether the supercharger or another part is responsible."
     },
     {
-      "q": "Which Jaguar engine is considered the most reliable?",
-      "a": "Reliability depends heavily on maintenance history and generation rather than one engine being universally best. Later Ingenium updates have generally improved on earlier reliability concerns, though consistent servicing remains the biggest factor in long-term dependability."
+      "q": "How long does a Jaguar XKR engine rebuild take?",
+      "a": "Timescales depend on the fault, parts availability and machining required. We will give you an estimated timeframe after assessing the engine."
     },
     {
-      "q": "Can you collect my Jaguar if I'm not local to your workshop?",
-      "a": "Yes, we offer UK-wide collection and delivery, so your location doesn't limit access to our specialist engine service. Simply share your address when booking and we'll arrange the logistics from there."
+      "q": "Can you collect my XKR if I live far away?",
+      "a": "Yes. We offer UK-wide collection and delivery from our Essex workshop, so distance does not stop you accessing specialist help."
     }
   ]
 };
