@@ -1,0 +1,475 @@
+{
+  "eyebrow": "Engineering Matrix",
+  "title": "204DTA Engine Specifications",
+  "description": "Verified engineering parameters for the 2.0L 4-cylinder AJ200D Ingenium diesel powertrain",
+  "fields": [
+    {
+      "label": "Engine Make",
+      "value": "Land Rover / Range Rover",
+      "icon": "car"
+    },
+    {
+      "label": "Engine Fuel",
+      "value": "Diesel",
+      "icon": "fuel"
+    },
+    {
+      "label": "Engine Horse Power",
+      "value": "240 PS (approx. 237 bhp)",
+      "icon": "gauge"
+    },
+    {
+      "label": "Engine Size",
+      "value": "2.0 Litres",
+      "icon": "ruler"
+    },
+    {
+      "label": "Engine Code",
+      "value": "204DTA (AJ200D)",
+      "icon": "code",
+      "highlight": true
+    },
+    {
+      "label": "Engine Layout",
+      "value": "Inline-4 (Transverse / Longitudinal)",
+      "icon": "layout"
+    },
+    {
+      "label": "Engine Actual CC",
+      "value": "1,999 cc",
+      "icon": "capacity"
+    },
+    {
+      "label": "Engine Cylinders",
+      "value": "4 Cylinders, Twin-Turbocharged",
+      "icon": "cylinders"
+    },
+    {
+      "label": "Engine Valves",
+      "value": "16 Valves (DOHC Chain Driven)",
+      "icon": "valves"
+    },
+    {
+      "label": "Engine Power KW",
+      "value": "177 kW @ 4,000 RPM",
+      "icon": "power"
+    },
+    {
+      "label": "Engine Fuel Supply",
+      "value": "Common Rail Direct Injection",
+      "icon": "supply"
+    },
+    {
+      "label": "Engine Charge",
+      "value": "Sequential Twin Turbochargers",
+      "icon": "charge"
+    }
+  ],
+  "note": "Specifications shown reflect standard factory configuration. Exact vehicle variant must be confirmed via VIN or registration.",
+  "cta": {
+    "label": "Check Engine Compatibility",
+    "href": "/get-quote"
+  },
+  "modelShowcase": {
+    "eyebrow": "Direct Engine Matches",
+    "title": "Top Land Rover Models",
+    "description": "Select your model to view compatible engine and fitting options.",
+    "badge": "100% In-Stock Options",
+    "transmissionLabel": "Transmission:",
+    "engineCodeLabel": "Engine Code:",
+    "ctaLabel": "Contact / Quote – CTA",
+    "cards": [
+      {
+        "name": "Land Rover Freelander 1",
+        "years": "1997-2006",
+        "description": "1.8L K-Series Petrol (120 PS / 160 Nm)",
+        "transmission": "5-speed manual",
+        "engineCode": "18K4F",
+        "image": "/images/models/freelander-1.webp",
+        "imageAlt": "Land Rover Freelander 1",
+        "href": "/engines/land-rover/freelander-1",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery 1",
+        "years": "1989-1994",
+        "description": "2.5L 200Tdi Turbo Diesel (113 PS / 265 Nm)",
+        "transmission": "LT77 5-speed manual",
+        "engineCode": "200TDI",
+        "image": "/images/models/discovery-1.webp",
+        "imageAlt": "Land Rover Discovery 1",
+        "href": "/engines/land-rover/discovery-1",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery Sport",
+        "years": "2014-continue",
+        "description": "2.0L Ingenium SD4 Twin-Turbo Diesel (241 PS / 500 Nm)",
+        "transmission": "9-speed automatic",
+        "engineCode": "204DTA",
+        "image": "/images/models/discovery-sport.webp",
+        "imageAlt": "Land Rover Discovery Sport",
+        "href": "/engines/land-rover/discovery-sport",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Freelander 2",
+        "years": "2006-2014",
+        "description": "2.0L Si4 Turbocharged Petrol (240 PS / 340 Nm)",
+        "transmission": "Aisin AWF21 6-speed automatic",
+        "engineCode": "204PT",
+        "image": "/images/models/freelander-2.webp",
+        "imageAlt": "Land Rover Freelander 2",
+        "href": "/engines/land-rover/freelander-2",
+        "quoteHref": "/get-quote"
+      }
+    ]
+  },
+  "engineGallery": {
+    "eyebrow": "Workshop Evidence",
+    "title": "Range Rover 204DTA Engine Gallery",
+    "description": "Workshop photography of complete assemblies, precision tooling, and vehicle installations.",
+    "images": [
+      {
+        "src": "/images/service/engine_swap/engine_swap 1.webp",
+        "alt": "Complete engine mounted on a workshop stand"
+      },
+      {
+        "src": "/images/workshop-8.webp",
+        "alt": "Range Rover with its bonnet open and removed engine in the workshop"
+      },
+      {
+        "src": "/images/service/engine_repair/engine_repair 3.webp",
+        "alt": "Exposed camshafts on an engine undergoing repairs"
+      },
+      {
+        "src": "/images/service/turbo_replacement/turbo_replacement 1.webp",
+        "alt": "Engine with turbocharger and intake components exposed in the workshop"
+      }
+    ]
+  },
+  "faq": {
+    "description": "Answers to common questions about the 2.7 TDV6 engine in the Land Rover Discovery 4. If yours is not covered, our team can help.",
+    "accordionName": "engine-code-faq",
+    "faqs": [
+      {
+        "q": "How do you confirm a 276DT engine fits my Discovery 4?",
+        "a": "We check your VIN or registration against the engine code, model year, market specification and emissions equipment. TDV6 engines from other models can differ in ancillaries and wiring, so compatibility is confirmed before supply."
+      },
+      {
+        "q": "How do used, reconditioned and rebuilt 2.7 TDV6 engines compare?",
+        "a": "A used engine comes from a donor vehicle, a reconditioned engine is stripped and given new wear parts, and a rebuild restores your existing engine. We recommend an option after assessing the fault and vehicle."
+      },
+      {
+        "q": "Can I buy a Discovery 4 TDV6 engine supply only?",
+        "a": "Yes. Trade buyers, independent garages and private customers with their own mechanic can buy supply only. Alternatively, choose supply and fit and our technicians will install the engine at our Grays, Essex workshop."
+      },
+      {
+        "q": "What affects the Discovery 4 engine replacement cost for a 276DT?",
+        "a": "The cost depends on the engine option, the condition of your current engine, any parts needed such as a turbo or DPF, and the labour involved, including body-off access. Send your registration or VIN for a quote."
+      },
+      {
+        "q": "Is there a warranty on a replacement 276DT engine?",
+        "a": "Warranty cover depends on the engine option and whether we carry out the installation. We confirm the exact terms in writing with your quote, so you know what is covered before work begins."
+      },
+      {
+        "q": "Do you deliver 2.7 TDV6 engines across the UK?",
+        "a": "Yes. We deliver engines throughout the United Kingdom from our Grays workshop. Delivery arrangements and costs are confirmed in your quote, and supply and fit customers can bring their Discovery to us."
+      },
+      {
+        "q": "How long does a Discovery 4 engine replacement usually take?",
+        "a": "The timescale depends on engine availability, whether a rebuild is needed, any body-off work and additional repairs found during inspection. We give you an estimated timeframe with your quote and keep you informed."
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "The RRG Standard",
+    "title": "Why Discovery 4 Owners Choose Us",
+    "description": "Discovery 4 owners and trade buyers rely on our TDV6 knowledge and clear, practical advice.",
+    "cards": [
+      {
+        "icon": "shield",
+        "title": "Land Rover Engine Focus",
+        "description": "Land Rover and Range Rover engines are our core work, including the 2.7 TDV6 used in Discovery 3 and 4 models."
+      },
+      {
+        "icon": "checklist",
+        "title": "Specification Checked",
+        "description": "We match each replacement to your VIN and specification before supply, avoiding confusion between similar TDV6 engine versions."
+      },
+      {
+        "icon": "fitting",
+        "title": "Supply or Fitted",
+        "description": "Buy the engine for your own garage to install, or let our Grays technicians supply and fit it for you."
+      },
+      {
+        "icon": "message",
+        "title": "Honest Quotations",
+        "description": "We explain the findings, options and costs in plain English, and keep you updated while your Discovery is with us."
+      }
+    ]
+  },
+  "workshopIntro": {
+    "eyebrow": "From Assessment to Installation",
+    "title": "Repair, Rebuild or Replace Your Discovery 4 TDV6?",
+    "description": "The fault, mileage and value of your Discovery 4 decide the best approach. Injector, turbo, DPF or oil cooler faults can often be repaired individually. If the crankshaft has failed or the bearings are damaged, a rebuild or Land Rover Discovery 4 276DT engine replacement is usually the more sensible long-term choice.",
+    "paragraphs": [
+      "Major engine work on the Discovery 4 can involve separating the body from the chassis, so checking related parts makes sense. Where relevant, we inspect the turbo, oil cooler, intercooler, EGR, DPF and cooling system, and renew the oil, filters and coolant.",
+      "Send your registration or VIN with a short description of the symptoms. We will confirm compatibility, explain the options and quote for supply only, supply and fit at our Grays workshop, or delivery across the UK."
+    ]
+  },
+  "compatibilityFitting": {
+    "title": "Discovery 4 Compatibility and Fitting",
+    "cards": [
+      {
+        "icon": "compatibility",
+        "eyebrow": "Engineering Diligence",
+        "title": "Confirming the Correct 276DT Engine",
+        "description": "2.7 TDV6 engines from the Discovery 3, Discovery 4 and Range Rover Sport differ in ancillaries, wiring and emissions parts. We check your VIN and engine code, and confirm the gearbox and four-wheel-drive configuration, before supplying any engine.",
+        "checks": [
+          "VIN and engine code verified",
+          "Discovery 4 specification confirmed",
+          "Gearbox and drive layout checked"
+        ],
+        "ctaLabel": "Check My Engine Code",
+        "ctaHref": "/get-quote"
+      },
+      {
+        "icon": "workshop",
+        "eyebrow": "Workshop Integrity",
+        "title": "Installation and Road Testing",
+        "description": "Our technicians fit each engine at our Grays workshop, including body-off access where needed. Afterwards, the fuel and cooling systems are bled, the ECU is adapted using JLR diagnostic software, and the vehicle is road tested.",
+        "checks": [
+          "Fitted by our own technicians",
+          "ECU adaptation with TOPIx and Pathfinder",
+          "Road tested before handover"
+        ],
+        "ctaLabel": "Get a Fitting Quote",
+        "ctaHref": "/get-quote"
+      }
+    ]
+  },
+  "engineServices": {
+    "eyebrow": "Specialist Workshop",
+    "title": "Discovery 4 2.7 TDV6 Services",
+    "description": "Specialist services for the Discovery 4 276DT, from diagnosis to complete engine replacement.",
+    "linkLabel": "Learn More",
+    "cards": [
+      {
+        "icon": "tools",
+        "title": "Engine Diagnostics",
+        "description": "We combine JLR diagnostic software, live data and physical checks to identify the likely cause of knocking, smoke or lost power.",
+        "href": "/services/engine-diagnostics"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Rebuild",
+        "description": "We strip the 276DT, measure the crankshaft, bearings and cylinders, and rebuild it with new parts wherever wear or damage is found.",
+        "href": "/services/engine-rebuild"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Replacement",
+        "description": "When repair is uneconomical, we supply and fit a compatible used or reconditioned 2.7 TDV6 engine matched to your Discovery 4.",
+        "href": "/services/engine-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Timing Belt Replacement",
+        "description": "We renew the camshaft and fuel pump belts, tensioners and pulleys on the 2.7 TDV6, helping prevent belt failure and engine damage.",
+        "href": "/services/timing-belt-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Turbo Replacement",
+        "description": "Worn or sticking turbochargers are replaced, with checks on the actuator, oil supply and intake pipework to protect the new unit.",
+        "href": "/services/turbo-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "DPF Replacement",
+        "description": "If the automatic gearbox is also faulty, we can supply and fit a compatible replacement while your engine work is carried out.",
+        "href": "/services/dpf-replacement"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Swap",
+        "description": "Complete Discovery 4 engine swaps, including body-off access where required, with attention to mounts, wiring, sensors and ECU adaptation.",
+        "href": "/services/engine-swap"
+      },
+      {
+        "icon": "replacement",
+        "title": "Major Service",
+        "description": "A detailed major service for the 2.7 TDV6, including oil, filters and inspections that help protect the crankshaft, turbo and belts.",
+        "href": "/services/major-service"
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Priority Engineering Advice",
+    "titleBefore": "Request a",
+    "titleHighlight": "Discovery 4",
+    "titleAfter": "Engine Quote",
+    "description": "Send your registration or VIN and we will confirm the right 2.7 TDV6 option for your Discovery 4. We are based in Grays, Essex, and supply engines across the UK.",  
+    "callLabel": "Call us: 01708 592377",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Get a Quote",
+    "quoteHref": "/get-quote",
+    "highlights": [
+      {
+        "icon": "location",
+        "label": "Grays, Essex Workshop"
+      },
+      {
+        "icon": "delivery",
+        "label": "UK Nationwide Pallet Delivery"
+      },
+      {
+        "icon": "warranty",
+        "label": "12-Month Mechanical Warranty"
+      }
+    ]
+  },
+  "buyingGuide": {
+    "eyebrow": "Buyer's comparison",
+    "title": "Used, Reconditioned or Rebuilt: Your Discovery 4 TDV6 Options",
+    "description": "Each option offers a different balance of cost, condition and longevity, and we explain exactly what is included.",
+    "subtitle": "Review our verified tiers below to find the correct fit for your Land Rover or Range Rover.",
+    "cards": [
+      {
+        "tier": "Tier 01",
+        "badge": "Tested Core",
+        "title": "Used Engine",
+        "description": "A compatible 276DT engine from a donor vehicle, offering a practical lower-cost route back on the road for your Discovery 4.",
+        "features": [
+          "Compatible donor engine sourced",
+          "Engine code and mileage confirmed",
+          "Supply only or supply and fit"
+        ],
+        "linkLabel": "Explore Used Engines",
+        "href": "/engines",
+        "highlighted": false,
+        "recommendation": ""
+      },
+      {
+        "tier": "Tier 02",
+        "badge": "12-Mo Warranty",
+        "title": "Reconditioned Engine",
+        "description": "A Land Rover Discovery 4 276DT reconditioned engine is stripped, inspected and rebuilt with new wear components before it is supplied.",
+        "features": [
+          "New bearings and wear parts",
+          "Prepared ready for installation",
+          "Matched to your vehicle's VIN"
+        ],
+        "linkLabel": "Explore Reconditioned",
+        "href": "/get-quote",
+        "highlighted": true,
+        "recommendation": "Most popular choice"
+      },
+      {
+        "tier": "Tier 03",
+        "badge": "Zero-Hour Spec",
+        "title": "Rebuilt Engine",
+        "description": "Your own 276DT engine is rebuilt in our Grays workshop, keeping its original block and engine number with your Discovery.",
+        "features": [
+          "Original engine identity retained",
+          "Full strip-down and measurement",
+          "Parts renewed based on findings"
+        ],
+        "linkLabel": "Explore Rebuilt Engines",
+        "href": "/services/engine-rebuild",
+        "highlighted": false,
+        "recommendation": ""
+      }
+    ]
+  },
+  "engineProblems": {
+    "eyebrow": "Diagnostic Advisory",
+    "title": "Common Discovery 4 2.7 TDV6 Faults",
+    "description": "The 2.7 TDV6 often shows warning signs before serious failure, so early checks help keep costs down.",
+    "actionLabel": "Action:",
+    "ctaLabel": "Book an Engine Diagnostic",
+    "ctaHref": "/get-quote",
+    "cards": [
+      {
+        "icon": "bell",
+        "title": "Crankshaft Fracture and Bearing Wear",
+        "description": "A heavy knock, a low oil pressure warning or a sudden engine stop may indicate bearing wear or a fractured crankshaft on higher-mileage TDV6 engines. We assess the crankshaft, bearings and oil system.",
+        "action": "High-precision chain guide inspection"
+      },
+      {
+        "icon": "drop",
+        "title": "Timing Belt Service Neglect",
+        "description": "The 2.7 TDV6 relies on timing and fuel pump belts. Missed replacement intervals can lead to belt failure and serious valve damage. We check belt condition and service history.",
+        "action": "Twin-turbo actuator boost analysis"
+      },
+      {
+        "icon": "power",
+        "title": "Turbo Actuator and Boost Loss",
+        "description": "Limp mode, flat spots or boost fault codes may come from a sticking variable-vane turbocharger, a failing actuator or a leaking intake hose. We test boost control and turbo condition.",
+        "action": "Fuel rail and injector leak-off test"
+      },
+      {
+        "icon": "smoke",
+        "title": "Oil Cooler Failure",
+        "description": "Oil in the coolant, coolant in the oil or a milky residue can point to a failed oil cooler or perished internal seals. We check both fluids and pressure-test the system.",
+        "action": "Turbo seal & DPF saturation check"
+      },
+      {
+        "icon": "drop",
+        "title": "DPF and Regeneration Problems",
+        "description": "DPF warnings, frequent regenerations or reduced power often occur when short journeys stop the particulate filter clearing properly. We read live data and assess filter loading.",
+        "action": "Heat exchanger pressure test"
+      },
+      {
+        "icon": "warning",
+        "title": "Injector Leaks and Smoke",
+        "description": "Rough idle, smoke, a fuel smell or poor starting may be caused by leaking injector seals or worn fuel injectors. We test the injectors and inspect the seals.",
+        "action": "JLR TOPIx dealer-level scan"
+      }
+    ]
+  },
+  "engineOverview": {
+    "eyebrow": "Marque Authority",
+    "title": "Land Rover Discovery 4 276DT Engine: The Complete 2.7 TDV6 Guide",
+    "paragraphs": [
+      "The Land Rover Discovery 4 276DT engine is the 2.7-litre V6 turbodiesel, known as the 2.7 TDV6, fitted to Discovery 4 models in certain markets before the 3.0 V6 diesel became standard. With mileage, crankshaft failure, timing belt neglect, turbo and DPF problems often lead owners to seek repair or replacement.",
+      "The 2.7 TDV6 also appeared in the Discovery 3 and Range Rover Sport, with differences in ancillaries, wiring and emissions equipment. We identify the correct Discovery 4 TDV6 engine by checking your VIN, the engine code and your registration before supply.",
+      "Whether you need a targeted repair, an engine rebuild or a complete Discovery 4 276DT engine replacement, our team assesses the vehicle and explains each option. Call us or send your registration for a written quote."
+    ]
+  },
+  "specialistsBanner": {
+    "eyebrow": "Discovery 4 TDV6 Specialists",
+    "title": "Land Rover Discovery 4 276DT Engine Specialists",
+    "description": "Our Grays, Essex workshop repairs, rebuilds and replaces the Land Rover Discovery 4 276DT 2.7 TDV6, covering crankshaft failures, timing belt renewal, turbo and DPF faults and complete engine swaps, with system bleeding, ECU adaptation and road testing included.",
+    "features": [
+      {
+        "icon": "gauge",
+        "title": "Body-Off Engine Access",
+        "description": "Discovery 4 removal handled"
+      },
+      {
+        "icon": "badge",
+        "title": "JLR Diagnostic Software",
+        "description": "TOPIx and Pathfinder coding"
+      }
+    ],
+    "image": "/images/workshop-8.webp",
+    "imageAlt": "Range Rover with its bonnet open and removed engine in the workshop",
+    "imageCaption": "Certified JLR Master Engineers On-Site",
+    "callLabel": "Call our Experts (01708 592377)",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Request a Quote",
+    "quoteHref": "/get-quote"
+  },
+  "header": {
+    "title": "Land Rover Discovery 4 276DT Engine Supply and Rebuilds",
+    "subtitle": "Supply, repair, rebuild and fitting for the Discovery 4 2.7 TDV6 diesel.",
+    "highlights": [
+      "Engine matched to your VIN and engine code first",
+      "Used, reconditioned and rebuilt 2.7 TDV6 engines available",
+      "Supply only, or supply and fit in Grays, Essex   ",
+      "Discovery 4 engines delivered to customers UK-wide"
+    ]
+  }
+}

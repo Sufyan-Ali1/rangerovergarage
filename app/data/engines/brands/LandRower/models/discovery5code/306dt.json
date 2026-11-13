@@ -1,0 +1,475 @@
+{
+  "eyebrow": "Engineering Matrix",
+  "title": "204DTA Engine Specifications",
+  "description": "Verified engineering parameters for the 2.0L 4-cylinder AJ200D Ingenium diesel powertrain",
+  "fields": [
+    {
+      "label": "Engine Make",
+      "value": "Land Rover / Range Rover",
+      "icon": "car"
+    },
+    {
+      "label": "Engine Fuel",
+      "value": "Diesel",
+      "icon": "fuel"
+    },
+    {
+      "label": "Engine Horse Power",
+      "value": "240 PS (approx. 237 bhp)",
+      "icon": "gauge"
+    },
+    {
+      "label": "Engine Size",
+      "value": "2.0 Litres",
+      "icon": "ruler"
+    },
+    {
+      "label": "Engine Code",
+      "value": "204DTA (AJ200D)",
+      "icon": "code",
+      "highlight": true
+    },
+    {
+      "label": "Engine Layout",
+      "value": "Inline-4 (Transverse / Longitudinal)",
+      "icon": "layout"
+    },
+    {
+      "label": "Engine Actual CC",
+      "value": "1,999 cc",
+      "icon": "capacity"
+    },
+    {
+      "label": "Engine Cylinders",
+      "value": "4 Cylinders, Twin-Turbocharged",
+      "icon": "cylinders"
+    },
+    {
+      "label": "Engine Valves",
+      "value": "16 Valves (DOHC Chain Driven)",
+      "icon": "valves"
+    },
+    {
+      "label": "Engine Power KW",
+      "value": "177 kW @ 4,000 RPM",
+      "icon": "power"
+    },
+    {
+      "label": "Engine Fuel Supply",
+      "value": "Common Rail Direct Injection",
+      "icon": "supply"
+    },
+    {
+      "label": "Engine Charge",
+      "value": "Sequential Twin Turbochargers",
+      "icon": "charge"
+    }
+  ],
+  "note": "Specifications shown reflect standard factory configuration. Exact vehicle variant must be confirmed via VIN or registration.",
+  "cta": {
+    "label": "Check Engine Compatibility",
+    "href": "/get-quote"
+  },
+  "modelShowcase": {
+    "eyebrow": "Direct Engine Matches",
+    "title": "Top Land Rover Models",
+    "description": "Select your model to view compatible engine and fitting options.",
+    "badge": "100% In-Stock Options",
+    "transmissionLabel": "Transmission:",
+    "engineCodeLabel": "Engine Code:",
+    "ctaLabel": "Contact / Quote – CTA",
+    "cards": [
+      {
+        "name": "Land Rover Freelander 1",
+        "years": "1997-2006",
+        "description": "1.8L K-Series Petrol (120 PS / 160 Nm)",
+        "transmission": "5-speed manual",
+        "engineCode": "18K4F",
+        "image": "/images/models/freelander-1.webp",
+        "imageAlt": "Land Rover Freelander 1",
+        "href": "/engines/land-rover/freelander-1",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery 1",
+        "years": "1989-1994",
+        "description": "2.5L 200Tdi Turbo Diesel (113 PS / 265 Nm)",
+        "transmission": "LT77 5-speed manual",
+        "engineCode": "200TDI",
+        "image": "/images/models/discovery-1.webp",
+        "imageAlt": "Land Rover Discovery 1",
+        "href": "/engines/land-rover/discovery-1",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery Sport",
+        "years": "2014-continue",
+        "description": "2.0L Ingenium SD4 Twin-Turbo Diesel (241 PS / 500 Nm)",
+        "transmission": "9-speed automatic",
+        "engineCode": "204DTA",
+        "image": "/images/models/discovery-sport.webp",
+        "imageAlt": "Land Rover Discovery Sport",
+        "href": "/engines/land-rover/discovery-sport",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Freelander 2",
+        "years": "2006-2014",
+        "description": "2.0L Si4 Turbocharged Petrol (240 PS / 340 Nm)",
+        "transmission": "Aisin AWF21 6-speed automatic",
+        "engineCode": "204PT",
+        "image": "/images/models/freelander-2.webp",
+        "imageAlt": "Land Rover Freelander 2",
+        "href": "/engines/land-rover/freelander-2",
+        "quoteHref": "/get-quote"
+      }
+    ]
+  },
+  "engineGallery": {
+    "eyebrow": "Workshop Evidence",
+    "title": "Range Rover 204DTA Engine Gallery",
+    "description": "Workshop photography of complete assemblies, precision tooling, and vehicle installations.",
+    "images": [
+      {
+        "src": "/images/service/engine_swap/engine_swap 1.webp",
+        "alt": "Complete engine mounted on a workshop stand"
+      },
+      {
+        "src": "/images/workshop-8.webp",
+        "alt": "Range Rover with its bonnet open and removed engine in the workshop"
+      },
+      {
+        "src": "/images/service/engine_repair/engine_repair 3.webp",
+        "alt": "Exposed camshafts on an engine undergoing repairs"
+      },
+      {
+        "src": "/images/service/turbo_replacement/turbo_replacement 1.webp",
+        "alt": "Engine with turbocharger and intake components exposed in the workshop"
+      }
+    ]
+  },
+  "faq": {
+    "description": "Answers to common questions about the 3.0 TDV6 engine in the Land Rover Discovery 5. If yours is not covered, our team can help.",
+    "accordionName": "engine-code-faq",
+    "faqs": [
+      {
+        "q": "Can a Discovery 4 306DT engine fit my Discovery 5?",
+        "a": "Not directly. The Discovery 4 and Discovery 5 versions differ in ancillaries, emissions equipment and calibration, so we check your VIN and engine code before recommending a compatible replacement engine."
+      },
+      {
+        "q": "How do used, reconditioned and rebuilt 306DT engines compare?",
+        "a": "A used engine comes from a donor vehicle, a reconditioned engine is stripped and given new wear parts, and a rebuild restores your existing engine. We recommend an option after assessing the fault and vehicle."
+      },
+      {
+        "q": "Can I buy a Discovery 5 3.0 TDV6 engine supply only?",
+        "a": "Yes. Trade buyers, independent garages and private customers with their own mechanic can buy supply only. Alternatively, choose supply and fit and our technicians will install the engine at our Grays, Essex workshop."
+      },
+      {
+        "q": "What affects the cost of a Discovery 5 306DT engine replacement?",
+        "a": "The cost depends on the engine option, the condition of your current engine, any parts needed such as a turbo, DPF or AdBlue component, and whether fitting is included. Send your registration or VIN for a quote."
+      },
+      {
+        "q": "Is there a warranty on a replacement 306DT engine?",
+        "a": "Warranty cover depends on the engine option and whether we carry out the installation. We confirm the exact terms in writing with your quote, so you know what is covered before work begins."
+      },
+      {
+        "q": "Do you deliver 3.0 TDV6 engines across the UK?",
+        "a": "Yes. We deliver engines throughout the United Kingdom from our Grays workshop. Delivery arrangements and costs are confirmed in your quote, and supply and fit customers can bring their Discovery to us."
+      },
+      {
+        "q": "How long does a Discovery 5 306DT engine replacement take?",
+        "a": "The timescale depends on engine availability, whether a rebuild is needed and any additional work found during inspection. We give you an estimated timeframe with your quote and keep you informed throughout."
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "The RRG Standard",
+    "title": "Why Discovery 5 Owners Choose Us",
+    "description": "Discovery 5 owners and trade buyers rely on our V6 diesel knowledge and clear, practical advice.",
+    "cards": [
+      {
+        "icon": "shield",
+        "title": "Land Rover Specialists",
+        "description": "Land Rover and Range Rover engines are our core work, including the 3.0 V6 diesel used in the Discovery 5."
+      },
+      {
+        "icon": "checklist",
+        "title": "Generation Checked",
+        "description": "We confirm your engine matches the Discovery 5 specification before supply, avoiding confusion with earlier Discovery 4 versions."
+      },
+      {
+        "icon": "fitting",
+        "title": "Supply or Fitted",
+        "description": "Order the engine for your own garage to install, or let our Grays technicians supply and fit it for you."
+      },
+      {
+        "icon": "message",
+        "title": "Clear Quotations",
+        "description": "We explain the findings, options and costs in plain English, and keep you updated while your Discovery is with us."
+      }
+    ]
+  },
+  "workshopIntro": {
+    "eyebrow": "From Assessment to Installation",
+    "title": "Repair, Rebuild or Replace Your 306DT?",
+    "description": "The fault, mileage and value of your Discovery 5 decide the best approach. Turbo, EGR, DPF, AdBlue and oil cooler faults can often be repaired individually. If the bearings have failed or the crankshaft is damaged, a rebuild or Land Rover Discovery 5 306DT engine replacement is usually the more dependable choice.",
+    "paragraphs": [
+      "Bearing failures are often linked to oil supply or contamination, so we look beyond the engine itself. Where relevant, we inspect the oil cooler, turbo, intercooler, EGR, DPF, AdBlue system and cooling circuit, and renew the oil, filters and coolant.",
+      "Send your registration or VIN with a short description of the symptoms. We will confirm compatibility, explain the options and quote for supply only, supply and fit at our Grays workshop, or delivery across the UK."
+    ]
+  },
+  "compatibilityFitting": {
+    "title": "Discovery 5 306DT Fitment and Installation",
+    "cards": [
+      {
+        "icon": "compatibility",
+        "eyebrow": "Engineering Diligence",
+        "title": "Confirming the Correct 306DT Engine",
+        "description": "3.0 V6 diesel engines differ in output, ancillaries, emissions equipment and calibration between the Discovery 4, Discovery 5 and other models. We check your VIN and engine code, and confirm the gearbox and drive layout, before supply.",
+        "checks": [
+          "VIN and engine code verified",
+          "Discovery 5 emissions specification confirmed",
+          "Gearbox and drive layout confirmed"
+        ],
+        "ctaLabel": "Check My Engine Code",
+        "ctaHref": "/get-quote"
+      },
+      {
+        "icon": "workshop",
+        "eyebrow": "Workshop Integrity",
+        "title": "Fitting and Road Testing",
+        "description": "Our technicians install each engine at our Grays workshop. After fitting, the fuel and cooling systems are bled, the ECU is adapted using JLR diagnostic software, and the Discovery is road tested before handover.",
+        "checks": [
+          "Fitted by our own technicians",
+          "ECU adaptation with TOPIx and Pathfinder",
+          "Road tested before handover"
+        ],
+        "ctaLabel": "Get a Fitting Quote",
+        "ctaHref": "/get-quote"
+      }
+    ]
+  },
+  "engineServices": {
+    "eyebrow": "Specialist Workshop",
+    "title": "Discovery 5 3.0 Diesel Engine Services",
+    "description": "Specialist services for the Land Rover Discovery 5 3.0 diesel engine, from diagnosis to replacement.",
+    "linkLabel": "Learn More",
+    "cards": [
+      {
+        "icon": "tools",
+        "title": "Engine Diagnostics",
+        "description": "We use JLR diagnostic software, live data and physical checks to identify the likely cause of knocking, warning lights or lost power.",
+        "href": "/services/engine-diagnostics"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Rebuild",
+        "description": "The 306DT is stripped and measured, then rebuilt with new bearings, seals and other parts wherever wear or damage is found.",
+        "href": "/services/engine-rebuild"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Replacement",
+        "description": "When repair is not worthwhile, we supply and fit a compatible used or reconditioned 3.0 TDV6 engine matched to your Discovery 5.",
+        "href": "/services/engine-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Timing Belt Replacement",
+        "description": "We renew the camshaft belt, fuel pump belt, tensioners and pulleys on the 3.0 V6, helping prevent belt failure and serious damage.",
+        "href": "/services/timing-belt-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Turbo Replacement",
+        "description": "Worn or sticking turbochargers are replaced, with checks on the actuator, oil supply and intercooler pipework to help protect the new unit.",
+        "href": "/services/turbo-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "DPF Replacement",
+        "description": "Where the particulate filter cannot be recovered, we replace the DPF and investigate why regeneration has failed to prevent a repeat.",
+        "href": "/services/dpf-replacement"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Swap",
+        "description": "Complete Discovery 5 engine swaps with careful attention to mounts, wiring, sensors, AdBlue and emissions components, and ECU adaptation.",
+        "href": "/services/engine-swap"
+      },
+      {
+        "icon": "replacement",
+        "title": "Gearbox Replacement",
+        "description": "If the ZF automatic gearbox is also faulty, we can supply and fit a compatible replacement while your engine work is completed.",
+        "href": "/services/gearbox-replacement"
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Priority Engineering Advice",
+    "titleBefore": "Get a Quote for Your",
+    "titleHighlight": "Discovery 5 TDV6",
+    "titleAfter": "",
+    "description": "Send your registration or VIN and we will confirm the right 3.0 TDV6 engine option for your Discovery 5. We are based in Grays, Essex, and supply engines UK-wide.",  
+    "callLabel": "Call us: 01708 592377",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Get a Quote",
+    "quoteHref": "/get-quote",
+    "highlights": [
+      {
+        "icon": "location",
+        "label": "Grays, Essex Workshop"
+      },
+      {
+        "icon": "delivery",
+        "label": "UK Nationwide Pallet Delivery"
+      },
+      {
+        "icon": "warranty",
+        "label": "12-Month Mechanical Warranty"
+      }
+    ]
+  },
+  "buyingGuide": {
+    "eyebrow": "Buyer's comparison",
+    "title": "Used, Reconditioned or Rebuilt: Your Discovery 5 TDV6 Options",
+    "description": "Whether you need a used unit or a Land Rover Discovery rebuilt engine, we explain exactly what each option includes.",
+    "subtitle": "Review our verified tiers below to find the correct fit for your Land Rover or Range Rover.",
+    "cards": [
+      {
+        "tier": "Tier 01",
+        "badge": "Tested Core",
+        "title": "Used Engine",
+        "description": "A compatible 306DT engine from a donor vehicle, offering a lower-cost way to get your Discovery 5 back on the road.",
+        "features": [
+          "Compatible donor engine sourced",
+          "Engine code and mileage confirmed",
+          "Supply only or supply and fit"
+        ],
+        "linkLabel": "Explore Used Engines",
+        "href": "/engines",
+        "highlighted": false,
+        "recommendation": ""
+      },
+      {
+        "tier": "Tier 02",
+        "badge": "12-Mo Warranty",
+        "title": "Reconditioned Engine",
+        "description": "A Land Rover Discovery 5 306DT reconditioned engine is stripped, inspected and rebuilt with new wear components, including bearings, before supply.",
+        "features": [
+          "New timing and wear parts",
+          "Prepared ready for installation",
+          "Matched to your vehicle's VIN"
+        ],
+        "linkLabel": "Explore Reconditioned",
+        "href": "/get-quote",
+        "highlighted": true,
+        "recommendation": "Most popular choice"
+      },
+      {
+        "tier": "Tier 03",
+        "badge": "Zero-Hour Spec",
+        "title": "Rebuilt Engine",
+        "description": "Your own 306DT engine is rebuilt at our Grays workshop, keeping its original block and engine number with your Discovery.",
+        "features": [
+          "Original engine identity retained",
+          "Full strip-down and measurement",
+          "Parts renewed based on findings"
+        ],
+        "linkLabel": "Explore Rebuilt Engines",
+        "href": "/services/engine-rebuild",
+        "highlighted": false,
+        "recommendation": ""
+      }
+    ]
+  },
+  "engineProblems": {
+    "eyebrow": "Diagnostic Advisory",
+    "title": "Common Discovery 5 3.0 TDV6 Problems",
+    "description": "The 3.0 V6 diesel often gives warning signs before major failure, so early checks can limit costly damage.",
+    "actionLabel": "Action:",
+    "ctaLabel": "Book an Engine Diagnostic",
+    "ctaHref": "/get-quote",
+    "cards": [
+      {
+        "icon": "bell",
+        "title": "Low Oil Pressure and Bearing Knock",
+        "description": "A knocking noise under load, low oil pressure warnings or metal in the oil may indicate bearing wear that can lead to crankshaft damage. We test oil pressure and inspect the bottom end.",
+        "action": "High-precision chain guide inspection"
+      },
+      {
+        "icon": "drop",
+        "title": "Cambelt and Fuel Pump Belt Due",
+        "description": "The 3.0 V6 diesel relies on belts for its camshafts and high-pressure fuel pump. Overdue belts or tired tensioners can fail suddenly. We check belt condition and service records.",
+        "action": "Twin-turbo actuator boost analysis"
+      },
+      {
+        "icon": "power",
+        "title": "Turbo Actuator and Boost Leaks",
+        "description": "Limp mode, flat performance or boost fault codes may come from turbocharger wear, a sticking actuator or a split intercooler hose. We test boost control and inspect the turbo.",
+        "action": "Fuel rail and injector leak-off test"
+      },
+      {
+        "icon": "smoke",
+        "title": "Oil Cooler Cross-Contamination",
+        "description": "Oil traces in the coolant, coolant in the oil or a creamy residue under the cap may point to a failing oil cooler or seal. We check both fluids and pressure-test the system.",
+        "action": "Turbo seal & DPF saturation check"
+      },
+      {
+        "icon": "drop",
+        "title": "EGR and Intake Carbon",
+        "description": "Rough running, hesitation or EGR fault codes can be caused by carbon build-up in the EGR valves, cooler or intake passages. We test EGR operation and inspect the intake.",
+        "action": "Heat exchanger pressure test"
+      },
+      {
+        "icon": "warning",
+        "title": "DPF and AdBlue Warnings",
+        "description": "DPF lights, regeneration problems, AdBlue messages or a restart countdown may follow short journeys or faults in sensors, pumps or injectors. We read emissions data and test the system.",
+        "action": "JLR TOPIx dealer-level scan"
+      }
+    ]
+  },
+  "engineOverview": {
+    "eyebrow": "Marque Authority",
+    "title": "Land Rover Discovery 5 306DT Engine: Your Complete 3.0 TDV6 Guide",
+    "paragraphs": [
+      "The Land Rover Discovery 5 306DT engine is the 3.0-litre V6 diesel fitted to TDV6 versions of the fifth-generation Discovery. Smooth and strong for towing, it is now reaching higher mileages, and bearing damage, belt neglect, turbo faults and DPF or AdBlue problems often lead owners to seek repair or replacement.",
+      "The Land Rover 306DT engine was used across several Land Rover and Jaguar models, and later versions differ in emissions equipment, ancillaries and calibration. We identify the correct Discovery 5 3.0 TDV6 engine by checking your VIN, engine code and registration.",
+      "Whether you need a targeted repair, an engine rebuild or a complete Land Rover Discovery 5 306DT engine replacement, our team assesses the vehicle and explains each option. Call us or send your registration for a written quote."
+    ]
+  },
+  "specialistsBanner": {
+    "eyebrow": "Discovery 5 V6 Specialists",
+    "title": "Land Rover Discovery 5 306DT Engine Specialists",
+    "description": "Range Rover Garage repairs, rebuilds and replaces the Land Rover Discovery 5 306DT 3.0 V6 diesel at our Grays workshop, covering bearing damage, belt renewal, turbo, DPF and AdBlue faults and complete engine swaps, with system bleeding, ECU adaptation and road testing.",
+    "features": [
+      {
+        "icon": "gauge",
+        "title": "Emissions System Checks",
+        "description": "DPF and AdBlue tested before handover"
+      },
+      {
+        "icon": "badge",
+        "title": "JLR Diagnostic Software",
+        "description": "TOPIx and Pathfinder coding"
+      }
+    ],
+    "image": "/images/workshop-8.webp",
+    "imageAlt": "Range Rover with its bonnet open and removed engine in the workshop",
+    "imageCaption": "Certified JLR Master Engineers On-Site",
+    "callLabel": "Call our Experts (01708 592377)",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Request a Quote",
+    "quoteHref": "/get-quote"
+  },
+  "header": {
+    "title": "Land Rover Discovery 5 306DT Engine Supply and Rebuilds",
+    "subtitle": "Supply, repair, rebuild and fitting for the Discovery 5 3.0 TDV6 diesel.",
+    "highlights": [
+      "Replacement engine matched to your VIN and engine code",
+      "Used, reconditioned and rebuilt 3.0 TDV6 engines available",
+      "Supply only, or supply and fit in Grays, Essex",
+      "Discovery 5 engines delivered to customers across the UK"
+    ]
+  }
+}

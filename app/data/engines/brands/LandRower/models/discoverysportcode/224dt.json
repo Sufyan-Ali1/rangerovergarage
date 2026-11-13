@@ -1,0 +1,475 @@
+{
+  "eyebrow": "Engineering Matrix",
+  "title": "204DTA Engine Specifications",
+  "description": "Verified engineering parameters for the 2.0L 4-cylinder AJ200D Ingenium diesel powertrain",
+  "fields": [
+    {
+      "label": "Engine Make",
+      "value": "Land Rover / Range Rover",
+      "icon": "car"
+    },
+    {
+      "label": "Engine Fuel",
+      "value": "Diesel",
+      "icon": "fuel"
+    },
+    {
+      "label": "Engine Horse Power",
+      "value": "240 PS (approx. 237 bhp)",
+      "icon": "gauge"
+    },
+    {
+      "label": "Engine Size",
+      "value": "2.0 Litres",
+      "icon": "ruler"
+    },
+    {
+      "label": "Engine Code",
+      "value": "204DTA (AJ200D)",
+      "icon": "code",
+      "highlight": true
+    },
+    {
+      "label": "Engine Layout",
+      "value": "Inline-4 (Transverse / Longitudinal)",
+      "icon": "layout"
+    },
+    {
+      "label": "Engine Actual CC",
+      "value": "1,999 cc",
+      "icon": "capacity"
+    },
+    {
+      "label": "Engine Cylinders",
+      "value": "4 Cylinders, Twin-Turbocharged",
+      "icon": "cylinders"
+    },
+    {
+      "label": "Engine Valves",
+      "value": "16 Valves (DOHC Chain Driven)",
+      "icon": "valves"
+    },
+    {
+      "label": "Engine Power KW",
+      "value": "177 kW @ 4,000 RPM",
+      "icon": "power"
+    },
+    {
+      "label": "Engine Fuel Supply",
+      "value": "Common Rail Direct Injection",
+      "icon": "supply"
+    },
+    {
+      "label": "Engine Charge",
+      "value": "Sequential Twin Turbochargers",
+      "icon": "charge"
+    }
+  ],
+  "note": "Specifications shown reflect standard factory configuration. Exact vehicle variant must be confirmed via VIN or registration.",
+  "cta": {
+    "label": "Check Engine Compatibility",
+    "href": "/get-quote"
+  },
+  "modelShowcase": {
+    "eyebrow": "Direct Engine Matches",
+    "title": "Top Land Rover Models",
+    "description": "Select your model to view compatible engine and fitting options.",
+    "badge": "100% In-Stock Options",
+    "transmissionLabel": "Transmission:",
+    "engineCodeLabel": "Engine Code:",
+    "ctaLabel": "Contact / Quote – CTA",
+    "cards": [
+      {
+        "name": "Land Rover Freelander 2",
+        "years": "2016-continue",
+        "description": "2.0L Si4 Turbocharged Petrol (240 PS / 340 Nm)",
+        "transmission": "Aisin AWF21 6-speed automatic",
+        "engineCode": "204PT",
+        "image": "/images/models/freelander-2.webp",
+        "imageAlt": "Land Rover Freelander 2",
+        "href": "/engines/land-rover/freelander-2",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery 5",
+        "years": "2016-continue",
+        "description": "2.0L Ingenium SD4 Twin-Turbo Diesel (241 PS / 500 Nm)",
+        "transmission": "8-speed ZF automatic",
+        "engineCode": "204DTA",
+        "image": "/images/models/discovery-5.webp",
+        "imageAlt": "Land Rover Discovery 5",
+        "href": "/engines/land-rover/discovery-5",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Freelander 1",
+        "years": "1993-1998",
+        "description": "2.0L MPI Naturally Aspirated Petrol (98 PS / 167 Nm)",
+        "transmission": "5-speed R380 manual",
+        "engineCode": "2.0 Mpi",
+        "image": "/images/models/freelander-1.webp",
+        "imageAlt": "Land Rover Freelander 1",
+        "href": "/engines/land-rover/freelander-1",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery Sport",
+        "years": "2014-continue",
+        "description": "2.0L Ingenium SD4 Twin-Turbo Diesel (241 PS / 500 Nm)",
+        "transmission": "9-speed automatic",
+        "engineCode": "204DTA",
+        "image": "/images/models/discovery-sport.webp",
+        "imageAlt": "Land Rover Discovery Sport",
+        "href": "/engines/land-rover/discovery-sport",
+        "quoteHref": "/get-quote"
+      }
+    ]
+  },
+  "engineGallery": {
+    "eyebrow": "Workshop Evidence",
+    "title": "Range Rover 204DTA Engine Gallery",
+    "description": "Workshop photography of complete assemblies, precision tooling, and vehicle installations.",
+    "images": [
+      {
+        "src": "/images/service/engine_swap/engine_swap 1.webp",
+        "alt": "Complete engine mounted on a workshop stand"
+      },
+      {
+        "src": "/images/workshop-8.webp",
+        "alt": "Range Rover with its bonnet open and removed engine in the workshop"
+      },
+      {
+        "src": "/images/service/engine_repair/engine_repair 3.webp",
+        "alt": "Exposed camshafts on an engine undergoing repairs"
+      },
+      {
+        "src": "/images/service/turbo_replacement/turbo_replacement 1.webp",
+        "alt": "Engine with turbocharger and intake components exposed in the workshop"
+      }
+    ]
+  },
+  "faq": {
+    "description": "Answers to common questions about the 2.2 diesel engine in the Land Rover Discovery Sport. If yours is not covered, our team can help.",
+    "accordionName": "engine-code-faq",
+    "faqs": [
+      {
+        "q": "Can an Evoque or Freelander 2 engine fit my Discovery Sport?",
+        "a": "Sometimes, but only after checks. Those 2.2 diesel engines can differ in ancillaries, calibration and emissions equipment, so we compare your VIN and engine code with any replacement before supply."
+      },
+      {
+        "q": "How do used, reconditioned and rebuilt 224DT engines compare?",
+        "a": "A used engine comes from a donor vehicle, a reconditioned engine is stripped and given new wear parts, and a rebuild restores your existing engine. We recommend an option after assessing the fault and vehicle."
+      },
+      {
+        "q": "Can I buy a Land Rover SD4 engine supply only?",
+        "a": "Yes. Trade buyers, independent garages and private customers with their own mechanic can buy supply only. Alternatively, choose supply and fit and our technicians will install the engine at our Grays, Essex workshop."
+      },
+      {
+        "q": "What affects the cost of a Discovery Sport 224DT engine replacement?",
+        "a": "The cost depends on the engine option, the condition of your current engine, any parts needed such as a turbo, DPF or clutch, and whether fitting is included. Send your registration or VIN for a quote."
+      },
+      {
+        "q": "Is there a warranty on a replacement 224DT engine?",
+        "a": "Warranty cover depends on the engine option and whether we carry out the installation. We confirm the exact terms in writing with your quote, so you know what is covered before work begins."
+      },
+      {
+        "q": "Do you deliver 2.2 diesel engines across the UK?",
+        "a": "Yes. We deliver engines throughout the United Kingdom from our Grays workshop. Delivery arrangements and costs are confirmed in your quote, and supply and fit customers can bring their vehicle to us."
+      },
+      {
+        "q": "How long does a 224DT engine replacement usually take?",
+        "a": "The timescale depends on engine availability, whether a rebuild is needed and any additional work found during inspection. We give you an estimated timeframe with your quote and keep you informed throughout."
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "The RRG Standard",
+    "title": "Why Discovery Sport Owners Choose Us",
+    "description": "Discovery Sport owners and trade buyers rely on our Land Rover diesel knowledge and honest advice.",
+    "cards": [
+      {
+        "icon": "shield",
+        "title": "Land Rover Specialists",
+        "description": "Land Rover and Range Rover engines are our core work, including the 2.2 TD4 and SD4 diesel in early Discovery Sports."
+      },
+      {
+        "icon": "checklist",
+        "title": "Correct Engine Matched",
+        "description": "We confirm whether your vehicle has the 224DT or a later Ingenium engine before supply, so the replacement fits correctly."
+      },
+      {
+        "icon": "fitting",
+        "title": "Supply or Fitted",
+        "description": "Buy the engine for your own garage to install, or let our Grays technicians supply and fit it for you."
+      },
+      {
+        "icon": "message",
+        "title": "Clear Quotations",
+        "description": "We explain the findings, options and costs in plain English, and keep you updated while your vehicle is with us."
+      }
+    ]
+  },
+  "workshopIntro": {
+    "eyebrow": "From Assessment to Installation",
+    "title": "Repair, Rebuild or Replace Your 224DT?",
+    "description": "The fault, mileage and value of your Discovery Sport guide the decision. Injector seal, EGR, DPF and turbo faults can often be repaired individually. If belt failure has damaged the valves or the bottom end is badly worn, a rebuild or Land Rover Discovery Sport 224DT engine replacement is usually more practical.",
+    "paragraphs": [
+      "A replacement diesel only lasts if its supporting systems are healthy. Where relevant, we inspect the turbo, intercooler, EGR valve, DPF, injectors and cooling system, check the gearbox and clutch, and renew the oil, filters and coolant before the engine runs.",
+      "Send your registration or VIN with a short description of the symptoms. We will confirm compatibility, explain the options and quote for supply only, supply and fit at our Grays workshop, or delivery across the UK."
+    ]
+  },
+  "compatibilityFitting": {
+    "title": "224DT Compatibility and Workshop Fitting",
+    "cards": [
+      {
+        "icon": "compatibility",
+        "eyebrow": "Engineering Diligence",
+        "title": "Matching the Right 224DT Engine",
+        "description": "2.2 diesel engines from the Discovery Sport, Evoque and Freelander 2 differ in ancillaries, calibration and emissions parts. We check your VIN and engine code, and confirm the TD4 or SD4 output, gearbox and drive layout, before supply.",
+        "checks": [
+          "VIN and 224DT code verified",
+          "TD4 or SD4 output confirmed",
+          "Gearbox and drive layout checked"
+        ],
+        "ctaLabel": "Check My Engine Code",
+        "ctaHref": "/get-quote"
+      },
+      {
+        "icon": "workshop",
+        "eyebrow": "Workshop Integrity",
+        "title": "Fitting, Testing and Handover",
+        "description": "Our technicians install each engine at our Grays workshop. After fitting, the fuel and cooling systems are bled, the ECU is adapted using JLR diagnostic software, and the vehicle is road tested before handover.",
+        "checks": [
+          "Installed by our own technicians",
+          "ECU adaptation with TOPIx and Pathfinder",
+          "Road tested before handover"
+        ],
+        "ctaLabel": "Get a Fitting Quote",
+        "ctaHref": "/get-quote"
+      }
+    ]
+  },
+  "engineServices": {
+    "eyebrow": "Specialist Workshop",
+    "title": "Discovery Sport 2.2 Engine Services",
+    "description": "Specialist services for the 224DT TD4 and SD4 diesel, from diagnosis to full replacement.",
+    "linkLabel": "Learn More",
+    "cards": [
+      {
+        "icon": "tools",
+        "title": "Engine Diagnostics",
+        "description": "JLR diagnostic software, live data and physical checks help us identify the likely cause of smoke, warning lights, noise or lost power.",
+        "href": "/services/engine-diagnostics"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Rebuild",
+        "description": "The 224DT is stripped and measured, then rebuilt with new bearings, seals and other components wherever wear or damage is found.",
+        "href": "/services/engine-rebuild"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Replacement",
+        "description": "When repair is not worthwhile, we supply and fit a compatible used or reconditioned 2.2 diesel engine matched to your Discovery Sport.",
+        "href": "/services/engine-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Timing Belt Replacement",
+        "description": "We renew the timing belt, tensioner and related components on the 2.2 diesel, helping prevent belt failure and expensive engine damage.",
+        "href": "/services/timing-belt-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Turbo Replacement",
+        "description": "Worn or sticking turbochargers are replaced, with checks on the actuator, oil feed and intercooler pipework to help protect the new unit.",
+        "href": "/services/turbo-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "DPF Replacement",
+        "description": "If the particulate filter cannot be recovered, we replace the DPF and investigate why regeneration failed to help prevent a repeat.",
+        "href": "/services/dpf-replacement"
+      },
+      {
+        "icon": "replacement",
+        "title": "Engine Swap",
+        "description": "Complete Discovery Sport engine swaps with careful attention to mounts, wiring, sensors, emissions components and ECU adaptation for correct operation.",
+        "href": "/services/engine-swap"
+      },
+      {
+        "icon": "refit",
+        "title": "Clutch Replacement",
+        "description": "On manual Discovery Sport models, we can renew a worn clutch while the engine is out, avoiding repeated labour later on.",
+        "href": "/services/clutch-replacement"
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Priority Engineering Advice",
+    "titleBefore": "Get a Quote for Your",
+    "titleHighlight": "2.2 Diesel",
+    "titleAfter": "",
+    "description": "Send your registration or VIN and we will confirm the right 224DT engine option for your Discovery Sport. We are based in Grays, Essex, and supply engines UK-wide.",  
+    "callLabel": "Call us: 01708 592377",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Get a Quote",
+    "quoteHref": "/get-quote",
+    "highlights": [
+      {
+        "icon": "location",
+        "label": "Grays, Essex Workshop"
+      },
+      {
+        "icon": "delivery",
+        "label": "UK Nationwide Pallet Delivery"
+      },
+      {
+        "icon": "warranty",
+        "label": "12-Month Mechanical Warranty"
+      }
+    ]
+  },
+  "buyingGuide": {
+    "eyebrow": "Buyer's comparison",
+    "title": "Used, Reconditioned or Rebuilt: Your 224DT Engine Options",
+    "description": "We explain what each option includes, helping you balance cost, condition and the value of your Discovery Sport.",
+    "subtitle": "Review our verified tiers below to find the correct fit for your Land Rover or Range Rover.",
+    "cards": [
+      {
+        "tier": "Tier 01",
+        "badge": "Tested Core",
+        "title": "Used Engine",
+        "description": "A compatible 224DT engine from a donor vehicle, offering a lower-cost way to get your Discovery Sport back on the road.",
+        "features": [
+          "Compatible donor engine sourced",
+          "Engine code and mileage confirmed",
+          "Supply only or supply and fit"
+        ],
+        "linkLabel": "Explore Used Engines",
+        "href": "/engines",
+        "highlighted": false,
+        "recommendation": ""
+      },
+      {
+        "tier": "Tier 02",
+        "badge": "12-Mo Warranty",
+        "title": "Reconditioned Engine",
+        "description": "A Land Rover Discovery Sport 224DT reconditioned engine is stripped, inspected and rebuilt with new wear components before it is supplied.",
+        "features": [
+          "New timing and wear parts",
+          "Prepared ready for installation",
+          "Matched to your vehicle's VIN"
+        ],
+        "linkLabel": "Explore Reconditioned",
+        "href": "/get-quote",
+        "highlighted": true,
+        "recommendation": "Most popular choice"
+      },
+      {
+        "tier": "Tier 03",
+        "badge": "Zero-Hour Spec",
+        "title": "Rebuilt Engine",
+        "description": "Your existing 224DT engine is rebuilt at our Grays workshop, keeping its original block and engine number with your vehicle.",
+        "features": [
+          "Original engine identity retained",
+          "Full strip-down and measurement",
+          "Parts renewed based on findings"
+        ],
+        "linkLabel": "Explore Rebuilt Engines",
+        "href": "/services/engine-rebuild",
+        "highlighted": false,
+        "recommendation": ""
+      }
+    ]
+  },
+  "engineProblems": {
+    "eyebrow": "Diagnostic Advisory",
+    "title": "Common Discovery Sport 2.2 Diesel Faults",
+    "description": "The 224DT usually gives warning signs early, so prompt checks can prevent much more serious damage.",
+    "actionLabel": "Action:",
+    "ctaLabel": "Book an Engine Diagnostic",
+    "ctaHref": "/get-quote",
+    "cards": [
+      {
+        "icon": "bell",
+        "title": "Timing Belt Service Overdue",
+        "description": "The 2.2 diesel uses a timing belt. Overdue replacement, a worn tensioner or oil contamination can lead to sudden belt failure and serious valve damage. We inspect the belt and tensioner.",
+        "action": "High-precision chain guide inspection"
+      },
+      {
+        "icon": "drop",
+        "title": "Injector Seal Blow-By",
+        "description": "A ticking noise from the top of the engine, a diesel smell or carbon deposits around the injectors may point to leaking injector seals. We inspect the injectors and seal condition.",
+        "action": "Twin-turbo actuator boost analysis"
+      },
+      {
+        "icon": "power",
+        "title": "Turbo Actuator and Boost Loss",
+        "description": "Limp mode, a lack of power or boost fault codes may come from a sticking turbo actuator, worn turbocharger or split intercooler hose. We test boost control and turbo operation.",
+        "action": "Fuel rail and injector leak-off test"
+      },
+      {
+        "icon": "smoke",
+        "title": "DPF Blockage and Regeneration",
+        "description": "DPF warnings, reduced power or frequent regeneration attempts are common when short journeys stop the particulate filter clearing properly. We read soot data and assess the DPF.",
+        "action": "Turbo seal & DPF saturation check"
+      },
+      {
+        "icon": "drop",
+        "title": "EGR Valve Carbon Build-Up",
+        "description": "Rough idle, hesitation, smoke or EGR fault codes can be caused by carbon deposits in the EGR valve or a failing EGR cooler. We test EGR operation and inspect the cooler.",
+        "action": "Heat exchanger pressure test"
+      },
+      {
+        "icon": "warning",
+        "title": "Rising Oil Level and Dilution",
+        "description": "An oil level that rises between services may indicate fuel entering the sump during repeated or interrupted DPF regenerations. We check oil condition and regeneration history.",
+        "action": "JLR TOPIx dealer-level scan"
+      }
+    ]
+  },
+  "engineOverview": {
+    "eyebrow": "Marque Authority",
+    "title": "Land Rover Discovery Sport 224DT Engine: The Complete 2.2 Diesel Guide",
+    "paragraphs": [
+      "The Land Rover Discovery Sport 224DT engine is the 2.2-litre four-cylinder turbodiesel fitted to early TD4 and SD4 Discovery Sport models before the Ingenium diesel arrived. Many are now high-mileage, and timing belt neglect, turbo wear, DPF blockages and injector seal leaks often lead owners to seek repair or replacement.",
+      "The Land Rover 2.2 diesel engine was also used in the Evoque and Freelander 2, with differences in ancillaries, calibration and emissions equipment. We identify the correct Discovery Sport 2.2 engine by checking your VIN, engine code and registration.",
+      "Whether you need a targeted repair, an engine rebuild or a complete Land Rover Discovery Sport 224DT engine replacement, our team inspects the vehicle and explains each option. Call us or send your registration for a written quote."
+    ]
+  },
+  "specialistsBanner": {
+    "eyebrow": "2.2 Diesel Specialists",
+    "title": "Land Rover Discovery Sport 224DT Engine Experts",
+    "description": "Range Rover Garage repairs, rebuilds and replaces the Land Rover Discovery Sport 224DT 2.2 diesel at our Grays workshop, covering timing belt renewal, turbo, DPF and EGR faults and complete engine swaps, with system bleeding, ECU adaptation and road testing.",
+    "features": [
+      {
+        "icon": "gauge",
+        "title": "2.2 Diesel Belt Kits",
+        "description": "Timing belt and tensioner renewal"
+      },
+      {
+        "icon": "badge",
+        "title": "JLR Diagnostic Software",
+        "description": "TOPIx and Pathfinder coding"
+      }
+    ],
+    "image": "/images/workshop-8.webp",
+    "imageAlt": "Range Rover with its bonnet open and removed engine in the workshop",
+    "imageCaption": "Certified JLR Master Engineers On-Site",
+    "callLabel": "Call our Experts (01708 592377)",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Request a Quote",
+    "quoteHref": "/get-quote"
+  },
+  "header": {
+    "title": "Land Rover Discovery Sport 224DT Engine Supply and Rebuilds",
+    "subtitle": "Supply, repair, rebuild and fitting for early Discovery Sport 2.2 TD4 and SD4 diesels.",
+    "highlights": [
+      "224DT engine code checked against your VIN before supply",
+      "Used, reconditioned and rebuilt 2.2 diesel engines available",
+      "Supply only, or supply and fit in Grays, Essex",
+      "Discovery Sport engines delivered to customers across the UK"
+    ]
+  }
+}

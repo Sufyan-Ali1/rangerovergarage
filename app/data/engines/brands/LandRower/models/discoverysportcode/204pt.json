@@ -1,0 +1,475 @@
+{
+  "eyebrow": "Engineering Matrix",
+  "title": "204DTA Engine Specifications",
+  "description": "Verified engineering parameters for the 2.0L 4-cylinder AJ200D Ingenium diesel powertrain",
+  "fields": [
+    {
+      "label": "Engine Make",
+      "value": "Land Rover / Range Rover",
+      "icon": "car"
+    },
+    {
+      "label": "Engine Fuel",
+      "value": "Diesel",
+      "icon": "fuel"
+    },
+    {
+      "label": "Engine Horse Power",
+      "value": "240 PS (approx. 237 bhp)",
+      "icon": "gauge"
+    },
+    {
+      "label": "Engine Size",
+      "value": "2.0 Litres",
+      "icon": "ruler"
+    },
+    {
+      "label": "Engine Code",
+      "value": "204DTA (AJ200D)",
+      "icon": "code",
+      "highlight": true
+    },
+    {
+      "label": "Engine Layout",
+      "value": "Inline-4 (Transverse / Longitudinal)",
+      "icon": "layout"
+    },
+    {
+      "label": "Engine Actual CC",
+      "value": "1,999 cc",
+      "icon": "capacity"
+    },
+    {
+      "label": "Engine Cylinders",
+      "value": "4 Cylinders, Twin-Turbocharged",
+      "icon": "cylinders"
+    },
+    {
+      "label": "Engine Valves",
+      "value": "16 Valves (DOHC Chain Driven)",
+      "icon": "valves"
+    },
+    {
+      "label": "Engine Power KW",
+      "value": "177 kW @ 4,000 RPM",
+      "icon": "power"
+    },
+    {
+      "label": "Engine Fuel Supply",
+      "value": "Common Rail Direct Injection",
+      "icon": "supply"
+    },
+    {
+      "label": "Engine Charge",
+      "value": "Sequential Twin Turbochargers",
+      "icon": "charge"
+    }
+  ],
+  "note": "Specifications shown reflect standard factory configuration. Exact vehicle variant must be confirmed via VIN or registration.",
+  "cta": {
+    "label": "Check Engine Compatibility",
+    "href": "/get-quote"
+  },
+  "modelShowcase": {
+    "eyebrow": "Direct Engine Matches",
+    "title": "Top Land Rover Models",
+    "description": "Select your model to view compatible engine and fitting options.",
+    "badge": "100% In-Stock Options",
+    "transmissionLabel": "Transmission:",
+    "engineCodeLabel": "Engine Code:",
+    "ctaLabel": "Contact / Quote – CTA",
+    "cards": [
+      {
+        "name": "Land Rover Freelander 1",
+        "years": "1997-2006",
+        "description": "1.8L K-Series Petrol (120 PS / 160 Nm)",
+        "transmission": "5-speed manual",
+        "engineCode": "18K4F",
+        "image": "/images/models/freelander-1.webp",
+        "imageAlt": "Land Rover Freelander 1",
+        "href": "/engines/land-rover/freelander-1",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery 1",
+        "years": "1989-1994",
+        "description": "2.5L 200Tdi Turbo Diesel (113 PS / 265 Nm)",
+        "transmission": "LT77 5-speed manual",
+        "engineCode": "200TDI",
+        "image": "/images/models/discovery-1.webp",
+        "imageAlt": "Land Rover Discovery 1",
+        "href": "/engines/land-rover/discovery-1",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery Sport",
+        "years": "2014-continue",
+        "description": "2.0L Ingenium SD4 Twin-Turbo Diesel (241 PS / 500 Nm)",
+        "transmission": "9-speed automatic",
+        "engineCode": "204DTA",
+        "image": "/images/models/discovery-sport.webp",
+        "imageAlt": "Land Rover Discovery Sport",
+        "href": "/engines/land-rover/discovery-sport",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Freelander 2",
+        "years": "2006-2014",
+        "description": "2.0L Si4 Turbocharged Petrol (240 PS / 340 Nm)",
+        "transmission": "Aisin AWF21 6-speed automatic",
+        "engineCode": "204PT",
+        "image": "/images/models/freelander-2.webp",
+        "imageAlt": "Land Rover Freelander 2",
+        "href": "/engines/land-rover/freelander-2",
+        "quoteHref": "/get-quote"
+      }
+    ]
+  },
+  "engineGallery": {
+    "eyebrow": "Workshop Evidence",
+    "title": "Range Rover 204DTA Engine Gallery",
+    "description": "Workshop photography of complete assemblies, precision tooling, and vehicle installations.",
+    "images": [
+      {
+        "src": "/images/service/engine_swap/engine_swap 1.webp",
+        "alt": "Complete engine mounted on a workshop stand"
+      },
+      {
+        "src": "/images/workshop-8.webp",
+        "alt": "Range Rover with its bonnet open and removed engine in the workshop"
+      },
+      {
+        "src": "/images/service/engine_repair/engine_repair 3.webp",
+        "alt": "Exposed camshafts on an engine undergoing repairs"
+      },
+      {
+        "src": "/images/service/turbo_replacement/turbo_replacement 1.webp",
+        "alt": "Engine with turbocharger and intake components exposed in the workshop"
+      }
+    ]
+  },
+  "faq": {
+    "description": "Answers to common questions about the 2.0 Ingenium petrol in the Land Rover Discovery Sport. If yours is not covered, our team can help.",
+    "accordionName": "engine-code-faq",
+    "faqs": [
+      {
+        "q": "Does my petrol Discovery Sport have the 204PT engine?",
+        "a": "Not necessarily. Earlier petrol models used a different 2.0 turbo engine, so we check your VIN, model year and engine code before recommending any compatible replacement for your Discovery Sport."
+      },
+      {
+        "q": "How do used, reconditioned and rebuilt 204PT engines compare?",
+        "a": "A used engine comes from a donor vehicle, a reconditioned engine is stripped and given new wear parts, and a rebuild restores your existing engine. We recommend an option after assessing the fault and vehicle."
+      },
+      {
+        "q": "Can I buy a Discovery Sport 2.0 petrol engine supply only?",
+        "a": "Yes. Trade buyers, independent garages and private customers with their own mechanic can buy supply only. Alternatively, choose supply and fit and our technicians will install the engine at our Grays, Essex workshop."
+      },
+      {
+        "q": "What affects the cost of a Discovery Sport 204PT engine replacement?",
+        "a": "The cost depends on the engine option, the condition of your current engine, any parts needed such as a turbo or cooling components, and whether fitting is included. Send your registration or VIN for a quote."
+      },
+      {
+        "q": "Is there a warranty on a replacement 204PT engine?",
+        "a": "Warranty cover depends on the engine option and whether we carry out the installation. We confirm the exact terms in writing with your quote, so you know what is covered before work begins."
+      },
+      {
+        "q": "Do you deliver Ingenium petrol engines across the UK?",
+        "a": "Yes. We deliver engines throughout the United Kingdom from our Grays workshop. Delivery arrangements and costs are confirmed in your quote, and supply and fit customers can bring their vehicle to us."
+      },
+      {
+        "q": "How long does a 204PT engine replacement usually take?",
+        "a": "The timescale depends on engine availability, whether a rebuild is needed and any additional work found during inspection. We give you an estimated timeframe with your quote and keep you informed throughout."
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "The RRG Standard",
+    "title": "Why Discovery Sport Owners Trust Us",
+    "description": "Discovery Sport owners and trade buyers rely on our Ingenium knowledge and clear, honest advice.",
+    "cards": [
+      {
+        "icon": "shield",
+        "title": "Land Rover Specialists",
+        "description": "Land Rover and Range Rover engines are our core work, including the 2.0 Ingenium petrol in the Discovery Sport."
+      },
+      {
+        "icon": "checklist",
+        "title": "Engine Family Confirmed",
+        "description": "We confirm your vehicle has the Ingenium 204PT before supply, avoiding confusion with the earlier 2.0 petrol engine."
+      },
+      {
+        "icon": "fitting",
+        "title": "Supply or Fitted",
+        "description": "Buy the engine for your own garage to install, or let our Grays technicians supply and fit it for you."
+      },
+      {
+        "icon": "message",
+        "title": "Clear Quotations",
+        "description": "We explain the findings, options and costs in plain English, and keep you updated while your vehicle is with us."
+      }
+    ]
+  },
+  "workshopIntro": {
+    "eyebrow": "From Assessment to Installation",
+    "title": "Repair, Rebuild or Replace Your 204PT?",
+    "description": "The fault, mileage and value of your Discovery Sport guide the decision. Coil, wastegate, coolant leak and fuel system faults can usually be repaired individually. If chain failure has damaged the valves or overheating has caused internal damage, a rebuild or Land Rover Discovery Sport 204PT engine replacement is often more practical.",
+    "paragraphs": [
+      "A turbo petrol engine depends on clean oil and effective cooling. Where relevant, we inspect the thermostat housing, water pump, coolant pipes, turbo, breather system and fuel system, check the ignition components, and renew the oil, filters and coolant.",
+      "Send your registration or VIN with a short description of the symptoms. We will confirm compatibility, explain the options and quote for supply only, supply and fit at our Grays workshop, or delivery across the UK."
+    ]
+  },
+  "compatibilityFitting": {
+    "title": "204PT Compatibility and Workshop Fitting",
+    "cards": [
+      {
+        "icon": "compatibility",
+        "eyebrow": "Engineering Diligence",
+        "title": "Matching the Right 204PT Engine",
+        "description": "Discovery Sport petrol engines differ by model year, output and engine family. We check your VIN and engine code, and confirm the gearbox and front-wheel or all-wheel-drive layout, before any replacement engine is supplied.",
+        "checks": [
+          "VIN and 204PT code verified",
+          "Ingenium petrol output confirmed",
+          "Gearbox and drive layout checked"
+        ],
+        "ctaLabel": "Check My Engine Code",
+        "ctaHref": "/get-quote"
+      },
+      {
+        "icon": "workshop",
+        "eyebrow": "Workshop Integrity",
+        "title": "Fitting, Testing and Handover",
+        "description": "Our technicians install each engine at our Grays workshop. After fitting, the cooling and fuel systems are bled, the ECU is adapted using JLR diagnostic software, and the vehicle is road tested before handover.",
+        "checks": [
+          "Installed by our own technicians",
+          "ECU adaptation with TOPIx and Pathfinder",
+          "Road tested before handover"
+        ],
+        "ctaLabel": "Get a Fitting Quote",
+        "ctaHref": "/get-quote"
+      }
+    ]
+  },
+  "engineServices": {
+    "eyebrow": "Specialist Workshop",
+    "title": "Discovery Sport 2.0 Petrol Services",
+    "description": "Specialist services for the 204PT Ingenium petrol, from diagnosis to complete engine replacement.",
+    "linkLabel": "Learn More",
+    "cards": [
+      {
+        "icon": "tools",
+        "title": "Engine Diagnostics",
+        "description": "JLR diagnostic software, live data and physical checks help us identify the likely cause of rattles, misfires, overheating or warning lights.",
+        "href": "/services/engine-diagnostics"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Rebuild",
+        "description": "Our Ingenium engine rebuild service strips the 204PT, measures key components and renews timing parts, bearings, seals and other worn items.",
+        "href": "/services/engine-rebuild"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Replacement",
+        "description": "Our Ingenium engine replacement service supplies and fits a compatible used or reconditioned 204PT engine matched to your Discovery Sport.",
+        "href": "/services/engine-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Timing Chain Replacement",
+        "description": "We renew the rear-mounted timing chain, tensioner and guides on the 204PT, a job that usually involves removing the engine.",
+        "href": "/services/timing-chain-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Turbo Replacement",
+        "description": "Faulty turbochargers are replaced, with checks on the wastegate, oil feed and intake pipework to help protect the new unit.",
+        "href": "/services/turbo-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Head Gasket Replacement",
+        "description": "Overheating, coolant loss or white smoke can indicate head gasket failure. We replace the gasket and check the cylinder head for distortion.",
+        "href": "/services/head-gasket-replacement"
+      },
+      {
+        "icon": "replacement",
+        "title": "Engine Swap",
+        "description": "Complete Discovery Sport engine swaps with careful attention to mounts, wiring, sensors, cooling circuits and ECU adaptation for correct operation.",
+        "href": "/services/engine-swap"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Repair",
+        "description": "A thorough Engine Repair for the Ingenium petrol, including oil, filters, spark plugs and checks on the cooling system and timing drive.",
+        "href": "/services/engine-repair"
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Priority Engineering Advice",
+    "titleBefore": "Get a Quote for Your",
+    "titleHighlight": "204PT",
+    "titleAfter": "Engine",
+    "description": "Send your registration or VIN and we will confirm the right 2.0 Ingenium petrol option for your Discovery Sport. We are based in Grays, Essex, and supply engines UK-wide.",  
+    "callLabel": "Call us: 01708 592377",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Get a Quote",
+    "quoteHref": "/get-quote",
+    "highlights": [
+      {
+        "icon": "location",
+        "label": "Grays, Essex Workshop"
+      },
+      {
+        "icon": "delivery",
+        "label": "UK Nationwide Pallet Delivery"
+      },
+      {
+        "icon": "warranty",
+        "label": "12-Month Mechanical Warranty"
+      }
+    ]
+  },
+  "buyingGuide": {
+    "eyebrow": "Buyer's comparison",
+    "title": "Used, Reconditioned or Rebuilt: Your 204PT Engine Options",
+    "description": "We explain what each option includes, helping you balance cost, condition and reliability for your Discovery Sport.",
+    "subtitle": "Review our verified tiers below to find the correct fit for your Land Rover or Range Rover.",
+    "cards": [
+      {
+        "tier": "Tier 01",
+        "badge": "Tested Core",
+        "title": "Used Engine",
+        "description": "A compatible 204PT engine from a donor vehicle, offering a cost-effective way to get your Discovery Sport back on the road.",
+        "features": [
+          "Compatible donor engine sourced",
+          "Engine code and mileage confirmed",
+          "Supply only or supply and fit"
+        ],
+        "linkLabel": "Explore Used Engines",
+        "href": "/engines",
+        "highlighted": false,
+        "recommendation": ""
+      },
+      {
+        "tier": "Tier 02",
+        "badge": "12-Mo Warranty",
+        "title": "Reconditioned Engine",
+        "description": "A Land Rover Discovery Sport 204PT reconditioned engine is stripped, inspected and rebuilt with new wear components, including timing parts, before supply.",
+        "features": [
+          "New timing and wear parts",
+          "Prepared ready for installation",
+          "Matched to your vehicle's VIN"
+        ],
+        "linkLabel": "Explore Reconditioned",
+        "href": "/get-quote",
+        "highlighted": true,
+        "recommendation": "Most popular choice"
+      },
+      {
+        "tier": "Tier 03",
+        "badge": "Zero-Hour Spec",
+        "title": "Rebuilt Engine",
+        "description": "Your existing 204PT engine is rebuilt at our Grays workshop, keeping its original block and engine number with your vehicle.",
+        "features": [
+          "Original engine identity retained",
+          "Full strip-down and measurement",
+          "Parts renewed based on findings"
+        ],
+        "linkLabel": "Explore Rebuilt Engines",
+        "href": "/services/engine-rebuild",
+        "highlighted": false,
+        "recommendation": ""
+      }
+    ]
+  },
+  "engineProblems": {
+    "eyebrow": "Diagnostic Advisory",
+    "title": "Common Discovery Sport 204PT Faults",
+    "description": "The Ingenium petrol usually gives early warning signs, so prompt checks can prevent costly engine damage.",
+    "actionLabel": "Action:",
+    "ctaLabel": "Book an Engine Diagnostic",
+    "ctaHref": "/get-quote",
+    "cards": [
+      {
+        "icon": "bell",
+        "title": "Rear-Mounted Chain Stretch",
+        "description": "A rattle on start-up, camshaft correlation codes or rough running may indicate a stretched timing chain or worn tensioner at the rear of the engine. We measure chain stretch and check timing.",
+        "action": "High-precision chain guide inspection"
+      },
+      {
+        "icon": "drop",
+        "title": "Turbo Wastegate Rattle",
+        "description": "A metallic rattle on deceleration, boost fault codes or reduced power may point to wear in the turbocharger wastegate linkage or actuator. We test boost control and inspect the turbo.",
+        "action": "Twin-turbo actuator boost analysis"
+      },
+      {
+        "icon": "power",
+        "title": "Coolant Leaks from Housings",
+        "description": "A falling coolant level, a sweet smell or rising temperature may come from a leaking thermostat housing, coolant pipe or water pump seal. We pressure-test the cooling system for leaks.",
+        "action": "Fuel rail and injector leak-off test"
+      },
+      {
+        "icon": "smoke",
+        "title": "Ignition Coil and Plug Misfires",
+        "description": "Juddering under acceleration, a flashing engine light or rough idle are often caused by worn spark plugs or failing ignition coils. We test the ignition system cylinder by cylinder.",
+        "action": "Turbo seal & DPF saturation check"
+      },
+      {
+        "icon": "drop",
+        "title": "Oil Consumption and Smoke",
+        "description": "Frequent oil top-ups, blue smoke or oil in the intake may relate to turbo seal wear, breather faults or internal engine wear. We check oil use, breather operation and compression.",
+        "action": "Heat exchanger pressure test"
+      },
+      {
+        "icon": "warning",
+        "title": "Direct-Injection Fuel Faults",
+        "description": "Hesitation, hard starting or fuel pressure fault codes may come from a weak high-pressure fuel pump or faulty injectors. We test fuel pressure and injector performance.",
+        "action": "JLR TOPIx dealer-level scan"
+      }
+    ]
+  },
+  "engineOverview": {
+    "eyebrow": "Marque Authority",
+    "title": "Land Rover Discovery Sport 204PT Engine: Your Complete Ingenium Petrol Guide",
+    "paragraphs": [
+      "The Land Rover Discovery Sport 204PT engine is the 2.0-litre four-cylinder Ingenium turbo petrol fitted to later petrol versions of the Discovery Sport. Smooth and responsive, it can develop timing chain wear, turbo wastegate noise, coolant leaks and misfires, leading owners to look for an Ingenium engine rebuild or replacement.",
+      "Earlier petrol Discovery Sport models used a different 2.0 turbo engine, and Ingenium petrol outputs also vary. We identify the correct Discovery Sport 2.0 engine by checking your VIN, the 204PT engine code and your registration before supply.",
+      "Whether you need a targeted repair, an engine rebuild or a complete Land Rover Discovery Sport 204PT engine replacement, our team inspects the vehicle and explains each option. Call us or send your registration for a written quote."
+    ]
+  },
+  "specialistsBanner": {
+    "eyebrow": "Ingenium Petrol Specialists",
+    "title": "Land Rover Discovery Sport 204PT Engine Experts",
+    "description": "Range Rover Garage repairs, rebuilds and replaces the Land Rover Discovery Sport 204PT 2.0 Ingenium petrol at our Grays workshop, covering timing chain wear, turbo faults, coolant leaks and complete engine swaps, with system bleeding, ECU adaptation and road testing.",
+    "features": [
+      {
+        "icon": "gauge",
+        "title": "Ingenium Petrol Repairs",
+        "description": "Chain, turbo and cooling faults"
+      },
+      {
+        "icon": "badge",
+        "title": "JLR Diagnostic Software",
+        "description": "TOPIx and Pathfinder coding"
+      }
+    ],
+    "image": "/images/workshop-8.webp",
+    "imageAlt": "Range Rover with its bonnet open and removed engine in the workshop",
+    "imageCaption": "Certified JLR Master Engineers On-Site",
+    "callLabel": "Call our Experts (01708 592377)",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Request a Quote",
+    "quoteHref": "/get-quote"
+  },
+  "header": {
+    "title": "Land Rover Discovery Sport 204PT Engine Supply and Replacement",
+    "subtitle": "Supply, repair, rebuild and fitting for the Discovery Sport 2.0 Ingenium petrol.",
+    "highlights": [
+      "204PT engine code checked against your VIN before supply",
+      "Used, reconditioned and rebuilt 2.0 Ingenium petrol engines",
+      "Supply only, or supply and fit in Grays, Essex",
+      "Discovery Sport engines delivered to customers across the UK"
+    ]
+  }
+}

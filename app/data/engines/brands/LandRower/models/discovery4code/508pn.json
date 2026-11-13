@@ -1,0 +1,475 @@
+{
+  "eyebrow": "Engineering Matrix",
+  "title": "204DTA Engine Specifications",
+  "description": "Verified engineering parameters for the 2.0L 4-cylinder AJ200D Ingenium diesel powertrain",
+  "fields": [
+    {
+      "label": "Engine Make",
+      "value": "Land Rover / Range Rover",
+      "icon": "car"
+    },
+    {
+      "label": "Engine Fuel",
+      "value": "Diesel",
+      "icon": "fuel"
+    },
+    {
+      "label": "Engine Horse Power",
+      "value": "240 PS (approx. 237 bhp)",
+      "icon": "gauge"
+    },
+    {
+      "label": "Engine Size",
+      "value": "2.0 Litres",
+      "icon": "ruler"
+    },
+    {
+      "label": "Engine Code",
+      "value": "204DTA (AJ200D)",
+      "icon": "code",
+      "highlight": true
+    },
+    {
+      "label": "Engine Layout",
+      "value": "Inline-4 (Transverse / Longitudinal)",
+      "icon": "layout"
+    },
+    {
+      "label": "Engine Actual CC",
+      "value": "1,999 cc",
+      "icon": "capacity"
+    },
+    {
+      "label": "Engine Cylinders",
+      "value": "4 Cylinders, Twin-Turbocharged",
+      "icon": "cylinders"
+    },
+    {
+      "label": "Engine Valves",
+      "value": "16 Valves (DOHC Chain Driven)",
+      "icon": "valves"
+    },
+    {
+      "label": "Engine Power KW",
+      "value": "177 kW @ 4,000 RPM",
+      "icon": "power"
+    },
+    {
+      "label": "Engine Fuel Supply",
+      "value": "Common Rail Direct Injection",
+      "icon": "supply"
+    },
+    {
+      "label": "Engine Charge",
+      "value": "Sequential Twin Turbochargers",
+      "icon": "charge"
+    }
+  ],
+  "note": "Specifications shown reflect standard factory configuration. Exact vehicle variant must be confirmed via VIN or registration.",
+  "cta": {
+    "label": "Check Engine Compatibility",
+    "href": "/get-quote"
+  },
+  "modelShowcase": {
+    "eyebrow": "Direct Engine Matches",
+    "title": "Top Land Rover Models",
+    "description": "Select your model to view compatible engine and fitting options.",
+    "badge": "100% In-Stock Options",
+    "transmissionLabel": "Transmission:",
+    "engineCodeLabel": "Engine Code:",
+    "ctaLabel": "Contact / Quote – CTA",
+    "cards": [
+      {
+        "name": "Land Rover Discovery 3",
+        "years": "2004-2009",
+        "description": "4.0L V6 Naturally Aspirated Petrol (212 PS / 360 Nm)",
+        "transmission": "6-speed automatic",
+        "engineCode": "406PN",
+        "image": "/images/models/discovery-3.webp",
+        "imageAlt": "Land Rover Discovery 3",
+        "href": "/engines/land-rover/discovery-3",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Freelander 1",
+        "years": "1993-1998",
+        "description": "2.0L MPI Naturally Aspirated Petrol (98 PS / 167 Nm)",
+        "transmission": "5-speed R380 manual",
+        "engineCode": "2.0 Mpi",
+        "image": "/images/models/freelander-1.webp",
+        "imageAlt": "Land Rover Freelander 1",
+        "href": "/engines/land-rover/freelander-1",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery 4",
+        "years": "2009-continue",
+        "description": "3.0L V6 Supercharged Petrol (340 PS / 450 Nm)",
+        "transmission": "8-speed ZF automatic",
+        "engineCode": "306PS",
+        "image": "/images/models/discovery-4.webp",
+        "imageAlt": "Land Rover Discovery 4",
+        "href": "/engines/land-rover/discovery-4",
+        "quoteHref": "/get-quote"
+      },
+      {
+        "name": "Land Rover Discovery Sport",
+        "years": "2014-continue",
+        "description": "2.0L Ingenium SD4 Twin-Turbo Diesel (241 PS / 500 Nm)",
+        "transmission": "9-speed automatic",
+        "engineCode": "204DTA",
+        "image": "/images/models/discovery-sport.webp",
+        "imageAlt": "Land Rover Discovery Sport",
+        "href": "/engines/land-rover/discovery-sport",
+        "quoteHref": "/get-quote"
+      }
+    ]
+  },
+  "engineGallery": {
+    "eyebrow": "Workshop Evidence",
+    "title": "Range Rover 204DTA Engine Gallery",
+    "description": "Workshop photography of complete assemblies, precision tooling, and vehicle installations.",
+    "images": [
+      {
+        "src": "/images/service/engine_swap/engine_swap 1.webp",
+        "alt": "Complete engine mounted on a workshop stand"
+      },
+      {
+        "src": "/images/workshop-8.webp",
+        "alt": "Range Rover with its bonnet open and removed engine in the workshop"
+      },
+      {
+        "src": "/images/service/engine_repair/engine_repair 3.webp",
+        "alt": "Exposed camshafts on an engine undergoing repairs"
+      },
+      {
+        "src": "/images/service/turbo_replacement/turbo_replacement 1.webp",
+        "alt": "Engine with turbocharger and intake components exposed in the workshop"
+      }
+    ]
+  },
+  "faq": {
+    "description": "Answers to common questions about the 5.0 V8 petrol engine in the Land Rover Discovery 4. If yours is not covered, our team can help.",
+    "accordionName": "engine-code-faq",
+    "faqs": [
+      {
+        "q": "Can a supercharged Range Rover V8 replace my Discovery 4 508PN?",
+        "a": "Not directly. Supercharged and naturally aspirated 5.0 V8 engines differ in components, ancillaries and calibration, so we check your VIN, engine code and market specification before recommending a compatible replacement."
+      },
+      {
+        "q": "How do used, reconditioned and rebuilt 508PN engines compare?",
+        "a": "A used engine comes from a donor vehicle, a reconditioned engine is stripped and given new wear parts, and a rebuild restores your existing V8. We recommend an option after assessing the fault and vehicle."
+      },
+      {
+        "q": "Can I buy a Discovery 4 V8 engine supply only?",
+        "a": "Yes. Trade buyers, independent garages and private customers with their own mechanic can buy supply only. Alternatively, choose supply and fit and our technicians will install the engine at our Grays, Essex workshop."
+      },
+      {
+        "q": "What affects the Discovery 4 engine replacement cost for a 508PN?",
+        "a": "The cost depends on the engine option, the condition of your current engine, any cooling or ancillary parts needed and the labour involved, including body lifting. Send your registration or VIN for a written quote."
+      },
+      {
+        "q": "Is there a warranty on a replacement 508PN engine?",
+        "a": "Warranty cover depends on the engine option and whether we carry out the installation. We confirm the exact terms in writing with your quote, so you know what is covered before work begins."
+      },
+      {
+        "q": "Do you deliver Land Rover V8 engines across the UK?",
+        "a": "Yes. We deliver engines throughout the United Kingdom from our Grays workshop. Delivery arrangements and costs are confirmed in your quote, and supply and fit customers can bring their Discovery to us."
+      },
+      {
+        "q": "How long does a 508PN engine replacement usually take?",
+        "a": "The timescale depends on engine availability, whether a rebuild is needed, any body-lift work and additional repairs found during inspection. We give you an estimated timeframe with your quote and keep you informed."
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "The RRG Standard",
+    "title": "Why Discovery V8 Owners Trust Us",
+    "description": "Discovery 4 owners and trade buyers rely on our V8 knowledge and clear, honest advice.",
+    "cards": [
+      {
+        "icon": "shield",
+        "title": "Land Rover Specialists",
+        "description": "Land Rover and Range Rover engines are our core work, including the less common 5.0 V8 petrol fitted to early Discovery 4 models."
+      },
+      {
+        "icon": "checklist",
+        "title": "Output Confirmed",
+        "description": "We confirm your engine is the naturally aspirated specification before supply, avoiding confusion with supercharged Range Rover V8 engines."
+      },
+      {
+        "icon": "fitting",
+        "title": "Supply or Fitted",
+        "description": "Order the engine for your own garage to install, or let our Grays technicians supply and fit it for you."
+      },
+      {
+        "icon": "message",
+        "title": "Honest Quotations",
+        "description": "We explain the findings, options and costs in plain English, and keep you updated while your Discovery is with us."
+      }
+    ]
+  },
+  "workshopIntro": {
+    "eyebrow": "From Assessment to Installation",
+    "title": "Repair, Rebuild or Replace Your Discovery V8?",
+    "description": "The fault, mileage and value of your Discovery 4 guide the decision. Coil, water pump, coolant pipe and gasket faults can usually be repaired individually. If timing chain failure or severe overheating has damaged the engine, a rebuild or Land Rover Discovery 4 508PN engine replacement is often more practical.",
+    "paragraphs": [
+      "A large V8 depends on a healthy cooling system and clean oil, and body-lift access makes it sensible to check related parts. Where relevant, we inspect the radiator, water pump, coolant pipes and thermostat, check the ignition system and gearbox, and renew all fluids.",
+      "Send your registration or VIN with a short description of the symptoms. We will confirm compatibility, explain the options and quote for supply only, supply and fit at our Grays workshop, or delivery across the UK."
+    ]
+  },
+  "compatibilityFitting": {
+    "title": "Discovery 4 508PN Fitment and Installation",
+    "cards": [
+      {
+        "icon": "compatibility",
+        "eyebrow": "Engineering Diligence",
+        "title": "Confirming the Correct 508PN Engine",
+        "description": "5.0 V8 engines differ in output, ancillaries and wiring between Discovery 4, Range Rover, Range Rover Sport and Jaguar models. We check your VIN and engine code, and confirm the gearbox and four-wheel-drive configuration, before supply.",
+        "checks": [
+          "VIN and engine code verified",
+          "Naturally aspirated specification confirmed",
+          "Gearbox and drive layout checked"
+        ],
+        "ctaLabel": "Check My Engine Code",
+        "ctaHref": "/get-quote"
+      },
+      {
+        "icon": "workshop",
+        "eyebrow": "Workshop Integrity",
+        "title": "Fitting and Road Testing",
+        "description": "Our technicians install each engine at our Grays workshop, lifting the body where access requires. Afterwards, the cooling and fuel systems are bled, the ECU is adapted using JLR diagnostic software, and the vehicle is road tested.",
+        "checks": [
+          "Fitted by our own technicians",
+          "ECU adaptation with TOPIx and Pathfinder",
+          "Road tested before handover"
+        ],
+        "ctaLabel": "Get a Fitting Quote",
+        "ctaHref": "/get-quote"
+      }
+    ]
+  },
+  "engineServices": {
+    "eyebrow": "Specialist Workshop",
+    "title": "Discovery 4 5.0 V8 Services",
+    "description": "Specialist services for the 508PN V8, from diagnosis through to complete engine replacement.",
+    "linkLabel": "Learn More",
+    "cards": [
+      {
+        "icon": "tools",
+        "title": "Engine Diagnostics",
+        "description": "Fault codes, live data and physical checks help us identify the likely cause of rattles, misfires, overheating or warning lights on your V8.",
+        "href": "/services/engine-diagnostics"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Rebuild",
+        "description": "The 5.0 V8 is stripped, measured and rebuilt, with bearings, seals, timing components and other worn parts renewed as the inspection requires.",
+        "href": "/services/engine-rebuild"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Replacement",
+        "description": "When repair is not worthwhile, we supply and fit a compatible used or reconditioned Land Rover V8 engine matched to your Discovery 4.",
+        "href": "/services/engine-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Timing Chain Replacement",
+        "description": "We renew the timing chains, guides and tensioners on the 5.0 V8, using updated parts where available, then confirm camshaft timing.",
+        "href": "/services/timing-chain-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Head Gasket Replacement",
+        "description": "Overheating, coolant loss or white smoke can indicate head gasket failure. We replace the gaskets and check both cylinder heads for distortion.",
+        "href": "/services/head-gasket-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Swap",
+        "description": "Complete Discovery 4 V8 engine swaps, including body lifting where required, with attention to mounts, wiring, cooling circuits and ECU adaptation.",
+        "href": "/services/engine-swap"
+      },
+      {
+        "icon": "refit",
+        "title": "Gearbox Replacement",
+        "description": "If the ZF automatic gearbox is also faulty, we can supply and fit a compatible replacement while your engine work is completed.",
+        "href": "/services/gearbox-replacement"
+      },
+      {
+        "icon": "replacement",
+        "title": "Engine Repair",
+        "description": "A detailed Engine Repair for the Discovery V8, including oil, filters, spark plugs and checks on the cooling system and timing drive.",
+        "href": "/services/engine-repair"
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Priority Engineering Advice",
+    "titleBefore": "Get a Quote for Your",
+    "titleHighlight": "Discovery V8",
+    "titleAfter": "",
+    "description": "Send your registration or VIN and we will confirm the right 5.0 V8 engine option for your Discovery 4. We are based in Grays, Essex, and deliver engines UK-wide.",  
+    "callLabel": "Call us: 01708 592377",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Get a Quote",
+    "quoteHref": "/get-quote",
+    "highlights": [
+      {
+        "icon": "location",
+        "label": "Grays, Essex Workshop"
+      },
+      {
+        "icon": "delivery",
+        "label": "UK Nationwide Pallet Delivery"
+      },
+      {
+        "icon": "warranty",
+        "label": "12-Month Mechanical Warranty"
+      }
+    ]
+  },
+  "buyingGuide": {
+    "eyebrow": "Buyer's comparison",
+    "title": "Used, Reconditioned or Rebuilt: Your Discovery 4 V8 Options",
+    "description": "We explain exactly what each option includes, so you can balance cost, condition and reliability for your Discovery 4.",
+    "subtitle": "Review our verified tiers below to find the correct fit for your Land Rover or Range Rover.",
+    "cards": [
+      {
+        "tier": "Tier 01",
+        "badge": "Tested Core",
+        "title": "Used Engine",
+        "description": "A compatible 508PN engine from a donor vehicle, offering a cost-effective way to get your Discovery 4 back on the road.",
+        "features": [
+          "Compatible donor engine sourced",
+          "Engine code and mileage confirmed",
+          "Supply only or supply and fit"
+        ],
+        "linkLabel": "Explore Used Engines",
+        "href": "/engines",
+        "highlighted": false,
+        "recommendation": ""
+      },
+      {
+        "tier": "Tier 02",
+        "badge": "12-Mo Warranty",
+        "title": "Reconditioned Engine",
+        "description": "A Land Rover Discovery 4 508PN reconditioned engine is stripped, inspected and rebuilt with new wear components before it is supplied.",
+        "features": [
+          "New wear parts fitted",
+          "Prepared ready for installation",
+          "Matched to your vehicle's VIN"
+        ],
+        "linkLabel": "Explore Reconditioned",
+        "href": "/get-quote",
+        "highlighted": true,
+        "recommendation": "Most popular choice"
+      },
+      {
+        "tier": "Tier 03",
+        "badge": "Zero-Hour Spec",
+        "title": "Rebuilt Engine",
+        "description": "Your existing 508PN engine is rebuilt at our Grays workshop, keeping its original block and engine number with your Discovery.",
+        "features": [
+          "Original engine identity retained",
+          "Full strip-down and measurement",
+          "Parts renewed based on findings"
+        ],
+        "linkLabel": "Explore Rebuilt Engines",
+        "href": "/services/engine-rebuild",
+        "highlighted": false,
+        "recommendation": ""
+      }
+    ]
+  },
+  "engineProblems": {
+    "eyebrow": "Diagnostic Advisory",
+    "title": "Common Discovery 4 V8 Problems",
+    "description": "The 5.0 V8 usually gives warning signs early, and prompt checks can prevent serious internal damage.",
+    "actionLabel": "Action:",
+    "ctaLabel": "Book an Engine Diagnostic",
+    "ctaHref": "/get-quote",
+    "cards": [
+      {
+        "icon": "bell",
+        "title": "Early Timing Guide Wear",
+        "description": "A rattle at start-up, timing correlation codes or rough running can indicate worn timing chain guides or tensioners, a known issue on earlier 5.0 V8s. We inspect the guides, tensioners and chains.",
+        "action": "High-precision chain guide inspection"
+      },
+      {
+        "icon": "drop",
+        "title": "Water Pump Weeping",
+        "description": "Coolant traces at the front of the engine, a falling level or rising temperature may point to a leaking or failing water pump. We check pump condition and cooling performance.",
+        "action": "Twin-turbo actuator boost analysis"
+      },
+      {
+        "icon": "power",
+        "title": "Coolant Pipe and Thermostat Leaks",
+        "description": "A sweet smell, damp patches or coolant loss can come from ageing coolant pipes, the thermostat housing or perished hoses. We pressure-test the cooling system for leaks.",
+        "action": "Fuel rail and injector leak-off test"
+      },
+      {
+        "icon": "smoke",
+        "title": "Direct-Injection Carbon Deposits",
+        "description": "Rough idle, hesitation or misfire codes on higher-mileage engines may be linked to carbon building up on the intake valves. We assess running quality and intake condition.",
+        "action": "Turbo seal & DPF saturation check"
+      },
+      {
+        "icon": "drop",
+        "title": "Coil-on-Plug Misfires",
+        "description": "Juddering, a flashing engine light or poor acceleration are often caused by worn spark plugs or failing ignition coils. We test the ignition system cylinder by cylinder.",
+        "action": "Heat exchanger pressure test"
+      },
+      {
+        "icon": "warning",
+        "title": "Valve Cover Gasket Seepage",
+        "description": "Oil seeping onto hot components, burning smells or light smoke may come from hardened valve cover gaskets or ageing engine seals. We locate the leak and inspect the seals.",
+        "action": "JLR TOPIx dealer-level scan"
+      }
+    ]
+  },
+  "engineOverview": {
+    "eyebrow": "Marque Authority",
+    "title": "Land Rover Discovery 4 508PN Engine: Your Complete 5.0 V8 Guide",
+    "paragraphs": [
+      "The Land Rover Discovery 4 508PN engine is the naturally aspirated 5.0-litre V8 petrol fitted to early Discovery 4 models in certain markets. Strong and smooth, it is now ageing, and timing chain guide wear, water pump leaks, carbon deposits and misfires often lead owners to seek repair or replacement.",
+      "This Land Rover Discovery V8 engine belongs to the same family as other Range Rover V8 engines, including supercharged versions, but output, ancillaries and wiring differ. We identify the correct engine by checking your VIN, engine code and registration before supply.",
+      "Whether you need a targeted repair, an engine rebuild or a complete Land Rover Discovery 4 508PN engine replacement, our team inspects the vehicle and explains each option. Call us or send your registration for a written quote."
+    ]
+  },
+  "specialistsBanner": {
+    "eyebrow": "Discovery V8 Specialists",
+    "title": "Land Rover Discovery 4 508PN Engine Specialists",
+    "description": "From our Grays, Essex workshop, we repair, rebuild and replace the Land Rover Discovery 4 508PN 5.0 V8, covering timing guide wear, water pump leaks, misfires and complete engine swaps, with system bleeding, ECU adaptation and road testing on every installation.",
+    "features": [
+      {
+        "icon": "gauge",
+        "title": "Revised Timing Components",
+        "description": "Updated guides fitted where available"
+      },
+      {
+        "icon": "badge",
+        "title": "V8 Cooling Repairs",
+        "description": "Pumps, pipes and thermostats renewed"
+      }
+    ],
+    "image": "/images/workshop-8.webp",
+    "imageAlt": "Range Rover with its bonnet open and removed engine in the workshop",
+    "imageCaption": "Certified JLR Master Engineers On-Site",
+    "callLabel": "Call our Experts (01708 592377)",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Request a Quote",
+    "quoteHref": "/get-quote"
+  },
+  "header": {
+    "title": "Land Rover Discovery 4 508PN Engine Rebuild and Replacement",
+    "subtitle": "Supply, repair, rebuild and fitting for the Discovery 4 5.0 V8 petrol.",
+    "highlights": [
+      "Replacement engine matched to your VIN and engine code",
+      "Used, reconditioned and rebuilt 5.0 V8 engines available",
+      "Supply only, or supply and fit in Grays, Essex",
+      "Land Rover V8 engines for sale with UK delivery"
+    ]
+  }
+}
