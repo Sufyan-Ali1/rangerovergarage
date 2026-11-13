@@ -127,27 +127,27 @@
   "land-rover-freelander-1-engines": {
     "title": "Land Rover Engine Codes to Help You Find Your Vehicle",
     "rows": [
-      { "make": "Land Rover", "model": "Freelander 1", "engineCode": "18K4F", "valves": 16, "actualCC": 1796, "powerKw": 88, "powerHp": 120, "yearRange": "1997-2006" },
-      { "make": "Land Rover", "model": "Freelander 1", "engineCode": "18K4G", "valves": 16, "actualCC": 1796, "powerKw": 88, "powerHp": 120, "yearRange": "1997-2006" },
-      { "make": "Land Rover", "model": "Freelander 1", "engineCode": "25K4F", "valves": 24, "actualCC": 2497, "powerKw": 117, "powerHp": 159, "yearRange": "2001-2006" },
-      { "make": "Land Rover", "model": "Freelander 1", "engineCode": "20T2N", "valves": 16, "actualCC": 1994, "powerKw": 82, "powerHp": 112, "yearRange": "2001-2006" }
+      { "make": "Land Rover", "model": "Freelander 1", "engineCode": "18K4F", "valves": 16, "actualCC": 1796, "powerKw": 88, "powerHp": 120, "yearRange": "1997-2006", "metaTitle": "Land Rover Freelander 1 18K4F Engine | K-Series Rebuilds", "metaDescription": "Head gasket gone on your 1.8 K-Series? We rebuild the Land Rover Freelander 1 18K4F Engine with a new head gasket or supply a used unit, fitted in Grays, Essex." },
+      { "make": "Land Rover", "model": "Freelander 1", "engineCode": "18K4G", "valves": 16, "actualCC": 1796, "powerKw": 88, "powerHp": 120, "yearRange": "1997-2006", "metaTitle": "Land Rover Freelander 1 18K4G Engine - 1.8 Petrol Supply", "metaDescription": "Land Rover Freelander 1 18K4G Engine supply and rebuilds for later 1.8 K-Series models. Overheating, liner and gasket faults checked before VIN-checked fitting." },
+      { "make": "Land Rover", "model": "Freelander 1", "engineCode": "25K4F", "valves": 24, "actualCC": 2497, "powerKw": 117, "powerHp": 159, "yearRange": "2001-2006", "metaTitle": "Land Rover Freelander 1 25K4F Engine: KV6 Specialists", "metaDescription": "KV6 cambelt, water pump or liner failure? We supply a used or reconditioned Land Rover Freelander 1 25K4F Engine and rebuild 2.5 V6 units at our Essex workshop." },
+      { "make": "Land Rover", "model": "Freelander 1", "engineCode": "20T2N", "valves": 16, "actualCC": 1994, "powerKw": 82, "powerHp": 112, "yearRange": "2001-2006", "metaTitle": "Land Rover Freelander 1 20T2N Engine | L-Series Diesel", "metaDescription": "Land Rover Freelander 1 20T2N Engine supply for the early 2.0 L-Series diesel. Timing belt, injection pump and turbo faults sorted, with UK delivery available." }
     ]
   },
   "land-rover-discovery-1-engines": {
     "title": "Land Rover Engine Codes to Help You Find Your Vehicle",
     "rows": [
-      { "make": "Land Rover", "model": "Discovery 1", "engineCode": "200TDI", "valves": 8, "actualCC": 2495, "powerKw": 83, "powerHp": 113, "yearRange": "1989-1994" },
-      { "make": "Land Rover", "model": "Discovery 1", "engineCode": "300TDI", "valves": 8, "actualCC": 2495, "powerKw": 83, "powerHp": 113, "yearRange": "1994-1998" },
-      { "make": "Land Rover", "model": "Discovery 1", "engineCode": "3.5 V8", "valves": 16, "actualCC": 3528, "powerKw": 100, "powerHp": 136, "yearRange": "1989-1994" },
-      { "make": "Land Rover", "model": "Discovery 1", "engineCode": "3.9 V8", "valves": 16, "actualCC": 3946, "powerKw": 110, "powerHp": 150, "yearRange": "1994-1998" },
-      { "make": "Land Rover", "model": "Discovery 1", "engineCode": "2.0 Mpi", "valves": 8, "actualCC": 1994, "powerKw": 72, "powerHp": 98, "yearRange": "1993-1998" }
+      { "make": "Land Rover", "model": "Discovery 1", "engineCode": "200TDI", "valves": 8, "actualCC": 2495, "powerKw": 83, "powerHp": 113, "yearRange": "1989-1994", "metaTitle": "Land Rover Discovery 1 200Tdi Engine | Classic Rebuilds", "metaDescription": "Keep an early Discovery running with a rebuilt or used Land Rover Discovery 1 200Tdi Engine. Cambelt, head gasket and injection pump work done in Grays, Essex." },
+      { "make": "Land Rover", "model": "Discovery 1", "engineCode": "300TDI", "valves": 8, "actualCC": 2495, "powerKw": 83, "powerHp": 113, "yearRange": "1994-1998", "metaTitle": "Land Rover Discovery 1 300Tdi Engine - Recon & Rebuilt", "metaDescription": "Land Rover Discovery 1 300Tdi Engine rebuilds and replacements for 1994-1998 models. Timing belt, head gasket and oil leak faults sorted, with UK-wide delivery." },
+      { "make": "Land Rover", "model": "Discovery 1", "engineCode": "3.5 V8", "valves": 16, "actualCC": 3528, "powerKw": 100, "powerHp": 136, "yearRange": "1989-1994", "metaTitle": "Land Rover Discovery 1 3.5 V8 Engine: Rover V8 Rebuilds", "metaDescription": "Restore your Land Rover Discovery 1 3.5 V8 Engine with a full rebuild or replacement. Camshaft, timing chain and gasket faults on the Rover V8 handled in Essex." },
+      { "make": "Land Rover", "model": "Discovery 1", "engineCode": "3.9 V8", "valves": 16, "actualCC": 3946, "powerKw": 110, "powerHp": 150, "yearRange": "1994-1998", "metaTitle": "Land Rover Discovery 1 3.9 V8 Engine | Liner & Gasket Repair", "metaDescription": "Slipped liner or head gasket failure? We rebuild the Land Rover Discovery 1 3.9 V8 Engine or supply a used or reconditioned Rover V8 with fitting in Grays." },
+      { "make": "Land Rover", "model": "Discovery 1", "engineCode": "2.0 Mpi", "valves": 8, "actualCC": 1994, "powerKw": 72, "powerHp": 98, "yearRange": "1993-1998", "metaTitle": "Land Rover Discovery 1 2.0 Mpi Engine - Petrol Supply", "metaDescription": "Rare Discovery 1 Mpi petrol? We source and rebuild the Land Rover Discovery 1 2.0 Mpi Engine and fix timing belt, overheating and head gasket faults in Essex." }
     ]
   },
   "land-rover-discovery-2-engines": {
     "title": "Land Rover Engine Codes to Help You Find Your Vehicle",
     "rows": [
-      { "make": "Land Rover", "model": "Discovery 2", "engineCode": "TD5", "valves": 20, "actualCC": 2495, "powerKw": 102, "powerHp": 139, "yearRange": "1998-2004" },
-      { "make": "Land Rover", "model": "Discovery 2", "engineCode": "10P", "valves": 16, "actualCC": 3950, "powerKw": 136, "powerHp": 185, "yearRange": "1998-2004" }
+      { "make": "Land Rover", "model": "Discovery 2", "engineCode": "TD5", "valves": 20, "actualCC": 2495, "powerKw": 102, "powerHp": 139, "yearRange": "1998-2004", "metaTitle": "Land Rover Discovery 2 Td5 Engine: Recon, Rebuilt & Used", "metaDescription": "Oil in the injector loom or a cracked head? Get a used, recon or rebuilt Land Rover Discovery 2 Td5 Engine, supplied UK-wide or fitted at our Grays workshop." },
+      { "make": "Land Rover", "model": "Discovery 2", "engineCode": "10P", "valves": 16, "actualCC": 3950, "powerKw": 136, "powerHp": 185, "yearRange": "1998-2004", "metaTitle": "Land Rover Discovery 2 10P Engine | Early Td5 Diesel", "metaDescription": "Land Rover Discovery 2 10P Engine supply for early Td5 diesels. Loom, cylinder head and fuel faults diagnosed, then a VIN-matched used or rebuilt unit fitted." }
     ]
   },
   "land-rover-defender-engines": {
@@ -159,38 +159,38 @@
   "land-rover-discovery-3-engines": {
     "title": "Land Rover Engine Codes to Help You Find Your Vehicle",
     "rows": [
-      { "make": "Land Rover", "model": "Discovery 3", "engineCode": "276DT", "valves": 24, "actualCC": 2720, "powerKw": 140, "powerHp": 190, "yearRange": "2004-2009" },
-      { "make": "Land Rover", "model": "Discovery 3", "engineCode": "406PN", "valves": 24, "actualCC": 4009, "powerKw": 156, "powerHp": 212, "yearRange": "2004-2009" },
-      { "make": "Land Rover", "model": "Discovery 3", "engineCode": "448PN", "valves": 32, "actualCC": 4394, "powerKw": 220, "powerHp": 299, "yearRange": "2004-2009" }
+      { "make": "Land Rover", "model": "Discovery 3", "engineCode": "276DT", "valves": 24, "actualCC": 2720, "powerKw": 140, "powerHp": 190, "yearRange": "2004-2009", "metaTitle": "Land Rover Discovery 3 276DT Engine - 2.7 TDV6 Swaps", "metaDescription": "Discovery 3 crankshaft snapped or cambelt gone? We supply a used, recon or rebuilt Land Rover Discovery 3 276DT Engine and fit it in Grays, Essex, or deliver." },
+      { "make": "Land Rover", "model": "Discovery 3", "engineCode": "406PN", "valves": 24, "actualCC": 4009, "powerKw": 156, "powerHp": 212, "yearRange": "2004-2009", "metaTitle": "Land Rover Discovery 3 406PN Engine: 4.0 V6 Petrol", "metaDescription": "Land Rover Discovery 3 406PN Engine sourcing for the 4.0 V6 petrol. Timing chain, coolant and misfire faults assessed, with fitment confirmed against your VIN." },
+      { "make": "Land Rover", "model": "Discovery 3", "engineCode": "448PN", "valves": 32, "actualCC": 4394, "powerKw": 220, "powerHp": 299, "yearRange": "2004-2009", "metaTitle": "Land Rover Discovery 3 448PN Engine | 4.4 V8 Replacement", "metaDescription": "Replace your Land Rover Discovery 3 448PN Engine with a used or reconditioned 4.4 V8 petrol. We fix chain, coolant and misfire faults, with UK-wide delivery." }
     ]
   },
   "land-rover-discovery-4-engines": {
     "title": "Land Rover Engine Codes to Help You Find Your Vehicle",
     "rows": [
-      { "make": "Land Rover", "model": "Discovery 4", "engineCode": "276DT", "valves": 24, "actualCC": 2720, "powerKw": 140, "powerHp": 190, "yearRange": "2009-continue" },
-      { "make": "Land Rover", "model": "Discovery 4", "engineCode": "306DT", "valves": 24, "actualCC": 2993, "powerKw": 155, "powerHp": 211, "yearRange": "2009-continue" },
-      { "make": "Land Rover", "model": "Discovery 4", "engineCode": "306PS", "valves": 24, "actualCC": 2995, "powerKw": 250, "powerHp": 340, "yearRange": "2009-continue" },
-      { "make": "Land Rover", "model": "Discovery 4", "engineCode": "30DDTX", "valves": 24, "actualCC": 2993, "powerKw": 155, "powerHp": 211, "yearRange": "2009-continue" },
-      { "make": "Land Rover", "model": "Discovery 4", "engineCode": "30HD0D", "valves": 24, "actualCC": 2995, "powerKw": 250, "powerHp": 340, "yearRange": "2009-continue" },
-      { "make": "Land Rover", "model": "Discovery 4", "engineCode": "508PN", "valves": 32, "actualCC": 4999, "powerKw": 276, "powerHp": 375, "yearRange": "2009-continue" }
+      { "make": "Land Rover", "model": "Discovery 4", "engineCode": "276DT", "valves": 24, "actualCC": 2720, "powerKw": 140, "powerHp": 190, "yearRange": "2009-continue", "metaTitle": "Land Rover Discovery 4 276DT Engine - Early TDV6 Supply", "metaDescription": "Early Discovery 4 with the 2.7 TDV6? We supply a Land Rover Discovery 4 276DT Engine, used or rebuilt, and handle crankshaft, cambelt and DPF faults in Essex." },
+      { "make": "Land Rover", "model": "Discovery 4", "engineCode": "306DT", "valves": 24, "actualCC": 2993, "powerKw": 155, "powerHp": 211, "yearRange": "2009-continue", "metaTitle": "Land Rover Discovery 4 306DT Engine: TDV6 Rebuild Experts", "metaDescription": "Spun crank bearing on your 3.0 TDV6? We rebuild or replace the Land Rover Discovery 4 306DT Engine with used and recon options, fitted in Grays or delivered." },
+      { "make": "Land Rover", "model": "Discovery 4", "engineCode": "306PS", "valves": 24, "actualCC": 2995, "powerKw": 250, "powerHp": 340, "yearRange": "2009-continue", "metaTitle": "Land Rover Discovery 4 306PS Engine | Supercharged V6", "metaDescription": "Land Rover Discovery 4 306PS Engine supply for the 3.0 supercharged V6 petrol. Coolant leaks, chain noise and supercharger faults diagnosed before replacement." },
+      { "make": "Land Rover", "model": "Discovery 4", "engineCode": "30DDTX", "valves": 24, "actualCC": 2993, "powerKw": 155, "powerHp": 211, "yearRange": "2009-continue", "metaTitle": "Land Rover Discovery 4 30DDTX Engine - SDV6 Replacement", "metaDescription": "Need a Land Rover Discovery 4 30DDTX Engine for your 3.0 SDV6? We supply used, recon and rebuilt units and repair bearing, turbo and DPF faults in Grays, Essex." },
+      { "make": "Land Rover", "model": "Discovery 4", "engineCode": "30HD0D", "valves": 24, "actualCC": 2995, "powerKw": 250, "powerHp": 340, "yearRange": "2009-continue", "metaTitle": "Land Rover Discovery 4 30HD0D Engine: Late SDV6 Supply", "metaDescription": "Late Discovery 4 knocking or in limp mode? Get a VIN-matched Land Rover Discovery 4 30HD0D Engine, used, reconditioned or rebuilt, with supply-only UK delivery." },
+      { "make": "Land Rover", "model": "Discovery 4", "engineCode": "508PN", "valves": 32, "actualCC": 4999, "powerKw": 276, "powerHp": 375, "yearRange": "2009-continue", "metaTitle": "Land Rover Discovery 4 508PN Engine | 5.0 V8 Petrol", "metaDescription": "Land Rover Discovery 4 508PN Engine replacement for the 5.0 V8 petrol. Timing guide and water pump faults assessed, then a used or rebuilt unit fitted in Essex." }
     ]
   },
   "land-rover-discovery-5-engines": {
     "title": "Land Rover Engine Codes to Help You Find Your Vehicle",
     "rows": [
-      { "make": "Land Rover", "model": "Discovery 5", "engineCode": "204DTA", "valves": 16, "actualCC": 1999, "powerKw": 177, "powerHp": 241, "yearRange": "2016-continue" },
-      { "make": "Land Rover", "model": "Discovery 5", "engineCode": "204DTD", "valves": 16, "actualCC": 1999, "powerKw": 110, "powerHp": 150, "yearRange": "2016-continue" },
-      { "make": "Land Rover", "model": "Discovery 5", "engineCode": "306DT", "valves": 24, "actualCC": 2993, "powerKw": 155, "powerHp": 211, "yearRange": "2016-continue" },
-      { "make": "Land Rover", "model": "Discovery 5", "engineCode": "306PS", "valves": 24, "actualCC": 2995, "powerKw": 250, "powerHp": 340, "yearRange": "2016-continue" }
+      { "make": "Land Rover", "model": "Discovery 5", "engineCode": "204DTA", "valves": 16, "actualCC": 1999, "powerKw": 177, "powerHp": 241, "yearRange": "2016-continue", "metaTitle": "Land Rover Discovery 5 204DTA Engine - Ingenium SD4 & TD4", "metaDescription": "Discovery 5 SD4 or TD4 with chain stretch or DPF faults? We supply a used, recon or rebuilt Land Rover Discovery 5 204DTA Engine, checked against your VIN." },
+      { "make": "Land Rover", "model": "Discovery 5", "engineCode": "204DTD", "valves": 16, "actualCC": 1999, "powerKw": 110, "powerHp": 150, "yearRange": "2016-continue", "metaTitle": "Land Rover Discovery 5 204DTD Engine: Later 2.0 Diesel", "metaDescription": "Land Rover Discovery 5 204DTD Engine supply for later 2.0 Ingenium diesels. AdBlue, DPF and chain faults diagnosed, with fitting in Grays or delivery UK-wide." },
+      { "make": "Land Rover", "model": "Discovery 5", "engineCode": "306DT", "valves": 24, "actualCC": 2993, "powerKw": 155, "powerHp": 211, "yearRange": "2016-continue", "metaTitle": "Land Rover Discovery 5 306DT Engine | TD6 Diesel Rebuilds", "metaDescription": "Discovery 5 TD6 with bearing, turbo or AdBlue faults? We rebuild or replace the Land Rover Discovery 5 306DT Engine with used, reconditioned and rebuilt units." },
+      { "make": "Land Rover", "model": "Discovery 5", "engineCode": "306PS", "valves": 24, "actualCC": 2995, "powerKw": 250, "powerHp": 340, "yearRange": "2016-continue", "metaTitle": "Land Rover Discovery 5 306PS Engine - Si6 Petrol Supply", "metaDescription": "Source a Land Rover Discovery 5 306PS Engine for the 3.0 Si6 supercharged V6. Used, recon or rebuilt, with chain and coolant checks and fitting in Grays, Essex." }
     ]
   },
   "land-rover-discovery-sport-engines": {
     "title": "Land Rover Engine Codes to Help You Find Your Vehicle",
     "rows": [
-      { "make": "Land Rover", "model": "Discovery Sport", "engineCode": "204DTA", "valves": 16, "actualCC": 1999, "powerKw": 177, "powerHp": 241, "yearRange": "2014-continue" },
-      { "make": "Land Rover", "model": "Discovery Sport", "engineCode": "204DTD", "valves": 16, "actualCC": 1999, "powerKw": 110, "powerHp": 150, "yearRange": "2014-continue" },
-      { "make": "Land Rover", "model": "Discovery Sport", "engineCode": "204PT", "valves": 16, "actualCC": 1999, "powerKw": 176, "powerHp": 240, "yearRange": "2014-continue" },
-      { "make": "Land Rover", "model": "Discovery Sport", "engineCode": "224DT", "valves": 16, "actualCC": 2179, "powerKw": 110, "powerHp": 150, "yearRange": "2014-continue" }
+      { "make": "Land Rover", "model": "Discovery Sport", "engineCode": "204DTA", "valves": 16, "actualCC": 1999, "powerKw": 177, "powerHp": 241, "yearRange": "2014-continue", "metaTitle": "Land Rover Discovery Sport 204DTA Engine | Ingenium Diesel", "metaDescription": "Land Rover Discovery Sport 204DTA Engine options for 2.0 Ingenium diesels. Chain stretch, EGR and DPF faults diagnosed, then used or rebuilt units supplied." },
+      { "make": "Land Rover", "model": "Discovery Sport", "engineCode": "204DTD", "valves": 16, "actualCC": 1999, "powerKw": 110, "powerHp": 150, "yearRange": "2014-continue", "metaTitle": "Land Rover Discovery Sport 204DTD Engine Replacement", "metaDescription": "Later Discovery Sport diesel with AdBlue or chain trouble? Get a Land Rover Discovery Sport 204DTD Engine, used or recon, VIN-matched and fitted in Essex." },
+      { "make": "Land Rover", "model": "Discovery Sport", "engineCode": "204PT", "valves": 16, "actualCC": 1999, "powerKw": 176, "powerHp": 240, "yearRange": "2014-continue", "metaTitle": "Land Rover Discovery Sport 204PT Engine: Si4 Petrol Units", "metaDescription": "Land Rover Discovery Sport 204PT Engine supply for the 2.0 Ingenium petrol. Turbo, coolant and timing chain faults handled, with supply-only or full fitting." },
+      { "make": "Land Rover", "model": "Discovery Sport", "engineCode": "224DT", "valves": 16, "actualCC": 2179, "powerKw": 110, "powerHp": 150, "yearRange": "2014-continue", "metaTitle": "Land Rover Discovery Sport 224DT Engine - 2.2 TD4 & SD4", "metaDescription": "Early Discovery Sport 2.2 diesel? We supply a used, recon or rebuilt Land Rover Discovery Sport 224DT Engine and fix cambelt, turbo and DPF faults in Grays." }
     ]
   },
   "land-rover-freelander-2-engines": {

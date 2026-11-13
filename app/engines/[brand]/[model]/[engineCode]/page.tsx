@@ -33,11 +33,10 @@ function getEngine(brand: string, model: string, engineCode: string) {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { brand, model, engineCode } = await params;
   const engine = getEngine(brand, model, engineCode);
-  const name = `${engine.make} ${engine.model} ${engine.engineCode}`;
 
   return {
-    title: `${name} Engine Rebuild & Replacement`,
-    description: `Specialist ${name} engine rebuild, repair and replacement services. Get expert advice and a quote for your engine.`,
+    title: engine.metaTitle,
+    description: engine.metaDescription,
     alternates: {
       canonical: `/engines/${brand}/${model}/${toEngineCodeSlug(engine.engineCode)}`,
     },
