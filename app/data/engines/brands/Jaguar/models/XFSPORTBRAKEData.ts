@@ -6,31 +6,31 @@ export const XFSPORTBRAKEData: ModelData = {
     "description": "Specialist Jaguar XF Sportbrake engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle."
   },
   "headerData": {
-    "title": "Jaguar XF SPORTBRAKE Engine Specialists",
-    "subtitle": "Specialist Jaguar XF Sportbrake engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle.",
+    "title": "Jaguar XF Sportbrake Engine Rebuild Specialists",
+    "subtitle": "We rebuild, repair and replace XF Sportbrake engines, including the 2.2 diesel, 3.0 V6 diesel and 2.0 Ingenium, from our Essex workshop.",
     "highlights": [
-      "Shared JLR platform knowledge across every brand",
-      "Every engine tested before dispatch or fitting",
-      "Warranty included on every engine supplied",
-      "UK-wide collection and delivery available"
+      "Jaguar, Range Rover and Land Rover engine specialists",
+      "Both Sportbrake generations covered",
+      "Reconditioned engines matched to your code",
+      "Collection and delivery anywhere in the UK"
     ]
   },
   "BrandsData": [
     {
       "title": "Range Rover",
-      "description": "Explore specialist engine rebuild, repair and replacement services for Range Rover models.",
+      "description": "Range Rover engine rebuilds, repairs and replacements for Evoque, Velar, Sport and Vogue models, carried out by specialists.",
       "image": "/images/models/sport.webp",
       "href": "/engines/range-rover"
     },
     {
       "title": "Land Rover",
-      "description": "Explore engine diagnostics, rebuilds and replacements for Land Rover Discovery, Defender and Freelander models.",
+      "description": "We diagnose, repair and rebuild Land Rover engines for Discovery, Discovery Sport and Freelander, with reconditioned replacements available.",
       "image": "/images/models/discovery-1.webp",
       "href": "/engines/land-rover"
     },
     {
       "title": "Jaguar",
-      "description": "Explore Jaguar models and engine codes for specialist engine repair, rebuild and replacement services.",
+      "description": "Complete engine services for Jaguar estates, saloons, SUVs and sports cars, from the XF Sportbrake to the F-Pace and F-Type.",
       "image": "/jaguar.webp",
       "href": "/engines/jaguar"
     }
@@ -38,53 +38,46 @@ export const XFSPORTBRAKEData: ModelData = {
   "ReviewsData": [
     {
       "id": 1,
-      "name": "Adrian Solberg - F-Pace Diesel",
-      "date": "1 month ago",
-      "text": "F-Pace's Ingenium diesel was diagnosed and repaired quickly. Surprised to find a garage that understood Jaguar as well as Land Rover engines.",
+      "name": "Andrew L.",
+      "date": "2 weeks ago",
+      "text": "My Sportbrake's 2.2 diesel was running rough and down on power. They found the issue, rebuilt the engine and explained every step. Couldn't be happier.",
       "stars": 5
     },
     {
       "id": 2,
-      "name": "Melissa Thorne - XE Diagnostics",
+      "name": "Claire B.",
       "date": "1 month ago",
-      "text": "XE's engine fault had been missed by two other garages before this team caught it straight away. Genuinely impressive knowledge.",
+      "text": "Our family XF Sportbrake needed a replacement engine after a major failure. The team sourced a reconditioned unit and had us back on the road smoothly.",
       "stars": 5
     },
     {
       "id": 3,
-      "name": "Gareth Vance - XF Replacement",
-      "date": "1 month ago",
-      "text": "Replaced my XF's engine with a fully tested unit and the whole process felt properly specialist, not generic like most places.",
+      "name": "Zain M.",
+      "date": "3 weeks ago",
+      "text": "Excellent work on the 3.0 V6 diesel in my Sportbrake. Clear communication, honest advice and a fair quote before anything started. Highly recommend these specialists.",
       "stars": 5
     },
     {
       "id": 4,
-      "name": "Natasha Ferris - F-Pace Petrol",
-      "date": "1 month ago",
-      "text": "Didn't realise my F-Pace shared engine platforms with Range Rover until they explained it. Made total sense of the expertise on show.",
+      "name": "Helen W.",
+      "date": "2 month ago",
+      "text": "Heard a rattle from my 2.0 Ingenium Sportbrake and booked it in. They checked it thoroughly, replaced the timing chain and the engine is quiet again.",
       "stars": 5
     },
     {
       "id": 5,
-      "name": "Oscar Bramwell - F-Pace SVR",
-      "date": "1 month ago",
-      "text": "AJ133 V8 in my F-Pace SVR rebuilt properly, with real understanding of how these units differ from the standard Ingenium engines.",
-      "stars": 5
-    },
-    {
-      "id": 6,
-      "name": "Sofia Lindqvist - XE Timing Chain",
-      "date": "1 month ago",
-      "text": "XE's timing chain replaced before it caused real damage. Clear advice throughout and fairly priced compared to other quotes.",
+      "name": "David O.",
+      "date": "6 days ago",
+      "text": "Couldn't find a local specialist, so their collection service was perfect. My Sportbrake came back running beautifully and the whole process was easy.",
       "stars": 5
     }
   ],
   "NationwideData": {
-    "titleBefore": "Genuine Cross-Brand Knowledge of Shared ",
-    "titleHighlight": "JLR Engine Platforms",
+    "titleBefore": "Expert Care for Every ",
+    "titleHighlight": "XF Sportbrake Engine",
     "paragraphs": [
-      "Many of the engines fitted to modern Jaguar models, including the F-Pace, XE and XF, share Ingenium and AJ133 architecture with Land Rover and Range Rover vehicles. Understanding this shared engineering gives our team a real advantage when diagnosing and repairing Jaguar engines that others might treat as unfamiliar.",
-      "Rather than approaching your Jaguar as a completely separate platform, we apply the same depth of Ingenium and AJ133 knowledge built through years of Land Rover and Range Rover work. That crossover experience means faster, more confident diagnosis for Jaguar owners too."
+      "The XF Sportbrake has been offered in two generations. Earlier models mainly used the 2.2 four-cylinder diesel and 3.0 V6 diesel, while later versions moved to 2.0 Ingenium engines alongside the V6. Because these engines differ in design and wear patterns, identifying the exact unit is the first step towards an accurate diagnosis.",
+      "Our team specialises in Jaguar, Range Rover and Land Rover engines. We assess your Sportbrake carefully, explain what we find and recommend the most sensible option for your car, whether that is repair, rebuild or replacement."
     ],
     "badge": {
       "label": "Brand-Specific Tooling",
@@ -92,11 +85,11 @@ export const XFSPORTBRAKEData: ModelData = {
     }
   },
   "PrecisionData": {
-    "titleBefore": "A Specialist Advantage Most ",
-    "titleHighlight": "Jaguar Owners Don't Expect",
+    "titleBefore": "Jaguar XF Sportbrake Engine Rebuild Versus a ",
+    "titleHighlight": "Replacement Engine",
     "paragraphs": [
-      "Jaguar owners often assume their nearest option is a general garage or a costly main dealer visit, unaware that JLR's shared platform strategy means specialists in Land Rover engines are equally equipped to handle their vehicle. We've built genuine expertise across the group's engine range, not just one brand within it.",
-      "Every engine we work on, Jaguar included, is tested against factory tolerances and backed by a clear warranty explained upfront. Combined with UK-wide collection and delivery, this gives Jaguar owners access to specialist-level care that's often harder to find than it should be."
+      "A rebuild is usually worth considering when the block and cylinder heads are sound and the fault is contained. Whether it is the XF Sportbrake 2.2 diesel engine or the XF Sportbrake 2.0 Ingenium engine, we strip, inspect and measure every key part. Worn components are replaced with OEM-grade parts and the engine is reassembled with care.",
+      "When damage is severe, an XF Sportbrake replacement engine may be the more practical route. We can supply and fit an XF Sportbrake reconditioned engine matched to your engine code, including the XF Sportbrake 3.0 V6 diesel engine. XF Sportbrake engine replacement cost depends on the engine type, availability and labour, so we quote after assessing your car."
     ],
     "badge": {
       "label": "Fixed-Price Quotes",
@@ -104,48 +97,48 @@ export const XFSPORTBRAKEData: ModelData = {
     }
   },
   "NationwideSupportData1": {
-    "titleBefore": "Why Jaguar and Land Rover Engines Are More ",
-    "titleHighlight": "Connected Than Owners Realise",
+    "titleBefore": "XF Sportbrake Engine Problems: Signs to ",
+    "titleHighlight": "Watch and When to Act",
     "paragraphs": [
-      "Since the formation of Jaguar Land Rover, several engine families have been shared across both brands, most notably the Ingenium diesel and petrol range and the AJ133 supercharged V8. This means many of the same faults, maintenance patterns and rebuild techniques apply equally to Jaguar models as they do to Land Rover and Range Rover vehicles.",
-      "For owners, this shared engineering is genuinely useful to know. A specialist with deep experience in Range Rover Ingenium engines, for example, brings that same understanding directly to a Jaguar F-Pace fitted with the equivalent unit, rather than starting from scratch on an unfamiliar platform."
+      "Possible warning signs include a rattle at start-up, loss of power, misfires, heavy smoke, oil or coolant loss, DPF warnings and engine management lights. Estate cars often carry heavy loads or tow, which can place extra strain on the engine. Still, none of these signs confirms a fault without a proper inspection.",
+      "On Ingenium-powered models, a start-up rattle may point towards the timing chain, and XF Sportbrake timing chain replacement could be needed once confirmed. Looking for XF Sportbrake engine repair near me? Our Essex workshop offers UK-wide collection and delivery, so distance should not stop you getting specialist help."
     ]
   },
   "NationwideSupportData2": {
-    "titleBefore": "Find the Right Engine for Your ",
-    "titleHighlight": "Jaguar XF SPORTBRAKE",
+    "titleBefore": "Planning Your Jaguar XF Sportbrake ",
+    "titleHighlight": "Engine Rebuild the Right Way",
     "paragraphs": [
-      "Compare the engine codes, capacity, power and year ranges in the table. Share your registration or VIN with our team to confirm the correct replacement before ordering."
+      "Sportbrakes have used diesel and petrol engines across two generations. Share your registration or engine code, and we will confirm the most suitable service for your car."
     ]
   },
   "faqsData": [
     {
-      "q": "How do I find my Jaguar XF SPORTBRAKE engine code?",
-      "a": "Check your vehicle documentation or engine identification marking. Our team can help confirm the correct engine from your registration or VIN."
+      "q": "Which XF Sportbrake engines do you work on?",
+      "a": "We work on the 2.2 diesel, 3.0 V6 diesel and 2.0 Ingenium engines used across both Sportbrake generations, following an initial assessment."
     },
     {
-      "q": "What engines does the Jaguar F-Pace use?",
-      "a": "The F-Pace has been fitted with Ingenium diesel and petrol engines across most trims, alongside the supercharged AJ133 V8 in SVR variants. The exact engine depends on model year and trim level, so it's worth confirming your specific code before ordering any parts."
+      "q": "What is the XF Sportbrake engine replacement cost?",
+      "a": "Cost depends on the engine type, unit availability and labour required. We provide a quote after assessing your Sportbrake rather than a fixed price."
     },
     {
-      "q": "Do Jaguar and Land Rover share the same engines?",
-      "a": "Yes, many Jaguar models use Ingenium and AJ133 engine platforms that are also fitted across Land Rover and Range Rover vehicles. This shared engineering means specialists experienced with one brand's engines are typically well placed to work confidently on the other."
+      "q": "Do you have an XF Sportbrake engine for sale?",
+      "a": "We can source and fit a reconditioned engine matched to your Sportbrake's engine code. Contact us with your registration to check availability."
     },
     {
-      "q": "Is the Jaguar Ingenium engine considered reliable?",
-      "a": "Ingenium engines are generally dependable when serviced correctly, though like any engine family they have known issues to watch for, including timing chain wear on certain variants. Regular maintenance and prompt attention to early symptoms significantly reduce the risk of major failure."
+      "q": "Does towing affect my Sportbrake's engine?",
+      "a": "Regular towing or heavy loads can add strain over time. Following the correct service schedule and addressing warning signs early can help protect the engine."
     },
     {
-      "q": "How much does a Jaguar engine replacement typically cost?",
-      "a": "Costs vary depending on the model, engine type and whether repair or full replacement is required. We provide a clear, itemised quote after diagnostics, so you know exactly what you're paying for before any work begins."
+      "q": "Does a rattle mean my timing chain needs replacing?",
+      "a": "Not always. A rattle can have several causes. An inspection is needed to confirm whether the timing chain or another part is responsible."
     },
     {
-      "q": "Which Jaguar engine is considered the most reliable?",
-      "a": "Reliability depends heavily on maintenance history and generation rather than one engine being universally best. Later Ingenium updates have generally improved on earlier reliability concerns, though consistent servicing remains the biggest factor in long-term dependability."
+      "q": "How long will an XF Sportbrake engine rebuild take?",
+      "a": "Timescales depend on the fault, parts availability and machining needed. We will give you an estimated timeframe once the engine has been assessed."
     },
     {
-      "q": "Can you collect my Jaguar if I'm not local to your workshop?",
-      "a": "Yes, we offer UK-wide collection and delivery, so your location doesn't limit access to our specialist engine service. Simply share your address when booking and we'll arrange the logistics from there."
+      "q": "Can you collect my Sportbrake from outside Essex?",
+      "a": "Yes. We offer collection and delivery across the UK, so you can access our workshop wherever your Sportbrake is based."
     }
   ]
 };

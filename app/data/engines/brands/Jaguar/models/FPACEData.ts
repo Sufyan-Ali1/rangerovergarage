@@ -6,31 +6,31 @@ export const FPACEData: ModelData = {
     "description": "Specialist Jaguar F-Pace engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle."
   },
   "headerData": {
-    "title": "Jaguar F-PACE Engine Specialists",
-    "subtitle": "Specialist Jaguar F-Pace engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle.",
+    "title": "Expert Jaguar F-Pace Engine Rebuild Services",
+    "subtitle": "From 2.0 Ingenium units to the 3.0 V6 diesel and SVR V8, we rebuild, repair and replace Jaguar F-Pace engines from our Essex workshop.",
     "highlights": [
-      "Shared JLR platform knowledge across every brand",
-      "Every engine tested before dispatch or fitting",
-      "Warranty included on every engine supplied",
-      "UK-wide collection and delivery available"
+      "Jaguar, Range Rover and Land Rover specialists",
+      "Diesel, petrol and V8 engine work",
+      "Reconditioned replacement engines supplied and fitted",
+      "Collection and delivery across the UK"
     ]
   },
   "BrandsData": [
     {
       "title": "Range Rover",
-      "description": "Explore specialist engine rebuild, repair and replacement services for Range Rover models.",
+      "description": "We rebuild, repair and replace engines across the Range Rover line-up, from Evoque and Velar to Sport and Vogue.",
       "image": "/images/models/sport.webp",
       "href": "/engines/range-rover"
     },
     {
       "title": "Land Rover",
-      "description": "Explore engine diagnostics, rebuilds and replacements for Land Rover Discovery, Defender and Freelander models.",
+      "description": "Diagnosis, rebuilds and reconditioned replacement engines for Land Rover Discovery, Discovery Sport and Freelander owners across the UK.",
       "image": "/images/models/discovery-1.webp",
       "href": "/engines/land-rover"
     },
     {
       "title": "Jaguar",
-      "description": "Explore Jaguar models and engine codes for specialist engine repair, rebuild and replacement services.",
+      "description": "Specialist engine rebuild, repair and replacement for Jaguar saloons, SUVs and sports cars, including F-Pace, E-Pace, XF and F-Type.",
       "image": "/jaguar.webp",
       "href": "/engines/jaguar"
     }
@@ -38,53 +38,46 @@ export const FPACEData: ModelData = {
   "ReviewsData": [
     {
       "id": 1,
-      "name": "Adrian Solberg - F-Pace Diesel",
-      "date": "1 month ago",
-      "text": "F-Pace's Ingenium diesel was diagnosed and repaired quickly. Surprised to find a garage that understood Jaguar as well as Land Rover engines.",
+      "name": "Oliver T.",
+      "date": "3 weeks ago",
+      "text": "My F-Pace 3.0 V6 diesel lost power and showed a warning light. The team diagnosed it properly, explained everything and the rebuild has transformed how it drives.",
       "stars": 5
     },
     {
       "id": 2,
-      "name": "Melissa Thorne - XE Diagnostics",
+      "name": "Emma L.",
       "date": "1 month ago",
-      "text": "XE's engine fault had been missed by two other garages before this team caught it straight away. Genuinely impressive knowledge.",
+      "text": "Was quoted a fortune elsewhere for a new engine. They sourced a reconditioned unit for my F-Pace, fitted it quickly and kept me informed throughout.",
       "stars": 5
     },
     {
       "id": 3,
-      "name": "Gareth Vance - XF Replacement",
-      "date": "1 month ago",
-      "text": "Replaced my XF's engine with a fully tested unit and the whole process felt properly specialist, not generic like most places.",
+      "name": "Ahmed S.",
+      "date": "2 weeks ago",
+      "text": "Timing chain noise on my 2.0 diesel F-Pace had me worried. Clear explanation, fair quote and the engine now runs quietly. Excellent communication from start to finish.",
       "stars": 5
     },
     {
       "id": 4,
-      "name": "Natasha Ferris - F-Pace Petrol",
-      "date": "1 month ago",
-      "text": "Didn't realise my F-Pace shared engine platforms with Range Rover until they explained it. Made total sense of the expertise on show.",
+      "name": "Chris B.",
+      "date": "2 months ago",
+      "text": "Trusted them with my F-Pace SVR and wasn't disappointed. Proper specialists who clearly understand the supercharged V8. The car came back sounding and pulling as it should.",
       "stars": 5
     },
     {
       "id": 5,
-      "name": "Oscar Bramwell - F-Pace SVR",
-      "date": "1 month ago",
-      "text": "AJ133 V8 in my F-Pace SVR rebuilt properly, with real understanding of how these units differ from the standard Ingenium engines.",
-      "stars": 5
-    },
-    {
-      "id": 6,
-      "name": "Sofia Lindqvist - XE Timing Chain",
-      "date": "1 month ago",
-      "text": "XE's timing chain replaced before it caused real damage. Clear advice throughout and fairly priced compared to other quotes.",
+      "name": "Laura P.",
+      "date": "6 days ago",
+      "text": "Collected from my home in Kent and returned with the engine fully repaired. Honest advice, no pressure to spend more than needed. Highly recommend for any F-Pace owner.",
       "stars": 5
     }
   ],
   "NationwideData": {
-    "titleBefore": "Genuine Cross-Brand Knowledge of Shared ",
-    "titleHighlight": "JLR Engine Platforms",
+    "titleBefore": "Jaguar F-Pace Engine Repair Specialist ",
+    "titleHighlight": "You Can Trust",
     "paragraphs": [
-      "Many of the engines fitted to modern Jaguar models, including the F-Pace, XE and XF, share Ingenium and AJ133 architecture with Land Rover and Range Rover vehicles. Understanding this shared engineering gives our team a real advantage when diagnosing and repairing Jaguar engines that others might treat as unfamiliar.",
-      "Rather than approaching your Jaguar as a completely separate platform, we apply the same depth of Ingenium and AJ133 knowledge built through years of Land Rover and Range Rover work. That crossover experience means faster, more confident diagnosis for Jaguar owners too."
+      "The F-Pace has used a wide range of engines, from the 2.0 Ingenium four-cylinders to the 3.0 V6 diesel and the supercharged 5.0 V8 in the SVR. Each has its own design, tolerances and common wear points, so general garages may not always have the experience or tooling to diagnose deeper faults correctly.",
+      "We focus on Jaguar, Range Rover and Land Rover engines. Every job starts with a careful assessment, and we explain whether repair, rebuild or replacement makes the most sense for your car before any major work begins."
     ],
     "badge": {
       "label": "Brand-Specific Tooling",
@@ -92,11 +85,11 @@ export const FPACEData: ModelData = {
     }
   },
   "PrecisionData": {
-    "titleBefore": "A Specialist Advantage Most ",
-    "titleHighlight": "Jaguar Owners Don't Expect",
+    "titleBefore": "Rebuild or Jaguar F-Pace Replacement Engine: ",
+    "titleHighlight": "Making the Choice",
     "paragraphs": [
-      "Jaguar owners often assume their nearest option is a general garage or a costly main dealer visit, unaware that JLR's shared platform strategy means specialists in Land Rover engines are equally equipped to handle their vehicle. We've built genuine expertise across the group's engine range, not just one brand within it.",
-      "Every engine we work on, Jaguar included, is tested against factory tolerances and backed by a clear warranty explained upfront. Combined with UK-wide collection and delivery, this gives Jaguar owners access to specialist-level care that's often harder to find than it should be."
+      "An F-Pace 2.0 Ingenium engine rebuild can be the right route when the core components are sound and the damage is contained. We strip the engine, measure wear, machine where required and replace worn parts with OEM-grade components. You keep your original engine, and you get a clear explanation of what was found and replaced.",
+      "Where damage is extensive, an F-Pace reconditioned engine may be more cost-effective than rebuilding. We can supply and fit a unit matched to your engine code, including the 3.0 V6 diesel. Jaguar F-Pace engine replacement cost in the UK varies with engine type, availability and labour involved, so we provide a quote once your car has been assessed."
     ],
     "badge": {
       "label": "Fixed-Price Quotes",
@@ -104,48 +97,48 @@ export const FPACEData: ModelData = {
     }
   },
   "NationwideSupportData1": {
-    "titleBefore": "Why Jaguar and Land Rover Engines Are More ",
-    "titleHighlight": "Connected Than Owners Realise",
+    "titleBefore": "Possible Warning Signs of F-Pace ",
+    "titleHighlight": "Engine Failure and When to Act",
     "paragraphs": [
-      "Since the formation of Jaguar Land Rover, several engine families have been shared across both brands, most notably the Ingenium diesel and petrol range and the AJ133 supercharged V8. This means many of the same faults, maintenance patterns and rebuild techniques apply equally to Jaguar models as they do to Land Rover and Range Rover vehicles.",
-      "For owners, this shared engineering is genuinely useful to know. A specialist with deep experience in Range Rover Ingenium engines, for example, brings that same understanding directly to a Jaguar F-Pace fitted with the equivalent unit, rather than starting from scratch on an unfamiliar platform."
+      "Signs that may point to a developing problem include a rattle at start-up, low oil pressure warnings, coolant loss, heavy smoke or a sudden drop in performance. On the F-Pace, reported timing chain problems and oil dilution on some diesels are among the issues commonly discussed by owners. A proper inspection is needed to confirm the actual cause.",
+      "If you notice any of these symptoms, avoid driving the car hard or for long distances until it has been checked. Continuing to run an engine with a suspected fault can turn a repairable problem into a full engine failure. Contact us early and we can advise on the safest next step."
     ]
   },
   "NationwideSupportData2": {
-    "titleBefore": "Find the Right Engine for Your ",
-    "titleHighlight": "Jaguar F-PACE",
+    "titleBefore": "Choosing the Right Path for Your ",
+    "titleHighlight": "Jaguar F-Pace Engine Rebuild",
     "paragraphs": [
-      "Compare the engine codes, capacity, power and year ranges in the table. Share your registration or VIN with our team to confirm the correct replacement before ordering."
+      "Every F-Pace engine is different. Share your engine code or registration with us, and we will confirm whether repair, rebuild or replacement suits your car."
     ]
   },
   "faqsData": [
     {
-      "q": "How do I find my Jaguar F-PACE engine code?",
-      "a": "Check your vehicle documentation or engine identification marking. Our team can help confirm the correct engine from your registration or VIN."
+      "q": "Which F-Pace engines do you rebuild and repair?",
+      "a": "We work on F-Pace 2.0 Ingenium diesel and petrol engines, the 3.0 V6 diesel and the SVR's supercharged 5.0 V8, following a full assessment."
     },
     {
-      "q": "What engines does the Jaguar F-Pace use?",
-      "a": "The F-Pace has been fitted with Ingenium diesel and petrol engines across most trims, alongside the supercharged AJ133 V8 in SVR variants. The exact engine depends on model year and trim level, so it's worth confirming your specific code before ordering any parts."
+      "q": "How much is a Jaguar F-Pace engine replacement in the UK?",
+      "a": "The cost depends on the engine type, unit availability and labour required. We give a quote after assessing your car instead of a fixed price."
     },
     {
-      "q": "Do Jaguar and Land Rover share the same engines?",
-      "a": "Yes, many Jaguar models use Ingenium and AJ133 engine platforms that are also fitted across Land Rover and Range Rover vehicles. This shared engineering means specialists experienced with one brand's engines are typically well placed to work confidently on the other."
+      "q": "Is a rebuild better than a reconditioned engine?",
+      "a": "It depends on the damage. A rebuild suits contained faults, while a reconditioned engine may make more sense when damage is severe or widespread."
     },
     {
-      "q": "Is the Jaguar Ingenium engine considered reliable?",
-      "a": "Ingenium engines are generally dependable when serviced correctly, though like any engine family they have known issues to watch for, including timing chain wear on certain variants. Regular maintenance and prompt attention to early symptoms significantly reduce the risk of major failure."
+      "q": "Do you have an F-Pace 306DT engine for sale?",
+      "a": "We can source and fit a reconditioned 306DT engine where replacement is the right option. Contact us with your registration to check availability."
     },
     {
-      "q": "How much does a Jaguar engine replacement typically cost?",
-      "a": "Costs vary depending on the model, engine type and whether repair or full replacement is required. We provide a clear, itemised quote after diagnostics, so you know exactly what you're paying for before any work begins."
+      "q": "Can a timing chain noise mean engine damage?",
+      "a": "It can be a sign of wear, but noise alone does not confirm a fault. An inspection is needed to find the real cause."
     },
     {
-      "q": "Which Jaguar engine is considered the most reliable?",
-      "a": "Reliability depends heavily on maintenance history and generation rather than one engine being universally best. Later Ingenium updates have generally improved on earlier reliability concerns, though consistent servicing remains the biggest factor in long-term dependability."
+      "q": "How long will my F-Pace be off the road?",
+      "a": "That depends on the fault, parts availability and whether machining is required. We will give you an estimated timeframe after the initial assessment."
     },
     {
-      "q": "Can you collect my Jaguar if I'm not local to your workshop?",
-      "a": "Yes, we offer UK-wide collection and delivery, so your location doesn't limit access to our specialist engine service. Simply share your address when booking and we'll arrange the logistics from there."
+      "q": "Can you collect my F-Pace if I'm not nearby?",
+      "a": "Yes. Our workshop is in Essex, and we offer collection and delivery across the UK, so distance does not need to be a barrier."
     }
   ]
 };

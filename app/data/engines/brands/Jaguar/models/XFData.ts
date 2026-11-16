@@ -6,31 +6,31 @@ export const XFData: ModelData = {
     "description": "Specialist Jaguar XF engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle."
   },
   "headerData": {
-    "title": "Jaguar XF Engine Specialists",
-    "subtitle": "Specialist Jaguar XF engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle.",
+    "title": "Specialist Jaguar XF Engine Rebuild Service",
+    "subtitle": "From the 2.2 diesel and 2.7 TDV6 to the 3.0 V6 and modern Ingenium units, we rebuild, repair and replace Jaguar XF engines.",
     "highlights": [
-      "Shared JLR platform knowledge across every brand",
-      "Every engine tested before dispatch or fitting",
-      "Warranty included on every engine supplied",
-      "UK-wide collection and delivery available"
+      "Specialists in Jaguar, Range Rover and Land Rover",
+      "First and second generation XF engines",
+      "Timing belt and timing chain work",
+      "Nationwide collection from our Essex workshop"
     ]
   },
   "BrandsData": [
     {
       "title": "Range Rover",
-      "description": "Explore specialist engine rebuild, repair and replacement services for Range Rover models.",
+      "description": "Whether it is an Evoque, Velar, Sport or Vogue, our team handles Range Rover engine repairs, rebuilds and replacements.",
       "image": "/images/models/sport.webp",
       "href": "/engines/range-rover"
     },
     {
       "title": "Land Rover",
-      "description": "Explore engine diagnostics, rebuilds and replacements for Land Rover Discovery, Defender and Freelander models.",
+      "description": "Engine diagnosis and repair for Land Rover Discovery, Discovery Sport and Freelander, plus full rebuilds and reconditioned engine supply.",
       "image": "/images/models/discovery-1.webp",
       "href": "/engines/land-rover"
     },
     {
       "title": "Jaguar",
-      "description": "Explore Jaguar models and engine codes for specialist engine repair, rebuild and replacement services.",
+      "description": "Rebuilds, repairs and replacement engines for Jaguar models old and new, including the XF, XE, XJ, F-Pace and F-Type.",
       "image": "/jaguar.webp",
       "href": "/engines/jaguar"
     }
@@ -38,53 +38,46 @@ export const XFData: ModelData = {
   "ReviewsData": [
     {
       "id": 1,
-      "name": "Adrian Solberg - F-Pace Diesel",
-      "date": "1 month ago",
-      "text": "F-Pace's Ingenium diesel was diagnosed and repaired quickly. Surprised to find a garage that understood Jaguar as well as Land Rover engines.",
+      "name": "Graham N.",
+      "date": "3 weeks ago",
+      "text": "My XF 2.2 diesel was losing power and showing warning lights. They diagnosed it properly, rebuilt the engine and explained everything clearly. The car drives like new.",
       "stars": 5
     },
     {
       "id": 2,
-      "name": "Melissa Thorne - XE Diagnostics",
+      "name": "Nadia K.",
       "date": "1 month ago",
-      "text": "XE's engine fault had been missed by two other garages before this team caught it straight away. Genuinely impressive knowledge.",
+      "text": "Had a major failure on my 3.0 V6 diesel XF. They sourced and fitted a reconditioned engine, kept me updated daily and made the whole thing straightforward.",
       "stars": 5
     },
     {
       "id": 3,
-      "name": "Gareth Vance - XF Replacement",
-      "date": "1 month ago",
-      "text": "Replaced my XF's engine with a fully tested unit and the whole process felt properly specialist, not generic like most places.",
+      "name": "Peter S.",
+      "date": "2 months ago",
+      "text": "Took my older XF 2.7 TDV6 in after another garage gave up. Proper specialists who know these engines inside out. Honest pricing and great workmanship.",
       "stars": 5
     },
     {
       "id": 4,
-      "name": "Natasha Ferris - F-Pace Petrol",
-      "date": "1 month ago",
-      "text": "Didn't realise my F-Pace shared engine platforms with Range Rover until they explained it. Made total sense of the expertise on show.",
+      "name": "Jessica T.",
+      "date": "2 weeks ago",
+      "text": "Booked my XF in for a timing belt replacement and the team spotted other wear early. Clear advice, no upselling and a tidy, professional job.",
       "stars": 5
     },
     {
       "id": 5,
-      "name": "Oscar Bramwell - F-Pace SVR",
-      "date": "1 month ago",
-      "text": "AJ133 V8 in my F-Pace SVR rebuilt properly, with real understanding of how these units differ from the standard Ingenium engines.",
-      "stars": 5
-    },
-    {
-      "id": 6,
-      "name": "Sofia Lindqvist - XE Timing Chain",
-      "date": "1 month ago",
-      "text": "XE's timing chain replaced before it caused real damage. Clear advice throughout and fairly priced compared to other quotes.",
+      "name": "Faisal R.",
+      "date": "5 days ago",
+      "text": "Their collection service saved me a long drive from Birmingham. My XF came back running smoothly, and communication was excellent from the first call.",
       "stars": 5
     }
   ],
   "NationwideData": {
-    "titleBefore": "Genuine Cross-Brand Knowledge of Shared ",
-    "titleHighlight": "JLR Engine Platforms",
+    "titleBefore": "Your Jaguar XF Engine Repair ",
+    "titleHighlight": "Specialist in Essex",
     "paragraphs": [
-      "Many of the engines fitted to modern Jaguar models, including the F-Pace, XE and XF, share Ingenium and AJ133 architecture with Land Rover and Range Rover vehicles. Understanding this shared engineering gives our team a real advantage when diagnosing and repairing Jaguar engines that others might treat as unfamiliar.",
-      "Rather than approaching your Jaguar as a completely separate platform, we apply the same depth of Ingenium and AJ133 knowledge built through years of Land Rover and Range Rover work. That crossover experience means faster, more confident diagnosis for Jaguar owners too."
+      "The Jaguar XF has been built in two generations with a wide mix of engines, including the 2.2 four-cylinder diesel, the 2.7 and 3.0 V6 diesels, and later 2.0 Ingenium units. Each engine has its own design and common wear areas, so accurate diagnosis depends on knowing exactly which unit your XF uses.",
+      "We work on Jaguar, Range Rover and Land Rover engines, and every XF job starts with a thorough assessment. We then explain the findings and recommend repair, rebuild or replacement based on your engine's condition."
     ],
     "badge": {
       "label": "Brand-Specific Tooling",
@@ -92,11 +85,11 @@ export const XFData: ModelData = {
     }
   },
   "PrecisionData": {
-    "titleBefore": "A Specialist Advantage Most ",
-    "titleHighlight": "Jaguar Owners Don't Expect",
+    "titleBefore": "Jaguar XF Engine Rebuild or Replacement: ",
+    "titleHighlight": "Choosing Wisely",
     "paragraphs": [
-      "Jaguar owners often assume their nearest option is a general garage or a costly main dealer visit, unaware that JLR's shared platform strategy means specialists in Land Rover engines are equally equipped to handle their vehicle. We've built genuine expertise across the group's engine range, not just one brand within it.",
-      "Every engine we work on, Jaguar included, is tested against factory tolerances and backed by a clear warranty explained upfront. Combined with UK-wide collection and delivery, this gives Jaguar owners access to specialist-level care that's often harder to find than it should be."
+      "A rebuild can be the right choice when the block and cylinder heads are in good condition and damage is limited. This includes an XF 2.7 TDV6 engine rebuild or work on the Jaguar XF 2.2 diesel engine. We strip the engine, measure wear, machine components where required and reassemble it with OEM-grade parts, keeping your original engine in the car.",
+      "Where damage is extensive, a Jaguar XF replacement engine can be more practical. We can supply and fit a Jaguar XF reconditioned engine matched to your engine code, including the Jaguar XF 3.0 V6 diesel engine. Jaguar XF engine replacement cost depends on the engine type, availability and labour required, so we provide a quote after assessing your car."
     ],
     "badge": {
       "label": "Fixed-Price Quotes",
@@ -104,48 +97,48 @@ export const XFData: ModelData = {
     }
   },
   "NationwideSupportData1": {
-    "titleBefore": "Why Jaguar and Land Rover Engines Are More ",
-    "titleHighlight": "Connected Than Owners Realise",
+    "titleBefore": "Jaguar XF Engine Problems and Why Timing ",
+    "titleHighlight": "Components Deserve Attention",
     "paragraphs": [
-      "Since the formation of Jaguar Land Rover, several engine families have been shared across both brands, most notably the Ingenium diesel and petrol range and the AJ133 supercharged V8. This means many of the same faults, maintenance patterns and rebuild techniques apply equally to Jaguar models as they do to Land Rover and Range Rover vehicles.",
-      "For owners, this shared engineering is genuinely useful to know. A specialist with deep experience in Range Rover Ingenium engines, for example, brings that same understanding directly to a Jaguar F-Pace fitted with the equivalent unit, rather than starting from scratch on an unfamiliar platform."
+      "Signs that may suggest an engine issue include loss of power, misfires, heavy smoke, oil leaks, coolant loss, unusual noises or warning lights. On older diesel XF models, problems around turbochargers, injectors and crankshaft components are among the issues often discussed by owners. None of these signs confirms a fault on its own without proper inspection.",
+      "Depending on the engine, your XF uses a timing belt or a timing chain. The 2.2 diesel and V6 diesels generally use belts, while Ingenium engines use chains. XF timing chain or timing belt replacement at the right time can help reduce the risk of serious engine damage, so check your service history."
     ]
   },
   "NationwideSupportData2": {
-    "titleBefore": "Find the Right Engine for Your ",
-    "titleHighlight": "Jaguar XF",
+    "titleBefore": "Matching the Right Service to Your ",
+    "titleHighlight": "Jaguar XF Engine Rebuild",
     "paragraphs": [
-      "Compare the engine codes, capacity, power and year ranges in the table. Share your registration or VIN with our team to confirm the correct replacement before ordering."
+      "The XF has used several different engines over the years. Send us your registration or engine code, and we will confirm the most suitable service."
     ]
   },
   "faqsData": [
     {
-      "q": "How do I find my Jaguar XF engine code?",
-      "a": "Check your vehicle documentation or engine identification marking. Our team can help confirm the correct engine from your registration or VIN."
+      "q": "Which Jaguar XF engines do you work on?",
+      "a": "We work on XF diesel and petrol engines across both generations, including the 2.2 diesel, 2.7 TDV6, 3.0 V6 diesel and Ingenium units."
     },
     {
-      "q": "What engines does the Jaguar F-Pace use?",
-      "a": "The F-Pace has been fitted with Ingenium diesel and petrol engines across most trims, alongside the supercharged AJ133 V8 in SVR variants. The exact engine depends on model year and trim level, so it's worth confirming your specific code before ordering any parts."
+      "q": "How much is a Jaguar XF engine replacement?",
+      "a": "The cost depends on the engine type, unit availability and labour involved. We quote after assessing your XF rather than giving a fixed price."
     },
     {
-      "q": "Do Jaguar and Land Rover share the same engines?",
-      "a": "Yes, many Jaguar models use Ingenium and AJ133 engine platforms that are also fitted across Land Rover and Range Rover vehicles. This shared engineering means specialists experienced with one brand's engines are typically well placed to work confidently on the other."
+      "q": "Can you supply a Jaguar XF reconditioned engine?",
+      "a": "Yes. Where replacement is the better route, we can supply and fit a reconditioned engine matched to your XF's engine code."
     },
     {
-      "q": "Is the Jaguar Ingenium engine considered reliable?",
-      "a": "Ingenium engines are generally dependable when serviced correctly, though like any engine family they have known issues to watch for, including timing chain wear on certain variants. Regular maintenance and prompt attention to early symptoms significantly reduce the risk of major failure."
+      "q": "Is a 2.7 TDV6 engine worth rebuilding?",
+      "a": "It can be, if the main components are sound. We inspect the engine first and only recommend a rebuild when it makes practical sense."
     },
     {
-      "q": "How much does a Jaguar engine replacement typically cost?",
-      "a": "Costs vary depending on the model, engine type and whether repair or full replacement is required. We provide a clear, itemised quote after diagnostics, so you know exactly what you're paying for before any work begins."
+      "q": "Does my XF have a timing belt or chain?",
+      "a": "It depends on the engine. The 2.2 diesel and V6 diesels generally use belts, while Ingenium engines use chains. We can confirm for your car."
     },
     {
-      "q": "Which Jaguar engine is considered the most reliable?",
-      "a": "Reliability depends heavily on maintenance history and generation rather than one engine being universally best. Later Ingenium updates have generally improved on earlier reliability concerns, though consistent servicing remains the biggest factor in long-term dependability."
+      "q": "How long does a Jaguar XF engine rebuild take?",
+      "a": "It depends on the fault, parts availability and machining required. We will give you an estimated timeframe once the engine has been assessed."
     },
     {
-      "q": "Can you collect my Jaguar if I'm not local to your workshop?",
-      "a": "Yes, we offer UK-wide collection and delivery, so your location doesn't limit access to our specialist engine service. Simply share your address when booking and we'll arrange the logistics from there."
+      "q": "Can you collect my XF from anywhere in the UK?",
+      "a": "Yes. We offer UK-wide collection and delivery from our Essex workshop, so your XF can reach us wherever you are based."
     }
   ]
 };

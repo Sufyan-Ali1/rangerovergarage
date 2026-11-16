@@ -6,31 +6,31 @@ export const XKData: ModelData = {
     "description": "Specialist Jaguar XK engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle."
   },
   "headerData": {
-    "title": "Jaguar XK Engine Specialists",
-    "subtitle": "Specialist Jaguar XK engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle.",
+    "title": "Jaguar XK Engine Rebuild Specialists in Essex",
+    "subtitle": "Expert rebuild, repair and replacement for Jaguar XK engines, including the 4.2 V8 and 5.0 V8, with collection available across the UK.",
     "highlights": [
-      "Shared JLR platform knowledge across every brand",
-      "Every engine tested before dispatch or fitting",
-      "Warranty included on every engine supplied",
-      "UK-wide collection and delivery available"
+      "Jaguar, Range Rover and Land Rover engine focus",
+      "4.2 and 5.0 V8 engine work",
+      "Timing chain and tensioner inspections",
+      "Reconditioned XK engines supplied and fitted"
     ]
   },
   "BrandsData": [
     {
       "title": "Range Rover",
-      "description": "Explore specialist engine rebuild, repair and replacement services for Range Rover models.",
+      "description": "From Evoque to Vogue, we carry out Range Rover engine diagnosis, repairs, rebuilds and reconditioned engine replacements.",
       "image": "/images/models/sport.webp",
       "href": "/engines/range-rover"
     },
     {
       "title": "Land Rover",
-      "description": "Explore engine diagnostics, rebuilds and replacements for Land Rover Discovery, Defender and Freelander models.",
+      "description": "Engine rebuilds and repairs for Land Rover Discovery, Discovery Sport and Freelander, with UK-wide collection and delivery available.",
       "image": "/images/models/discovery-1.webp",
       "href": "/engines/land-rover"
     },
     {
       "title": "Jaguar",
-      "description": "Explore Jaguar models and engine codes for specialist engine repair, rebuild and replacement services.",
+      "description": "Specialist engine work for Jaguar grand tourers, saloons and SUVs, covering the XK, XKR, XJ, XF and F-Pace.",
       "image": "/jaguar.webp",
       "href": "/engines/jaguar"
     }
@@ -38,53 +38,46 @@ export const XKData: ModelData = {
   "ReviewsData": [
     {
       "id": 1,
-      "name": "Adrian Solberg - F-Pace Diesel",
-      "date": "1 month ago",
-      "text": "F-Pace's Ingenium diesel was diagnosed and repaired quickly. Surprised to find a garage that understood Jaguar as well as Land Rover engines.",
+      "name": "Nigel F.",
+      "date": "3 weeks ago",
+      "text": "My XK 4.2 V8 developed a rattle on start-up. They checked the timing chain tensioners, explained everything clearly and the engine now sounds perfect again.",
       "stars": 5
     },
     {
       "id": 2,
-      "name": "Melissa Thorne - XE Diagnostics",
+      "name": "Louise G.",
       "date": "1 month ago",
-      "text": "XE's engine fault had been missed by two other garages before this team caught it straight away. Genuinely impressive knowledge.",
+      "text": "Superb rebuild on the 5.0 V8 in my XK. Regular updates, fair pricing and real attention to detail. It's clear these people understand Jaguar engines.",
       "stars": 5
     },
     {
       "id": 3,
-      "name": "Gareth Vance - XF Replacement",
-      "date": "1 month ago",
-      "text": "Replaced my XF's engine with a fully tested unit and the whole process felt properly specialist, not generic like most places.",
+      "name": "Tariq J.",
+      "date": "2 month ago",
+      "text": "My XK's engine was beyond repair, so they sourced and fitted a reconditioned V8. Smooth process from start to finish, and the car drives wonderfully.",
       "stars": 5
     },
     {
       "id": 4,
-      "name": "Natasha Ferris - F-Pace Petrol",
-      "date": "1 month ago",
-      "text": "Didn't realise my F-Pace shared engine platforms with Range Rover until they explained it. Made total sense of the expertise on show.",
+      "name": "Philip M.",
+      "date": "2 weeks ago",
+      "text": "Finally found a garage that treats my XK with proper care. Honest advice, no unnecessary work and a quality engine repair. Highly recommended for Jaguar owners.",
       "stars": 5
     },
     {
       "id": 5,
-      "name": "Oscar Bramwell - F-Pace SVR",
-      "date": "1 month ago",
-      "text": "AJ133 V8 in my F-Pace SVR rebuilt properly, with real understanding of how these units differ from the standard Ingenium engines.",
-      "stars": 5
-    },
-    {
-      "id": 6,
-      "name": "Sofia Lindqvist - XE Timing Chain",
-      "date": "1 month ago",
-      "text": "XE's timing chain replaced before it caused real damage. Clear advice throughout and fairly priced compared to other quotes.",
+      "name": "Amanda S.",
+      "date": "5 days ago",
+      "text": "They collected my XK convertible from Leeds and returned it running beautifully. Great communication throughout. Worth every mile for this level of specialist knowledge.",
       "stars": 5
     }
   ],
   "NationwideData": {
-    "titleBefore": "Genuine Cross-Brand Knowledge of Shared ",
-    "titleHighlight": "JLR Engine Platforms",
+    "titleBefore": "Jaguar XK Engine Repair Specialist for ",
+    "titleHighlight": "V8 Grand Tourers",
     "paragraphs": [
-      "Many of the engines fitted to modern Jaguar models, including the F-Pace, XE and XF, share Ingenium and AJ133 architecture with Land Rover and Range Rover vehicles. Understanding this shared engineering gives our team a real advantage when diagnosing and repairing Jaguar engines that others might treat as unfamiliar.",
-      "Rather than approaching your Jaguar as a completely separate platform, we apply the same depth of Ingenium and AJ133 knowledge built through years of Land Rover and Range Rover work. That crossover experience means faster, more confident diagnosis for Jaguar owners too."
+      "The X150 Jaguar XK launched with the 4.2 V8 from the AJ34 family, before moving to the 5.0 V8 from 2009. Both are refined, powerful engines, but age and mileage bring their own wear concerns. Identifying exactly which engine your XK has is the starting point for accurate diagnosis and the right repair plan.",
+      "Our team specialises in Jaguar, Range Rover and Land Rover engines. We assess your XK carefully, explain what we find in plain language and recommend repair, rebuild or replacement based on the engine's true condition."
     ],
     "badge": {
       "label": "Brand-Specific Tooling",
@@ -92,11 +85,11 @@ export const XKData: ModelData = {
     }
   },
   "PrecisionData": {
-    "titleBefore": "A Specialist Advantage Most ",
-    "titleHighlight": "Jaguar Owners Don't Expect",
+    "titleBefore": "Jaguar XK Engine Rebuild or a ",
+    "titleHighlight": "Replacement Engine?",
     "paragraphs": [
-      "Jaguar owners often assume their nearest option is a general garage or a costly main dealer visit, unaware that JLR's shared platform strategy means specialists in Land Rover engines are equally equipped to handle their vehicle. We've built genuine expertise across the group's engine range, not just one brand within it.",
-      "Every engine we work on, Jaguar included, is tested against factory tolerances and backed by a clear warranty explained upfront. Combined with UK-wide collection and delivery, this gives Jaguar owners access to specialist-level care that's often harder to find than it should be."
+      "A rebuild is often worthwhile when the block and heads are sound and the damage is limited. A Jaguar XK AJ34 engine rebuild on the 4.2 V8 typically involves stripping the engine, measuring wear, machining where required and replacing worn parts with OEM-grade components. The same careful process applies to the Jaguar XK 5.0 V8 engine.",
+      "Where damage is extensive, a Jaguar XK replacement engine may be more practical. We can supply and fit a Jaguar XK reconditioned engine matched to your engine code, whether your car has the Jaguar XK 4.2 V8 engine or the later 5.0. Jaguar XK engine replacement cost depends on the engine, availability and labour, so we quote after assessment."
     ],
     "badge": {
       "label": "Fixed-Price Quotes",
@@ -104,48 +97,48 @@ export const XKData: ModelData = {
     }
   },
   "NationwideSupportData1": {
-    "titleBefore": "Why Jaguar and Land Rover Engines Are More ",
-    "titleHighlight": "Connected Than Owners Realise",
+    "titleBefore": "Jaguar XK Engine Problems and the Role of the ",
+    "titleHighlight": "Timing Chain Tensioner",
     "paragraphs": [
-      "Since the formation of Jaguar Land Rover, several engine families have been shared across both brands, most notably the Ingenium diesel and petrol range and the AJ133 supercharged V8. This means many of the same faults, maintenance patterns and rebuild techniques apply equally to Jaguar models as they do to Land Rover and Range Rover vehicles.",
-      "For owners, this shared engineering is genuinely useful to know. A specialist with deep experience in Range Rover Ingenium engines, for example, brings that same understanding directly to a Jaguar F-Pace fitted with the equivalent unit, rather than starting from scratch on an unfamiliar platform."
+      "Possible warning signs include a rattle on cold start, rough running, misfires, coolant loss, overheating, oil leaks or an engine management light. On Jaguar V8 engines, timing chain tensioners and guides are components often discussed by owners, as wear can lead to noise. None of these symptoms confirms a specific fault without proper inspection.",
+      "If a Jaguar XK timing chain tensioner is worn, the chain may not be held correctly, which can increase the risk of further engine damage. If your XK starts making unusual noises, it is sensible to have it checked promptly rather than continuing to drive it for long periods."
     ]
   },
   "NationwideSupportData2": {
-    "titleBefore": "Find the Right Engine for Your ",
-    "titleHighlight": "Jaguar XK",
+    "titleBefore": "Preparing for Your Jaguar XK Engine Rebuild",
+    "titleHighlight": "With the Right Details",
     "paragraphs": [
-      "Compare the engine codes, capacity, power and year ranges in the table. Share your registration or VIN with our team to confirm the correct replacement before ordering."
+      "The X150 XK uses either the 4.2 or 5.0 V8. Send us your registration or engine code, and we will confirm the most suitable service."
     ]
   },
   "faqsData": [
     {
-      "q": "How do I find my Jaguar XK engine code?",
-      "a": "Check your vehicle documentation or engine identification marking. Our team can help confirm the correct engine from your registration or VIN."
+      "q": "Do you rebuild both the 4.2 and 5.0 XK engines?",
+      "a": "Yes. We work on the Jaguar XK 4.2 V8 and 5.0 V8 engines, and every job starts with a thorough assessment of the engine."
     },
     {
-      "q": "What engines does the Jaguar F-Pace use?",
-      "a": "The F-Pace has been fitted with Ingenium diesel and petrol engines across most trims, alongside the supercharged AJ133 V8 in SVR variants. The exact engine depends on model year and trim level, so it's worth confirming your specific code before ordering any parts."
+      "q": "What is the Jaguar XK engine replacement cost?",
+      "a": "The cost depends on the engine type, unit availability and labour required. We quote after assessing your XK rather than giving a fixed price."
     },
     {
-      "q": "Do Jaguar and Land Rover share the same engines?",
-      "a": "Yes, many Jaguar models use Ingenium and AJ133 engine platforms that are also fitted across Land Rover and Range Rover vehicles. This shared engineering means specialists experienced with one brand's engines are typically well placed to work confidently on the other."
+      "q": "Can you supply a Jaguar XK reconditioned engine?",
+      "a": "Yes. Where replacement is the better choice, we can supply and fit a reconditioned V8 matched to your XK's engine code."
     },
     {
-      "q": "Is the Jaguar Ingenium engine considered reliable?",
-      "a": "Ingenium engines are generally dependable when serviced correctly, though like any engine family they have known issues to watch for, including timing chain wear on certain variants. Regular maintenance and prompt attention to early symptoms significantly reduce the risk of major failure."
+      "q": "Do you have a Jaguar XK engine for sale?",
+      "a": "We can source reconditioned XK engines depending on availability. Send us your registration and we will check suitable options for your car."
     },
     {
-      "q": "How much does a Jaguar engine replacement typically cost?",
-      "a": "Costs vary depending on the model, engine type and whether repair or full replacement is required. We provide a clear, itemised quote after diagnostics, so you know exactly what you're paying for before any work begins."
+      "q": "Does a start-up rattle mean the tensioner has failed?",
+      "a": "Not necessarily. A rattle can have several causes. An inspection is needed to confirm whether the timing chain tensioner or another component is responsible."
     },
     {
-      "q": "Which Jaguar engine is considered the most reliable?",
-      "a": "Reliability depends heavily on maintenance history and generation rather than one engine being universally best. Later Ingenium updates have generally improved on earlier reliability concerns, though consistent servicing remains the biggest factor in long-term dependability."
+      "q": "How long does a Jaguar XK engine rebuild take?",
+      "a": "It depends on the fault, parts availability and machining required. We will give you an estimated timeframe once the engine has been assessed."
     },
     {
-      "q": "Can you collect my Jaguar if I'm not local to your workshop?",
-      "a": "Yes, we offer UK-wide collection and delivery, so your location doesn't limit access to our specialist engine service. Simply share your address when booking and we'll arrange the logistics from there."
+      "q": "Can you collect my XK from anywhere in the UK?",
+      "a": "Yes. We offer UK-wide collection and delivery from our Essex workshop, so your XK can reach us wherever you are."
     }
   ]
 };

@@ -6,31 +6,31 @@ export const EPACEData: ModelData = {
     "description": "Specialist Jaguar E-Pace engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle."
   },
   "headerData": {
-    "title": "Jaguar E-PACE Engine Specialists",
-    "subtitle": "Specialist Jaguar E-Pace engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle.",
+    "title": "Jaguar E-Pace Engine Rebuild Specialists",
+    "subtitle": "Expert rebuild, repair and replacement for Jaguar E-Pace Ingenium diesel and petrol engines, carried out at our Essex workshop with UK-wide collection available.",
     "highlights": [
-      "Shared JLR platform knowledge across every brand",
-      "Every engine tested before dispatch or fitting",
-      "Warranty included on every engine supplied",
-      "UK-wide collection and delivery available"
+      "Specialist Jaguar and Land Rover engine work",
+      "Full strip-down and machined rebuilds",
+      "Reconditioned replacement engines supplied and fitted",
+      "UK-wide collection and delivery service"
     ]
   },
   "BrandsData": [
     {
       "title": "Range Rover",
-      "description": "Explore specialist engine rebuild, repair and replacement services for Range Rover models.",
+      "description": "Engine rebuild, repair and replacement for Range Rover models, including Evoque, Sport, Velar and Vogue, handled by our specialist team.",
       "image": "/images/models/sport.webp",
       "href": "/engines/range-rover"
     },
     {
       "title": "Land Rover",
-      "description": "Explore engine diagnostics, rebuilds and replacements for Land Rover Discovery, Defender and Freelander models.",
+      "description": "Specialist engine work for Land Rover Discovery, Discovery Sport and Freelander models, from targeted repairs to full rebuilds and replacements.",
       "image": "/images/models/discovery-1.webp",
       "href": "/engines/land-rover"
     },
     {
       "title": "Jaguar",
-      "description": "Explore Jaguar models and engine codes for specialist engine repair, rebuild and replacement services.",
+      "description": "Engine rebuild and replacement for Jaguar models, including E-Pace, F-Pace, XE, XF and F-Type, using OEM-grade components.",
       "image": "/jaguar.webp",
       "href": "/engines/jaguar"
     }
@@ -38,53 +38,46 @@ export const EPACEData: ModelData = {
   "ReviewsData": [
     {
       "id": 1,
-      "name": "Adrian Solberg - F-Pace Diesel",
-      "date": "1 month ago",
-      "text": "F-Pace's Ingenium diesel was diagnosed and repaired quickly. Surprised to find a garage that understood Jaguar as well as Land Rover engines.",
+      "name": " Daniel R.",
+      "date": "2 weeks ago",
+      "text": "My E-Pace started rattling on cold starts. The team explained the timing chain issue clearly, kept me updated throughout and returned the car running smoothly. Very professional service.",
       "stars": 5
     },
     {
       "id": 2,
-      "name": "Melissa Thorne - XE Diagnostics",
+      "name": "Sarah M.",
       "date": "1 month ago",
-      "text": "XE's engine fault had been missed by two other garages before this team caught it straight away. Genuinely impressive knowledge.",
+      "text": "Another garage told me to scrap my E-Pace. These guys rebuilt the diesel engine instead and talked me through every step. Honest advice and great communication.",
       "stars": 5
     },
     {
       "id": 3,
-      "name": "Gareth Vance - XF Replacement",
-      "date": "1 month ago",
-      "text": "Replaced my XF's engine with a fully tested unit and the whole process felt properly specialist, not generic like most places.",
+      "name": "James W.",
+      "date": "3 weeks ago",
+      "text": "I live outside Essex, so the collection and delivery service was a huge help. Replacement engine fitted, car drives brilliantly and the whole process was stress-free.",
       "stars": 5
     },
     {
       "id": 4,
-      "name": "Natasha Ferris - F-Pace Petrol",
-      "date": "1 month ago",
-      "text": "Didn't realise my F-Pace shared engine platforms with Range Rover until they explained it. Made total sense of the expertise on show.",
+      "name": "Priya K.",
+      "date": "2 months ago",
+      "text": "They found the real cause of my E-Pace power loss rather than guessing. Clear quote before any work started, and no surprises when I collected the car.",
       "stars": 5
     },
     {
       "id": 5,
-      "name": "Oscar Bramwell - F-Pace SVR",
-      "date": "1 month ago",
-      "text": "AJ133 V8 in my F-Pace SVR rebuilt properly, with real understanding of how these units differ from the standard Ingenium engines.",
-      "stars": 5
-    },
-    {
-      "id": 6,
-      "name": "Sofia Lindqvist - XE Timing Chain",
-      "date": "1 month ago",
-      "text": "XE's timing chain replaced before it caused real damage. Clear advice throughout and fairly priced compared to other quotes.",
+      "name": "Mark H.",
+      "date": "5 days ago",
+      "text": "Brought my P250 in with an engine warning light. Friendly team, proper diagnosis and the engine repair was done to a very high standard. Would recommend.",
       "stars": 5
     }
   ],
   "NationwideData": {
-    "titleBefore": "Genuine Cross-Brand Knowledge of Shared ",
-    "titleHighlight": "JLR Engine Platforms",
+    "titleBefore": "Why E-Pace Ingenium Engines Need ",
+    "titleHighlight": "Specialist Care",
     "paragraphs": [
-      "Many of the engines fitted to modern Jaguar models, including the F-Pace, XE and XF, share Ingenium and AJ133 architecture with Land Rover and Range Rover vehicles. Understanding this shared engineering gives our team a real advantage when diagnosing and repairing Jaguar engines that others might treat as unfamiliar.",
-      "Rather than approaching your Jaguar as a completely separate platform, we apply the same depth of Ingenium and AJ133 knowledge built through years of Land Rover and Range Rover work. That crossover experience means faster, more confident diagnosis for Jaguar owners too."
+      "The Jaguar E-Pace uses the 2.0-litre Ingenium family across both diesel and petrol models. These are compact, modern engines with tight tolerances, so problems such as timing chain wear, oil contamination or turbo faults can escalate if left unchecked. A proper rebuild starts with a full strip-down to find the root cause, not just the symptom you noticed.",
+      "Our team specialises in Range Rover, Land Rover and Jaguar engines. We machine and reassemble components carefully, then explain what we found and what we recommend. If a rebuild is not the sensible option for your car, we will tell you."
     ],
     "badge": {
       "label": "Brand-Specific Tooling",
@@ -92,11 +85,11 @@ export const EPACEData: ModelData = {
     }
   },
   "PrecisionData": {
-    "titleBefore": "A Specialist Advantage Most ",
-    "titleHighlight": "Jaguar Owners Don't Expect",
+    "titleBefore": "Jaguar E-Pace Replacement Engine or Rebuild: ",
+    "titleHighlight": "Which Suits You?",
     "paragraphs": [
-      "Jaguar owners often assume their nearest option is a general garage or a costly main dealer visit, unaware that JLR's shared platform strategy means specialists in Land Rover engines are equally equipped to handle their vehicle. We've built genuine expertise across the group's engine range, not just one brand within it.",
-      "Every engine we work on, Jaguar included, is tested against factory tolerances and backed by a clear warranty explained upfront. Combined with UK-wide collection and delivery, this gives Jaguar owners access to specialist-level care that's often harder to find than it should be."
+      "A rebuild keeps your original engine and replaces worn or damaged internal parts. It often makes sense when the block and head are sound and the fault is limited, such as a stretched timing chain or worn bearings. Because we inspect everything during strip-down, you get a clear picture of the engine's condition before major work goes ahead.",
+      "A Jaguar E-Pace replacement engine can be the better route when damage is severe, for example after major overheating or a seized unit. We can supply and fit a reconditioned engine matched to your engine code. Jaguar E-Pace engine replacement cost depends on the engine type, its condition and the parts required, so we quote each job individually after assessment."
     ],
     "badge": {
       "label": "Fixed-Price Quotes",
@@ -104,48 +97,48 @@ export const EPACEData: ModelData = {
     }
   },
   "NationwideSupportData1": {
-    "titleBefore": "Why Jaguar and Land Rover Engines Are More ",
-    "titleHighlight": "Connected Than Owners Realise",
+    "titleBefore": "Common Signs Your E-Pace Ingenium Engine ",
+    "titleHighlight": "May Need Expert Attention",
     "paragraphs": [
-      "Since the formation of Jaguar Land Rover, several engine families have been shared across both brands, most notably the Ingenium diesel and petrol range and the AJ133 supercharged V8. This means many of the same faults, maintenance patterns and rebuild techniques apply equally to Jaguar models as they do to Land Rover and Range Rover vehicles.",
-      "For owners, this shared engineering is genuinely useful to know. A specialist with deep experience in Range Rover Ingenium engines, for example, brings that same understanding directly to a Jaguar F-Pace fitted with the equivalent unit, rather than starting from scratch on an unfamiliar platform."
+      "Symptoms worth checking include a rattle on cold start, a warning light, loss of power, rising oil levels or unusual exhaust smoke. These signs can point to several possible causes, from timing chain wear to DPF or injector issues. None of them confirms a specific fault on its own, which is why a proper diagnostic check matters.",
+      "For E-Pace 2.0 diesel engine rebuild work, including the 204DTD unit, we start by confirming the fault before recommending repair, rebuild or replacement. Petrol models, such as the P250 and P300, get the same careful approach. Stopping early when symptoms appear can help limit further damage."
     ]
   },
   "NationwideSupportData2": {
     "titleBefore": "Find the Right Engine for Your ",
-    "titleHighlight": "Jaguar E-PACE",
+    "titleHighlight": "Jaguar E-Pace Engine Rebuild",
     "paragraphs": [
-      "Compare the engine codes, capacity, power and year ranges in the table. Share your registration or VIN with our team to confirm the correct replacement before ordering."
+      "Compare the main E-Pace engine options below. Check your engine code first, then contact us to confirm which service suits your car best."
     ]
   },
   "faqsData": [
     {
-      "q": "How do I find my Jaguar E-PACE engine code?",
-      "a": "Check your vehicle documentation or engine identification marking. Our team can help confirm the correct engine from your registration or VIN."
+      "q": "How long does a Jaguar E-Pace engine rebuild take?",
+      "a": "Timescales depend on the fault, parts availability and machining required. We will give you an estimated timeframe once the engine has been assessed."
     },
     {
-      "q": "What engines does the Jaguar F-Pace use?",
-      "a": "The F-Pace has been fitted with Ingenium diesel and petrol engines across most trims, alongside the supercharged AJ133 V8 in SVR variants. The exact engine depends on model year and trim level, so it's worth confirming your specific code before ordering any parts."
+      "q": "What is the Jaguar E-Pace engine replacement cost?",
+      "a": "Cost varies with the engine type, its condition and the parts needed. We provide a quote after inspection rather than a fixed price."
     },
     {
-      "q": "Do Jaguar and Land Rover share the same engines?",
-      "a": "Yes, many Jaguar models use Ingenium and AJ133 engine platforms that are also fitted across Land Rover and Range Rover vehicles. This shared engineering means specialists experienced with one brand's engines are typically well placed to work confidently on the other."
+      "q": "Do you supply a Jaguar E-Pace reconditioned engine?",
+      "a": "Yes. Where replacement makes more sense than repair, we can supply and fit a reconditioned engine matched to your E-Pace engine code."
     },
     {
-      "q": "Is the Jaguar Ingenium engine considered reliable?",
-      "a": "Ingenium engines are generally dependable when serviced correctly, though like any engine family they have known issues to watch for, including timing chain wear on certain variants. Regular maintenance and prompt attention to early symptoms significantly reduce the risk of major failure."
+      "q": "Do you work on E-Pace P250 and P300 petrol engines?",
+      "a": "Yes. We work on both Ingenium diesel and petrol E-Pace engines, including rebuild, repair and replacement for P250 and P300 models."
     },
     {
-      "q": "How much does a Jaguar engine replacement typically cost?",
-      "a": "Costs vary depending on the model, engine type and whether repair or full replacement is required. We provide a clear, itemised quote after diagnostics, so you know exactly what you're paying for before any work begins."
+      "q": "Can you replace the timing chain on an E-Pace?",
+      "a": "Yes. Timing chain replacement is offered as a separate service. We inspect related components too, so any linked wear can be identified."
     },
     {
-      "q": "Which Jaguar engine is considered the most reliable?",
-      "a": "Reliability depends heavily on maintenance history and generation rather than one engine being universally best. Later Ingenium updates have generally improved on earlier reliability concerns, though consistent servicing remains the biggest factor in long-term dependability."
+      "q": "I'm not local. Can you still repair my E-Pace?",
+      "a": "Yes. We are based in Essex and offer UK-wide collection and delivery, making us a practical option wherever your E-Pace is located."
     },
     {
-      "q": "Can you collect my Jaguar if I'm not local to your workshop?",
-      "a": "Yes, we offer UK-wide collection and delivery, so your location doesn't limit access to our specialist engine service. Simply share your address when booking and we'll arrange the logistics from there."
+      "q": "How do I find my E-Pace engine code?",
+      "a": "Your engine code may appear in your vehicle documents or on the engine itself. Our team can help confirm it using your registration."
     }
   ]
 };
