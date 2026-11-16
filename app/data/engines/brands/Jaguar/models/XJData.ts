@@ -2,8 +2,8 @@ import type { ModelData } from "@/app/data/types";
 
 export const XJData: ModelData = {
   "meta": {
-    "title": "Jaguar XJ Engine Rebuild & Replacement",
-    "description": "Specialist Jaguar XJ engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle."
+    "title": "Jaguar XJ Engine Rebuild | X351 V6 Diesel & 5.0 V8 Saloon",
+    "description": "Jaguar XJ engine rebuild for the 2.7 TDV6, 3.0 V6 diesel and 5.0 V8. Knocking or turbo trouble on your luxury saloon? Get a careful specialist check."
   },
   "headerData": {
     "title": "Expert Jaguar XJ Engine Rebuild and Repair",

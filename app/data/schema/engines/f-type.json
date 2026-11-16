@@ -1,0 +1,114 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AutoRepair",
+      "@id": "https://rangerovergarage.co.uk/#organization",
+      "name": "Range Rover Garage",
+      "url": "https://rangerovergarage.co.uk/",
+      "logo": {"@type": "ImageObject", "@id": "https://rangerovergarage.co.uk/#logo", "url": "https://rangerovergarage.co.uk/logo.svg", "contentUrl": "https://rangerovergarage.co.uk/logo.svg"},
+      "image": "https://rangerovergarage.co.uk/images/share-preview.png",
+      "description": "Independent Jaguar, Range Rover and Land Rover engine specialists in Grays, Essex, offering engine rebuilds, replacements, repairs and supply and fit with UK-wide collection and delivery.",
+      "telephone": "+44 1708 592377",
+      "email": "sales@rangerovergarage.co.uk",
+      "address": {"@type": "PostalAddress", "streetAddress": "Unit 1 Hedley Ave", "addressLocality": "Grays", "addressRegion": "Essex", "postalCode": "RM20 4EL", "addressCountry": "GB"},
+      "hasMap": "https://maps.app.goo.gl/49cNyUKLEiCa4UL57",
+      "openingHoursSpecification": [
+        {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "18:00"},
+        {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "14:00"}
+      ],
+      "contactPoint": {"@type": "ContactPoint", "telephone": "+44 7477 733313", "contactType": "customer service", "areaServed": "GB", "availableLanguage": "en"},
+      "areaServed": [{"@type": "City", "name": "Grays"}, {"@type": "AdministrativeArea", "name": "Essex"}, {"@type": "Country", "name": "United Kingdom"}],
+      "knowsAbout": ["Jaguar engine rebuilds", "Range Rover engine rebuilds", "Land Rover engine rebuilds", "Supercharged V6 and V8 engines", "Ingenium engines"],
+      "sameAs": ["https://www.facebook.com/rangerovergarage/", "https://www.youtube.com/@RangeroverGarage", "https://uk.pinterest.com/rangerovergaragegrays/"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://rangerovergarage.co.uk/#website",
+      "url": "https://rangerovergarage.co.uk/",
+      "name": "Range Rover Garage",
+      "publisher": {"@id": "https://rangerovergarage.co.uk/#organization"},
+      "inLanguage": "en-GB"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://rangerovergarage.co.uk/engines/jaguar/f-type#webpage",
+      "url": "https://rangerovergarage.co.uk/engines/jaguar/f-type",
+      "name": "Jaguar F-Type Engine Rebuild | 2.0 P300, 3.0 V6 & 5.0 V8 Specialists",
+      "description": "Jaguar F-Type engine rebuild, repair and replacement for the 2.0 P300, supercharged 3.0 V6 and 5.0 V8, in Coupe and Convertible models. UK-wide collection.",
+      "keywords": "Jaguar F-Type Engine Rebuild, F-Type 2.0 P300 engine, F-Type 3.0 V6 supercharged engine, F-Type 5.0 V8 supercharged engine, F-Type R engine rebuild, Jaguar F-Type reconditioned engine, Jaguar F-Type engine replacement cost",
+      "inLanguage": "en-GB",
+      "isPartOf": {"@id": "https://rangerovergarage.co.uk/#website"},
+      "publisher": {"@id": "https://rangerovergarage.co.uk/#organization"},
+      "about": [
+        {"@id": "https://rangerovergarage.co.uk/engines/jaguar/f-type#service"},
+        {"@type": "Thing", "name": "Jaguar F-Type", "sameAs": "https://en.wikipedia.org/wiki/Jaguar_F-Type"}
+      ],
+      "mainEntity": {"@id": "https://rangerovergarage.co.uk/engines/jaguar/f-type#service"},
+      "breadcrumb": {"@id": "https://rangerovergarage.co.uk/engines/jaguar/f-type#breadcrumb"}
+    },
+    {
+      "@type": "Service",
+      "@id": "https://rangerovergarage.co.uk/engines/jaguar/f-type#service",
+      "name": "Jaguar F-Type Engine Rebuild, Repair and Replacement",
+      "alternateName": "Jaguar F-Type Engine Rebuild",
+      "url": "https://rangerovergarage.co.uk/engines/jaguar/f-type",
+      "serviceType": "Engine rebuild, repair and replacement",
+      "category": "Jaguar F-Type Four-Cylinder, V6 and V8 Engines",
+      "brand": {"@type": "Brand", "name": "Jaguar"},
+      "description": "Specialist rebuild, repair and replacement for Jaguar F-Type Coupe and Convertible engines, covering the 2.0 P300 Ingenium, the supercharged 3.0 V6 and the supercharged 5.0 V8 used in the F-Type R.",
+      "provider": {"@id": "https://rangerovergarage.co.uk/#organization"},
+      "areaServed": {"@type": "Country", "name": "United Kingdom"},
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Jaguar F-Type Engine Options and Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "F-Type Engines Covered",
+            "itemListElement": [
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "F-Type 2.0 P300 Engine", "description": "Diagnosis, repair and rebuild of the four-cylinder Ingenium P300 engine, including timing chain and turbo checks."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "F-Type 3.0 V6 Supercharged Engine", "description": "Repair, rebuild and reconditioned replacement for the supercharged 3.0 V6 in Coupe and Convertible models."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "F-Type R 5.0 V8 Supercharged Engine Rebuild", "description": "Strip-down, measurement, machining and rebuild of the supercharged 5.0 V8 with OEM-grade parts."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Jaguar F-Type Reconditioned Engine", "description": "A reconditioned replacement engine matched to your F-Type engine code, whichever variant you drive."}}
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "F-Type Engine Services",
+            "itemListElement": [
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Jaguar F-Type Engine Rebuild", "url": "https://rangerovergarage.co.uk/services/engine-rebuild", "description": "Your original F-Type engine is rebuilt where the block and heads are sound and the damage is limited."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Jaguar F-Type Engine Repair", "url": "https://rangerovergarage.co.uk/services/engine-repair", "description": "Diagnosis and repair of misfires, rough idling, power loss, unusual noises, overheating and coolant loss."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Jaguar F-Type Engine Replacement", "url": "https://rangerovergarage.co.uk/services/engine-replacement", "description": "Supply and fit of a reconditioned F-Type engine where damage is severe."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "UK-Wide Collection and Delivery", "description": "Collection and delivery for F-Type owners across the UK to and from our Grays, Essex workshop."}}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://rangerovergarage.co.uk/engines/jaguar/f-type#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://rangerovergarage.co.uk/"},
+        {"@type": "ListItem", "position": 2, "name": "Engines", "item": "https://rangerovergarage.co.uk/engines"},
+        {"@type": "ListItem", "position": 3, "name": "Jaguar", "item": "https://rangerovergarage.co.uk/engines/jaguar"},
+        {"@type": "ListItem", "position": 4, "name": "Jaguar F-Type", "item": "https://rangerovergarage.co.uk/engines/jaguar/f-type"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://rangerovergarage.co.uk/engines/jaguar/f-type#faq",
+      "isPartOf": {"@id": "https://rangerovergarage.co.uk/engines/jaguar/f-type#webpage"},
+      "mainEntity": [
+        {"@type": "Question", "name": "Which F-Type engines do you work on?", "acceptedAnswer": {"@type": "Answer", "text": "We work on the F-Type 2.0 P300, 3.0 V6 supercharged and 5.0 V8 supercharged engines, in both Coupe and Convertible models."}},
+        {"@type": "Question", "name": "How much is a Jaguar F-Type engine replacement?", "acceptedAnswer": {"@type": "Answer", "text": "Cost depends on the engine type, unit availability and labour required. We provide a quote after assessing your F-Type rather than a fixed price."}},
+        {"@type": "Question", "name": "Can you supply a Jaguar F-Type reconditioned engine?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Where replacement is the better option, we can supply and fit a reconditioned engine matched to your F-Type's engine code."}},
+        {"@type": "Question", "name": "Do you have a Jaguar F-Type engine for sale in the UK?", "acceptedAnswer": {"@type": "Answer", "text": "We can source reconditioned F-Type engines depending on availability. Contact us with your registration, and we will check suitable options for your car."}},
+        {"@type": "Question", "name": "Does a misfire mean my F-Type needs a rebuild?", "acceptedAnswer": {"@type": "Answer", "text": "Not necessarily. Misfires can come from ignition, fuel or mechanical causes. A diagnostic check is needed before any rebuild is considered."}},
+        {"@type": "Question", "name": "How long does a Jaguar F-Type engine rebuild take?", "acceptedAnswer": {"@type": "Answer", "text": "Timescales depend on the fault, parts availability and machining required. We will give you an estimated timeframe after the engine has been assessed."}},
+        {"@type": "Question", "name": "Can you collect my F-Type from anywhere in the UK?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We offer collection and delivery across the UK from our Essex workshop, so you can reach us wherever you are."}}
+      ]
+    }
+  ]
+}

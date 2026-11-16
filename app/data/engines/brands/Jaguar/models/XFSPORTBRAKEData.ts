@@ -2,8 +2,8 @@ import type { ModelData } from "@/app/data/types";
 
 export const XFSPORTBRAKEData: ModelData = {
   "meta": {
-    "title": "Jaguar XF SPORTBRAKE Engine Rebuild & Replacement",
-    "description": "Specialist Jaguar XF Sportbrake engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle."
+    "title": "Jaguar XF Sportbrake Engine Rebuild | Estate Engine Experts",
+    "description": "Jaguar XF Sportbrake engine rebuild for 2.2, 3.0 V6 diesel and 2.0 Ingenium. Towing or heavy loads taking a toll? Get the fault found and fixed."
   },
   "headerData": {
     "title": "Jaguar XF Sportbrake Engine Rebuild Specialists",

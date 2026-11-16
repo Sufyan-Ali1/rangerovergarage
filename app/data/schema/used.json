@@ -1,0 +1,122 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AutoRepair",
+      "@id": "https://rangerovergarage.co.uk/#organization",
+      "name": "Range Rover Garage",
+      "url": "https://rangerovergarage.co.uk/",
+      "logo": {"@type": "ImageObject", "@id": "https://rangerovergarage.co.uk/#logo", "url": "https://rangerovergarage.co.uk/logo.svg", "contentUrl": "https://rangerovergarage.co.uk/logo.svg"},
+      "image": "https://rangerovergarage.co.uk/images/share-preview.png",
+      "description": "Independent Range Rover, Land Rover and Jaguar engine specialists in Grays, Essex, offering engine rebuilds, replacements, repairs and supply and fit with UK-wide collection and delivery.",
+      "telephone": "+44 1708 592377",
+      "email": "sales@rangerovergarage.co.uk",
+      "address": {"@type": "PostalAddress", "streetAddress": "Unit 1 Hedley Ave", "addressLocality": "Grays", "addressRegion": "Essex", "postalCode": "RM20 4EL", "addressCountry": "GB"},
+      "hasMap": "https://maps.app.goo.gl/49cNyUKLEiCa4UL57",
+      "openingHoursSpecification": [
+        {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "18:00"},
+        {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "14:00"}
+      ],
+      "contactPoint": {"@type": "ContactPoint", "telephone": "+44 7477 733313", "contactType": "customer service", "areaServed": "GB", "availableLanguage": "en"},
+      "areaServed": [{"@type": "City", "name": "Grays"}, {"@type": "AdministrativeArea", "name": "Essex"}, {"@type": "Country", "name": "United Kingdom"}],
+      "knowsAbout": ["Used Range Rover engines", "Reconditioned Range Rover engines", "Range Rover engine rebuilds", "Engine code matching"],
+      "sameAs": ["https://www.facebook.com/rangerovergarage/", "https://www.youtube.com/@RangeroverGarage", "https://uk.pinterest.com/rangerovergaragegrays/"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://rangerovergarage.co.uk/#website",
+      "url": "https://rangerovergarage.co.uk/",
+      "name": "Range Rover Garage",
+      "publisher": {"@id": "https://rangerovergarage.co.uk/#organization"},
+      "inLanguage": "en-GB"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://rangerovergarage.co.uk/engines/range-rover/used-engines#webpage",
+      "url": "https://rangerovergarage.co.uk/engines/range-rover/used-engines",
+      "name": "Range Rover Engine for Sale | Used Engines Supplied and Fitted",
+      "description": "Used Range Rover engines for sale for full-size, Sport, Evoque and Velar models, matched to your engine code. Compare used, reconditioned and rebuild options.",
+      "keywords": "Range Rover engine for sale, used Range Rover engine, used Range Rover Sport engine for sale, used Range Rover Evoque engine, used Range Rover Velar engine, cost to replace Range Rover engine, rebuild or replace engine",
+      "inLanguage": "en-GB",
+      "isPartOf": {"@id": "https://rangerovergarage.co.uk/#website"},
+      "publisher": {"@id": "https://rangerovergarage.co.uk/#organization"},
+      "about": [
+        {"@id": "https://rangerovergarage.co.uk/engines/range-rover/used-engines#service"},
+        {"@type": "Thing", "name": "Range Rover", "sameAs": "https://en.wikipedia.org/wiki/Range_Rover"}
+      ],
+      "mainEntity": {"@id": "https://rangerovergarage.co.uk/engines/range-rover/used-engines#service"},
+      "breadcrumb": {"@id": "https://rangerovergarage.co.uk/engines/range-rover/used-engines#breadcrumb"}
+    },
+    {
+      "@type": "Service",
+      "@id": "https://rangerovergarage.co.uk/engines/range-rover/used-engines#service",
+      "name": "Used Range Rover Engine Supply and Fitting",
+      "alternateName": "Range Rover Engine for Sale",
+      "url": "https://rangerovergarage.co.uk/engines/range-rover/used-engines",
+      "serviceType": "Used engine supply and fitting",
+      "category": "Used Range Rover Engines",
+      "brand": {"@type": "Brand", "name": "Range Rover"},
+      "description": "Supply and fitting of used Range Rover engines taken from other vehicles and matched to your model and engine code, with available details on mileage, source and condition shared before you decide, and supply only or supply and fit options.",
+      "provider": {"@id": "https://rangerovergarage.co.uk/#organization"},
+      "areaServed": {"@type": "Country", "name": "United Kingdom"},
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Used Range Rover Engine Options and Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Used Engines by Model",
+            "itemListElement": [
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Used Full-Size Range Rover Engine", "description": "Used engines for the full-size Range Rover, sourced to suit your model year and engine code, with compatibility confirmed before supply."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Used Range Rover Sport Engine", "description": "Used Range Rover Sport engines for sale, checked against your registration for your exact variant."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Used Range Rover Evoque Engine", "description": "Used Evoque engines matched to your model and fuel type to help keep replacement costs manageable."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Used Range Rover Velar Engine", "description": "A practical alternative to a new Velar engine, with the correct engine variant confirmed before supply."}}
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Rebuild or Replace Options",
+            "itemListElement": [
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Range Rover Engine Rebuild", "url": "https://rangerovergarage.co.uk/services/engine-rebuild", "description": "Internal repair of your existing engine when damage is limited and the block is sound, quoted after inspection."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Used Range Rover Engine", "description": "A used engine from another vehicle, supplied in its existing condition and usually the most affordable replacement."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Reconditioned Range Rover Engine", "url": "https://rangerovergarage.co.uk/engines/range-rover/reconditioned-engines", "description": "A replacement engine stripped, inspected and rebuilt before supply, offering more certainty than an untouched used unit."}}
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Supply and Fitting Services",
+            "itemListElement": [
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Supply Only Used Engine", "description": "A used Range Rover engine sourced and matched to your vehicle for fitting by your own mechanic, with the engine code confirmed first."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Used Engine Supply and Fit", "url": "https://rangerovergarage.co.uk/services/engine-replacement", "description": "Sourcing, installation and final checks handled in one place, with any further faults discussed before proceeding."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Engine Code Matching", "description": "Your registration or VIN is used to confirm a compatible engine by model, year, fuel type and engine code before you order."}}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://rangerovergarage.co.uk/engines/range-rover/used-engines#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://rangerovergarage.co.uk/"},
+        {"@type": "ListItem", "position": 2, "name": "Engines", "item": "https://rangerovergarage.co.uk/engines"},
+        {"@type": "ListItem", "position": 3, "name": "Range Rover", "item": "https://rangerovergarage.co.uk/engines/range-rover"},
+        {"@type": "ListItem", "position": 4, "name": "Used Range Rover Engines", "item": "https://rangerovergarage.co.uk/engines/range-rover/used-engines"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://rangerovergarage.co.uk/engines/range-rover/used-engines#faq",
+      "isPartOf": {"@id": "https://rangerovergarage.co.uk/engines/range-rover/used-engines#webpage"},
+      "mainEntity": [
+        {"@type": "Question", "name": "How much does it cost to replace a Range Rover engine?", "acceptedAnswer": {"@type": "Answer", "text": "The cost depends on your model, engine type, whether you choose a used or reconditioned unit, and whether fitting is included. Send your registration for an accurate quote based on your vehicle."}},
+        {"@type": "Question", "name": "How much is it to replace a Range Rover Sport engine?", "acceptedAnswer": {"@type": "Answer", "text": "Prices vary by Sport model year, engine variant and the type of replacement chosen. A used unit is usually cheaper than a reconditioned one. Contact us with your details for a vehicle-specific quote."}},
+        {"@type": "Question", "name": "How much does it cost to rebuild a Range Rover engine?", "acceptedAnswer": {"@type": "Answer", "text": "Rebuild costs depend on the extent of internal damage, parts required and labour time. An inspection is usually needed before an accurate figure can be given, as hidden damage may change the scope of work."}},
+        {"@type": "Question", "name": "Is it cheaper to rebuild or replace an engine?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on the damage. A rebuild can be cheaper when problems are limited, while a used replacement may cost less when damage is extensive. We explain both options so you can compare them clearly."}},
+        {"@type": "Question", "name": "How do I know which engine fits my Range Rover?", "acceptedAnswer": {"@type": "Answer", "text": "The correct engine depends on your model, year, fuel type and engine code, not just engine size. Share your registration or VIN, and we will help confirm a compatible unit before you order."}},
+        {"@type": "Question", "name": "Is a used engine worth it on an older Range Rover?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on the vehicle's value, overall condition and how long you plan to keep it. A used engine is often the most cost-conscious option, and we will advise honestly if it may not be worthwhile."}},
+        {"@type": "Question", "name": "What details should I send with my enquiry?", "acceptedAnswer": {"@type": "Answer", "text": "Please send your registration number, model, year and a short description of the engine problem. Any diagnostic results, warning messages or garage reports also help us recommend a suitable replacement engine."}}
+      ]
+    }
+  ]
+}

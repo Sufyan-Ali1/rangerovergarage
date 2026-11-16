@@ -1,0 +1,115 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AutoRepair",
+      "@id": "https://rangerovergarage.co.uk/#organization",
+      "name": "Range Rover Garage",
+      "url": "https://rangerovergarage.co.uk/",
+      "logo": {"@type": "ImageObject", "@id": "https://rangerovergarage.co.uk/#logo", "url": "https://rangerovergarage.co.uk/logo.svg", "contentUrl": "https://rangerovergarage.co.uk/logo.svg"},
+      "image": "https://rangerovergarage.co.uk/images/share-preview.png",
+      "description": "Independent Jaguar, Range Rover and Land Rover engine specialists in Grays, Essex, offering engine rebuilds, replacements, repairs and supply and fit with UK-wide collection and delivery.",
+      "telephone": "+44 1708 592377",
+      "email": "sales@rangerovergarage.co.uk",
+      "address": {"@type": "PostalAddress", "streetAddress": "Unit 1 Hedley Ave", "addressLocality": "Grays", "addressRegion": "Essex", "postalCode": "RM20 4EL", "addressCountry": "GB"},
+      "hasMap": "https://maps.app.goo.gl/49cNyUKLEiCa4UL57",
+      "openingHoursSpecification": [
+        {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "18:00"},
+        {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "14:00"}
+      ],
+      "contactPoint": {"@type": "ContactPoint", "telephone": "+44 7477 733313", "contactType": "customer service", "areaServed": "GB", "availableLanguage": "en"},
+      "areaServed": [{"@type": "City", "name": "Grays"}, {"@type": "AdministrativeArea", "name": "Essex"}, {"@type": "Country", "name": "United Kingdom"}],
+      "knowsAbout": ["Jaguar engine rebuilds", "Range Rover engine rebuilds", "Land Rover engine rebuilds", "Ingenium engines"],
+      "sameAs": ["https://www.facebook.com/rangerovergarage/", "https://www.youtube.com/@RangeroverGarage", "https://uk.pinterest.com/rangerovergaragegrays/"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://rangerovergarage.co.uk/#website",
+      "url": "https://rangerovergarage.co.uk/",
+      "name": "Range Rover Garage",
+      "publisher": {"@id": "https://rangerovergarage.co.uk/#organization"},
+      "inLanguage": "en-GB"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://rangerovergarage.co.uk/engines/jaguar/xe#webpage",
+      "url": "https://rangerovergarage.co.uk/engines/jaguar/xe",
+      "name": "Jaguar XE Engine Rebuild & Repair | Ingenium & 3.0 V6 Specialists",
+      "description": "Jaguar XE engine rebuild, repair and replacement for 2.0 Ingenium 204DTD/204DTA diesels, petrol engines and the XE S 3.0 V6. UK-wide collection from Essex.",
+      "keywords": "Jaguar XE Engine Rebuild, Jaguar XE 2.0 diesel engine, XE 204DTA engine, Jaguar XE reconditioned engine, Jaguar XE engine replacement cost, Jaguar XE timing chain replacement, Jaguar XE engine repair near me",
+      "inLanguage": "en-GB",
+      "isPartOf": {"@id": "https://rangerovergarage.co.uk/#website"},
+      "publisher": {"@id": "https://rangerovergarage.co.uk/#organization"},
+      "about": [
+        {"@id": "https://rangerovergarage.co.uk/engines/jaguar/xe#service"},
+        {"@type": "Thing", "name": "Jaguar XE", "sameAs": "https://en.wikipedia.org/wiki/Jaguar_XE"}
+      ],
+      "mainEntity": {"@id": "https://rangerovergarage.co.uk/engines/jaguar/xe#service"},
+      "breadcrumb": {"@id": "https://rangerovergarage.co.uk/engines/jaguar/xe#breadcrumb"}
+    },
+    {
+      "@type": "Service",
+      "@id": "https://rangerovergarage.co.uk/engines/jaguar/xe#service",
+      "name": "Jaguar XE Engine Rebuild, Repair and Replacement",
+      "alternateName": "Jaguar XE Engine Rebuild",
+      "url": "https://rangerovergarage.co.uk/engines/jaguar/xe",
+      "serviceType": "Engine rebuild, repair and replacement",
+      "category": "Jaguar XE Ingenium Diesel, Petrol and 3.0 V6 Engines",
+      "brand": {"@type": "Brand", "name": "Jaguar"},
+      "description": "Specialist rebuild, repair and replacement for Jaguar XE engines, covering the 2.0 Ingenium 204DTD and twin-turbo 204DTA diesels, the 2.0 Ingenium petrol and the supercharged 3.0 V6 from the XE S, using OEM-grade components.",
+      "provider": {"@id": "https://rangerovergarage.co.uk/#organization"},
+      "areaServed": {"@type": "Country", "name": "United Kingdom"},
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Jaguar XE Engine Options and Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "XE Engines Covered",
+            "itemListElement": [
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Jaguar XE 2.0 Diesel Engine Rebuild (204DTD and 204DTA)", "description": "Strip, inspection and measured rebuild of the single-turbo 204DTD and twin-turbo 204DTA Ingenium diesel engines."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Jaguar XE 2.0 Ingenium Petrol Engine", "description": "Diagnosis, repair, rebuild and replacement for the 2.0 Ingenium petrol engines used in the XE."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "XE S 3.0 V6 Supercharged Engine", "description": "Specialist repair, rebuild and replacement for the supercharged 3.0 V6 fitted to the XE S."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Jaguar XE Reconditioned Engine", "description": "A reconditioned replacement engine matched to your XE engine code, whether diesel, petrol or V6."}}
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "XE Engine Services",
+            "itemListElement": [
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Jaguar XE Engine Rebuild", "url": "https://rangerovergarage.co.uk/services/engine-rebuild", "description": "Worn parts replaced, surfaces machined where needed and the original engine carefully reassembled."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Jaguar XE Timing Chain Replacement", "url": "https://rangerovergarage.co.uk/services/timing-chain-replacement", "description": "Timing chain replacement on Ingenium engines once an inspection confirms the chain is the cause of a start-up rattle."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Jaguar XE Engine Repair", "url": "https://rangerovergarage.co.uk/services/engine-repair", "description": "Diagnosis and repair of rising oil levels, DPF warnings, loss of power, misfires and excessive smoke."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Jaguar XE Engine Replacement", "url": "https://rangerovergarage.co.uk/services/engine-replacement", "description": "Supply and fit of a reconditioned XE engine when the existing unit is beyond saving."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "UK-Wide Collection and Delivery", "description": "Collection and delivery for XE owners across the UK to and from our Grays, Essex workshop."}}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://rangerovergarage.co.uk/engines/jaguar/xe#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://rangerovergarage.co.uk/"},
+        {"@type": "ListItem", "position": 2, "name": "Engines", "item": "https://rangerovergarage.co.uk/engines"},
+        {"@type": "ListItem", "position": 3, "name": "Jaguar", "item": "https://rangerovergarage.co.uk/engines/jaguar"},
+        {"@type": "ListItem", "position": 4, "name": "Jaguar XE", "item": "https://rangerovergarage.co.uk/engines/jaguar/xe"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://rangerovergarage.co.uk/engines/jaguar/xe#faq",
+      "isPartOf": {"@id": "https://rangerovergarage.co.uk/engines/jaguar/xe#webpage"},
+      "mainEntity": [
+        {"@type": "Question", "name": "Which Jaguar XE engines can you work on?", "acceptedAnswer": {"@type": "Answer", "text": "We work on XE 2.0 Ingenium diesel and petrol engines and the supercharged 3.0 V6 from the XE S, following an initial assessment."}},
+        {"@type": "Question", "name": "How much does a Jaguar XE engine replacement cost?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on the engine type, unit availability and labour involved. We provide a quote after assessing your XE rather than a set price."}},
+        {"@type": "Question", "name": "Do you supply Jaguar XE reconditioned engines?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. When replacement is the better option, we can supply and fit a reconditioned engine matched to your XE's engine code."}},
+        {"@type": "Question", "name": "What is the difference between 204DTD and 204DTA?", "acceptedAnswer": {"@type": "Answer", "text": "Both are 2.0 Ingenium diesels. The 204DTA is the twin-turbo, higher-output version, while the 204DTD is the single-turbo unit used in lower-powered models."}},
+        {"@type": "Question", "name": "Does an engine rattle mean the timing chain has failed?", "acceptedAnswer": {"@type": "Answer", "text": "Not necessarily. A rattle can have several causes. An inspection is needed to confirm whether the timing chain or another component is responsible."}},
+        {"@type": "Question", "name": "How long does a Jaguar XE engine rebuild take?", "acceptedAnswer": {"@type": "Answer", "text": "Timescales depend on the fault, parts availability and machining required. We will give you an estimated timeframe after the engine has been assessed."}},
+        {"@type": "Question", "name": "Is there a Jaguar XE engine specialist near me?", "acceptedAnswer": {"@type": "Answer", "text": "Our workshop is in Grays, Essex, and we offer UK-wide collection and delivery, so we can help wherever your XE is located."}}
+      ]
+    }
+  ]
+}

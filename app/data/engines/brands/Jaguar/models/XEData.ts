@@ -2,8 +2,8 @@ import type { ModelData } from "@/app/data/types";
 
 export const XEData: ModelData = {
   "meta": {
-    "title": "Jaguar XE Engine Rebuild & Replacement",
-    "description": "Specialist Jaguar XE engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle."
+    "title": "Jaguar XE Engine Rebuild | 204DTA Twin-Turbo & XE S V6",
+    "description": "Jaguar XE engine rebuild for 204DTD/204DTA diesels and the XE S V6. DPF warnings, smoke or a start-up rattle? Book a specialist assessment today."
   },
   "headerData": {
     "title": "Jaguar XE Engine Rebuild and Repair",

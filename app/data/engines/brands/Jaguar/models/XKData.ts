@@ -2,8 +2,8 @@ import type { ModelData } from "@/app/data/types";
 
 export const XKData: ModelData = {
   "meta": {
-    "title": "Jaguar XK Engine Rebuild & Replacement",
-    "description": "Specialist Jaguar XK engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle."
+    "title": "Jaguar XK Engine Rebuild | 4.2 AJ34 & 5.0 V8 Grand Tourer",
+    "description": "Jaguar XK engine rebuild for the X150 4.2 and 5.0 V8. Cold-start rattle? We check timing chain tensioners and guides before wear does more damage."
   },
   "headerData": {
     "title": "Jaguar XK Engine Rebuild Specialists in Essex",

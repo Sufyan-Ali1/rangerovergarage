@@ -2,8 +2,8 @@ import type { ModelData } from "@/app/data/types";
 
 export const FTYPEData: ModelData = {
   "meta": {
-    "title": "Jaguar F-TYPE Engine Rebuild & Replacement",
-    "description": "Jaguar F-Type engine rebuild and replacement. Browse engine codes and confirm compatibility with our specialists."
+    "title": "Jaguar F-Type Engine Rebuild | Every Variant, P300 to R V8",
+    "description": "Jaguar F-Type engine rebuild for the P300, supercharged V6 and V8 in Coupe or Convertible. Feels off-song? Early diagnosis keeps repair costs down."
   },
   "headerData": {
     "title": "Jaguar F-Type Engine Rebuild Specialists",

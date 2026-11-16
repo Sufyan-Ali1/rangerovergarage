@@ -2,8 +2,8 @@ import type { ModelData } from "@/app/data/types";
 
 export const XFData: ModelData = {
   "meta": {
-    "title": "Jaguar XF Engine Rebuild & Replacement",
-    "description": "Specialist Jaguar XF engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle."
+    "title": "Jaguar XF Engine Rebuild | 2.2, 2.7 TDV6 & 3.0 V6 Diesel",
+    "description": "Jaguar XF engine rebuild across both generations. Belt or chain, older diesel or Ingenium, we confirm your engine and its wear points first."
   },
   "headerData": {
     "title": "Specialist Jaguar XF Engine Rebuild Service",
