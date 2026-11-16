@@ -13,7 +13,7 @@ export default function ReconditionedOptions({ data }: { data: typeof reconditio
         <div className="mt-9 grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
           {data.items.map((option) => (
             <article key={option.id} className="flex min-w-0 flex-col rounded-2xl border border-[#b6e8c8] bg-[#F3FAF5] p-6 sm:p-7">
-              <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#11633A]">{data.cardEyebrow}</p>
+              <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#11633A]">{option.cardEyebrow}</p>
               <h3 className="mt-4 text-2xl font-black text-gray-900">{option.label}</h3>
               <p className="mt-3 flex-1 text-sm leading-relaxed text-slate-600">{option.description}</p>
               <Link href={option.href} className="mt-5 inline-flex min-h-11 items-center text-sm font-bold text-[#11633A] underline underline-offset-4">{option.linkLabel}</Link>
