@@ -16,7 +16,7 @@ export default function SupplyFitWorkflow({
       <div className="mx-auto w-full max-w-[1728px] px-6 py-16 sm:px-10 xl:px-[101px] xl:py-20">
         {/* Header */}
         <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-[#4CA66B]">
-          Workflow
+          Our Process
         </p>
         <h2 className="mb-3 text-[36px] font-black leading-tight text-gray-900 sm:text-[42px]">
           {title}
