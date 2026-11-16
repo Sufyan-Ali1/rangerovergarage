@@ -1,0 +1,98 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AutoRepair",
+      "@id": "https://rangerovergarage.co.uk/#organization",
+      "name": "Range Rover Garage",
+      "url": "https://rangerovergarage.co.uk/",
+      "logo": {"@type": "ImageObject", "@id": "https://rangerovergarage.co.uk/#logo", "url": "https://rangerovergarage.co.uk/logo.svg", "contentUrl": "https://rangerovergarage.co.uk/logo.svg"},
+      "image": "https://rangerovergarage.co.uk/images/share-preview.png",
+      "description": "Independent Range Rover and Land Rover engine specialists in Grays, Essex, offering engine rebuilds, replacements, repairs and supply and fit with UK-wide collection and delivery.",
+      "telephone": "+44 1708 592377",
+      "email": "sales@rangerovergarage.co.uk",
+      "address": {"@type": "PostalAddress", "streetAddress": "Unit 1 Hedley Ave", "addressLocality": "Grays", "addressRegion": "Essex", "postalCode": "RM20 4EL", "addressCountry": "GB"},
+      "hasMap": "https://maps.app.goo.gl/49cNyUKLEiCa4UL57",
+      "openingHoursSpecification": [
+        {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "18:00"},
+        {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "14:00"}
+      ],
+      "contactPoint": {"@type": "ContactPoint", "telephone": "+44 7477 733313", "contactType": "customer service", "areaServed": "GB", "availableLanguage": "en"},
+      "areaServed": [{"@type": "City", "name": "Grays"}, {"@type": "AdministrativeArea", "name": "Essex"}, {"@type": "Country", "name": "United Kingdom"}],
+      "sameAs": ["https://www.facebook.com/rangerovergarage/", "https://www.youtube.com/@RangeroverGarage", "https://uk.pinterest.com/rangerovergaragegrays/"]
+    },
+    {"@type": "WebSite", "@id": "https://rangerovergarage.co.uk/#website", "url": "https://rangerovergarage.co.uk/", "name": "Range Rover Garage", "publisher": {"@id": "https://rangerovergarage.co.uk/#organization"}, "inLanguage": "en-GB"},
+    {
+      "@type": "WebPage",
+      "@id": "https://rangerovergarage.co.uk/engines/land-rover/discovery-2/10p#webpage",
+      "url": "https://rangerovergarage.co.uk/engines/land-rover/discovery-2/10p",
+      "name": "Land Rover Discovery 2 10P Engine | Early Td5 Diesel",
+      "description": "Land Rover Discovery 2 10P Engine supply for early Td5 diesels. Loom, cylinder head and fuel faults diagnosed, then a VIN-matched used or rebuilt unit fitted.",
+      "keywords": "Land Rover Discovery 2 10P Engine",
+      "inLanguage": "en-GB",
+      "isPartOf": {"@id": "https://rangerovergarage.co.uk/#website"},
+      "publisher": {"@id": "https://rangerovergarage.co.uk/#organization"},
+      "about": {"@id": "https://rangerovergarage.co.uk/engines/land-rover/discovery-2/10p#service"},
+      "mainEntity": {"@id": "https://rangerovergarage.co.uk/engines/land-rover/discovery-2/10p#service"},
+      "breadcrumb": {"@id": "https://rangerovergarage.co.uk/engines/land-rover/discovery-2/10p#breadcrumb"}
+    },
+    {
+      "@type": "Service",
+      "@id": "https://rangerovergarage.co.uk/engines/land-rover/discovery-2/10p#service",
+      "name": "Land Rover Discovery 2 10P Engine Supply and Replacement",
+      "alternateName": "Land Rover Discovery 2 10P Engine",
+      "url": "https://rangerovergarage.co.uk/engines/land-rover/discovery-2/10p",
+      "serviceType": "Engine supply, rebuild and replacement",
+      "category": "Land Rover Discovery 2 Td5 10P Diesel Engine",
+      "description": "Repair, rebuild and replacement of the early Land Rover Discovery 2 Td5 engine identified by its 10P engine number prefix, covering injector harness oil wicking, cracked cylinder heads, unit injector faults, fuel pressure regulator problems, boost and MAP sensor faults and Td5 engine swaps with 10P and 15P prefix compatibility checked.",
+      "provider": {"@id": "https://rangerovergarage.co.uk/#organization"},
+      "areaServed": {"@type": "Country", "name": "United Kingdom"},
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Land Rover Discovery 2 10P Engine Options and Services",
+        "itemListElement": [
+          {"@type": "OfferCatalog", "name": "10P Td5 Engine Options", "itemListElement": [
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Used Land Rover Discovery 2 10P Engine", "description": "A compatible 10P or suitable Td5 engine from a donor vehicle, offering an affordable way back on the road."}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Reconditioned Land Rover Discovery 2 10P Engine", "description": "A Land Rover Discovery 2 10P reconditioned engine is stripped, inspected and rebuilt with new wear components before it is supplied."}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Rebuilt Land Rover Discovery 2 10P Engine", "description": "Your existing 10P engine is rebuilt in our Grays workshop, keeping its original block and engine number with your Discovery."}}
+          ]},
+          {"@type": "OfferCatalog", "name": "Discovery 2 10P Engine Services", "itemListElement": [
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "10P Td5 Engine Diagnostics"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "10P Td5 Engine Rebuild", "url": "https://rangerovergarage.co.uk/services/engine-rebuild"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "10P Td5 Engine Replacement", "url": "https://rangerovergarage.co.uk/services/engine-replacement"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "10P Td5 Head Gasket Replacement", "url": "https://rangerovergarage.co.uk/services/head-gasket-replacement"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "10P Td5 Turbo Replacement", "url": "https://rangerovergarage.co.uk/services/turbo-replacement"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "10P Td5 Engine Swap", "url": "https://rangerovergarage.co.uk/services/engine-swap"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Discovery 2 10P Clutch Replacement"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "10P Td5 Major Service"}}
+          ]}
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://rangerovergarage.co.uk/engines/land-rover/discovery-2/10p#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://rangerovergarage.co.uk/"},
+        {"@type": "ListItem", "position": 2, "name": "Engines", "item": "https://rangerovergarage.co.uk/engines"},
+        {"@type": "ListItem", "position": 3, "name": "Land Rover", "item": "https://rangerovergarage.co.uk/engines/land-rover"},
+        {"@type": "ListItem", "position": 4, "name": "Land Rover Discovery 2", "item": "https://rangerovergarage.co.uk/engines/land-rover/discovery-2"},
+        {"@type": "ListItem", "position": 5, "name": "Discovery 2 10P Engine", "item": "https://rangerovergarage.co.uk/engines/land-rover/discovery-2/10p"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://rangerovergarage.co.uk/engines/land-rover/discovery-2/10p#faq",
+      "isPartOf": {"@id": "https://rangerovergarage.co.uk/engines/land-rover/discovery-2/10p#webpage"},
+      "mainEntity": [
+        {"@type": "Question", "name": "Can a 15P Td5 engine replace a 10P in my Discovery 2?", "acceptedAnswer": {"@type": "Answer", "text": "Sometimes, but not always directly. 10P and 15P engines differ in emissions equipment and engine management, so we check your engine number, VIN and ECU before recommending a compatible replacement."}},
+        {"@type": "Question", "name": "How do used, reconditioned and rebuilt 10P engines compare?", "acceptedAnswer": {"@type": "Answer", "text": "A used engine comes from a donor vehicle, a reconditioned engine is stripped and given new wear parts, and a rebuild restores your existing engine. We recommend an option after assessing the fault and vehicle."}},
+        {"@type": "Question", "name": "Can I buy a Td5 engine supply only for my mechanic?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Trade buyers, independent garages, restorers and private customers can buy supply only. Alternatively, choose supply and fit and our technicians will install the engine at our Grays, Essex workshop."}},
+        {"@type": "Question", "name": "What affects the cost of a Discovery 2 10P engine replacement?", "acceptedAnswer": {"@type": "Answer", "text": "The cost depends on the engine option, the condition of your current engine, any parts needed such as injectors, a loom or an ECU match, and whether fitting is included. Send your registration or VIN for a quote."}},
+        {"@type": "Question", "name": "Do replacement 10P engines come with a warranty?", "acceptedAnswer": {"@type": "Answer", "text": "Warranty cover depends on the engine option and whether we carry out the installation. We confirm the exact terms in writing with your quote, so you know what is covered before work begins."}},
+        {"@type": "Question", "name": "Do you deliver Td5 engines across the UK?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We deliver engines throughout the United Kingdom from our Grays workshop. Delivery arrangements and costs are confirmed in your quote, and supply and fit customers can bring their Discovery to us."}},
+        {"@type": "Question", "name": "How long does a 10P engine replacement usually take?", "acceptedAnswer": {"@type": "Answer", "text": "The timescale depends on engine availability, whether a rebuild is needed and any additional work found during inspection. We give you an estimated timeframe with your quote and keep you informed throughout."}}
+      ]
+    }
+  ]
+}

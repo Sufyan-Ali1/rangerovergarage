@@ -1,0 +1,98 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AutoRepair",
+      "@id": "https://rangerovergarage.co.uk/#organization",
+      "name": "Range Rover Garage",
+      "url": "https://rangerovergarage.co.uk/",
+      "logo": {"@type": "ImageObject", "@id": "https://rangerovergarage.co.uk/#logo", "url": "https://rangerovergarage.co.uk/logo.svg", "contentUrl": "https://rangerovergarage.co.uk/logo.svg"},
+      "image": "https://rangerovergarage.co.uk/images/share-preview.png",
+      "description": "Independent Range Rover and Land Rover engine specialists in Grays, Essex, offering engine rebuilds, replacements, repairs and supply and fit with UK-wide collection and delivery.",
+      "telephone": "+44 1708 592377",
+      "email": "sales@rangerovergarage.co.uk",
+      "address": {"@type": "PostalAddress", "streetAddress": "Unit 1 Hedley Ave", "addressLocality": "Grays", "addressRegion": "Essex", "postalCode": "RM20 4EL", "addressCountry": "GB"},
+      "hasMap": "https://maps.app.goo.gl/49cNyUKLEiCa4UL57",
+      "openingHoursSpecification": [
+        {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "18:00"},
+        {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "14:00"}
+      ],
+      "contactPoint": {"@type": "ContactPoint", "telephone": "+44 7477 733313", "contactType": "customer service", "areaServed": "GB", "availableLanguage": "en"},
+      "areaServed": [{"@type": "City", "name": "Grays"}, {"@type": "AdministrativeArea", "name": "Essex"}, {"@type": "Country", "name": "United Kingdom"}],
+      "sameAs": ["https://www.facebook.com/rangerovergarage/", "https://www.youtube.com/@RangeroverGarage", "https://uk.pinterest.com/rangerovergaragegrays/"]
+    },
+    {"@type": "WebSite", "@id": "https://rangerovergarage.co.uk/#website", "url": "https://rangerovergarage.co.uk/", "name": "Range Rover Garage", "publisher": {"@id": "https://rangerovergarage.co.uk/#organization"}, "inLanguage": "en-GB"},
+    {
+      "@type": "WebPage",
+      "@id": "https://rangerovergarage.co.uk/engines/land-rover/discovery-1/3-9-v8#webpage",
+      "url": "https://rangerovergarage.co.uk/engines/land-rover/discovery-1/3-9-v8",
+      "name": "Land Rover Discovery 1 3.9 V8 Engine | Liner & Gasket Repair",
+      "description": "Slipped liner or head gasket failure? We rebuild the Land Rover Discovery 1 3.9 V8 Engine or supply a used or reconditioned Rover V8 with fitting in Grays.",
+      "keywords": "Land Rover Discovery 1 3.9 V8 Engine",
+      "inLanguage": "en-GB",
+      "isPartOf": {"@id": "https://rangerovergarage.co.uk/#website"},
+      "publisher": {"@id": "https://rangerovergarage.co.uk/#organization"},
+      "about": {"@id": "https://rangerovergarage.co.uk/engines/land-rover/discovery-1/3-9-v8#service"},
+      "mainEntity": {"@id": "https://rangerovergarage.co.uk/engines/land-rover/discovery-1/3-9-v8#service"},
+      "breadcrumb": {"@id": "https://rangerovergarage.co.uk/engines/land-rover/discovery-1/3-9-v8#breadcrumb"}
+    },
+    {
+      "@type": "Service",
+      "@id": "https://rangerovergarage.co.uk/engines/land-rover/discovery-1/3-9-v8#service",
+      "name": "Land Rover Discovery 1 3.9 V8 Engine Rebuild and Replacement",
+      "alternateName": "Land Rover Discovery 1 3.9 V8 Engine",
+      "url": "https://rangerovergarage.co.uk/engines/land-rover/discovery-1/3-9-v8",
+      "serviceType": "Engine supply, rebuild and replacement",
+      "category": "Land Rover Discovery 1 3.9 Rover V8 Petrol Engine",
+      "description": "Repair, rebuild and replacement of the fuel-injected 3.9 Rover V8 fitted to later Land Rover Discovery 1 petrol models, covering slipped or cracked cylinder liners, head gasket failure, overheating and cooling faults, timing chain wear, camshaft and tappet noise and injection or idle problems.",
+      "provider": {"@id": "https://rangerovergarage.co.uk/#organization"},
+      "areaServed": {"@type": "Country", "name": "United Kingdom"},
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Land Rover Discovery 1 3.9 V8 Engine Options and Services",
+        "itemListElement": [
+          {"@type": "OfferCatalog", "name": "3.9 Rover V8 Engine Options", "itemListElement": [
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Used Land Rover Discovery 1 3.9 V8 Engine", "description": "A compatible 3.9 Rover V8 from a donor vehicle, offering a cost-effective way to get your Discovery 1 back on the road."}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Reconditioned Land Rover Discovery 1 3.9 V8 Engine", "description": "A reconditioned Rover V8 engine for sale is stripped, inspected and rebuilt with new wear components, ready for your Discovery 1."}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Rebuilt Land Rover Discovery 1 3.9 V8 Engine", "description": "Your existing 3.9 V8 is rebuilt at our Grays workshop, keeping its original block and engine number with the vehicle."}}
+          ]},
+          {"@type": "OfferCatalog", "name": "Discovery 1 3.9 V8 Services", "itemListElement": [
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "3.9 Rover V8 Engine Diagnostics"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "3.9 Rover V8 Engine Rebuild with Liner Inspection", "url": "https://rangerovergarage.co.uk/services/engine-rebuild"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "3.9 Rover V8 Engine Replacement", "url": "https://rangerovergarage.co.uk/services/engine-replacement"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "3.9 Rover V8 Timing Chain Replacement", "url": "https://rangerovergarage.co.uk/services/timing-chain-replacement"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "3.9 Rover V8 Head Gasket Replacement", "url": "https://rangerovergarage.co.uk/services/head-gasket-replacement"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "3.9 Rover V8 Engine Swap", "url": "https://rangerovergarage.co.uk/services/engine-swap"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Discovery 1 Gearbox Replacement"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "3.9 Rover V8 Major Service"}}
+          ]}
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://rangerovergarage.co.uk/engines/land-rover/discovery-1/3-9-v8#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://rangerovergarage.co.uk/"},
+        {"@type": "ListItem", "position": 2, "name": "Engines", "item": "https://rangerovergarage.co.uk/engines"},
+        {"@type": "ListItem", "position": 3, "name": "Land Rover", "item": "https://rangerovergarage.co.uk/engines/land-rover"},
+        {"@type": "ListItem", "position": 4, "name": "Land Rover Discovery 1", "item": "https://rangerovergarage.co.uk/engines/land-rover/discovery-1"},
+        {"@type": "ListItem", "position": 5, "name": "Discovery 1 3.9 V8 Engine", "item": "https://rangerovergarage.co.uk/engines/land-rover/discovery-1/3-9-v8"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://rangerovergarage.co.uk/engines/land-rover/discovery-1/3-9-v8#faq",
+      "isPartOf": {"@id": "https://rangerovergarage.co.uk/engines/land-rover/discovery-1/3-9-v8#webpage"},
+      "mainEntity": [
+        {"@type": "Question", "name": "How do you check a 3.9 V8 engine fits my Discovery 1?", "acceptedAnswer": {"@type": "Answer", "text": "We check the engine number, VIN and registration, then compare the engine management, sump, mounts and ancillaries with the replacement. Rover V8 engines from other vehicles can differ, so compatibility is confirmed before supply."}},
+        {"@type": "Question", "name": "What is the difference between used, reconditioned and rebuilt Rover V8s?", "acceptedAnswer": {"@type": "Answer", "text": "A used engine comes from a donor vehicle, a reconditioned engine is stripped and given new wear parts, and a rebuild restores your existing V8. We recommend an option after assessing the fault."}},
+        {"@type": "Question", "name": "Do you sell Rover V8 engines supply only for trade buyers?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Trade buyers, independent garages, restorers and private customers can buy supply only. Alternatively, choose supply and fit and our technicians will install the engine at our Grays, Essex workshop."}},
+        {"@type": "Question", "name": "What affects the cost of a Discovery 1 3.9 V8 engine replacement?", "acceptedAnswer": {"@type": "Answer", "text": "The cost depends on the engine option, the condition of your current engine, any cooling or ancillary parts required and whether fitting is included. Send your registration or VIN for a written quotation."}},
+        {"@type": "Question", "name": "Is there a warranty on a replacement 3.9 V8 engine?", "acceptedAnswer": {"@type": "Answer", "text": "Warranty cover depends on the engine option and whether we carry out the installation. We confirm the exact terms in writing with your quote, so you know what is covered before work begins."}},
+        {"@type": "Question", "name": "Do you deliver 3.9 Rover V8 engines across the UK?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We deliver engines throughout the United Kingdom from our Grays workshop. Delivery arrangements and costs are confirmed in your quote, and supply and fit customers can bring their Discovery to us."}},
+        {"@type": "Question", "name": "How long does a 3.9 V8 engine replacement usually take?", "acceptedAnswer": {"@type": "Answer", "text": "The timescale depends on engine availability, whether a rebuild is needed and any additional work found during inspection. We provide an estimated timeframe with your quote and keep you informed throughout."}}
+      ]
+    }
+  ]
+}

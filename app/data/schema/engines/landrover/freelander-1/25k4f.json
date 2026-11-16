@@ -1,0 +1,98 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AutoRepair",
+      "@id": "https://rangerovergarage.co.uk/#organization",
+      "name": "Range Rover Garage",
+      "url": "https://rangerovergarage.co.uk/",
+      "logo": {"@type": "ImageObject", "@id": "https://rangerovergarage.co.uk/#logo", "url": "https://rangerovergarage.co.uk/logo.svg", "contentUrl": "https://rangerovergarage.co.uk/logo.svg"},
+      "image": "https://rangerovergarage.co.uk/images/share-preview.png",
+      "description": "Independent Range Rover and Land Rover engine specialists in Grays, Essex, offering engine rebuilds, replacements, repairs and supply and fit with UK-wide collection and delivery.",
+      "telephone": "+44 1708 592377",
+      "email": "sales@rangerovergarage.co.uk",
+      "address": {"@type": "PostalAddress", "streetAddress": "Unit 1 Hedley Ave", "addressLocality": "Grays", "addressRegion": "Essex", "postalCode": "RM20 4EL", "addressCountry": "GB"},
+      "hasMap": "https://maps.app.goo.gl/49cNyUKLEiCa4UL57",
+      "openingHoursSpecification": [
+        {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "18:00"},
+        {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "14:00"}
+      ],
+      "contactPoint": {"@type": "ContactPoint", "telephone": "+44 7477 733313", "contactType": "customer service", "areaServed": "GB", "availableLanguage": "en"},
+      "areaServed": [{"@type": "City", "name": "Grays"}, {"@type": "AdministrativeArea", "name": "Essex"}, {"@type": "Country", "name": "United Kingdom"}],
+      "sameAs": ["https://www.facebook.com/rangerovergarage/", "https://www.youtube.com/@RangeroverGarage", "https://uk.pinterest.com/rangerovergaragegrays/"]
+    },
+    {"@type": "WebSite", "@id": "https://rangerovergarage.co.uk/#website", "url": "https://rangerovergarage.co.uk/", "name": "Range Rover Garage", "publisher": {"@id": "https://rangerovergarage.co.uk/#organization"}, "inLanguage": "en-GB"},
+    {
+      "@type": "WebPage",
+      "@id": "https://rangerovergarage.co.uk/engines/land-rover/freelander-1/25k4f#webpage",
+      "url": "https://rangerovergarage.co.uk/engines/land-rover/freelander-1/25k4f",
+      "name": "Land Rover Freelander 1 25K4F Engine: KV6 Specialists",
+      "description": "KV6 cambelt, water pump or liner failure? We supply a used or reconditioned Land Rover Freelander 1 25K4F Engine and rebuild 2.5 V6 units at our Essex workshop.",
+      "keywords": "Land Rover Freelander 1 25K4F Engine",
+      "inLanguage": "en-GB",
+      "isPartOf": {"@id": "https://rangerovergarage.co.uk/#website"},
+      "publisher": {"@id": "https://rangerovergarage.co.uk/#organization"},
+      "about": {"@id": "https://rangerovergarage.co.uk/engines/land-rover/freelander-1/25k4f#service"},
+      "mainEntity": {"@id": "https://rangerovergarage.co.uk/engines/land-rover/freelander-1/25k4f#service"},
+      "breadcrumb": {"@id": "https://rangerovergarage.co.uk/engines/land-rover/freelander-1/25k4f#breadcrumb"}
+    },
+    {
+      "@type": "Service",
+      "@id": "https://rangerovergarage.co.uk/engines/land-rover/freelander-1/25k4f#service",
+      "name": "Land Rover Freelander 1 25K4F Engine Supply and Rebuilds",
+      "alternateName": "Land Rover Freelander 1 25K4F Engine",
+      "url": "https://rangerovergarage.co.uk/engines/land-rover/freelander-1/25k4f",
+      "serviceType": "Engine supply, rebuild and replacement",
+      "category": "Land Rover Freelander 1 2.5 KV6 Petrol Engine",
+      "description": "Repair, rebuild and replacement of the Land Rover Freelander 1 25K4F 2.5 Rover KV6 petrol V6, covering cambelt neglect and failure, overheating and head gasket failure, slipped liners and porous blocks, water pump and coolant leaks, oil leaks and breather faults and intake or idle problems, with cooling faults traced before refitting.",
+      "provider": {"@id": "https://rangerovergarage.co.uk/#organization"},
+      "areaServed": {"@type": "Country", "name": "United Kingdom"},
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Land Rover Freelander 1 25K4F Engine Options and Services",
+        "itemListElement": [
+          {"@type": "OfferCatalog", "name": "25K4F KV6 Engine Options", "itemListElement": [
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Used Land Rover Freelander 1 25K4F Engine", "description": "A compatible KV6 engine from a donor vehicle, offering an affordable way to keep your Freelander 1 V6 on the road."}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Reconditioned Land Rover Freelander 1 25K4F Engine", "description": "A Land Rover Freelander 1 25K4F reconditioned engine is stripped, inspected and rebuilt with new wear components, including gaskets and belts, before supply."}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Rebuilt Land Rover Freelander 1 25K4F Engine", "description": "Your own 25K4F engine is rebuilt at our Grays workshop, keeping its original block and engine number with your Freelander."}}
+          ]},
+          {"@type": "OfferCatalog", "name": "Freelander 1 KV6 Engine Services", "itemListElement": [
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "KV6 Engine Diagnostics"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "KV6 25K4F Engine Rebuild", "url": "https://rangerovergarage.co.uk/services/engine-rebuild"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "KV6 25K4F Engine Replacement", "url": "https://rangerovergarage.co.uk/services/engine-replacement"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "KV6 Cambelt and Water Pump Replacement", "url": "https://rangerovergarage.co.uk/services/timing-belt-replacement"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "KV6 Head Gasket Replacement", "url": "https://rangerovergarage.co.uk/services/head-gasket-replacement"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Freelander 1 KV6 Engine Swap", "url": "https://rangerovergarage.co.uk/services/engine-swap"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Freelander 1 V6 Automatic Gearbox Replacement"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "KV6 Engine Repair", "url": "https://rangerovergarage.co.uk/services/engine-repair"}}
+          ]}
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://rangerovergarage.co.uk/engines/land-rover/freelander-1/25k4f#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://rangerovergarage.co.uk/"},
+        {"@type": "ListItem", "position": 2, "name": "Engines", "item": "https://rangerovergarage.co.uk/engines"},
+        {"@type": "ListItem", "position": 3, "name": "Land Rover", "item": "https://rangerovergarage.co.uk/engines/land-rover"},
+        {"@type": "ListItem", "position": 4, "name": "Land Rover Freelander 1", "item": "https://rangerovergarage.co.uk/engines/land-rover/freelander-1"},
+        {"@type": "ListItem", "position": 5, "name": "Freelander 1 25K4F Engine", "item": "https://rangerovergarage.co.uk/engines/land-rover/freelander-1/25k4f"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://rangerovergarage.co.uk/engines/land-rover/freelander-1/25k4f#faq",
+      "isPartOf": {"@id": "https://rangerovergarage.co.uk/engines/land-rover/freelander-1/25k4f#webpage"},
+      "mainEntity": [
+        {"@type": "Question", "name": "Can a Rover or MG KV6 engine fit my Freelander?", "acceptedAnswer": {"@type": "Answer", "text": "Not directly. KV6 engines from Rover and MG cars can differ in sumps, ancillaries and engine management, so we check your engine number and VIN before recommending a compatible replacement."}},
+        {"@type": "Question", "name": "How do used, reconditioned and rebuilt KV6 engines compare?", "acceptedAnswer": {"@type": "Answer", "text": "A used engine comes from a donor vehicle, a reconditioned engine is stripped and given new wear parts, and a rebuild restores your existing engine. We recommend an option after assessing the fault and vehicle."}},
+        {"@type": "Question", "name": "Can I buy a KV6 engine supply only?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Trade buyers, independent garages and private customers with their own mechanic can buy supply only. Alternatively, choose supply and fit and our technicians will install the engine at our Grays, Essex workshop."}},
+        {"@type": "Question", "name": "What affects the cost of a Freelander 1 25K4F engine replacement?", "acceptedAnswer": {"@type": "Answer", "text": "The cost depends on the engine option, the condition of your current engine, any cooling or timing parts needed and whether fitting is included. Send your registration or VIN for a written quote."}},
+        {"@type": "Question", "name": "Is there a warranty on a replacement KV6 engine?", "acceptedAnswer": {"@type": "Answer", "text": "Warranty cover depends on the engine option and whether we carry out the installation. We confirm the exact terms in writing with your quote, so you know what is covered before work begins."}},
+        {"@type": "Question", "name": "Do you deliver Freelander engines across the UK?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We deliver engines throughout the United Kingdom from our Grays workshop. Delivery arrangements and costs are confirmed in your quote, and supply and fit customers can bring their Freelander to us."}},
+        {"@type": "Question", "name": "How long does a KV6 engine replacement usually take?", "acceptedAnswer": {"@type": "Answer", "text": "The timescale depends on engine availability, whether a rebuild is needed and any additional work found during inspection. We give you an estimated timeframe with your quote and keep you informed throughout."}}
+      ]
+    }
+  ]
+}

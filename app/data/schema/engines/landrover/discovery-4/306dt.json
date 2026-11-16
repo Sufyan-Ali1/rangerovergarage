@@ -1,0 +1,98 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AutoRepair",
+      "@id": "https://rangerovergarage.co.uk/#organization",
+      "name": "Range Rover Garage",
+      "url": "https://rangerovergarage.co.uk/",
+      "logo": {"@type": "ImageObject", "@id": "https://rangerovergarage.co.uk/#logo", "url": "https://rangerovergarage.co.uk/logo.svg", "contentUrl": "https://rangerovergarage.co.uk/logo.svg"},
+      "image": "https://rangerovergarage.co.uk/images/share-preview.png",
+      "description": "Independent Range Rover and Land Rover engine specialists in Grays, Essex, offering engine rebuilds, replacements, repairs and supply and fit with UK-wide collection and delivery.",
+      "telephone": "+44 1708 592377",
+      "email": "sales@rangerovergarage.co.uk",
+      "address": {"@type": "PostalAddress", "streetAddress": "Unit 1 Hedley Ave", "addressLocality": "Grays", "addressRegion": "Essex", "postalCode": "RM20 4EL", "addressCountry": "GB"},
+      "hasMap": "https://maps.app.goo.gl/49cNyUKLEiCa4UL57",
+      "openingHoursSpecification": [
+        {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "18:00"},
+        {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "14:00"}
+      ],
+      "contactPoint": {"@type": "ContactPoint", "telephone": "+44 7477 733313", "contactType": "customer service", "areaServed": "GB", "availableLanguage": "en"},
+      "areaServed": [{"@type": "City", "name": "Grays"}, {"@type": "AdministrativeArea", "name": "Essex"}, {"@type": "Country", "name": "United Kingdom"}],
+      "sameAs": ["https://www.facebook.com/rangerovergarage/", "https://www.youtube.com/@RangeroverGarage", "https://uk.pinterest.com/rangerovergaragegrays/"]
+    },
+    {"@type": "WebSite", "@id": "https://rangerovergarage.co.uk/#website", "url": "https://rangerovergarage.co.uk/", "name": "Range Rover Garage", "publisher": {"@id": "https://rangerovergarage.co.uk/#organization"}, "inLanguage": "en-GB"},
+    {
+      "@type": "WebPage",
+      "@id": "https://rangerovergarage.co.uk/engines/land-rover/discovery-4/306dt#webpage",
+      "url": "https://rangerovergarage.co.uk/engines/land-rover/discovery-4/306dt",
+      "name": "Land Rover Discovery 4 306DT Engine: TDV6 Rebuild Experts",
+      "description": "Spun crank bearing on your 3.0 TDV6? We rebuild or replace the Land Rover Discovery 4 306DT Engine with used and recon options, fitted in Grays or delivered.",
+      "keywords": "Land Rover Discovery 4 306DT Engine",
+      "inLanguage": "en-GB",
+      "isPartOf": {"@id": "https://rangerovergarage.co.uk/#website"},
+      "publisher": {"@id": "https://rangerovergarage.co.uk/#organization"},
+      "about": {"@id": "https://rangerovergarage.co.uk/engines/land-rover/discovery-4/306dt#service"},
+      "mainEntity": {"@id": "https://rangerovergarage.co.uk/engines/land-rover/discovery-4/306dt#service"},
+      "breadcrumb": {"@id": "https://rangerovergarage.co.uk/engines/land-rover/discovery-4/306dt#breadcrumb"}
+    },
+    {
+      "@type": "Service",
+      "@id": "https://rangerovergarage.co.uk/engines/land-rover/discovery-4/306dt#service",
+      "name": "Land Rover Discovery 4 306DT Engine Rebuild and Replacement",
+      "alternateName": "Land Rover Discovery 4 306DT Engine",
+      "url": "https://rangerovergarage.co.uk/engines/land-rover/discovery-4/306dt",
+      "serviceType": "Engine supply, rebuild and replacement",
+      "category": "Land Rover Discovery 4 3.0 TDV6 and SDV6 Diesel Engine",
+      "description": "Repair, rebuild and replacement of the Land Rover Discovery 4 306DT 3.0 V6 twin-turbo diesel sold as the TDV6 and SDV6, covering spun bearings and crank failure, front timing and rear fuel pump belt wear, sequential twin-turbo faults, oil cooler leaks, EGR faults and DPF blockage, with body lifting where access requires.",
+      "provider": {"@id": "https://rangerovergarage.co.uk/#organization"},
+      "areaServed": {"@type": "Country", "name": "United Kingdom"},
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Land Rover Discovery 4 306DT Engine Options and Services",
+        "itemListElement": [
+          {"@type": "OfferCatalog", "name": "Discovery 4 306DT Engine Options", "itemListElement": [
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Used Land Rover Discovery 4 306DT Engine", "description": "A compatible 306DT engine from a donor vehicle, offering a practical lower-cost way to get your Discovery 4 moving again."}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Reconditioned Land Rover Discovery 4 306DT Engine", "description": "A Land Rover Discovery 4 306DT reconditioned engine is stripped, inspected and rebuilt with new wear components, including bearings, before supply."}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Rebuilt Land Rover Discovery 4 306DT Engine", "description": "Your own 306DT engine is rebuilt at our Grays workshop, keeping its original block and engine number with your Discovery."}}
+          ]},
+          {"@type": "OfferCatalog", "name": "Discovery 4 3.0 TDV6 Services", "itemListElement": [
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Discovery 4 306DT Engine Diagnostics"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Discovery 4 306DT Engine Rebuild", "url": "https://rangerovergarage.co.uk/services/engine-rebuild"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Discovery 4 306DT Engine Replacement", "url": "https://rangerovergarage.co.uk/services/engine-replacement"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Discovery 4 306DT Timing and Fuel Pump Belt Replacement", "url": "https://rangerovergarage.co.uk/services/timing-belt-replacement"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Discovery 4 306DT Twin-Turbo Replacement", "url": "https://rangerovergarage.co.uk/services/turbo-replacement"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Discovery 4 306DT DPF Replacement"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Discovery 4 306DT Engine Swap", "url": "https://rangerovergarage.co.uk/services/engine-swap"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Discovery 4 ZF Gearbox Replacement"}}
+          ]}
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://rangerovergarage.co.uk/engines/land-rover/discovery-4/306dt#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://rangerovergarage.co.uk/"},
+        {"@type": "ListItem", "position": 2, "name": "Engines", "item": "https://rangerovergarage.co.uk/engines"},
+        {"@type": "ListItem", "position": 3, "name": "Land Rover", "item": "https://rangerovergarage.co.uk/engines/land-rover"},
+        {"@type": "ListItem", "position": 4, "name": "Land Rover Discovery 4", "item": "https://rangerovergarage.co.uk/engines/land-rover/discovery-4"},
+        {"@type": "ListItem", "position": 5, "name": "Discovery 4 306DT Engine", "item": "https://rangerovergarage.co.uk/engines/land-rover/discovery-4/306dt"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://rangerovergarage.co.uk/engines/land-rover/discovery-4/306dt#faq",
+      "isPartOf": {"@id": "https://rangerovergarage.co.uk/engines/land-rover/discovery-4/306dt#webpage"},
+      "mainEntity": [
+        {"@type": "Question", "name": "Can a Range Rover 306DT engine fit my Discovery 4?", "acceptedAnswer": {"@type": "Answer", "text": "Not always directly. 306DT engines differ in output, ancillaries and wiring between models, so we check your VIN, engine code and TDV6 or SDV6 specification before recommending any replacement engine."}},
+        {"@type": "Question", "name": "How do used, reconditioned and rebuilt 306DT engines compare?", "acceptedAnswer": {"@type": "Answer", "text": "A used engine comes from a donor vehicle, a reconditioned engine is stripped and given new wear parts, and a rebuild restores your existing engine. We recommend an option after assessing the fault and vehicle."}},
+        {"@type": "Question", "name": "Can I buy a Discovery 4 306DT engine supply only?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Trade buyers, independent garages and private customers with their own mechanic can buy supply only. Alternatively, choose supply and fit and our technicians will install the engine at our Grays, Essex workshop."}},
+        {"@type": "Question", "name": "What affects the cost of a Discovery 4 306DT engine replacement?", "acceptedAnswer": {"@type": "Answer", "text": "The cost depends on the engine option, the condition of your current engine, any parts needed such as turbos or a DPF, and the labour involved, including body lifting. Send your registration or VIN for a quote."}},
+        {"@type": "Question", "name": "Is there a warranty on a replacement 306DT engine?", "acceptedAnswer": {"@type": "Answer", "text": "Warranty cover depends on the engine option and whether we carry out the installation. We confirm the exact terms in writing with your quote, so you know what is covered before work begins."}},
+        {"@type": "Question", "name": "Do you deliver 3.0 TDV6 engines across the UK?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We deliver engines throughout the United Kingdom from our Grays workshop. Delivery arrangements and costs are confirmed in your quote, and supply and fit customers can bring their Discovery to us."}},
+        {"@type": "Question", "name": "How long does a Discovery 4 306DT engine replacement take?", "acceptedAnswer": {"@type": "Answer", "text": "The timescale depends on engine availability, whether a rebuild is needed, any body-lift work and additional repairs found during inspection. We give you an estimated timeframe with your quote and keep you informed."}}
+      ]
+    }
+  ]
+}
