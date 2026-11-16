@@ -16,7 +16,7 @@ export default function Footer() {
       <div className="mx-auto w-full max-w-[1728px] px-6 pt-12 pb-8 sm:px-10 sm:pt-14 xl:px-[101px] xl:pt-[80px] xl:pb-[40px]">
 
         {/* 3-column grid */}
-        <div className="grid grid-cols-1 gap-10 lg:grid-cols-[1.4fr_1fr_1.4fr] lg:gap-16">
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-[1.4fr_1fr_1fr__1fr] lg:gap-16">
 
           {/* Column 1 — Brand */}
           <div className="flex flex-col gap-5">
@@ -85,7 +85,31 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 3 — Get in Touch */}
+          {/* Column 3 — Engine */}
+          <div className="flex flex-col gap-5">
+            <h3 className="text-[13px] font-bold uppercase tracking-[0.14em] text-white">
+              Engines
+            </h3>
+            <ul className="flex flex-col gap-[5px]">
+              <Link href={`/reconditioned-engine`} className="text-[13.5px] text-[#9ca3af] transition hover:text-[#4CA66B]">
+                Reconditioned Engine
+              </Link>
+              <Link href={`/used-engine`} className="text-[13.5px] text-[#9ca3af] transition hover:text-[#4CA66B]">
+                Used Engine
+              </Link>
+              <Link href={`/engines/range-rover`} className="text-[13.5px] text-[#9ca3af] transition hover:text-[#4CA66B]">
+                Range Rover
+              </Link>
+              <Link href={`/engines/land-rover`} className="text-[13.5px] text-[#9ca3af] transition hover:text-[#4CA66B]">
+                Land Rover
+              </Link>
+              <Link href={`/engines/jaguar`} className="text-[13.5px] text-[#9ca3af] transition hover:text-[#4CA66B]">
+                Jaguar
+              </Link>
+            </ul>
+          </div>
+
+          {/* Column 4 — Get in Touch */}
           <div className="flex flex-col gap-5">
             <h3 className="text-[13px] font-bold uppercase tracking-[0.14em] text-white">
               Get in Touch

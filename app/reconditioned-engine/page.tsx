@@ -55,6 +55,7 @@ export default async function ReconditionedEnginesPage() {
         <FAQ
           faqs={reconditionedPageData.faq.faqs}
           accordionName={reconditionedPageData.faq.accordionName}
+          title={reconditionedPageData.faq.title}
           description={reconditionedPageData.faq.description}
         />
 
