@@ -1,0 +1,113 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AutoRepair",
+      "@id": "https://rangerovergarage.co.uk/#organization",
+      "name": "Range Rover Garage",
+      "url": "https://rangerovergarage.co.uk/",
+      "logo": {"@type": "ImageObject", "@id": "https://rangerovergarage.co.uk/#logo", "url": "https://rangerovergarage.co.uk/logo.svg", "contentUrl": "https://rangerovergarage.co.uk/logo.svg"},
+      "image": "https://rangerovergarage.co.uk/images/share-preview.png",
+      "description": "Independent Jaguar, Range Rover and Land Rover engine specialists in Grays, Essex, offering engine rebuilds, replacements, repairs and supply and fit with UK-wide collection and delivery.",
+      "telephone": "+44 1708 592377",
+      "email": "sales@rangerovergarage.co.uk",
+      "address": {"@type": "PostalAddress", "streetAddress": "Unit 1 Hedley Ave", "addressLocality": "Grays", "addressRegion": "Essex", "postalCode": "RM20 4EL", "addressCountry": "GB"},
+      "hasMap": "https://maps.app.goo.gl/49cNyUKLEiCa4UL57",
+      "openingHoursSpecification": [
+        {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "18:00"},
+        {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "14:00"}
+      ],
+      "contactPoint": {"@type": "ContactPoint", "telephone": "+44 7477 733313", "contactType": "customer service", "areaServed": "GB", "availableLanguage": "en"},
+      "areaServed": [{"@type": "City", "name": "Grays"}, {"@type": "AdministrativeArea", "name": "Essex"}, {"@type": "Country", "name": "United Kingdom"}],
+      "knowsAbout": ["Jaguar engine rebuilds", "Range Rover engine rebuilds", "Land Rover engine rebuilds", "Supercharged V8 engines"],
+      "sameAs": ["https://www.facebook.com/rangerovergarage/", "https://www.youtube.com/@RangeroverGarage", "https://uk.pinterest.com/rangerovergaragegrays/"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://rangerovergarage.co.uk/#website",
+      "url": "https://rangerovergarage.co.uk/",
+      "name": "Range Rover Garage",
+      "publisher": {"@id": "https://rangerovergarage.co.uk/#organization"},
+      "inLanguage": "en-GB"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://rangerovergarage.co.uk/engines/jaguar/xkr#webpage",
+      "url": "https://rangerovergarage.co.uk/engines/jaguar/xkr",
+      "name": "Jaguar XKR Engine Rebuild & Repair | 4.2 & 5.0 Supercharged V8",
+      "description": "Jaguar XKR engine rebuild, repair and replacement for the 4.2 and 5.0 AJ133 supercharged V8, with supercharger and cooling checks. UK-wide collection from Essex.",
+      "keywords": "Jaguar XKR Engine Rebuild, XKR AJ133 engine rebuild, XKR 5.0 supercharged V8 engine, XKR 4.2 supercharged engine, XKR supercharger problems, Jaguar XKR reconditioned engine, Jaguar XKR engine replacement cost",
+      "inLanguage": "en-GB",
+      "isPartOf": {"@id": "https://rangerovergarage.co.uk/#website"},
+      "publisher": {"@id": "https://rangerovergarage.co.uk/#organization"},
+      "about": [
+        {"@id": "https://rangerovergarage.co.uk/engines/jaguar/xkr#service"},
+        {"@type": "Thing", "name": "Jaguar XKR (X150)", "sameAs": "https://en.wikipedia.org/wiki/Jaguar_XK_(X150)"}
+      ],
+      "mainEntity": {"@id": "https://rangerovergarage.co.uk/engines/jaguar/xkr#service"},
+      "breadcrumb": {"@id": "https://rangerovergarage.co.uk/engines/jaguar/xkr#breadcrumb"}
+    },
+    {
+      "@type": "Service",
+      "@id": "https://rangerovergarage.co.uk/engines/jaguar/xkr#service",
+      "name": "Jaguar XKR Engine Rebuild, Repair and Replacement",
+      "alternateName": "Jaguar XKR Engine Rebuild",
+      "url": "https://rangerovergarage.co.uk/engines/jaguar/xkr",
+      "serviceType": "Engine rebuild, repair and replacement",
+      "category": "Jaguar XKR 4.2 and 5.0 Supercharged V8 Engines",
+      "brand": {"@type": "Brand", "name": "Jaguar"},
+      "description": "Specialist rebuild, repair and replacement for supercharged Jaguar X150 XKR engines, covering the 4.2 supercharged V8 and the 5.0 AJ133 supercharged V8 used from 2009, with supercharger and cooling system checks.",
+      "provider": {"@id": "https://rangerovergarage.co.uk/#organization"},
+      "areaServed": {"@type": "Country", "name": "United Kingdom"},
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Jaguar XKR Engine Options and Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "XKR Engines Covered",
+            "itemListElement": [
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "XKR AJ133 5.0 Supercharged V8 Engine Rebuild", "description": "Strip-down, wear measurement, machining and rebuild of the 5.0 supercharged V8 with OEM-grade parts."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "XKR 4.2 Supercharged V8 Engine Rebuild", "description": "The same thorough rebuild approach applied to the earlier 4.2 supercharged V8 in the XKR."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Jaguar XKR Reconditioned Engine", "description": "A reconditioned supercharged V8 matched to your XKR engine code, whether 4.2 or 5.0."}}
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "XKR Engine Services",
+            "itemListElement": [
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Jaguar XKR Engine Rebuild", "url": "https://rangerovergarage.co.uk/services/engine-rebuild", "description": "Your original XKR engine is rebuilt where the block and heads are sound and the damage is contained."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "XKR Supercharger and Cooling System Checks", "url": "https://rangerovergarage.co.uk/services/engine-repair", "description": "Investigation of rattles, whine, loss of boost and overheating, including the supercharger drive coupling and cooling system."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Jaguar XKR Engine Replacement", "url": "https://rangerovergarage.co.uk/services/engine-replacement", "description": "Supply and fit of a reconditioned supercharged V8 after a major engine failure."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "UK-Wide Collection and Delivery", "description": "Collection and delivery for XKR owners across the UK to and from our Grays, Essex workshop."}}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://rangerovergarage.co.uk/engines/jaguar/xkr#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://rangerovergarage.co.uk/"},
+        {"@type": "ListItem", "position": 2, "name": "Engines", "item": "https://rangerovergarage.co.uk/engines"},
+        {"@type": "ListItem", "position": 3, "name": "Jaguar", "item": "https://rangerovergarage.co.uk/engines/jaguar"},
+        {"@type": "ListItem", "position": 4, "name": "Jaguar XKR", "item": "https://rangerovergarage.co.uk/engines/jaguar/xkr"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://rangerovergarage.co.uk/engines/jaguar/xkr#faq",
+      "isPartOf": {"@id": "https://rangerovergarage.co.uk/engines/jaguar/xkr#webpage"},
+      "mainEntity": [
+        {"@type": "Question", "name": "Do you work on both XKR supercharged engines?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We work on the XKR 4.2 supercharged engine and the 5.0 supercharged V8, starting every job with a thorough assessment."}},
+        {"@type": "Question", "name": "How much does a Jaguar XKR engine replacement cost?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on the engine type, unit availability and labour involved. We quote after assessing your XKR rather than offering a fixed price."}},
+        {"@type": "Question", "name": "Can you supply a Jaguar XKR reconditioned engine?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Where replacement is the better option, we can supply and fit a reconditioned supercharged V8 matched to your XKR's engine code."}},
+        {"@type": "Question", "name": "Do you have a Jaguar XKR engine for sale?", "acceptedAnswer": {"@type": "Answer", "text": "We can source reconditioned XKR engines depending on availability. Contact us with your registration and we will check suitable options."}},
+        {"@type": "Question", "name": "Does a rattle at idle mean supercharger failure?", "acceptedAnswer": {"@type": "Answer", "text": "Not necessarily. A rattle can come from several components. An inspection is needed to confirm whether the supercharger or another part is responsible."}},
+        {"@type": "Question", "name": "How long does a Jaguar XKR engine rebuild take?", "acceptedAnswer": {"@type": "Answer", "text": "Timescales depend on the fault, parts availability and machining required. We will give you an estimated timeframe after assessing the engine."}},
+        {"@type": "Question", "name": "Can you collect my XKR if I live far away?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We offer UK-wide collection and delivery from our Essex workshop, so distance does not stop you accessing specialist help."}}
+      ]
+    }
+  ]
+}

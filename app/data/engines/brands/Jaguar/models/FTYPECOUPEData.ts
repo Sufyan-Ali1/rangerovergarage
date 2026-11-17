@@ -2,8 +2,8 @@ import type { ModelData } from "@/app/data/types";
 
 export const FTYPECOUPEData: ModelData = {
   "meta": {
-    "title": "Jaguar F-TYPE COUPE Engine Rebuild & Replacement",
-    "description": "Specialist Jaguar F-Type Coupe engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle."
+    "title": "Jaguar F-Type Coupe Engine Rebuild | AJ126 V6 & F-Type R V8",
+    "description": "Jaguar F-Type Coupe engine rebuild in Essex. Misfires, coolant loss or supercharger noise traced to the real cause on V6, V8 and 2.0 Coupes."
   },
   "headerData": {
     "title": "Jaguar F-Type Coupe Engine Rebuild Experts",

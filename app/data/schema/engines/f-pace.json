@@ -1,0 +1,115 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AutoRepair",
+      "@id": "https://rangerovergarage.co.uk/#organization",
+      "name": "Range Rover Garage",
+      "url": "https://rangerovergarage.co.uk/",
+      "logo": {"@type": "ImageObject", "@id": "https://rangerovergarage.co.uk/#logo", "url": "https://rangerovergarage.co.uk/logo.svg", "contentUrl": "https://rangerovergarage.co.uk/logo.svg"},
+      "image": "https://rangerovergarage.co.uk/images/share-preview.png",
+      "description": "Independent Jaguar, Range Rover and Land Rover engine specialists in Grays, Essex, offering engine rebuilds, replacements, repairs and supply and fit with UK-wide collection and delivery.",
+      "telephone": "+44 1708 592377",
+      "email": "sales@rangerovergarage.co.uk",
+      "address": {"@type": "PostalAddress", "streetAddress": "Unit 1 Hedley Ave", "addressLocality": "Grays", "addressRegion": "Essex", "postalCode": "RM20 4EL", "addressCountry": "GB"},
+      "hasMap": "https://maps.app.goo.gl/49cNyUKLEiCa4UL57",
+      "openingHoursSpecification": [
+        {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "18:00"},
+        {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "14:00"}
+      ],
+      "contactPoint": {"@type": "ContactPoint", "telephone": "+44 7477 733313", "contactType": "customer service", "areaServed": "GB", "availableLanguage": "en"},
+      "areaServed": [{"@type": "City", "name": "Grays"}, {"@type": "AdministrativeArea", "name": "Essex"}, {"@type": "Country", "name": "United Kingdom"}],
+      "knowsAbout": ["Jaguar engine rebuilds", "Range Rover engine rebuilds", "Land Rover engine rebuilds", "Ingenium engines"],
+      "sameAs": ["https://www.facebook.com/rangerovergarage/", "https://www.youtube.com/@RangeroverGarage", "https://uk.pinterest.com/rangerovergaragegrays/"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://rangerovergarage.co.uk/#website",
+      "url": "https://rangerovergarage.co.uk/",
+      "name": "Range Rover Garage",
+      "publisher": {"@id": "https://rangerovergarage.co.uk/#organization"},
+      "inLanguage": "en-GB"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://rangerovergarage.co.uk/engines/jaguar/f-pace#webpage",
+      "url": "https://rangerovergarage.co.uk/engines/jaguar/f-pace",
+      "name": "Jaguar F-Pace Engine Rebuild | 2.0 Ingenium, 3.0 V6 & SVR V8",
+      "description": "Jaguar F-Pace engine rebuild, repair and replacement for 2.0 Ingenium, 3.0 V6 306DT diesel and SVR 5.0 V8 engines. Essex workshop, UK-wide collection.",
+      "keywords": "Jaguar F-Pace Engine Rebuild, Jaguar F-Pace replacement engine, Jaguar F-Pace engine replacement cost UK, F-Pace 2.0 Ingenium engine rebuild, F-Pace reconditioned engine, F-Pace 306DT engine",
+      "inLanguage": "en-GB",
+      "isPartOf": {"@id": "https://rangerovergarage.co.uk/#website"},
+      "publisher": {"@id": "https://rangerovergarage.co.uk/#organization"},
+      "about": [
+        {"@id": "https://rangerovergarage.co.uk/engines/jaguar/f-pace#service"},
+        {"@type": "Thing", "name": "Jaguar F-Pace", "sameAs": "https://en.wikipedia.org/wiki/Jaguar_F-Pace"}
+      ],
+      "mainEntity": {"@id": "https://rangerovergarage.co.uk/engines/jaguar/f-pace#service"},
+      "breadcrumb": {"@id": "https://rangerovergarage.co.uk/engines/jaguar/f-pace#breadcrumb"}
+    },
+    {
+      "@type": "Service",
+      "@id": "https://rangerovergarage.co.uk/engines/jaguar/f-pace#service",
+      "name": "Jaguar F-Pace Engine Rebuild, Repair and Replacement",
+      "alternateName": "Jaguar F-Pace Engine Rebuild",
+      "url": "https://rangerovergarage.co.uk/engines/jaguar/f-pace",
+      "serviceType": "Engine rebuild, repair and replacement",
+      "category": "Jaguar F-Pace Diesel, Petrol and V8 Engines",
+      "brand": {"@type": "Brand", "name": "Jaguar"},
+      "description": "Specialist rebuild, repair and replacement for Jaguar F-Pace engines, covering the 2.0 Ingenium diesel and petrol units, the 3.0 V6 306DT diesel and the supercharged 5.0 V8 in the SVR, with every job starting from a careful assessment.",
+      "provider": {"@id": "https://rangerovergarage.co.uk/#organization"},
+      "areaServed": {"@type": "Country", "name": "United Kingdom"},
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Jaguar F-Pace Engine Options and Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "F-Pace Engines Covered",
+            "itemListElement": [
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "F-Pace 2.0 Ingenium Engine Rebuild", "description": "Strip-down, wear measurement, machining and rebuild of the F-Pace 2.0 Ingenium diesel and petrol engines with OEM-grade components."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "F-Pace 3.0 V6 Diesel (306DT) Engine", "description": "Rebuild, repair or supply and fit of a reconditioned 306DT 3.0 V6 diesel engine for the F-Pace."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "F-Pace SVR 5.0 Supercharged V8 Engine", "description": "Specialist diagnosis, repair and rebuild of the supercharged 5.0 V8 fitted to the F-Pace SVR."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Jaguar F-Pace Reconditioned Engine", "description": "A reconditioned replacement engine matched to your F-Pace engine code where damage is extensive."}}
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "F-Pace Engine Services",
+            "itemListElement": [
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "F-Pace Engine Rebuild", "url": "https://rangerovergarage.co.uk/services/engine-rebuild", "description": "Your original F-Pace engine is stripped, measured, machined and rebuilt where the core components are sound."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "F-Pace Timing Chain Replacement", "url": "https://rangerovergarage.co.uk/services/timing-chain-replacement", "description": "Inspection and replacement of worn timing chain components on F-Pace engines after start-up rattles or noise."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "F-Pace Engine Repair", "url": "https://rangerovergarage.co.uk/services/engine-repair", "description": "Diagnosis and repair of faults such as low oil pressure warnings, coolant loss, heavy smoke or oil dilution."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Jaguar F-Pace Engine Replacement", "url": "https://rangerovergarage.co.uk/services/engine-replacement", "description": "Supply and fit of a reconditioned F-Pace engine, including the 3.0 V6 diesel, when a rebuild is not cost-effective."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "UK-Wide Collection and Delivery", "description": "Collection and delivery for F-Pace owners across the UK to and from our Grays, Essex workshop."}}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://rangerovergarage.co.uk/engines/jaguar/f-pace#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://rangerovergarage.co.uk/"},
+        {"@type": "ListItem", "position": 2, "name": "Engines", "item": "https://rangerovergarage.co.uk/engines"},
+        {"@type": "ListItem", "position": 3, "name": "Jaguar", "item": "https://rangerovergarage.co.uk/engines/jaguar"},
+        {"@type": "ListItem", "position": 4, "name": "Jaguar F-Pace", "item": "https://rangerovergarage.co.uk/engines/jaguar/f-pace"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://rangerovergarage.co.uk/engines/jaguar/f-pace#faq",
+      "isPartOf": {"@id": "https://rangerovergarage.co.uk/engines/jaguar/f-pace#webpage"},
+      "mainEntity": [
+        {"@type": "Question", "name": "Which F-Pace engines do you rebuild and repair?", "acceptedAnswer": {"@type": "Answer", "text": "We work on F-Pace 2.0 Ingenium diesel and petrol engines, the 3.0 V6 diesel and the SVR's supercharged 5.0 V8, following a full assessment."}},
+        {"@type": "Question", "name": "How much is a Jaguar F-Pace engine replacement in the UK?", "acceptedAnswer": {"@type": "Answer", "text": "The cost depends on the engine type, unit availability and labour required. We give a quote after assessing your car instead of a fixed price."}},
+        {"@type": "Question", "name": "Is a rebuild better than a reconditioned engine?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on the damage. A rebuild suits contained faults, while a reconditioned engine may make more sense when damage is severe or widespread."}},
+        {"@type": "Question", "name": "Do you have an F-Pace 306DT engine for sale?", "acceptedAnswer": {"@type": "Answer", "text": "We can source and fit a reconditioned 306DT engine where replacement is the right option. Contact us with your registration to check availability."}},
+        {"@type": "Question", "name": "Can a timing chain noise mean engine damage?", "acceptedAnswer": {"@type": "Answer", "text": "It can be a sign of wear, but noise alone does not confirm a fault. An inspection is needed to find the real cause."}},
+        {"@type": "Question", "name": "How long will my F-Pace be off the road?", "acceptedAnswer": {"@type": "Answer", "text": "That depends on the fault, parts availability and whether machining is required. We will give you an estimated timeframe after the initial assessment."}},
+        {"@type": "Question", "name": "Can you collect my F-Pace if I'm not nearby?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Our workshop is in Essex, and we offer collection and delivery across the UK, so distance does not need to be a barrier."}}
+      ]
+    }
+  ]
+}

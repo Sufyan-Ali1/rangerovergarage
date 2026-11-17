@@ -2,8 +2,8 @@ import type { ModelData } from "@/app/data/types";
 
 export const FPACEData: ModelData = {
   "meta": {
-    "title": "Jaguar F-PACE Engine Rebuild & Replacement",
-    "description": "Specialist Jaguar F-Pace engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle."
+    "title": "Jaguar F-Pace Engine Rebuild | 306DT V6 Diesel & SVR V8",
+    "description": "Jaguar F-Pace engine rebuild for 2.0 Ingenium, 306DT V6 and SVR 5.0 V8. Oil dilution, chain noise or power loss diagnosed properly before any work."
   },
   "headerData": {
     "title": "Expert Jaguar F-Pace Engine Rebuild Services",

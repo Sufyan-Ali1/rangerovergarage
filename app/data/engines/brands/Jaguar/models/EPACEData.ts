@@ -2,8 +2,8 @@ import type { ModelData } from "@/app/data/types";
 
 export const EPACEData: ModelData = {
   "meta": {
-    "title": "Jaguar E-PACE Engine Rebuild & Replacement",
-    "description": "Specialist Jaguar E-Pace engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle."
+    "title": "Jaguar E-Pace Engine Rebuild | 204DTD, P250 & P300 Experts",
+    "description": "Jaguar E-Pace engine rebuild for Ingenium diesel and petrol. Rattle on cold start or oil level rising? We find the root cause before quoting."
   },
   "headerData": {
     "title": "Jaguar E-Pace Engine Rebuild Specialists",

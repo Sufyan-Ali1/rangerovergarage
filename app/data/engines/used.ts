@@ -247,7 +247,7 @@ export const usedPageData = {
     linkLabel: "View Workshop Gallery",
     images: getServiceImages("engine-rebuild"),
   },
-  metadata: {"title": "Used Range Rover Engines | Supply & Fitting Enquiries", "description": "Explore reconditioned Range Rover and Land Rover engine options. Enquire about compatibility, engine supply, fitting and warranty terms for your vehicle.", "canonical": "/reconditioned-engine"},
+  metadata: {"title": "Range Rover Engine for Sale | Used Units Matched by Code", "description": "Range Rover engine for sale at a lower cost than reconditioned. Used units with mileage and source shared upfront. Supply only or supply and fit.", "canonical": "/used-engine"},
   workflow: {
     title: "How Engine Replacement Works",
     description: "From your first enquiry to final checks, here is what to expect at each stage.",

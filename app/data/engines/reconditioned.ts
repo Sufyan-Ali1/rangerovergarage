@@ -247,7 +247,7 @@ export const reconditionedPageData = {
     linkLabel: "View Workshop Gallery",
     images: getServiceImages("engine-rebuild"),
   },
-  metadata: {"title": "Reconditioned Range Rover Engines | Supply & Fitting Enquiries", "description": "Explore reconditioned Range Rover and Land Rover engine options. Enquire about compatibility, engine supply, fitting and warranty terms for your vehicle.", "canonical": "/reconditioned-engine"},
+  metadata: {"title": "Range Rover Reconditioned Engine | Rebuilt & Inspected", "description": "Range Rover reconditioned engine, stripped, rebuilt and inspected before supply. Matched to your Sport, Evoque, Velar or full-size engine code.", "canonical": "/reconditioned-engine"},
   workflow: {
     title: "How Your Engine Replacement Works",
     description: "From first enquiry to final checks, here is what to expect when replacing your engine.",

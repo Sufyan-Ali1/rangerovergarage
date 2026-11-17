@@ -2,8 +2,8 @@ import type { ModelData } from "@/app/data/types";
 
 export const XKRSData: ModelData = {
   "meta": {
-    "title": "Jaguar XKR-S Engine Rebuild & Replacement",
-    "description": "Specialist Jaguar XKR-S engine rebuild, repair and replacement. Browse engine codes and specifications to find the right engine for your vehicle."
+    "title": "Jaguar XKR-S Engine Rebuild | 550PS V8, Coupe & GT Experts",
+    "description": "Jaguar XKR-S engine rebuild that keeps your original 550PS supercharged V8. Detailed assessment for Coupe, Convertible and GT owners."
   },
   "headerData": {
     "title": "Jaguar XKR-S Engine Rebuild Specialists",

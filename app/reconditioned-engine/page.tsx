@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import dynamic from "next/dynamic";
 import { connection } from "next/server";
 import { reconditionedPageData } from "../data/engines/reconditioned";
+import fs from 'fs';
+import path from 'path';
 
 const Navbar = dynamic(() => import("../components/Navbar"));
 const Footer = dynamic(() => import("../components/Footer"));
@@ -26,9 +28,11 @@ export const metadata: Metadata = {
 
 export default async function ReconditionedEnginesPage() {
   await connection();
+  const schemaJson = fs.readFileSync(path.join(process.cwd(), 'app/data/schema/reconditioned.json'), 'utf8');
 
   return (
     <div className="flex min-h-screen flex-col bg-white">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: schemaJson }} />
       <Navbar />
       <main>
         <ReconditionedHero data={reconditionedPageData.heroSection} />

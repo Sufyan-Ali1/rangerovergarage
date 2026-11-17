@@ -1,0 +1,115 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AutoRepair",
+      "@id": "https://rangerovergarage.co.uk/#organization",
+      "name": "Range Rover Garage",
+      "url": "https://rangerovergarage.co.uk/",
+      "logo": {"@type": "ImageObject", "@id": "https://rangerovergarage.co.uk/#logo", "url": "https://rangerovergarage.co.uk/logo.svg", "contentUrl": "https://rangerovergarage.co.uk/logo.svg"},
+      "image": "https://rangerovergarage.co.uk/images/share-preview.png",
+      "description": "Independent Jaguar, Range Rover and Land Rover engine specialists in Grays, Essex, offering engine rebuilds, replacements, repairs and supply and fit with UK-wide collection and delivery.",
+      "telephone": "+44 1708 592377",
+      "email": "sales@rangerovergarage.co.uk",
+      "address": {"@type": "PostalAddress", "streetAddress": "Unit 1 Hedley Ave", "addressLocality": "Grays", "addressRegion": "Essex", "postalCode": "RM20 4EL", "addressCountry": "GB"},
+      "hasMap": "https://maps.app.goo.gl/49cNyUKLEiCa4UL57",
+      "openingHoursSpecification": [
+        {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "18:00"},
+        {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "14:00"}
+      ],
+      "contactPoint": {"@type": "ContactPoint", "telephone": "+44 7477 733313", "contactType": "customer service", "areaServed": "GB", "availableLanguage": "en"},
+      "areaServed": [{"@type": "City", "name": "Grays"}, {"@type": "AdministrativeArea", "name": "Essex"}, {"@type": "Country", "name": "United Kingdom"}],
+      "knowsAbout": ["Jaguar engine rebuilds", "Range Rover engine rebuilds", "Land Rover engine rebuilds", "Ingenium engines"],
+      "sameAs": ["https://www.facebook.com/rangerovergarage/", "https://www.youtube.com/@RangeroverGarage", "https://uk.pinterest.com/rangerovergaragegrays/"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://rangerovergarage.co.uk/#website",
+      "url": "https://rangerovergarage.co.uk/",
+      "name": "Range Rover Garage",
+      "publisher": {"@id": "https://rangerovergarage.co.uk/#organization"},
+      "inLanguage": "en-GB"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://rangerovergarage.co.uk/engines/jaguar/xf-sportbrake#webpage",
+      "url": "https://rangerovergarage.co.uk/engines/jaguar/xf-sportbrake",
+      "name": "Jaguar XF Sportbrake Engine Rebuild | 2.2, 3.0 V6 & 2.0 Ingenium",
+      "description": "Jaguar XF Sportbrake engine rebuild, repair and replacement for the 2.2 diesel, 3.0 V6 diesel and 2.0 Ingenium. Both generations, UK-wide collection from Essex.",
+      "keywords": "Jaguar XF Sportbrake Engine Rebuild, XF Sportbrake 2.2 diesel engine, XF Sportbrake 2.0 Ingenium engine, XF Sportbrake 3.0 V6 diesel engine, XF Sportbrake replacement engine, XF Sportbrake reconditioned engine, XF Sportbrake timing chain replacement",
+      "inLanguage": "en-GB",
+      "isPartOf": {"@id": "https://rangerovergarage.co.uk/#website"},
+      "publisher": {"@id": "https://rangerovergarage.co.uk/#organization"},
+      "about": [
+        {"@id": "https://rangerovergarage.co.uk/engines/jaguar/xf-sportbrake#service"},
+        {"@type": "Thing", "name": "Jaguar XF Sportbrake", "sameAs": "https://en.wikipedia.org/wiki/Jaguar_XF"}
+      ],
+      "mainEntity": {"@id": "https://rangerovergarage.co.uk/engines/jaguar/xf-sportbrake#service"},
+      "breadcrumb": {"@id": "https://rangerovergarage.co.uk/engines/jaguar/xf-sportbrake#breadcrumb"}
+    },
+    {
+      "@type": "Service",
+      "@id": "https://rangerovergarage.co.uk/engines/jaguar/xf-sportbrake#service",
+      "name": "Jaguar XF Sportbrake Engine Rebuild, Repair and Replacement",
+      "alternateName": "Jaguar XF Sportbrake Engine Rebuild",
+      "url": "https://rangerovergarage.co.uk/engines/jaguar/xf-sportbrake",
+      "serviceType": "Engine rebuild, repair and replacement",
+      "category": "Jaguar XF Sportbrake Diesel and Ingenium Engines",
+      "brand": {"@type": "Brand", "name": "Jaguar"},
+      "description": "Specialist rebuild, repair and replacement for Jaguar XF Sportbrake engines across both generations, covering the 2.2 diesel, 3.0 V6 diesel and 2.0 Ingenium engines, with reconditioned units matched to your engine code.",
+      "provider": {"@id": "https://rangerovergarage.co.uk/#organization"},
+      "areaServed": {"@type": "Country", "name": "United Kingdom"},
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Jaguar XF Sportbrake Engine Options and Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "XF Sportbrake Engines Covered",
+            "itemListElement": [
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "XF Sportbrake 2.2 Diesel Engine Rebuild", "description": "Strip, inspection and rebuild of the 2.2 four-cylinder diesel used in earlier Sportbrake models."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "XF Sportbrake 2.0 Ingenium Engine Rebuild", "description": "Rebuild and repair of the 2.0 Ingenium engine used in later Sportbrakes, with OEM-grade replacement parts."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "XF Sportbrake 3.0 V6 Diesel Engine", "description": "Repair, rebuild or reconditioned replacement for the 3.0 V6 diesel fitted to the XF Sportbrake."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "XF Sportbrake Reconditioned Engine", "description": "A reconditioned replacement engine matched to your Sportbrake engine code where damage is severe."}}
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "XF Sportbrake Engine Services",
+            "itemListElement": [
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "XF Sportbrake Engine Rebuild", "url": "https://rangerovergarage.co.uk/services/engine-rebuild", "description": "Your original Sportbrake engine is stripped, measured and reassembled with worn components replaced."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "XF Sportbrake Timing Chain Replacement", "url": "https://rangerovergarage.co.uk/services/timing-chain-replacement", "description": "Timing chain replacement on Ingenium-powered Sportbrakes once inspection confirms the cause of a start-up rattle."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "XF Sportbrake Engine Repair", "url": "https://rangerovergarage.co.uk/services/engine-repair", "description": "Diagnosis and repair of power loss, misfires, heavy smoke, oil or coolant loss and DPF warnings."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "XF Sportbrake Engine Replacement", "url": "https://rangerovergarage.co.uk/services/engine-replacement", "description": "Supply and fit of a reconditioned Sportbrake engine after a major failure."}},
+              {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "UK-Wide Collection and Delivery", "description": "Collection and delivery for Sportbrake owners across the UK to and from our Grays, Essex workshop."}}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://rangerovergarage.co.uk/engines/jaguar/xf-sportbrake#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://rangerovergarage.co.uk/"},
+        {"@type": "ListItem", "position": 2, "name": "Engines", "item": "https://rangerovergarage.co.uk/engines"},
+        {"@type": "ListItem", "position": 3, "name": "Jaguar", "item": "https://rangerovergarage.co.uk/engines/jaguar"},
+        {"@type": "ListItem", "position": 4, "name": "Jaguar XF Sportbrake", "item": "https://rangerovergarage.co.uk/engines/jaguar/xf-sportbrake"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://rangerovergarage.co.uk/engines/jaguar/xf-sportbrake#faq",
+      "isPartOf": {"@id": "https://rangerovergarage.co.uk/engines/jaguar/xf-sportbrake#webpage"},
+      "mainEntity": [
+        {"@type": "Question", "name": "Which XF Sportbrake engines do you work on?", "acceptedAnswer": {"@type": "Answer", "text": "We work on the 2.2 diesel, 3.0 V6 diesel and 2.0 Ingenium engines used across both Sportbrake generations, following an initial assessment."}},
+        {"@type": "Question", "name": "What is the XF Sportbrake engine replacement cost?", "acceptedAnswer": {"@type": "Answer", "text": "Cost depends on the engine type, unit availability and labour required. We provide a quote after assessing your Sportbrake rather than a fixed price."}},
+        {"@type": "Question", "name": "Do you have an XF Sportbrake engine for sale?", "acceptedAnswer": {"@type": "Answer", "text": "We can source and fit a reconditioned engine matched to your Sportbrake's engine code. Contact us with your registration to check availability."}},
+        {"@type": "Question", "name": "Does towing affect my Sportbrake's engine?", "acceptedAnswer": {"@type": "Answer", "text": "Regular towing or heavy loads can add strain over time. Following the correct service schedule and addressing warning signs early can help protect the engine."}},
+        {"@type": "Question", "name": "Does a rattle mean my timing chain needs replacing?", "acceptedAnswer": {"@type": "Answer", "text": "Not always. A rattle can have several causes. An inspection is needed to confirm whether the timing chain or another part is responsible."}},
+        {"@type": "Question", "name": "How long will an XF Sportbrake engine rebuild take?", "acceptedAnswer": {"@type": "Answer", "text": "Timescales depend on the fault, parts availability and machining needed. We will give you an estimated timeframe once the engine has been assessed."}},
+        {"@type": "Question", "name": "Can you collect my Sportbrake from outside Essex?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We offer collection and delivery across the UK, so you can access our workshop wherever your Sportbrake is based."}}
+      ]
+    }
+  ]
+}
