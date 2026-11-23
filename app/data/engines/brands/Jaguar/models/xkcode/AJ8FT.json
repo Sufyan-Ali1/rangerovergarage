@@ -83,249 +83,6 @@
       }
     ]
   },
-  "specialistsBanner": {
-    "eyebrow": "Dedicated Powertrain Facility",
-    "title": "Jaguar XK AJ8FT Engine Replacement Specialists",
-    "description": "Our dedicated workshop specialises in Jaguar engine rebuilds, precision timing chain replacements, crank calibrations, and complete turnkey engine swaps. All installations include full system bleeding, ECU adaptation, and rigorous road testing.",
-    "features": [
-      {
-        "icon": "gauge",
-        "title": "50-Mile Road Protocol",
-        "description": "Rigorous live diagnostic log"
-      },
-      {
-        "icon": "badge",
-        "title": "JLR Diagnostic Level",
-        "description": "TOPIx & Pathfinder coded"
-      }
-    ],
-    "image": "/images/workshop-8.webp",
-    "imageAlt": "Vehicle and removed engine in the workshop",
-    "imageCaption": "Certified JLR Master Engineers On-Site",
-    "callLabel": "Call our Experts (01708 592377)",
-    "callHref": "tel:+441708592377",
-    "quoteLabel": "Request a Quote",
-    "quoteHref": "/get-quote"
-  },
-  "engineOverview": {
-    "eyebrow": "Marque Authority",
-    "title": "About the Jaguar XK AJ8FT Engine",
-    "paragraphs": [
-      "The Jaguar XK is listed with the AJ8FT engine, 4196 cc capacity and 218 kW / 296 hp output. Confirm your exact model year, transmission and engine specification before ordering a replacement.",
-      "Choosing the right replacement begins with identifying your vehicle’s exact specification. Our team can help you check the engine code and discuss your repair, rebuild, or replacement options. Have your registration or VIN ready when requesting a quote so we can assess the requirements for your vehicle.",
-      "From initial assessment through to fitting and final checks, our workshop can guide you through the next steps for your AJ8FT engine. Contact our specialists to discuss engine availability, compatibility, and the work required for your Jaguar."
-    ]
-  },
-  "engineProblems": {
-    "eyebrow": "Diagnostic Advisory",
-    "title": "Jaguar XK Engine Symptoms to Check",
-    "description": "Early symptoms requiring specialist diagnosis. Prompt assessment helps prevent further internal component wear.",
-    "actionLabel": "Action:",
-    "ctaLabel": "Book an Engine Diagnostic",
-    "ctaHref": "/get-quote",
-    "cards": [
-      {
-        "icon": "bell",
-        "title": "Unusual Engine Noise",
-        "description": "New rattling, knocking or ticking requires inspection to identify its source.",
-        "action": "Arrange a mechanical inspection"
-      },
-      {
-        "icon": "power",
-        "title": "Loss of Power",
-        "description": "Reduced performance can have several causes. Diagnosis helps establish the repair required.",
-        "action": "Check fault codes and live engine data"
-      },
-      {
-        "icon": "start",
-        "title": "Starting Difficulties",
-        "description": "Slow starting or a non-start condition requires checks of the starting, fuel and control systems.",
-        "action": "Book a starting-system diagnosis"
-      },
-      {
-        "icon": "smoke",
-        "title": "Exhaust Smoke",
-        "description": "Unusual exhaust smoke should be assessed alongside fluid levels and running symptoms.",
-        "action": "Inspect the engine and exhaust systems"
-      },
-      {
-        "icon": "drop",
-        "title": "Coolant or Oil Loss",
-        "description": "Fluid loss or contamination needs investigation before further damage occurs.",
-        "action": "Check leaks and fluid condition"
-      },
-      {
-        "icon": "warning",
-        "title": "Engine Warning Light",
-        "description": "A warning light requires a diagnostic scan and checks appropriate to the stored faults.",
-        "action": "Arrange engine diagnostics"
-      }
-    ]
-  },
-  "buyingGuide": {
-    "eyebrow": "Buyer's comparison",
-    "title": "Used, Reconditioned or Rebuilt Jaguar AJ8FT: Which One to Choose?",
-    "description": "Selecting the ideal powertrain solution depends on budget, vehicle age, and long-term ownership plans.",
-    "subtitle": "Review our verified tiers below to find the correct fit for your Jaguar.",
-    "cards": [
-      {
-        "tier": "Tier 01",
-        "badge": "Tested Core",
-        "title": "Used Engine",
-        "description": "Inspected low-mileage original units. Ideal for cost-conscious replacements with verified compression and leakdown testing before release.",
-        "features": [
-          "Endoscopic cylinder wall inspection",
-          "Hot compression test verified",
-          "Clean salvage pedigree verification"
-        ],
-        "linkLabel": "Explore Used Engines",
-        "href": "/engines",
-        "highlighted": false,
-        "recommendation": ""
-      },
-      {
-        "tier": "Tier 02",
-        "badge": "12-Mo Warranty",
-        "title": "Reconditioned Engine",
-        "description": "Completely stripped, cleaned, ultrasonic treated, with new bearings, piston rings, gaskets, and updated timing chain kit installed.",
-        "features": [
-          "Brand new timing chains & tensioners",
-          "New big-end & main crankshaft bearings",
-          "Fully pressure & leak-down tested"
-        ],
-        "linkLabel": "Explore Reconditioned",
-        "href": "/get-quote",
-        "highlighted": true,
-        "recommendation": "Most popular choice"
-      },
-      {
-        "tier": "Tier 03",
-        "badge": "Zero-Hour Spec",
-        "title": "Rebuilt Engine",
-        "description": "Zero-hour specification rebuild with brand new crankshaft, upgraded timing components, re-honed cylinders, and comprehensive dyno verification.",
-        "features": [
-          "New forged OEM crankshaft assembly",
-          "Precision CNC cylinder line boring",
-          "Maximum longevity for high-mileage fleets"
-        ],
-        "linkLabel": "Explore Rebuilt Engines",
-        "href": "/services/engine-rebuild",
-        "highlighted": false,
-        "recommendation": ""
-      }
-    ]
-  },
-  "finalCta": {
-    "eyebrow": "Priority Engineering Advice",
-    "titleBefore": "Need a Jaguar",
-    "titleHighlight": "AJ8FT",
-    "titleAfter": "Engine?",
-    "description": "Tell us your vehicle registration or VIN and our mechanical team will verify exact compatibility, provide current workshop availability, and supply a clear fixed quote.",
-    "callLabel": "Call us: 01708 592377",
-    "callHref": "tel:+441708592377",
-    "quoteLabel": "Get a Quote",
-    "quoteHref": "/get-quote",
-    "highlights": [
-      {
-        "icon": "location",
-        "label": "Grays, Essex Workshop"
-      },
-      {
-        "icon": "delivery",
-        "label": "UK Nationwide Pallet Delivery"
-      },
-      {
-        "icon": "warranty",
-        "label": "12-Month Mechanical Warranty"
-      }
-    ]
-  },
-  "engineServices": {
-    "eyebrow": "Specialist Workshop",
-    "title": "Our Jaguar Engine Services",
-    "description": "Precision mechanical solutions delivered by JLR trained technicians with dealer-level diagnostic equipment.",
-    "linkLabel": "Learn More",
-    "cards": [
-      {
-        "icon": "replacement",
-        "title": "Engine Replacement",
-        "description": "Complete turnkey replacement service with professional removal of the failed engine and installation of a warranty-backed unit.",
-        "href": "/services/engine-replacement"
-      },
-      {
-        "icon": "delivery",
-        "title": "Engine Supply (Nationwide)",
-        "description": "Palletised dispatch across England, Scotland, Wales, and Northern Ireland with transit insurance and secure pallet crating.",
-        "href": "/supply-fit"
-      },
-      {
-        "icon": "tools",
-        "title": "Specialist Engine Fitting",
-        "description": "In-house bay fitting adhering to manufacturer torque specifications, coolant vacuum filling, and high-pressure fuel bleeding.",
-        "href": "/supply-fit"
-      },
-      {
-        "icon": "recycle",
-        "title": "Engine Reconditioning",
-        "description": "Complete teardown, ultrasonic cleaning, crank journal micro-polishing, and replacement of worn components with OEM parts.",
-        "href": "/reconditioned-engine"
-      },
-      {
-        "icon": "tools",
-        "title": "Full Engine Rebuild",
-        "description": "Engine strip-down, inspection and rebuilding with the replacement parts agreed for your engine specification.",
-        "href": "/services/engine-rebuild"
-      },
-      {
-        "icon": "diagnostics",
-        "title": "Dealer-Level Diagnostics",
-        "description": "JLR TOPIx Cloud and Pathfinder diagnostic systems to read live datalogs, adaptation values, and cylinder balancing.",
-        "href": "/contact"
-      },
-      {
-        "icon": "chip",
-        "title": "VIN & ECU Compatibility",
-        "description": "Electronic control unit synchronisation, injector code calibration, and software alignment to match your specific vehicle VIN.",
-        "href": "/contact"
-      },
-      {
-        "icon": "refit",
-        "title": "In-House Engine Refit",
-        "description": "Safe removal of the old powertrain, subframe degreasing, transmission mating inspection, and replacement of auxiliary belts.",
-        "href": "/services/engine-swap"
-      }
-    ]
-  },
-  "compatibilityFitting": {
-    "cards": [
-      {
-        "icon": "compatibility",
-        "eyebrow": "Engineering Diligence",
-        "title": "Engine Compatibility and Selection",
-        "description": "Our team checks your Jaguar XK registration or VIN, engine code, model year, transmission and ancillary components before recommending a replacement.",
-        "checks": [
-          "Engine code and model-year confirmation",
-          "Ancillary component compatibility",
-          "Transmission and electronic compatibility"
-        ],
-        "ctaLabel": "Check My Engine Code",
-        "ctaHref": "/get-quote"
-      },
-      {
-        "icon": "workshop",
-        "eyebrow": "Workshop Integrity",
-        "title": "Professional Engine Fitting & Workshop",
-        "description": "Professional engine installation includes the agreed mechanical work, fluids, compatibility checks and testing before handover.",
-        "checks": [
-          "JLR TOPIx live ECU adaptation coding",
-          "New oil feed and return lines installed",
-          "Mandatory 50-mile dynamic validation"
-        ],
-        "ctaLabel": "Get a Fitting Quote",
-        "ctaHref": "/get-quote"
-      }
-    ]
-  },
   "engineGallery": {
     "eyebrow": "Workshop Evidence",
     "title": "Jaguar AJ8FT Engine Gallery",
@@ -349,75 +106,338 @@
       }
     ]
   },
-  "whyChoose": {
-    "eyebrow": "The RRG Standard",
-    "title": "Why Choose Range Rover Garage?",
-    "description": "Specialist Jaguar engine assessment, rebuilding and replacement support.",
-    "cards": [
-      {
-        "icon": "shield",
-        "title": "Specialist Knowledge",
-        "description": "Our workshop supports Jaguar engine repair, rebuild and replacement with checks tailored to your vehicle."
-      },
-      {
-        "icon": "checklist",
-        "title": "Compatibility Focused",
-        "description": "Every quote is cross-referenced with official JLR EPC parts software to prevent mismatches or harness-incompatible variants."
-      },
-      {
-        "icon": "fitting",
-        "title": "Turnkey Fitting Options",
-        "description": "Fully equipped workshop in Essex offering full vehicle collection, engine swap, coding, dynamic testing, and warranty sign-off."
-      },
-      {
-        "icon": "message",
-        "title": "Clear Communication",
-        "description": "Itemised quotes with clear scopes, zero surprise extras, regular photographic updates during rebuild, and dedicated telephone support."
-      }
-    ]
-  },
   "faq": {
-    "description": "Answers to common questions about AJ8FT engine compatibility, replacement, reconditioning, and fitting. Share your registration or VIN for advice specific to your vehicle.",
+    "title": "Jaguar XK AJ8FT FAQs",
+    "description": "Answers about costs, codes, warranty and fitting for the naturally aspirated Jaguar XK AJ8FT 4.2 V8.",
     "accordionName": "engine-code-faq",
     "faqs": [
       {
-        "q": "How do I confirm that a AJ8FT engine fits my vehicle?",
-        "a": "Send us your registration or VIN along with your engine code, if available. Our team will check your vehicle specification, installation layout, transmission, and electronic compatibility before recommending an engine."
+        "q": "How much does a Jaguar XK AJ8FT engine replacement cost?",
+        "a": "It depends on whether you choose a used, reconditioned or rebuilt engine and whether we fit it. Send your registration for an itemised written quote covering parts and labour."
       },
       {
-        "q": "Can I choose between a used, reconditioned, or rebuilt engine?",
-        "a": "We can discuss these options based on your vehicle, budget, and the condition of your existing engine. Ask what inspections, replacement parts, testing, and warranty terms are included in the proposed option."
+        "q": "Do your AJ8FT engines include a warranty?",
+        "a": "Yes. Every engine we supply carries a six-month mechanical warranty. We'll explain exactly what's covered and any conditions, including those for outside fitting, before you order."
       },
       {
-        "q": "Can you supply the engine and fit it for me?",
-        "a": "Contact us about engine supply or supply and fitting. Your quotation will confirm the proposed engine, installation work, fluids, ancillary parts, and any additional work required."
+        "q": "Did the 2006 Jaguar XK use this engine?",
+        "a": "Yes. The X150 XK launched in 2006 with the naturally aspirated 4.2 V8, which catalogues list under codes including AJ8FT. It was replaced by the 5.0 V8 from 2009."
       },
       {
-        "q": "How much does a AJ8FT engine replacement cost?",
-        "a": "The price depends on the engine specification, condition, availability, and the work required. Send your vehicle details for a quotation that explains the included parts and labour."
+        "q": "Is the XK 4.2 V8 rated at 296hp?",
+        "a": "A 300PS rating equals roughly 296hp, though catalogues list figures between 298hp and 305hp. We confirm your car's exact specification before supplying a replacement engine."
       },
       {
-        "q": "Does a replacement engine come with a warranty?",
-        "a": "Warranty cover depends on the engine and service agreed. Confirm the duration, covered components, exclusions, and maintenance requirements in your written quotation before ordering."
+        "q": "What are common Jaguar XK AJ8FT engine problems?",
+        "a": "Reported issues include timing chain tensioner wear, water pump and coolant pipe leaks, coil failures and oil leaks. Symptoms overlap, so diagnosis should always come before any repair decision."
       },
       {
-        "q": "Can you arrange collection or engine delivery?",
-        "a": "Ask our team about collection and delivery options for your location. Availability, costs, and arrangements will be confirmed with your quotation."
+        "q": "Can you deliver an AJ8FT to my local garage?",
+        "a": "Yes. Supply-only engines are delivered by pallet across the UK to homes or independent garages. We confirm compatibility before dispatch and explain warranty conditions for outside fitting."
       },
       {
-        "q": "How long will the replacement take?",
-        "a": "Timing depends on engine availability, workshop scheduling, and any additional repairs identified during inspection. Our team will discuss the expected turnaround when assessing your vehicle."
+        "q": "What does your XK supply and fit service include?",
+        "a": "At our Grays, Essex workshop we remove the failed engine, fit the replacement, refill fluids, complete any setup and road test your XK. Timescales are confirmed when we quote."
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "Why Choose Us",
+    "title": "Range Rover Garage for Early XK Engines",
+    "description": "Straightforward advice and correctly matched 4.2 V8 engines for Jaguar XK owners.",
+    "cards": [
+      {
+        "icon": "shield",
+        "title": "AJ-V8 Experience",
+        "description": "We work on Jaguar's AJ-V8 engines, including the 4.2 AJ8FT fitted to the XK."
+      },
+      {
+        "icon": "checklist",
+        "title": "Written Quotes First",
+        "description": "Parts and labour are set out in writing before any work begins."
+      },
+      {
+        "icon": "fitting",
+        "title": "Nationwide Delivery",
+        "description": "Supply-only engines are palleted to homes and garages across the UK."
+      },
+      {
+        "icon": "message",
+        "title": "Mechanical Warranty",
+        "description": "Every engine we supply includes a six-month mechanical warranty for peace of mind."
       }
     ]
   },
   "workshopIntro": {
-    "eyebrow": "From Assessment to Installation",
-    "title": "Specialist Care for Your Jaguar AJ8FT Engine",
-    "description": "Whether you need an engine assessment, a replacement unit, or professional fitting, our team can help you understand the next steps. Share your registration or VIN to discuss compatibility, available options, and a quotation tailored to your vehicle.",
+    "eyebrow": "Advice for Early XK Owners",
+    "title": "Deciding the Best Path for Your AJ8FT V8",
+    "description": "Start with a thorough diagnosis. Coolant pipe leaks, coil failures and timing solenoid faults can often be put right without removing the engine. If overheating or chain failure has caused internal damage, compare the repair estimate with your XK's condition and value.",
     "paragraphs": [
-      "Finding a suitable AJ8FT engine starts with understanding your vehicle’s exact specification and the condition of its current powertrain. Engine code, model year, transmission, and installation layout all help determine the right approach. Our team can review your registration or VIN and discuss whether diagnosis, repair, rebuilding, or replacement is the appropriate next step.",
-      "When comparing engine options, look beyond the unit itself. Ask which components are included, what inspection and restoration work has been completed, and how the engine will be checked before installation. We can explain the proposed scope of work, discuss supply-only or fitting options, and identify any ancillary parts that need attention as part of your quotation.",
-      "Clear information makes it easier to plan your vehicle’s return to the road. Before work is agreed, discuss expected availability, workshop scheduling, collection or delivery arrangements, and the warranty terms attached to your chosen option. The workshop gallery below offers a closer look at engine assemblies, repair work, and vehicle installations at Range Rover Garage."
+      "The Jaguar XK AJ8FT engine replacement cost depends on the engine type, its history and whether we carry out the fitting. Labour on a V8 grand tourer is substantial, so complete supply and fit quotes give the clearest comparison between suppliers.",
+      "When reviewing AJ8FT 4.2 V8 petrol engine UK listings, ask whether the engine came from an XK or a saloon, and whether it is supercharged. Confirm recorded mileage and any pre-sale checks before buying anything.",
+      "Warranty cover is worth confirming too. A Jaguar XK AJ8FT engine with warranty protects you if a mechanical fault develops after fitting. Engines we supply include a six-month mechanical warranty, and we explain the terms before you order."
     ]
+  },
+  "compatibilityFitting": {
+    "cards": [
+      {
+        "icon": "compatibility",
+        "eyebrow": "Code Matching",
+        "title": "Picking the Right AJ8FT",
+        "description": "Catalogues list the XK's 4.2 V8 under several codes, including AJ8FT, AJ33 and AJ34. We check your VIN and engine number so any Jaguar XK AJ8FT engine for sale through us fits correctly.",
+        "checks": [
+          "VIN and engine number cross-checked",
+          "Non-supercharged XK version confirmed",
+          "Ancillaries compared before dispatch"
+        ],
+        "ctaLabel": "Confirm My Engine",
+        "ctaHref": "/get-quote"
+      },
+      {
+        "icon": "workshop",
+        "eyebrow": "Workshop Support",
+        "title": "Full Fitting in Grays",
+        "description": "Our Jaguar XK AJ8FT engine supply and fit service includes removal, installation, fresh fluids and any required setup at our Essex workshop. Supply-only engines can also be palleted to your chosen specialist.",
+        "checks": [
+          "Old engine removed with care",
+          "New oil, coolant and filters",
+          "Road tested before handover"
+        ],
+        "ctaLabel": "Book My Fitting",
+        "ctaHref": "/get-quote"
+      }
+    ]
+  },
+  "engineServices": {
+    "eyebrow": "4.2 V8 Services",
+    "title": "Jaguar XK AJ8FT Engine Services",
+    "description": "Diagnosis, repair and replacement for the naturally aspirated AJ8FT 4.2 V8 in early X150 XKs.",
+    "linkLabel": "Learn More",
+    "cards": [
+      {
+        "icon": "replacement",
+        "title": "Engine Rebuild",
+        "description": "We strip the AJ8FT, measure bores, bearings and crankshaft wear, and rebuild it when the block is serviceable.",
+        "href": "/services/engine-rebuild"
+      },
+      {
+        "icon": "delivery",
+        "title": "Timing Chain Replacement",
+        "description": "Worn chains, tensioners and guides on both banks are renewed once inspection confirms the cause of start-up noise.",
+        "href": "/services/timing-chain-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Turbo Replacement",
+        "description": "The AJ8FT is naturally aspirated with no turbocharger, so this service applies to other engines we work on.",
+        "href": "/services/turbo-replacement"
+      },
+      {
+        "icon": "recycle",
+        "title": "Head Gasket Replacement",
+        "description": "After overheating or coolant loss, we replace the gasket on the affected bank and check the cylinder head.",
+        "href": "/services/head-gasket-replacement"
+      },
+      {
+        "icon": "diagnostics",
+        "title": "Engine Repair",
+        "description": "Repairs for water pumps, coolant pipes, thermostat housings, coils and oil leaks that don't need replacement.",
+        "href": "/services/engine-repair"
+      },
+      {
+        "icon": "chip",
+        "title": "Engine Replacement",
+        "description": "We remove the failed V8 and install a VIN-matched used, reconditioned or rebuilt AJ8FT in your XK.",
+        "href": "/services/engine-replacement"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Swap",
+        "description": "Guidance on compatible alternative engines for the XK, with mounts, wiring, cooling and software considered first.",
+        "href": "/services/engine-swap"
+      },
+      {
+        "icon": "refit",
+        "title": "Timing Belt Replacement",
+        "description": "The AJ8FT drives its camshafts with chains rather than a belt, though we replace belts on other engines.",
+        "href": "/services/timing-belt-replacement"
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Get Clear Pricing",
+    "titleBefore": "Request a Jaguar XK",
+    "titleHighlight": "AJ8FT",
+    "titleAfter": "Engine Quote",
+    "description": "Send your registration and a summary of the symptoms. We'll confirm the right 4.2 V8 and set out your Jaguar XK AJ8FT engine replacement cost in writing.",
+    "callLabel": "Call Our Workshop",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Start My Quote",
+    "quoteHref": "/get-quote",
+    "highlights": [
+      {
+        "icon": "location",
+        "label": "Grays, Essex Workshop"
+      },
+      {
+        "icon": "delivery",
+        "label": "UK Pallet Delivery"
+      },
+      {
+        "icon": "warranty",
+        "label": "Six-Month Mechanical Warranty"
+      }
+    ]
+  },
+  "buyingGuide": {
+    "eyebrow": "Replacement Options",
+    "title": "Used, Reconditioned or Rebuilt: The Right AJ8FT for You",
+    "description": "With early XKs now ageing, compare each option's cost and expected life against your car's condition and value.",
+    "subtitle": "Review our verified tiers below to find the correct fit for your Jaguar.",
+    "cards": [
+      {
+        "tier": "Tier 01",
+        "badge": "Tested Core",
+        "title": "Used Engine",
+        "description": "An AJ8FT from a donor vehicle, checked before sale and suited to owners wanting the lowest-cost route back on the road.",
+        "features": [
+          "Most budget-friendly of the three",
+          "Donor mileage confirmed before sale",
+          "Fits higher-mileage early XKs"
+        ],
+        "linkLabel": "Ask About Used",
+        "href": "/engines",
+        "highlighted": false,
+        "recommendation": ""
+      },
+      {
+        "tier": "Tier 02",
+        "badge": "12-Mo Warranty",
+        "title": "Reconditioned Engine",
+        "description": "A Jaguar XK AJ8FT reconditioned engine is stripped, inspected and refreshed, with worn parts renewed before it leaves us.",
+        "features": [
+          "Worn components replaced where needed",
+          "Sensible balance of price and condition",
+          "Suits regular weekend and touring use"
+        ],
+        "linkLabel": "Quote Reconditioned",
+        "href": "/get-quote",
+        "highlighted": true,
+        "recommendation": "Most popular choice"
+      },
+      {
+        "tier": "Tier 03",
+        "badge": "Zero-Hour Spec",
+        "title": "Rebuilt Engine",
+        "description": "An AJ8FT fully dismantled and rebuilt with new major internals, aimed at enthusiasts preserving an early XK for years ahead.",
+        "features": [
+          "New major internals fitted throughout",
+          "Highest investment of the three",
+          "Ideal for cherished long-term cars"
+        ],
+        "linkLabel": "Quote Rebuilt",
+        "href": "/services/engine-rebuild",
+        "highlighted": false,
+        "recommendation": ""
+      }
+    ]
+  },
+  "engineProblems": {
+    "eyebrow": "Signs to Check",
+    "title": "Jaguar XK AJ8FT Engine Problems Explained",
+    "description": "These symptoms may point to a fault; diagnosis is needed to confirm.",
+    "actionLabel": "Action:",
+    "ctaLabel": "Book an Engine Check",
+    "ctaHref": "/get-quote",
+    "cards": [
+      {
+        "icon": "bell",
+        "title": "Rattle at Start-Up",
+        "description": "A brief rattle from the front of the engine on cold starts may suggest worn timing chain tensioners or guides.",
+        "action": "Book a timing chain inspection promptly."
+      },
+      {
+        "icon": "power",
+        "title": "Coolant Leaks at Front",
+        "description": "Coolant traces near the front or a falling level could indicate a leaking water pump or perished hose.",
+        "action": "Have the cooling system checked soon."
+      },
+      {
+        "icon": "start",
+        "title": "Overheating in Traffic",
+        "description": "Temperature climbing in slow traffic might relate to a cracked plastic coolant pipe, thermostat housing or cooling fan fault.",
+        "action": "Stop and arrange a pressure test."
+      },
+      {
+        "icon": "smoke",
+        "title": "Misfire or Rough Idle",
+        "description": "Shaking at idle, hesitation or a flashing warning light could come from failing ignition coils or worn spark plugs.",
+        "action": "Get the ignition system tested."
+      },
+      {
+        "icon": "drop",
+        "title": "Oil Around Cam Covers",
+        "description": "Oil on the cam covers or a burning smell after driving may indicate ageing gaskets or seals letting go.",
+        "action": "Have the leak traced and assessed."
+      },
+      {
+        "icon": "warning",
+        "title": "Timing-Related Fault Codes",
+        "description": "An engine light with camshaft or variable valve timing codes could suggest chain wear or a timing solenoid fault.",
+        "action": "Arrange a full diagnostic scan."
+      }
+    ]
+  },
+  "engineOverview": {
+    "eyebrow": "Engine Background",
+    "title": "Inside the 4.2 V8 of the First X150 XK",
+    "paragraphs": [
+      "The AJ8FT is a 4,196cc naturally aspirated V8 from Jaguar's AJ-V8 family, listed in parts catalogues for the XK from 2006. It powered the aluminium-bodied X150 coupé and convertible before the 5.0 arrived, driving the rear wheels through a six-speed automatic gearbox with chain-driven camshafts.",
+      "Catalogues quote its output between 298hp and 305hp, depending on the source. A 300PS figure converts to about 296hp, which is why owners search for a Jaguar XK 4.2 V8 petrol engine 296hp. We confirm your exact specification from the VIN.",
+      "A Jaguar XK AJ8FT engine 2006 is a genuine match, as the X150 launched that year with this 4.2 V8. The supercharged XKR used a different 4.2 unit, and from 2009 both were replaced by 5.0-litre engines, so we check carefully."
+    ]
+  },
+  "specialistsBanner": {
+    "eyebrow": "Jaguar V8 GT Specialists",
+    "title": "Expert Support for Your Jaguar XK AJ8FT Engine",
+    "description": "Early X150 XKs are now well into their second decade, so engine faults deserve a clear, cost-aware plan. We'll explain repair options and, where needed, supply a Jaguar XK AJ8FT replacement engine with optional fitting.",
+    "features": [
+      {
+        "icon": "gauge",
+        "title": "4.2, Not 5.0",
+        "description": "Pre-2009 XK engines kept separate from 508PN."
+      },
+      {
+        "icon": "badge",
+        "title": "Supply or Install",
+        "description": "Sent to you or fitted in Essex."
+      },
+      {
+        "icon": "badge",
+        "title": "Coolant Disappearing Again?",
+        "description": "Book a pressure test before driving further."
+      }
+    ],
+    "image": "/images/workshop-8.webp",
+    "imageAlt": "Vehicle and removed engine in the workshop",
+    "imageCaption": "Certified JLR Master Engineers On-Site",
+    "callLabel": "Phone Our V8 Team",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Get My XK Quote",
+    "quoteHref": "/get-quote"
+  },
+  "header": {
+    "title": "Jaguar XK AJ8FT 4.2 V8 Engine Supply",
+    "subtitle": "Naturally aspirated 4.2-litre AJ8FT V8 engines for the early X150 Jaguar XK, VIN-checked.",
+    "highlights": [
+      "4.2 V8 engine code and XK body style confirmed by VIN",
+      "Six-month mechanical warranty included on all engines we supply",
+      "Supply-only 4.2 V8 engines delivered by pallet nationwide",
+      "Removal, installation and road test carried out in Grays, Essex"
+    ]
+  },
+  "metadata": {
+    "title": "Jaguar XK AJ8FT Engine | 4.2 V8 Supply for Early XKs",
+    "description": "Jaguar XK AJ8FT engine for 2006-2009 X150 models. Non-supercharged 4.2 V8s cross-checked against AJ33/AJ34 codes and your VIN. Get an itemised written quote."
   }
 }

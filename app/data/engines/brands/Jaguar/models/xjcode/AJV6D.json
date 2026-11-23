@@ -94,249 +94,6 @@
       }
     ]
   },
-  "specialistsBanner": {
-    "eyebrow": "Dedicated Powertrain Facility",
-    "title": "Jaguar XJ AJV6D Engine Replacement Specialists",
-    "description": "Our dedicated workshop specialises in Jaguar engine rebuilds, precision timing chain replacements, crank calibrations, and complete turnkey engine swaps. All installations include full system bleeding, ECU adaptation, and rigorous road testing.",
-    "features": [
-      {
-        "icon": "gauge",
-        "title": "50-Mile Road Protocol",
-        "description": "Rigorous live diagnostic log"
-      },
-      {
-        "icon": "badge",
-        "title": "JLR Diagnostic Level",
-        "description": "TOPIx & Pathfinder coded"
-      }
-    ],
-    "image": "/images/workshop-8.webp",
-    "imageAlt": "Vehicle and removed engine in the workshop",
-    "imageCaption": "Certified JLR Master Engineers On-Site",
-    "callLabel": "Call our Experts (01708 592377)",
-    "callHref": "tel:+441708592377",
-    "quoteLabel": "Request a Quote",
-    "quoteHref": "/get-quote"
-  },
-  "engineOverview": {
-    "eyebrow": "Marque Authority",
-    "title": "About the Jaguar XJ AJV6D Engine",
-    "paragraphs": [
-      "The Jaguar XJ is listed with the AJV6D engine, 2993 cc capacity and 155 kW / 211 hp output. Confirm your exact model year, transmission and engine specification before ordering a replacement.",
-      "Choosing the right replacement begins with identifying your vehicle’s exact specification. Our team can help you check the engine code and discuss your repair, rebuild, or replacement options. Have your registration or VIN ready when requesting a quote so we can assess the requirements for your vehicle.",
-      "From initial assessment through to fitting and final checks, our workshop can guide you through the next steps for your AJV6D engine. Contact our specialists to discuss engine availability, compatibility, and the work required for your Jaguar."
-    ]
-  },
-  "engineProblems": {
-    "eyebrow": "Diagnostic Advisory",
-    "title": "Jaguar XJ Engine Symptoms to Check",
-    "description": "Early symptoms requiring specialist diagnosis. Prompt assessment helps prevent further internal component wear.",
-    "actionLabel": "Action:",
-    "ctaLabel": "Book an Engine Diagnostic",
-    "ctaHref": "/get-quote",
-    "cards": [
-      {
-        "icon": "bell",
-        "title": "Unusual Engine Noise",
-        "description": "New rattling, knocking or ticking requires inspection to identify its source.",
-        "action": "Arrange a mechanical inspection"
-      },
-      {
-        "icon": "power",
-        "title": "Loss of Power",
-        "description": "Reduced performance can have several causes. Diagnosis helps establish the repair required.",
-        "action": "Check fault codes and live engine data"
-      },
-      {
-        "icon": "start",
-        "title": "Starting Difficulties",
-        "description": "Slow starting or a non-start condition requires checks of the starting, fuel and control systems.",
-        "action": "Book a starting-system diagnosis"
-      },
-      {
-        "icon": "smoke",
-        "title": "Exhaust Smoke",
-        "description": "Unusual exhaust smoke should be assessed alongside fluid levels and running symptoms.",
-        "action": "Inspect the engine and exhaust systems"
-      },
-      {
-        "icon": "drop",
-        "title": "Coolant or Oil Loss",
-        "description": "Fluid loss or contamination needs investigation before further damage occurs.",
-        "action": "Check leaks and fluid condition"
-      },
-      {
-        "icon": "warning",
-        "title": "Engine Warning Light",
-        "description": "A warning light requires a diagnostic scan and checks appropriate to the stored faults.",
-        "action": "Arrange engine diagnostics"
-      }
-    ]
-  },
-  "buyingGuide": {
-    "eyebrow": "Buyer's comparison",
-    "title": "Used, Reconditioned or Rebuilt Jaguar AJV6D: Which One to Choose?",
-    "description": "Selecting the ideal powertrain solution depends on budget, vehicle age, and long-term ownership plans.",
-    "subtitle": "Review our verified tiers below to find the correct fit for your Jaguar.",
-    "cards": [
-      {
-        "tier": "Tier 01",
-        "badge": "Tested Core",
-        "title": "Used Engine",
-        "description": "Inspected low-mileage original units. Ideal for cost-conscious replacements with verified compression and leakdown testing before release.",
-        "features": [
-          "Endoscopic cylinder wall inspection",
-          "Hot compression test verified",
-          "Clean salvage pedigree verification"
-        ],
-        "linkLabel": "Explore Used Engines",
-        "href": "/engines",
-        "highlighted": false,
-        "recommendation": ""
-      },
-      {
-        "tier": "Tier 02",
-        "badge": "12-Mo Warranty",
-        "title": "Reconditioned Engine",
-        "description": "Completely stripped, cleaned, ultrasonic treated, with new bearings, piston rings, gaskets, and updated timing chain kit installed.",
-        "features": [
-          "Brand new timing chains & tensioners",
-          "New big-end & main crankshaft bearings",
-          "Fully pressure & leak-down tested"
-        ],
-        "linkLabel": "Explore Reconditioned",
-        "href": "/get-quote",
-        "highlighted": true,
-        "recommendation": "Most popular choice"
-      },
-      {
-        "tier": "Tier 03",
-        "badge": "Zero-Hour Spec",
-        "title": "Rebuilt Engine",
-        "description": "Zero-hour specification rebuild with brand new crankshaft, upgraded timing components, re-honed cylinders, and comprehensive dyno verification.",
-        "features": [
-          "New forged OEM crankshaft assembly",
-          "Precision CNC cylinder line boring",
-          "Maximum longevity for high-mileage fleets"
-        ],
-        "linkLabel": "Explore Rebuilt Engines",
-        "href": "/services/engine-rebuild",
-        "highlighted": false,
-        "recommendation": ""
-      }
-    ]
-  },
-  "finalCta": {
-    "eyebrow": "Priority Engineering Advice",
-    "titleBefore": "Need a Jaguar",
-    "titleHighlight": "AJV6D",
-    "titleAfter": "Engine?",
-    "description": "Tell us your vehicle registration or VIN and our mechanical team will verify exact compatibility, provide current workshop availability, and supply a clear fixed quote.",
-    "callLabel": "Call us: 01708 592377",
-    "callHref": "tel:+441708592377",
-    "quoteLabel": "Get a Quote",
-    "quoteHref": "/get-quote",
-    "highlights": [
-      {
-        "icon": "location",
-        "label": "Grays, Essex Workshop"
-      },
-      {
-        "icon": "delivery",
-        "label": "UK Nationwide Pallet Delivery"
-      },
-      {
-        "icon": "warranty",
-        "label": "12-Month Mechanical Warranty"
-      }
-    ]
-  },
-  "engineServices": {
-    "eyebrow": "Specialist Workshop",
-    "title": "Our Jaguar Engine Services",
-    "description": "Precision mechanical solutions delivered by JLR trained technicians with dealer-level diagnostic equipment.",
-    "linkLabel": "Learn More",
-    "cards": [
-      {
-        "icon": "replacement",
-        "title": "Engine Replacement",
-        "description": "Complete turnkey replacement service with professional removal of the failed engine and installation of a warranty-backed unit.",
-        "href": "/services/engine-replacement"
-      },
-      {
-        "icon": "delivery",
-        "title": "Engine Supply (Nationwide)",
-        "description": "Palletised dispatch across England, Scotland, Wales, and Northern Ireland with transit insurance and secure pallet crating.",
-        "href": "/supply-fit"
-      },
-      {
-        "icon": "tools",
-        "title": "Specialist Engine Fitting",
-        "description": "In-house bay fitting adhering to manufacturer torque specifications, coolant vacuum filling, and high-pressure fuel bleeding.",
-        "href": "/supply-fit"
-      },
-      {
-        "icon": "recycle",
-        "title": "Engine Reconditioning",
-        "description": "Complete teardown, ultrasonic cleaning, crank journal micro-polishing, and replacement of worn components with OEM parts.",
-        "href": "/reconditioned-engine"
-      },
-      {
-        "icon": "tools",
-        "title": "Full Engine Rebuild",
-        "description": "Engine strip-down, inspection and rebuilding with the replacement parts agreed for your engine specification.",
-        "href": "/services/engine-rebuild"
-      },
-      {
-        "icon": "diagnostics",
-        "title": "Dealer-Level Diagnostics",
-        "description": "JLR TOPIx Cloud and Pathfinder diagnostic systems to read live datalogs, adaptation values, and cylinder balancing.",
-        "href": "/contact"
-      },
-      {
-        "icon": "chip",
-        "title": "VIN & ECU Compatibility",
-        "description": "Electronic control unit synchronisation, injector code calibration, and software alignment to match your specific vehicle VIN.",
-        "href": "/contact"
-      },
-      {
-        "icon": "refit",
-        "title": "In-House Engine Refit",
-        "description": "Safe removal of the old powertrain, subframe degreasing, transmission mating inspection, and replacement of auxiliary belts.",
-        "href": "/services/engine-swap"
-      }
-    ]
-  },
-  "compatibilityFitting": {
-    "cards": [
-      {
-        "icon": "compatibility",
-        "eyebrow": "Engineering Diligence",
-        "title": "Engine Compatibility and Selection",
-        "description": "Our team checks your Jaguar XJ registration or VIN, engine code, model year, transmission and ancillary components before recommending a replacement.",
-        "checks": [
-          "Engine code and model-year confirmation",
-          "Ancillary component compatibility",
-          "Transmission and electronic compatibility"
-        ],
-        "ctaLabel": "Check My Engine Code",
-        "ctaHref": "/get-quote"
-      },
-      {
-        "icon": "workshop",
-        "eyebrow": "Workshop Integrity",
-        "title": "Professional Engine Fitting & Workshop",
-        "description": "Professional engine installation includes the agreed mechanical work, fluids, compatibility checks and testing before handover.",
-        "checks": [
-          "JLR TOPIx live ECU adaptation coding",
-          "New oil feed and return lines installed",
-          "Mandatory 50-mile dynamic validation"
-        ],
-        "ctaLabel": "Get a Fitting Quote",
-        "ctaHref": "/get-quote"
-      }
-    ]
-  },
   "engineGallery": {
     "eyebrow": "Workshop Evidence",
     "title": "Jaguar AJV6D Engine Gallery",
@@ -360,75 +117,338 @@
       }
     ]
   },
-  "whyChoose": {
-    "eyebrow": "The RRG Standard",
-    "title": "Why Choose Range Rover Garage?",
-    "description": "Specialist Jaguar engine assessment, rebuilding and replacement support.",
-    "cards": [
-      {
-        "icon": "shield",
-        "title": "Specialist Knowledge",
-        "description": "Our workshop supports Jaguar engine repair, rebuild and replacement with checks tailored to your vehicle."
-      },
-      {
-        "icon": "checklist",
-        "title": "Compatibility Focused",
-        "description": "Every quote is cross-referenced with official JLR EPC parts software to prevent mismatches or harness-incompatible variants."
-      },
-      {
-        "icon": "fitting",
-        "title": "Turnkey Fitting Options",
-        "description": "Fully equipped workshop in Essex offering full vehicle collection, engine swap, coding, dynamic testing, and warranty sign-off."
-      },
-      {
-        "icon": "message",
-        "title": "Clear Communication",
-        "description": "Itemised quotes with clear scopes, zero surprise extras, regular photographic updates during rebuild, and dedicated telephone support."
-      }
-    ]
-  },
   "faq": {
-    "description": "Answers to common questions about AJV6D engine compatibility, replacement, reconditioning, and fitting. Share your registration or VIN for advice specific to your vehicle.",
+    "title": "AJV6D XJ Questions",
+    "description": "Answers covering costs, engine codes, warranty and fitting for the Jaguar XJ AJV6D diesel engine.",
     "accordionName": "engine-code-faq",
     "faqs": [
       {
-        "q": "How do I confirm that a AJV6D engine fits my vehicle?",
-        "a": "Send us your registration or VIN along with your engine code, if available. Our team will check your vehicle specification, installation layout, transmission, and electronic compatibility before recommending an engine."
+        "q": "Is the AJV6D the same as the 306DT?",
+        "a": "Yes, both refer to the same 3.0 V6 diesel. AJV6D is the engineering name, and 306DT is the code most parts catalogues use. We still verify your exact version using the VIN."
       },
       {
-        "q": "Can I choose between a used, reconditioned, or rebuilt engine?",
-        "a": "We can discuss these options based on your vehicle, budget, and the condition of your existing engine. Ask what inspections, replacement parts, testing, and warranty terms are included in the proposed option."
+        "q": "How much is a Jaguar XJ AJV6D engine replacement?",
+        "a": "The price depends on whether you choose used, reconditioned or rebuilt, and whether we install it. Send your registration and we'll provide an itemised quote in writing."
       },
       {
-        "q": "Can you supply the engine and fit it for me?",
-        "a": "Contact us about engine supply or supply and fitting. Your quotation will confirm the proposed engine, installation work, fluids, ancillary parts, and any additional work required."
+        "q": "Do your AJV6D engines include warranty cover?",
+        "a": "Yes. Every engine we supply carries a six-month mechanical warranty. We'll explain what it covers and any conditions, including those for outside fitting, before you order."
       },
       {
-        "q": "How much does a AJV6D engine replacement cost?",
-        "a": "The price depends on the engine specification, condition, availability, and the work required. Send your vehicle details for a quotation that explains the included parts and labour."
+        "q": "Was there a 211hp AJV6D in the XJ?",
+        "a": "Catalogue data shows the XJ's AJV6D at 275hp and 300hp only. The 211hp tune is listed for other models, so we confirm your output before matching a replacement."
       },
       {
-        "q": "Does a replacement engine come with a warranty?",
-        "a": "Warranty cover depends on the engine and service agreed. Confirm the duration, covered components, exclusions, and maintenance requirements in your written quotation before ordering."
+        "q": "Could a 1996 Jaguar XJ have an AJV6D?",
+        "a": "No. The 1996 XJ had no diesel option, and the later X350's diesel was the 2.7-litre AJD-V6. The AJV6D belongs to the X351, introduced from late 2009."
       },
       {
-        "q": "Can you arrange collection or engine delivery?",
-        "a": "Ask our team about collection and delivery options for your location. Availability, costs, and arrangements will be confirmed with your quotation."
+        "q": "What are common Jaguar XJ AJV6D engine problems?",
+        "a": "Reported issues include crankshaft bearing wear, crank damper failure, secondary turbo faults and oil cooler leaks. Because symptoms overlap, a full diagnosis should come before any repair decision."
       },
       {
-        "q": "How long will the replacement take?",
-        "a": "Timing depends on engine availability, workshop scheduling, and any additional repairs identified during inspection. Our team will discuss the expected turnaround when assessing your vehicle."
+        "q": "What happens during your AJV6D supply and fit service?",
+        "a": "At our Grays, Essex workshop we remove the failed diesel, fit the replacement, refill fluids, complete any software setup and road test your XJ. Timescales are confirmed with your quote."
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "Why Us",
+    "title": "Why XJ Owners Choose Range Rover Garage",
+    "description": "Clear diesel advice and carefully identified AJV6D engines for Jaguar saloon owners.",
+    "cards": [
+      {
+        "icon": "shield",
+        "title": "JLR Diesel Know-How",
+        "description": "We work on Jaguar Land Rover's 3.0 V6 diesel, including the AJV6D in the XJ."
+      },
+      {
+        "icon": "checklist",
+        "title": "Quotes Before Work",
+        "description": "Every quote lists parts and labour in writing before anything is started."
+      },
+      {
+        "icon": "fitting",
+        "title": "Delivery Nationwide",
+        "description": "Supply-only engines can be palleted to your home or chosen garage."
+      },
+      {
+        "icon": "message",
+        "title": "Six-Month Cover",
+        "description": "Each engine we supply comes with a six-month mechanical warranty included."
       }
     ]
   },
   "workshopIntro": {
-    "eyebrow": "From Assessment to Installation",
-    "title": "Specialist Care for Your Jaguar AJV6D Engine",
-    "description": "Whether you need an engine assessment, a replacement unit, or professional fitting, our team can help you understand the next steps. Share your registration or VIN to discuss compatibility, available options, and a quotation tailored to your vehicle.",
+    "eyebrow": "Advice Before You Decide",
+    "title": "Weighing Up Repair or Replacement for Your AJV6D",
+    "description": "Diagnosis comes before any decision. Damper failures, oil cooler leaks and turbo actuator faults can often be repaired with the engine in place. Where bearing failure has scored the crankshaft or block, compare the repair figure against your XJ's mileage, condition and value.",
     "paragraphs": [
-      "Finding a suitable AJV6D engine starts with understanding your vehicle’s exact specification and the condition of its current powertrain. Engine code, model year, transmission, and installation layout all help determine the right approach. Our team can review your registration or VIN and discuss whether diagnosis, repair, rebuilding, or replacement is the appropriate next step.",
-      "When comparing engine options, look beyond the unit itself. Ask which components are included, what inspection and restoration work has been completed, and how the engine will be checked before installation. We can explain the proposed scope of work, discuss supply-only or fitting options, and identify any ancillary parts that need attention as part of your quotation.",
-      "Clear information makes it easier to plan your vehicle’s return to the road. Before work is agreed, discuss expected availability, workshop scheduling, collection or delivery arrangements, and the warranty terms attached to your chosen option. The workshop gallery below offers a closer look at engine assemblies, repair work, and vehicle installations at Range Rover Garage."
+      "Your Jaguar XJ AJV6D engine replacement cost reflects the engine type, its history and whether we carry out the fitting. Removing a V6 diesel from a long-bodied saloon takes real labour, so compare complete supply and fit quotes rather than engine prices alone.",
+      "When reading AJV6D 3.0 V6 diesel engine UK listings, ask whether the unit came from an XJ, an XF or a Land Rover. Sumps and ancillaries can differ, so confirm donor model, mileage and pre-sale checks.",
+      "Check the warranty last but never skip it. A Jaguar XJ AJV6D engine with warranty gives cover if a mechanical fault develops after fitting. Engines we supply include a six-month mechanical warranty, with any conditions explained before you buy."
     ]
+  },
+  "compatibilityFitting": {
+    "cards": [
+      {
+        "icon": "compatibility",
+        "eyebrow": "Code Confirmation",
+        "title": "Getting the Right AJV6D",
+        "description": "Similar names cause confusion: AJV6D, 306DT, TDV6 and the older AJD-V6 all appear in listings. We cross-check your VIN and engine number so any Jaguar XJ AJV6D engine for sale through us fits properly.",
+        "checks": [
+          "VIN and engine number cross-checked",
+          "275hp or 300hp version identified",
+          "Sump and ancillary differences noted"
+        ],
+        "ctaLabel": "Confirm My Engine",
+        "ctaHref": "/get-quote"
+      },
+      {
+        "icon": "workshop",
+        "eyebrow": "Fitting Support",
+        "title": "Workshop Installation in Grays",
+        "description": "Our Jaguar XJ AJV6D engine supply and fit service includes removal, installation, fresh fluids and any software setup required. Prefer a local garage? Supply-only engines travel by pallet across the UK.",
+        "checks": [
+          "Failed diesel removed with care",
+          "Fresh oil, coolant and filters",
+          "Road test before you collect"
+        ],
+        "ctaLabel": "Book an Installation",
+        "ctaHref": "/get-quote"
+      }
+    ]
+  },
+  "engineServices": {
+    "eyebrow": "Our Diesel Services",
+    "title": "Jaguar XJ AJV6D Engine Repair Services",
+    "description": "From fault-finding to full replacement, we handle the AJV6D twin-turbo diesel in the X351 XJ.",
+    "linkLabel": "Learn More",
+    "cards": [
+      {
+        "icon": "replacement",
+        "title": "Engine Rebuild",
+        "description": "We dismantle the AJV6D, inspect crankshaft journals and bearings, and rebuild it when the core components are reusable.",
+        "href": "/services/engine-rebuild"
+      },
+      {
+        "icon": "delivery",
+        "title": "Timing Chain Replacement",
+        "description": "Chain parts inside the camshaft drive are checked and renewed when wear or rattling is confirmed on inspection.",
+        "href": "/services/timing-chain-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Turbo Replacement",
+        "description": "Both turbochargers, their actuators and vacuum supply are tested before we replace any part of the twin-turbo setup.",
+        "href": "/services/turbo-replacement"
+      },
+      {
+        "icon": "recycle",
+        "title": "Head Gasket Replacement",
+        "description": "Where overheating or coolant loss affects one bank, we renew that gasket and check the head before reassembly.",
+        "href": "/services/head-gasket-replacement"
+      },
+      {
+        "icon": "diagnostics",
+        "title": "Engine Repair",
+        "description": "Fixes for crank damper, oil cooler, injector, EGR and DPF problems that don't justify a full engine change.",
+        "href": "/services/engine-repair"
+      },
+      {
+        "icon": "chip",
+        "title": "Engine Replacement",
+        "description": "We take out the failed diesel and install a VIN-checked used, reconditioned or rebuilt AJV6D in your XJ.",
+        "href": "/services/engine-replacement"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Swap",
+        "description": "Guidance when fitting a compatible alternative engine, with mounts, wiring, gearbox pairing and coding assessed in advance.",
+        "href": "/services/engine-swap"
+      },
+      {
+        "icon": "refit",
+        "title": "Timing Belt Replacement",
+        "description": "The AJV6D's camshaft drive includes a belt, which we replace with its tensioners at the recommended interval.",
+        "href": "/services/timing-belt-replacement"
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Quotes in Writing",
+    "titleBefore": "Cost Up a Jaguar XJ",
+    "titleHighlight": "AJV6D",
+    "titleAfter": "Engine",
+    "description": "Share your registration and what the car is doing. We'll identify the correct diesel and confirm your Jaguar XJ AJV6D engine replacement cost in writing.",
+    "callLabel": "Call Our Workshop",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Request a Price",
+    "quoteHref": "/get-quote",
+    "highlights": [
+      {
+        "icon": "location",
+        "label": "Based in Grays, Essex"
+      },
+      {
+        "icon": "delivery",
+        "label": "Pallet Delivery Across UK"
+      },
+      {
+        "icon": "warranty",
+        "label": "Six-Month Mechanical Warranty"
+      }
+    ]
+  },
+  "buyingGuide": {
+    "eyebrow": "Replacement Routes",
+    "title": "Used, Reconditioned or Rebuilt: Finding the Right AJV6D",
+    "description": "Each route trades upfront spend against expected longevity, so match your choice to your XJ's condition and future plans.",
+    "subtitle": "Review our verified tiers below to find the correct fit for your Jaguar.",
+    "cards": [
+      {
+        "tier": "Tier 01",
+        "badge": "Tested Core",
+        "title": "Used Engine",
+        "description": "A complete AJV6D recovered from a donor vehicle and checked before sale, suited to tighter budgets and older saloons.",
+        "features": [
+          "Smallest initial spend required",
+          "Donor source and mileage disclosed",
+          "Fits higher-mileage XJ diesels"
+        ],
+        "linkLabel": "Enquire About Used",
+        "href": "/engines",
+        "highlighted": false,
+        "recommendation": ""
+      },
+      {
+        "tier": "Tier 02",
+        "badge": "12-Mo Warranty",
+        "title": "Reconditioned Engine",
+        "description": "Our Jaguar XJ AJV6D reconditioned engine is stripped, assessed and refreshed, with worn components replaced before it ships.",
+        "features": [
+          "Worn components renewed during preparation",
+          "Fair middle ground on price",
+          "Suits regular motorway driving"
+        ],
+        "linkLabel": "Price Reconditioned",
+        "href": "/get-quote",
+        "highlighted": true,
+        "recommendation": "Most popular choice"
+      },
+      {
+        "tier": "Tier 03",
+        "badge": "Zero-Hour Spec",
+        "title": "Rebuilt Engine",
+        "description": "An AJV6D taken down completely and rebuilt with new major internals, built for owners keeping their XJ for years ahead.",
+        "features": [
+          "Fresh major internal components throughout",
+          "Greatest investment of the three",
+          "Aimed at long-term ownership"
+        ],
+        "linkLabel": "Price Rebuilt",
+        "href": "/services/engine-rebuild",
+        "highlighted": false,
+        "recommendation": ""
+      }
+    ]
+  },
+  "engineProblems": {
+    "eyebrow": "Know the Signs",
+    "title": "Jaguar XJ AJV6D Engine Problems Owners Notice",
+    "description": "Treat these as possible signs only; a proper diagnosis confirms the fault.",
+    "actionLabel": "Action:",
+    "ctaLabel": "Book a Diagnosis",
+    "ctaHref": "/get-quote",
+    "cards": [
+      {
+        "icon": "bell",
+        "title": "Rumbling Bottom End",
+        "description": "A deep rumble or knock that sharpens as revs rise could indicate crankshaft bearing wear, a known concern on this diesel.",
+        "action": "Switch off and arrange recovery today."
+      },
+      {
+        "icon": "power",
+        "title": "Boost Fades at Speed",
+        "description": "Strong low-speed pull followed by a flat spot may point to the secondary turbo, its actuator or vacuum lines.",
+        "action": "Book a twin-turbo performance test."
+      },
+      {
+        "icon": "start",
+        "title": "Front-End Vibration",
+        "description": "Unusual shaking at idle or a wobble at the front pulley could suggest the crankshaft damper is breaking down.",
+        "action": "Get the pulley and belts inspected."
+      },
+      {
+        "icon": "smoke",
+        "title": "Leaks in the Valley",
+        "description": "Oil or coolant collecting between the cylinder banks may come from a leaking oil cooler or coolant pipe.",
+        "action": "Have the leak traced before it spreads."
+      },
+      {
+        "icon": "drop",
+        "title": "Hard or Slow Starting",
+        "description": "Extended cranking or rough running after start-up might relate to injector, fuel pressure or sensor faults needing investigation.",
+        "action": "Request a fuel system diagnostic check."
+      },
+      {
+        "icon": "warning",
+        "title": "DPF Light Keeps Returning",
+        "description": "Particulate filter warnings that come back repeatedly may mean regeneration isn't finishing, especially on mostly short journeys.",
+        "action": "Book a DPF and EGR inspection."
+      }
+    ]
+  },
+  "engineOverview": {
+    "eyebrow": "Engine Background",
+    "title": "What AJV6D Means for Your X351 Jaguar XJ",
+    "paragraphs": [
+      "AJV6D is the engineering label for the 2,993cc V6 diesel badged 3.0 SDV6 in the X351 XJ. Parts catalogues usually file the same engine under 306DT, which is why both names appear in listings. It runs common-rail injection with twin turbochargers and sends drive to the rear wheels.",
+      "Catalogue data lists the XJ's AJV6D at 275hp from late 2009, with a 300hp version from 2015. A Jaguar XJ 3.0 V6 diesel engine 211hp listing therefore needs care, because the 155kW tune appears in XF and Land Rover data rather than XJ specifications.",
+      "Searching for a Jaguar XJ AJV6D engine 1996 will not lead to a match. The XJ of that year was petrol-only, and its first diesel, the 2.7-litre AJD-V6, did not appear until the X350. We confirm your engine from the VIN before quoting."
+    ]
+  },
+  "specialistsBanner": {
+    "eyebrow": "XJ Diesel Engine Experts",
+    "title": "Straight Answers on Your Jaguar XJ AJV6D Engine",
+    "description": "Big diesel faults in a luxury saloon can feel overwhelming. We look at the symptoms, explain the options in plain terms and, where needed, supply a Jaguar XJ AJV6D replacement engine with optional workshop installation.",
+    "features": [
+      {
+        "icon": "gauge",
+        "title": "Right Code, Right Engine",
+        "description": "AJV6D kept separate from the older 2.7 AJD-V6."
+      },
+      {
+        "icon": "badge",
+        "title": "Choose How It's Done",
+        "description": "Fitted by us or palleted to your garage."
+      },
+      {
+        "icon": "badge",
+        "title": "Oil Pressure Light On?",
+        "description": "Don't restart it; call us first."
+      }
+    ],
+    "image": "/images/workshop-8.webp",
+    "imageAlt": "Vehicle and removed engine in the workshop",
+    "imageCaption": "Certified JLR Master Engineers On-Site",
+    "callLabel": "Ring Our Diesel Team",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Get a Written Quote",
+    "quoteHref": "/get-quote"
+  },
+  "header": {
+    "title": "Jaguar XJ AJV6D Diesel Engine Replacement",
+    "subtitle": "Twin-turbo 3.0-litre AJV6D diesel engines sourced for the X351 Jaguar XJ and checked by VIN.",
+    "highlights": [
+      "AJV6D name and 306DT parts code matched to your XJ",
+      "All engines we supply carry a six-month mechanical warranty",
+      "Supply-only diesel V6 units palleted to UK homes and garages",
+      "Engine removal, installation and road test handled in Grays, Essex"
+    ]
+  },
+  "metadata": {
+    "title": "Jaguar XJ AJV6D Engine | Twin-Turbo Diesel Replacement",
+    "description": "Jaguar XJ AJV6D engine for the X351 SDV6, never confused with the older 2.7 AJD-V6. Used, recon or rebuilt diesels, VIN-checked. Get a written quote now."
   }
 }

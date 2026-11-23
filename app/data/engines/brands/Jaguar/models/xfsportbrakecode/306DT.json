@@ -105,249 +105,6 @@
       }
     ]
   },
-  "specialistsBanner": {
-    "eyebrow": "Dedicated Powertrain Facility",
-    "title": "Jaguar XF Sportbrake 306DT Engine Replacement Specialists",
-    "description": "Our dedicated workshop specialises in Jaguar engine rebuilds, precision timing chain replacements, crank calibrations, and complete turnkey engine swaps. All installations include full system bleeding, ECU adaptation, and rigorous road testing.",
-    "features": [
-      {
-        "icon": "gauge",
-        "title": "50-Mile Road Protocol",
-        "description": "Rigorous live diagnostic log"
-      },
-      {
-        "icon": "badge",
-        "title": "JLR Diagnostic Level",
-        "description": "TOPIx & Pathfinder coded"
-      }
-    ],
-    "image": "/images/workshop-8.webp",
-    "imageAlt": "Vehicle and removed engine in the workshop",
-    "imageCaption": "Certified JLR Master Engineers On-Site",
-    "callLabel": "Call our Experts (01708 592377)",
-    "callHref": "tel:+441708592377",
-    "quoteLabel": "Request a Quote",
-    "quoteHref": "/get-quote"
-  },
-  "engineOverview": {
-    "eyebrow": "Marque Authority",
-    "title": "About the Jaguar XF Sportbrake 306DT Engine",
-    "paragraphs": [
-      "The Jaguar XF Sportbrake is listed with the 306DT engine, 2993 cc capacity and 177 kW / 241 hp output. Confirm your exact model year, transmission and engine specification before ordering a replacement.",
-      "Choosing the right replacement begins with identifying your vehicle’s exact specification. Our team can help you check the engine code and discuss your repair, rebuild, or replacement options. Have your registration or VIN ready when requesting a quote so we can assess the requirements for your vehicle.",
-      "From initial assessment through to fitting and final checks, our workshop can guide you through the next steps for your 306DT engine. Contact our specialists to discuss engine availability, compatibility, and the work required for your Jaguar."
-    ]
-  },
-  "engineProblems": {
-    "eyebrow": "Diagnostic Advisory",
-    "title": "Jaguar XF Sportbrake Engine Symptoms to Check",
-    "description": "Early symptoms requiring specialist diagnosis. Prompt assessment helps prevent further internal component wear.",
-    "actionLabel": "Action:",
-    "ctaLabel": "Book an Engine Diagnostic",
-    "ctaHref": "/get-quote",
-    "cards": [
-      {
-        "icon": "bell",
-        "title": "Unusual Engine Noise",
-        "description": "New rattling, knocking or ticking requires inspection to identify its source.",
-        "action": "Arrange a mechanical inspection"
-      },
-      {
-        "icon": "power",
-        "title": "Loss of Power",
-        "description": "Reduced performance can have several causes. Diagnosis helps establish the repair required.",
-        "action": "Check fault codes and live engine data"
-      },
-      {
-        "icon": "start",
-        "title": "Starting Difficulties",
-        "description": "Slow starting or a non-start condition requires checks of the starting, fuel and control systems.",
-        "action": "Book a starting-system diagnosis"
-      },
-      {
-        "icon": "smoke",
-        "title": "Exhaust Smoke",
-        "description": "Unusual exhaust smoke should be assessed alongside fluid levels and running symptoms.",
-        "action": "Inspect the engine and exhaust systems"
-      },
-      {
-        "icon": "drop",
-        "title": "Coolant or Oil Loss",
-        "description": "Fluid loss or contamination needs investigation before further damage occurs.",
-        "action": "Check leaks and fluid condition"
-      },
-      {
-        "icon": "warning",
-        "title": "Engine Warning Light",
-        "description": "A warning light requires a diagnostic scan and checks appropriate to the stored faults.",
-        "action": "Arrange engine diagnostics"
-      }
-    ]
-  },
-  "buyingGuide": {
-    "eyebrow": "Buyer's comparison",
-    "title": "Used, Reconditioned or Rebuilt Jaguar 306DT: Which One to Choose?",
-    "description": "Selecting the ideal powertrain solution depends on budget, vehicle age, and long-term ownership plans.",
-    "subtitle": "Review our verified tiers below to find the correct fit for your Jaguar.",
-    "cards": [
-      {
-        "tier": "Tier 01",
-        "badge": "Tested Core",
-        "title": "Used Engine",
-        "description": "Inspected low-mileage original units. Ideal for cost-conscious replacements with verified compression and leakdown testing before release.",
-        "features": [
-          "Endoscopic cylinder wall inspection",
-          "Hot compression test verified",
-          "Clean salvage pedigree verification"
-        ],
-        "linkLabel": "Explore Used Engines",
-        "href": "/engines",
-        "highlighted": false,
-        "recommendation": ""
-      },
-      {
-        "tier": "Tier 02",
-        "badge": "12-Mo Warranty",
-        "title": "Reconditioned Engine",
-        "description": "Completely stripped, cleaned, ultrasonic treated, with new bearings, piston rings, gaskets, and updated timing chain kit installed.",
-        "features": [
-          "Brand new timing chains & tensioners",
-          "New big-end & main crankshaft bearings",
-          "Fully pressure & leak-down tested"
-        ],
-        "linkLabel": "Explore Reconditioned",
-        "href": "/get-quote",
-        "highlighted": true,
-        "recommendation": "Most popular choice"
-      },
-      {
-        "tier": "Tier 03",
-        "badge": "Zero-Hour Spec",
-        "title": "Rebuilt Engine",
-        "description": "Zero-hour specification rebuild with brand new crankshaft, upgraded timing components, re-honed cylinders, and comprehensive dyno verification.",
-        "features": [
-          "New forged OEM crankshaft assembly",
-          "Precision CNC cylinder line boring",
-          "Maximum longevity for high-mileage fleets"
-        ],
-        "linkLabel": "Explore Rebuilt Engines",
-        "href": "/services/engine-rebuild",
-        "highlighted": false,
-        "recommendation": ""
-      }
-    ]
-  },
-  "finalCta": {
-    "eyebrow": "Priority Engineering Advice",
-    "titleBefore": "Need a Jaguar",
-    "titleHighlight": "306DT",
-    "titleAfter": "Engine?",
-    "description": "Tell us your vehicle registration or VIN and our mechanical team will verify exact compatibility, provide current workshop availability, and supply a clear fixed quote.",
-    "callLabel": "Call us: 01708 592377",
-    "callHref": "tel:+441708592377",
-    "quoteLabel": "Get a Quote",
-    "quoteHref": "/get-quote",
-    "highlights": [
-      {
-        "icon": "location",
-        "label": "Grays, Essex Workshop"
-      },
-      {
-        "icon": "delivery",
-        "label": "UK Nationwide Pallet Delivery"
-      },
-      {
-        "icon": "warranty",
-        "label": "12-Month Mechanical Warranty"
-      }
-    ]
-  },
-  "engineServices": {
-    "eyebrow": "Specialist Workshop",
-    "title": "Our Jaguar Engine Services",
-    "description": "Precision mechanical solutions delivered by JLR trained technicians with dealer-level diagnostic equipment.",
-    "linkLabel": "Learn More",
-    "cards": [
-      {
-        "icon": "replacement",
-        "title": "Engine Replacement",
-        "description": "Complete turnkey replacement service with professional removal of the failed engine and installation of a warranty-backed unit.",
-        "href": "/services/engine-replacement"
-      },
-      {
-        "icon": "delivery",
-        "title": "Engine Supply (Nationwide)",
-        "description": "Palletised dispatch across England, Scotland, Wales, and Northern Ireland with transit insurance and secure pallet crating.",
-        "href": "/supply-fit"
-      },
-      {
-        "icon": "tools",
-        "title": "Specialist Engine Fitting",
-        "description": "In-house bay fitting adhering to manufacturer torque specifications, coolant vacuum filling, and high-pressure fuel bleeding.",
-        "href": "/supply-fit"
-      },
-      {
-        "icon": "recycle",
-        "title": "Engine Reconditioning",
-        "description": "Complete teardown, ultrasonic cleaning, crank journal micro-polishing, and replacement of worn components with OEM parts.",
-        "href": "/reconditioned-engine"
-      },
-      {
-        "icon": "tools",
-        "title": "Full Engine Rebuild",
-        "description": "Engine strip-down, inspection and rebuilding with the replacement parts agreed for your engine specification.",
-        "href": "/services/engine-rebuild"
-      },
-      {
-        "icon": "diagnostics",
-        "title": "Dealer-Level Diagnostics",
-        "description": "JLR TOPIx Cloud and Pathfinder diagnostic systems to read live datalogs, adaptation values, and cylinder balancing.",
-        "href": "/contact"
-      },
-      {
-        "icon": "chip",
-        "title": "VIN & ECU Compatibility",
-        "description": "Electronic control unit synchronisation, injector code calibration, and software alignment to match your specific vehicle VIN.",
-        "href": "/contact"
-      },
-      {
-        "icon": "refit",
-        "title": "In-House Engine Refit",
-        "description": "Safe removal of the old powertrain, subframe degreasing, transmission mating inspection, and replacement of auxiliary belts.",
-        "href": "/services/engine-swap"
-      }
-    ]
-  },
-  "compatibilityFitting": {
-    "cards": [
-      {
-        "icon": "compatibility",
-        "eyebrow": "Engineering Diligence",
-        "title": "Engine Compatibility and Selection",
-        "description": "Our team checks your Jaguar XF Sportbrake registration or VIN, engine code, model year, transmission and ancillary components before recommending a replacement.",
-        "checks": [
-          "Engine code and model-year confirmation",
-          "Ancillary component compatibility",
-          "Transmission and electronic compatibility"
-        ],
-        "ctaLabel": "Check My Engine Code",
-        "ctaHref": "/get-quote"
-      },
-      {
-        "icon": "workshop",
-        "eyebrow": "Workshop Integrity",
-        "title": "Professional Engine Fitting & Workshop",
-        "description": "Professional engine installation includes the agreed mechanical work, fluids, compatibility checks and testing before handover.",
-        "checks": [
-          "JLR TOPIx live ECU adaptation coding",
-          "New oil feed and return lines installed",
-          "Mandatory 50-mile dynamic validation"
-        ],
-        "ctaLabel": "Get a Fitting Quote",
-        "ctaHref": "/get-quote"
-      }
-    ]
-  },
   "engineGallery": {
     "eyebrow": "Workshop Evidence",
     "title": "Jaguar 306DT Engine Gallery",
@@ -371,75 +128,338 @@
       }
     ]
   },
-  "whyChoose": {
-    "eyebrow": "The RRG Standard",
-    "title": "Why Choose Range Rover Garage?",
-    "description": "Specialist Jaguar engine assessment, rebuilding and replacement support.",
-    "cards": [
-      {
-        "icon": "shield",
-        "title": "Specialist Knowledge",
-        "description": "Our workshop supports Jaguar engine repair, rebuild and replacement with checks tailored to your vehicle."
-      },
-      {
-        "icon": "checklist",
-        "title": "Compatibility Focused",
-        "description": "Every quote is cross-referenced with official JLR EPC parts software to prevent mismatches or harness-incompatible variants."
-      },
-      {
-        "icon": "fitting",
-        "title": "Turnkey Fitting Options",
-        "description": "Fully equipped workshop in Essex offering full vehicle collection, engine swap, coding, dynamic testing, and warranty sign-off."
-      },
-      {
-        "icon": "message",
-        "title": "Clear Communication",
-        "description": "Itemised quotes with clear scopes, zero surprise extras, regular photographic updates during rebuild, and dedicated telephone support."
-      }
-    ]
-  },
   "faq": {
-    "description": "Answers to common questions about 306DT engine compatibility, replacement, reconditioning, and fitting. Share your registration or VIN for advice specific to your vehicle.",
+    "title": "306DT V6 Engine FAQs",
+    "description": "Clear answers on costs, warranty, variants and fitting for the Jaguar XF Sportbrake 306DT engine.",
     "accordionName": "engine-code-faq",
     "faqs": [
       {
-        "q": "How do I confirm that a 306DT engine fits my vehicle?",
-        "a": "Send us your registration or VIN along with your engine code, if available. Our team will check your vehicle specification, installation layout, transmission, and electronic compatibility before recommending an engine."
+        "q": "What does a Jaguar XF Sportbrake 306DT engine replacement cost?",
+        "a": "Costs vary with the engine type you choose and whether we carry out the fitting. Send us your registration and we'll provide a written quote with parts and labour itemised."
       },
       {
-        "q": "Can I choose between a used, reconditioned, or rebuilt engine?",
-        "a": "We can discuss these options based on your vehicle, budget, and the condition of your existing engine. Ask what inspections, replacement parts, testing, and warranty terms are included in the proposed option."
+        "q": "Do your 306DT engines come with a warranty?",
+        "a": "Yes. Engines we supply carry a six-month mechanical warranty. We'll explain what is covered and any conditions, including those for third-party fitting, before you order."
       },
       {
-        "q": "Can you supply the engine and fit it for me?",
-        "a": "Contact us about engine supply or supply and fitting. Your quotation will confirm the proposed engine, installation work, fluids, ancillary parts, and any additional work required."
+        "q": "Which 306DT outputs were fitted to the 2012 Sportbrake?",
+        "a": "The first-generation Sportbrake, built from 2012 to 2015, offered the 306DT in 240hp and 275hp forms. We confirm your exact variant using the VIN before supplying an engine."
       },
       {
-        "q": "How much does a 306DT engine replacement cost?",
-        "a": "The price depends on the engine specification, condition, availability, and the work required. Send your vehicle details for a quotation that explains the included parts and labour."
+        "q": "Is the 241hp engine the same as the 240hp?",
+        "a": "Yes. Both figures describe the same 177kW output; the small difference comes from rounding when kilowatts are converted to horsepower. Listings use either figure for this first-generation Sportbrake engine."
       },
       {
-        "q": "Does a replacement engine come with a warranty?",
-        "a": "Warranty cover depends on the engine and service agreed. Confirm the duration, covered components, exclusions, and maintenance requirements in your written quotation before ordering."
+        "q": "What are common Jaguar XF Sportbrake 306DT engine problems?",
+        "a": "Reported issues include crankshaft bearing wear, turbo faults, oil cooler leaks and EGR or DPF problems. Symptoms often overlap, so diagnosis should always come before any repair or replacement."
       },
       {
-        "q": "Can you arrange collection or engine delivery?",
-        "a": "Ask our team about collection and delivery options for your location. Availability, costs, and arrangements will be confirmed with your quotation."
+        "q": "Can you deliver a 306DT to my garage?",
+        "a": "Yes. Supply-only engines are palleted to homes and independent garages across the UK. We confirm compatibility before dispatch and explain warranty conditions that apply to outside fitting."
       },
       {
-        "q": "How long will the replacement take?",
-        "a": "Timing depends on engine availability, workshop scheduling, and any additional repairs identified during inspection. Our team will discuss the expected turnaround when assessing your vehicle."
+        "q": "What's included in your V6 supply and fit service?",
+        "a": "At our Grays, Essex workshop we remove the old engine, install the replacement, refill all fluids, complete software setup and road test your Sportbrake. Timescales are confirmed with the quote."
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "Why Choose Us",
+    "title": "Range Rover Garage for V6 Sportbrake Engines",
+    "description": "Honest advice and properly matched 306DT engines for Jaguar estate owners.",
+    "cards": [
+      {
+        "icon": "shield",
+        "title": "V6 Diesel Know-How",
+        "description": "We work on JLR V6 diesels, including the 306DT fitted across Sportbrake generations."
+      },
+      {
+        "icon": "checklist",
+        "title": "Clear Upfront Pricing",
+        "description": "Parts and labour are itemised in writing before any work begins."
+      },
+      {
+        "icon": "fitting",
+        "title": "UK-Wide Delivery",
+        "description": "Supply-only V6 engines are delivered by pallet to customers and garages nationwide."
+      },
+      {
+        "icon": "message",
+        "title": "Warranty Included",
+        "description": "Every engine we supply carries a six-month mechanical warranty for peace of mind."
       }
     ]
   },
   "workshopIntro": {
-    "eyebrow": "From Assessment to Installation",
-    "title": "Specialist Care for Your Jaguar 306DT Engine",
-    "description": "Whether you need an engine assessment, a replacement unit, or professional fitting, our team can help you understand the next steps. Share your registration or VIN to discuss compatibility, available options, and a quotation tailored to your vehicle.",
+    "eyebrow": "Advice for V6 Owners",
+    "title": "What to Weigh Up Before Replacing Your 306DT",
+    "description": "Start with a full diagnosis. Leaks, injector faults and EGR or DPF problems can often be fixed without replacing the engine. If bearing or crankshaft damage is found, compare the repair estimate against your Sportbrake's age, mileage and value before committing.",
     "paragraphs": [
-      "Finding a suitable 306DT engine starts with understanding your vehicle’s exact specification and the condition of its current powertrain. Engine code, model year, transmission, and installation layout all help determine the right approach. Our team can review your registration or VIN and discuss whether diagnosis, repair, rebuilding, or replacement is the appropriate next step.",
-      "When comparing engine options, look beyond the unit itself. Ask which components are included, what inspection and restoration work has been completed, and how the engine will be checked before installation. We can explain the proposed scope of work, discuss supply-only or fitting options, and identify any ancillary parts that need attention as part of your quotation.",
-      "Clear information makes it easier to plan your vehicle’s return to the road. Before work is agreed, discuss expected availability, workshop scheduling, collection or delivery arrangements, and the warranty terms attached to your chosen option. The workshop gallery below offers a closer look at engine assemblies, repair work, and vehicle installations at Range Rover Garage."
+      "Your Jaguar XF Sportbrake 306DT engine replacement cost depends on the engine type, its condition and whether fitting is included. V6 installation involves considerable labour, so complete supply and fit quotes give a far more accurate comparison than engine prices alone.",
+      "When comparing 306DT 3.0 V6 diesel engine UK listings, ask about the engine's source, recorded mileage, generation and any pre-sale checks. Consistent, detailed answers make it easier to judge genuine value between different engine sellers.",
+      "Finally, consider the warranty. A Jaguar XF Sportbrake 306DT engine with warranty gives you protection if a mechanical problem appears after installation. Engines we supply include a six-month mechanical warranty, and we outline its terms clearly before purchase."
     ]
+  },
+  "compatibilityFitting": {
+    "cards": [
+      {
+        "icon": "compatibility",
+        "eyebrow": "Correct Fitment",
+        "title": "Identifying Your 306DT Variant",
+        "description": "The 306DT appears in both Sportbrake generations at three power outputs. We check your VIN and engine code so any Jaguar XF Sportbrake 306DT engine for sale through us matches your car's specification.",
+        "checks": [
+          "X250 or X260 generation confirmed",
+          "240hp, 275hp or 300hp identified",
+          "Ancillaries and electronics compared beforehand"
+        ],
+        "ctaLabel": "Match My Engine",
+        "ctaHref": "/get-quote"
+      },
+      {
+        "icon": "workshop",
+        "eyebrow": "Installation Service",
+        "title": "Fitted at Our Workshop",
+        "description": "Our Jaguar XF Sportbrake 306DT engine supply and fit service covers engine removal, installation, fresh fluids and any required software setup in Grays, Essex. Supply-only engines can also be palleted elsewhere.",
+        "checks": [
+          "Failed V6 removed with care",
+          "Oil, coolant and filters renewed",
+          "Road test completed before collection"
+        ],
+        "ctaLabel": "Schedule My Fitting",
+        "ctaHref": "/get-quote"
+      }
+    ]
+  },
+  "engineServices": {
+    "eyebrow": "V6 Engine Services",
+    "title": "Jaguar XF Sportbrake 306DT Engine Services",
+    "description": "Diagnosis, repairs and full replacement for the 3.0 V6 306DT diesel in your Sportbrake.",
+    "linkLabel": "Learn More",
+    "cards": [
+      {
+        "icon": "replacement",
+        "title": "Engine Rebuild",
+        "description": "Your 306DT is dismantled, crankshaft and bearing clearances measured, and rebuilt when the block is reusable.",
+        "href": "/services/engine-rebuild"
+      },
+      {
+        "icon": "delivery",
+        "title": "Timing Chain Replacement",
+        "description": "The 306DT uses chains within its camshaft drive, which we inspect and renew when wear or noise is confirmed.",
+        "href": "/services/timing-chain-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Turbo Replacement",
+        "description": "Diagnosis and replacement within the twin-turbo system, including actuator, oil feed and boost pipe checks.",
+        "href": "/services/turbo-replacement"
+      },
+      {
+        "icon": "recycle",
+        "title": "Head Gasket Replacement",
+        "description": "Gasket renewal on either cylinder bank after overheating or coolant loss, with the heads checked before refitting.",
+        "href": "/services/head-gasket-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Engine Repair",
+        "description": "Repairs for oil cooler leaks, EGR faults, injector problems, sensor failures and DPF issues without replacing the engine.",
+        "href": "/services/engine-repair"
+      },
+      {
+        "icon": "chip",
+        "title": "Engine Replacement",
+        "description": "We remove the damaged V6 and fit a VIN-matched used, reconditioned or rebuilt 306DT to your Sportbrake.",
+        "href": "/services/engine-replacement"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Swap",
+        "description": "Advice on fitting a compatible alternative engine, with mounts, wiring, transmission and coding requirements reviewed first.",
+        "href": "/services/engine-swap"
+      },
+      {
+        "icon": "refit",
+        "title": "Timing Belt Replacement",
+        "description": "We replace the 306DT's timing belt and related tensioners and pulleys at the interval recommended for your engine.",
+        "href": "/services/timing-belt-replacement"
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Written V6 Quotes",
+    "titleBefore": "Request a Jaguar XF Sportbrake",
+    "titleHighlight": "306DT",
+    "titleAfter": "Engine Quote",
+    "description": "Send your registration with a brief description of the fault. We'll confirm the right 306DT variant and put your Jaguar XF Sportbrake 306DT engine replacement cost in writing.",
+    "callLabel": "Call Us Today",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Get My Quote",
+    "quoteHref": "/get-quote",
+    "highlights": [
+      {
+        "icon": "location",
+        "label": "Grays, Essex Engine Workshop"
+      },
+      {
+        "icon": "delivery",
+        "label": "Nationwide Pallet Delivery"
+      },
+      {
+        "icon": "warranty",
+        "label": "Six-Month Mechanical Warranty"
+      }
+    ]
+  },
+  "buyingGuide": {
+    "eyebrow": "Your V6 Options",
+    "title": "Used, Reconditioned or Rebuilt 306DT: Which Suits Your Estate?",
+    "description": "A V6 replacement is a big decision, so compare how each option balances upfront cost with expected longevity.",
+    "subtitle": "Review our verified tiers below to find the correct fit for your Jaguar.",
+    "cards": [
+      {
+        "tier": "Tier 01",
+        "badge": "Tested Core",
+        "title": "Used Engine",
+        "description": "A complete 306DT from a donor vehicle, checked before sale and suited to owners watching their budget closely.",
+        "features": [
+          "Most economical way back running",
+          "Donor mileage supplied with the quote",
+          "Fits older, higher-mileage Sportbrakes "
+        ],
+        "linkLabel": "Enquire About Used",
+        "href": "/engines",
+        "highlighted": false,
+        "recommendation": ""
+      },
+      {
+        "tier": "Tier 02",
+        "badge": "12-Mo Warranty",
+        "title": "Reconditioned Engine",
+        "description": "Each Jaguar XF Sportbrake 306DT reconditioned engine is stripped, inspected and refreshed, with worn parts renewed before it is supplied.",
+        "features": [
+          "Worn parts replaced where found",
+          "Balanced price and expected durability",
+          "Well suited to towing and touring"
+        ],
+        "linkLabel": "Price Reconditioned",
+        "href": "/get-quote",
+        "highlighted": true,
+        "recommendation": "Most popular choice"
+      },
+      {
+        "tier": "Tier 03",
+        "badge": "Zero-Hour Spec",
+        "title": "Rebuilt Engine",
+        "description": "A 306DT completely dismantled and rebuilt using new major internal parts, for owners who intend to keep their V6 Sportbrake.",
+        "features": [
+          "Major internal components replaced new",
+          "Highest initial spend of three",
+          "Aimed at long-term V6 ownership"
+        ],
+        "linkLabel": "Price Rebuilt",
+        "href": "/services/engine-rebuild",
+        "highlighted": false,
+        "recommendation": ""
+      }
+    ]
+  },
+  "engineProblems": {
+    "eyebrow": "Possible Fault Signs",
+    "title": "Jaguar XF Sportbrake 306DT Engine Problems to Recognise",
+    "description": "These signs may indicate a problem; a proper diagnosis confirms the cause.",
+    "actionLabel": "Action:",
+    "ctaLabel": "Arrange a Diagnostic Check",
+    "ctaHref": "/get-quote",
+    "cards": [
+      {
+        "icon": "bell",
+        "title": "Deep Engine Knock",
+        "description": "A heavy knock that increases with revs may suggest crankshaft bearing wear, a fault reported on this V6 diesel.",
+        "action": "Stop the engine and arrange recovery."
+      },
+      {
+        "icon": "power",
+        "title": "Low Oil Pressure Warning",
+        "description": "An oil pressure light or message can indicate low oil level, a pump fault or internal wear needing urgent checks.",
+        "action": "Check the level and avoid driving."
+      },
+      {
+        "icon": "start",
+        "title": "Turbo Lag or Whine",
+        "description": "Delayed boost, a loud whine or limp mode under load might point to a turbocharger, actuator or boost pipe issue.",
+        "action": "Book a turbo system inspection."
+      },
+      {
+        "icon": "smoke",
+        "title": "Oil and Coolant Leaks",
+        "description": "Oil or coolant pooling under the engine could come from a leaking oil cooler, water pump or hose.",
+        "action": "Have the leak traced before it worsens."
+      },
+      {
+        "icon": "drop",
+        "title": "Persistent DPF Alerts",
+        "description": "Particulate filter warnings that keep returning may mean regenerations are being interrupted, often by frequent short journeys.",
+        "action": "Ask for a DPF and EGR check."
+      },
+      {
+        "icon": "warning",
+        "title": "Rough Idle or Smoke",
+        "description": "Uneven idling, misfire-like shaking or excess smoke could relate to injector, EGR valve or fuel system faults.",
+        "action": "Request an injector and fuelling test."
+      }
+    ]
+  },
+  "engineOverview": {
+    "eyebrow": "The 306DT Explained",
+    "title": "Inside the 3.0 V6 Diesel That Powers Your Sportbrake",
+    "paragraphs": [
+      "The 306DT is a 2,993cc V6 common-rail diesel, also known as the AJV6D or TDV6, mounted longitudinally and driving through an eight-speed automatic. Twin turbochargers help it produce strong low-down torque, which suits a heavily loaded estate and towing. Its camshaft drive uses a combination of belt and chains.",
+      "In the first-generation Sportbrake, the Jaguar XF Sportbrake 306DT engine 2012 to 2015 came in 240hp and 275hp forms. The 240hp unit is rated at 177kW, which is why it often appears as the Jaguar XF Sportbrake 3.0 V6 diesel engine 241hp in listings.",
+      "The second-generation Sportbrake, launched in 2017, offered a 300hp version of the 306DT. Because outputs, ancillaries and electronics differ between generations, matching by VIN is essential. Serious crankshaft or bearing damage may make a replacement engine the more sensible route than repair."
+    ]
+  },
+  "specialistsBanner": {
+    "eyebrow": "V6 Diesel Experts",
+    "title": "Jaguar XF Sportbrake 306DT Engine Repair Specialists",
+    "description": "A failing V6 diesel can be costly, so we start with clear advice on repair versus replacement. If replacement makes sense, we supply a Jaguar XF Sportbrake 306DT replacement engine and can install it at our workshop.",
+    "features": [
+      {
+        "icon": "gauge",
+        "title": "Generation Checked",
+        "description": "X250 and X260 Sportbrake specifications identified first."
+      },
+      {
+        "icon": "badge",
+        "title": "Your Choice of Service",
+        "description": "Supply only or complete workshop installation."
+      },
+      {
+        "icon": "badge",
+        "title": "Knocking From the Engine?",
+        "description": "Switch off and call us first."
+      }
+    ],
+    "image": "/images/workshop-8.webp",
+    "imageAlt": "Vehicle and removed engine in the workshop",
+    "imageCaption": "Certified JLR Master Engineers On-Site",
+    "callLabel": "Call a V6 Specialist",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Get a V6 Engine Quote",
+    "quoteHref": "/get-quote"
+  },
+  "header": {
+    "title": "Jaguar XF Sportbrake 306DT V6 Engine Specialists",
+    "subtitle": "Replacement 3.0-litre 306DT V6 diesel engines for both XF Sportbrake generations, matched by VIN.",
+    "highlights": [
+      "240hp, 275hp and 300hp variants confirmed from your VIN first",
+      "A six-month mechanical warranty comes with every engine we supply",
+      "Supply-only V6 engines palleted to addresses throughout the UK",
+      "Full removal, fitting and road testing at our Grays, Essex workshop"
+    ]
+  },
+  "metadata": {
+    "title": "Jaguar XF Sportbrake 306DT Engine | 3.0 V6 Diesel Units",
+    "description": "Jaguar XF Sportbrake 306DT engine for X250 and X260 estates, 240hp to 300hp. Used, reconditioned or rebuilt V6 diesels with 6-month warranty. Quote now."
   }
 }

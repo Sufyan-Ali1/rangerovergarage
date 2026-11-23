@@ -116,249 +116,6 @@
       }
     ]
   },
-  "specialistsBanner": {
-    "eyebrow": "Dedicated Powertrain Facility",
-    "title": "Jaguar XJ 204PT Engine Replacement Specialists",
-    "description": "Our dedicated workshop specialises in Jaguar engine rebuilds, precision timing chain replacements, crank calibrations, and complete turnkey engine swaps. All installations include full system bleeding, ECU adaptation, and rigorous road testing.",
-    "features": [
-      {
-        "icon": "gauge",
-        "title": "50-Mile Road Protocol",
-        "description": "Rigorous live diagnostic log"
-      },
-      {
-        "icon": "badge",
-        "title": "JLR Diagnostic Level",
-        "description": "TOPIx & Pathfinder coded"
-      }
-    ],
-    "image": "/images/workshop-8.webp",
-    "imageAlt": "Vehicle and removed engine in the workshop",
-    "imageCaption": "Certified JLR Master Engineers On-Site",
-    "callLabel": "Call our Experts (01708 592377)",
-    "callHref": "tel:+441708592377",
-    "quoteLabel": "Request a Quote",
-    "quoteHref": "/get-quote"
-  },
-  "engineOverview": {
-    "eyebrow": "Marque Authority",
-    "title": "About the Jaguar XJ 204PT Engine",
-    "paragraphs": [
-      "The Jaguar XJ is listed with the 204PT engine, 1999 cc capacity and 147 kW / 200 hp output. Confirm your exact model year, transmission and engine specification before ordering a replacement.",
-      "Choosing the right replacement begins with identifying your vehicle’s exact specification. Our team can help you check the engine code and discuss your repair, rebuild, or replacement options. Have your registration or VIN ready when requesting a quote so we can assess the requirements for your vehicle.",
-      "From initial assessment through to fitting and final checks, our workshop can guide you through the next steps for your 204PT engine. Contact our specialists to discuss engine availability, compatibility, and the work required for your Jaguar."
-    ]
-  },
-  "engineProblems": {
-    "eyebrow": "Diagnostic Advisory",
-    "title": "Jaguar XJ Engine Symptoms to Check",
-    "description": "Early symptoms requiring specialist diagnosis. Prompt assessment helps prevent further internal component wear.",
-    "actionLabel": "Action:",
-    "ctaLabel": "Book an Engine Diagnostic",
-    "ctaHref": "/get-quote",
-    "cards": [
-      {
-        "icon": "bell",
-        "title": "Unusual Engine Noise",
-        "description": "New rattling, knocking or ticking requires inspection to identify its source.",
-        "action": "Arrange a mechanical inspection"
-      },
-      {
-        "icon": "power",
-        "title": "Loss of Power",
-        "description": "Reduced performance can have several causes. Diagnosis helps establish the repair required.",
-        "action": "Check fault codes and live engine data"
-      },
-      {
-        "icon": "start",
-        "title": "Starting Difficulties",
-        "description": "Slow starting or a non-start condition requires checks of the starting, fuel and control systems.",
-        "action": "Book a starting-system diagnosis"
-      },
-      {
-        "icon": "smoke",
-        "title": "Exhaust Smoke",
-        "description": "Unusual exhaust smoke should be assessed alongside fluid levels and running symptoms.",
-        "action": "Inspect the engine and exhaust systems"
-      },
-      {
-        "icon": "drop",
-        "title": "Coolant or Oil Loss",
-        "description": "Fluid loss or contamination needs investigation before further damage occurs.",
-        "action": "Check leaks and fluid condition"
-      },
-      {
-        "icon": "warning",
-        "title": "Engine Warning Light",
-        "description": "A warning light requires a diagnostic scan and checks appropriate to the stored faults.",
-        "action": "Arrange engine diagnostics"
-      }
-    ]
-  },
-  "buyingGuide": {
-    "eyebrow": "Buyer's comparison",
-    "title": "Used, Reconditioned or Rebuilt Jaguar 204PT: Which One to Choose?",
-    "description": "Selecting the ideal powertrain solution depends on budget, vehicle age, and long-term ownership plans.",
-    "subtitle": "Review our verified tiers below to find the correct fit for your Jaguar.",
-    "cards": [
-      {
-        "tier": "Tier 01",
-        "badge": "Tested Core",
-        "title": "Used Engine",
-        "description": "Inspected low-mileage original units. Ideal for cost-conscious replacements with verified compression and leakdown testing before release.",
-        "features": [
-          "Endoscopic cylinder wall inspection",
-          "Hot compression test verified",
-          "Clean salvage pedigree verification"
-        ],
-        "linkLabel": "Explore Used Engines",
-        "href": "/engines",
-        "highlighted": false,
-        "recommendation": ""
-      },
-      {
-        "tier": "Tier 02",
-        "badge": "12-Mo Warranty",
-        "title": "Reconditioned Engine",
-        "description": "Completely stripped, cleaned, ultrasonic treated, with new bearings, piston rings, gaskets, and updated timing chain kit installed.",
-        "features": [
-          "Brand new timing chains & tensioners",
-          "New big-end & main crankshaft bearings",
-          "Fully pressure & leak-down tested"
-        ],
-        "linkLabel": "Explore Reconditioned",
-        "href": "/get-quote",
-        "highlighted": true,
-        "recommendation": "Most popular choice"
-      },
-      {
-        "tier": "Tier 03",
-        "badge": "Zero-Hour Spec",
-        "title": "Rebuilt Engine",
-        "description": "Zero-hour specification rebuild with brand new crankshaft, upgraded timing components, re-honed cylinders, and comprehensive dyno verification.",
-        "features": [
-          "New forged OEM crankshaft assembly",
-          "Precision CNC cylinder line boring",
-          "Maximum longevity for high-mileage fleets"
-        ],
-        "linkLabel": "Explore Rebuilt Engines",
-        "href": "/services/engine-rebuild",
-        "highlighted": false,
-        "recommendation": ""
-      }
-    ]
-  },
-  "finalCta": {
-    "eyebrow": "Priority Engineering Advice",
-    "titleBefore": "Need a Jaguar",
-    "titleHighlight": "204PT",
-    "titleAfter": "Engine?",
-    "description": "Tell us your vehicle registration or VIN and our mechanical team will verify exact compatibility, provide current workshop availability, and supply a clear fixed quote.",
-    "callLabel": "Call us: 01708 592377",
-    "callHref": "tel:+441708592377",
-    "quoteLabel": "Get a Quote",
-    "quoteHref": "/get-quote",
-    "highlights": [
-      {
-        "icon": "location",
-        "label": "Grays, Essex Workshop"
-      },
-      {
-        "icon": "delivery",
-        "label": "UK Nationwide Pallet Delivery"
-      },
-      {
-        "icon": "warranty",
-        "label": "12-Month Mechanical Warranty"
-      }
-    ]
-  },
-  "engineServices": {
-    "eyebrow": "Specialist Workshop",
-    "title": "Our Jaguar Engine Services",
-    "description": "Precision mechanical solutions delivered by JLR trained technicians with dealer-level diagnostic equipment.",
-    "linkLabel": "Learn More",
-    "cards": [
-      {
-        "icon": "replacement",
-        "title": "Engine Replacement",
-        "description": "Complete turnkey replacement service with professional removal of the failed engine and installation of a warranty-backed unit.",
-        "href": "/services/engine-replacement"
-      },
-      {
-        "icon": "delivery",
-        "title": "Engine Supply (Nationwide)",
-        "description": "Palletised dispatch across England, Scotland, Wales, and Northern Ireland with transit insurance and secure pallet crating.",
-        "href": "/supply-fit"
-      },
-      {
-        "icon": "tools",
-        "title": "Specialist Engine Fitting",
-        "description": "In-house bay fitting adhering to manufacturer torque specifications, coolant vacuum filling, and high-pressure fuel bleeding.",
-        "href": "/supply-fit"
-      },
-      {
-        "icon": "recycle",
-        "title": "Engine Reconditioning",
-        "description": "Complete teardown, ultrasonic cleaning, crank journal micro-polishing, and replacement of worn components with OEM parts.",
-        "href": "/reconditioned-engine"
-      },
-      {
-        "icon": "tools",
-        "title": "Full Engine Rebuild",
-        "description": "Engine strip-down, inspection and rebuilding with the replacement parts agreed for your engine specification.",
-        "href": "/services/engine-rebuild"
-      },
-      {
-        "icon": "diagnostics",
-        "title": "Dealer-Level Diagnostics",
-        "description": "JLR TOPIx Cloud and Pathfinder diagnostic systems to read live datalogs, adaptation values, and cylinder balancing.",
-        "href": "/contact"
-      },
-      {
-        "icon": "chip",
-        "title": "VIN & ECU Compatibility",
-        "description": "Electronic control unit synchronisation, injector code calibration, and software alignment to match your specific vehicle VIN.",
-        "href": "/contact"
-      },
-      {
-        "icon": "refit",
-        "title": "In-House Engine Refit",
-        "description": "Safe removal of the old powertrain, subframe degreasing, transmission mating inspection, and replacement of auxiliary belts.",
-        "href": "/services/engine-swap"
-      }
-    ]
-  },
-  "compatibilityFitting": {
-    "cards": [
-      {
-        "icon": "compatibility",
-        "eyebrow": "Engineering Diligence",
-        "title": "Engine Compatibility and Selection",
-        "description": "Our team checks your Jaguar XJ registration or VIN, engine code, model year, transmission and ancillary components before recommending a replacement.",
-        "checks": [
-          "Engine code and model-year confirmation",
-          "Ancillary component compatibility",
-          "Transmission and electronic compatibility"
-        ],
-        "ctaLabel": "Check My Engine Code",
-        "ctaHref": "/get-quote"
-      },
-      {
-        "icon": "workshop",
-        "eyebrow": "Workshop Integrity",
-        "title": "Professional Engine Fitting & Workshop",
-        "description": "Professional engine installation includes the agreed mechanical work, fluids, compatibility checks and testing before handover.",
-        "checks": [
-          "JLR TOPIx live ECU adaptation coding",
-          "New oil feed and return lines installed",
-          "Mandatory 50-mile dynamic validation"
-        ],
-        "ctaLabel": "Get a Fitting Quote",
-        "ctaHref": "/get-quote"
-      }
-    ]
-  },
   "engineGallery": {
     "eyebrow": "Workshop Evidence",
     "title": "Jaguar 204PT Engine Gallery",
@@ -382,75 +139,338 @@
       }
     ]
   },
-  "whyChoose": {
-    "eyebrow": "The RRG Standard",
-    "title": "Why Choose Range Rover Garage?",
-    "description": "Specialist Jaguar engine assessment, rebuilding and replacement support.",
-    "cards": [
-      {
-        "icon": "shield",
-        "title": "Specialist Knowledge",
-        "description": "Our workshop supports Jaguar engine repair, rebuild and replacement with checks tailored to your vehicle."
-      },
-      {
-        "icon": "checklist",
-        "title": "Compatibility Focused",
-        "description": "Every quote is cross-referenced with official JLR EPC parts software to prevent mismatches or harness-incompatible variants."
-      },
-      {
-        "icon": "fitting",
-        "title": "Turnkey Fitting Options",
-        "description": "Fully equipped workshop in Essex offering full vehicle collection, engine swap, coding, dynamic testing, and warranty sign-off."
-      },
-      {
-        "icon": "message",
-        "title": "Clear Communication",
-        "description": "Itemised quotes with clear scopes, zero surprise extras, regular photographic updates during rebuild, and dedicated telephone support."
-      }
-    ]
-  },
   "faq": {
-    "description": "Answers to common questions about 204PT engine compatibility, replacement, reconditioning, and fitting. Share your registration or VIN for advice specific to your vehicle.",
+    "title": "Jaguar XJ 204PT FAQs",
+    "description": "Common questions about pricing, warranty, engine identity and fitting for the Jaguar XJ 204PT engine, answered clearly.",
     "accordionName": "engine-code-faq",
     "faqs": [
       {
-        "q": "How do I confirm that a 204PT engine fits my vehicle?",
-        "a": "Send us your registration or VIN along with your engine code, if available. Our team will check your vehicle specification, installation layout, transmission, and electronic compatibility before recommending an engine."
+        "q": "How much does a Jaguar XJ 204PT engine replacement cost?",
+        "a": "It depends on whether you choose a used, reconditioned or rebuilt engine and whether we fit it. Send your registration and we'll provide an itemised written quote."
       },
       {
-        "q": "Can I choose between a used, reconditioned, or rebuilt engine?",
-        "a": "We can discuss these options based on your vehicle, budget, and the condition of your existing engine. Ask what inspections, replacement parts, testing, and warranty terms are included in the proposed option."
+        "q": "Do your 204PT engines come with a warranty?",
+        "a": "Yes. Every engine we supply includes a six-month mechanical warranty. We'll explain exactly what's covered and any conditions, including those for outside fitting, before you place an order."
       },
       {
-        "q": "Can you supply the engine and fit it for me?",
-        "a": "Contact us about engine supply or supply and fitting. Your quotation will confirm the proposed engine, installation work, fluids, ancillary parts, and any additional work required."
+        "q": "Is the XJ's 204PT an Ingenium engine?",
+        "a": "No. The XJ's 204PT is a 240hp unit based on Ford's EcoBoost design. Jaguar's 2.0 Ingenium petrol is a different engine, so we confirm your exact code using the VIN."
       },
       {
-        "q": "How much does a 204PT engine replacement cost?",
-        "a": "The price depends on the engine specification, condition, availability, and the work required. Send your vehicle details for a quotation that explains the included parts and labour."
+        "q": "Was a 204PT fitted to the 1996 Jaguar XJ?",
+        "a": "No. XJ models from that period used six-cylinder and V12 engines. The 204PT appeared in the X351 XJ from 2012, so we always check which engine your car has."
       },
       {
-        "q": "Does a replacement engine come with a warranty?",
-        "a": "Warranty cover depends on the engine and service agreed. Confirm the duration, covered components, exclusions, and maintenance requirements in your written quotation before ordering."
+        "q": "What are common Jaguar XJ 204PT engine problems?",
+        "a": "Reported issues include misfires, wastegate rattle, fuel pump faults, cam phaser noise and coolant leaks. Symptoms can overlap, so diagnosis should come before any repair or replacement decision."
       },
       {
-        "q": "Can you arrange collection or engine delivery?",
-        "a": "Ask our team about collection and delivery options for your location. Availability, costs, and arrangements will be confirmed with your quotation."
+        "q": "Can you deliver a 204PT to my garage?",
+        "a": "Yes. Supply-only engines are delivered by pallet across the UK, to homes or independent garages. We confirm compatibility before dispatch and explain warranty conditions for third-party fitting."
       },
       {
-        "q": "How long will the replacement take?",
-        "a": "Timing depends on engine availability, workshop scheduling, and any additional repairs identified during inspection. Our team will discuss the expected turnaround when assessing your vehicle."
+        "q": "What does your XJ supply and fit service include?",
+        "a": "At our Grays, Essex workshop we remove the old engine, install the replacement, refill fluids, complete software setup and road test your XJ. Timescales are confirmed when we quote."
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "Why Choose Us",
+    "title": "Range Rover Garage for Jaguar XJ Engines",
+    "description": "Honest advice and correctly matched 204PT engines for Jaguar XJ owners.",
+    "cards": [
+      {
+        "icon": "shield",
+        "title": "JLR Petrol Experience",
+        "description": "We work on Jaguar Land Rover petrol engines, including the 204PT fitted to the XJ."
+      },
+      {
+        "icon": "checklist",
+        "title": "Clear Written Quotes",
+        "description": "Parts and labour are itemised in writing before any work begins."
+      },
+      {
+        "icon": "fitting",
+        "title": "UK Pallet Delivery",
+        "description": "Supply-only engines are shipped by pallet to homes and garages nationwide."
+      },
+      {
+        "icon": "message",
+        "title": "Warranty Included",
+        "description": "Every engine we supply comes with a six-month mechanical warranty."
       }
     ]
   },
   "workshopIntro": {
-    "eyebrow": "From Assessment to Installation",
-    "title": "Specialist Care for Your Jaguar 204PT Engine",
-    "description": "Whether you need an engine assessment, a replacement unit, or professional fitting, our team can help you understand the next steps. Share your registration or VIN to discuss compatibility, available options, and a quotation tailored to your vehicle.",
+    "eyebrow": "Advice for XJ Owners",
+    "title": "Weighing Repair Against Replacement for Your 204PT",
+    "description": "Get a reliable diagnosis before deciding anything. Fuel pump faults, coil failures and wastegate rattle can often be repaired without changing the engine. If pre-ignition or overheating has damaged pistons or the head, compare the repair estimate with your XJ's mileage and value.",
     "paragraphs": [
-      "Finding a suitable 204PT engine starts with understanding your vehicle’s exact specification and the condition of its current powertrain. Engine code, model year, transmission, and installation layout all help determine the right approach. Our team can review your registration or VIN and discuss whether diagnosis, repair, rebuilding, or replacement is the appropriate next step.",
-      "When comparing engine options, look beyond the unit itself. Ask which components are included, what inspection and restoration work has been completed, and how the engine will be checked before installation. We can explain the proposed scope of work, discuss supply-only or fitting options, and identify any ancillary parts that need attention as part of your quotation.",
-      "Clear information makes it easier to plan your vehicle’s return to the road. Before work is agreed, discuss expected availability, workshop scheduling, collection or delivery arrangements, and the warranty terms attached to your chosen option. The workshop gallery below offers a closer look at engine assemblies, repair work, and vehicle installations at Range Rover Garage."
+      "The Jaguar XJ 204PT engine replacement cost depends on the engine type, its history and whether fitting is included. Labour is a large share of any engine change, so complete supply and fit quotes give the clearest comparison between suppliers.",
+      "Some 204PT 2.0 Ingenium petrol engine UK listings mix up engine codes, so confirm whether the seller means the Ford-derived 204PT or an Ingenium unit. Ask about the donor model, mileage and pre-sale checks too.",
+      "Warranty matters too. Choosing a Jaguar XJ 204PT engine with warranty provides protection if a mechanical fault develops after fitting. Engines we supply include a six-month mechanical warranty, and we explain the terms and any conditions before you order."
     ]
+  },
+  "compatibilityFitting": {
+    "cards": [
+      {
+        "icon": "compatibility",
+        "eyebrow": "Correct Selection",
+        "title": "Matching Your XJ's 204PT",
+        "description": "The 204PT was also used in other Jaguar and Land Rover models, with differing ancillaries. We check your VIN and engine code so any Jaguar XJ 204PT engine for sale through us suits your car.",
+        "checks": [
+          "VIN and engine code checked",
+          "Standard or long-wheelbase XJ confirmed",
+          "Ancillary differences flagged before dispatch"
+        ],
+        "ctaLabel": "Check My XJ",
+        "ctaHref": "/get-quote"
+      },
+      {
+        "icon": "workshop",
+        "eyebrow": "Fitting Service",
+        "title": "Supply and Fit Support",
+        "description": "Our Jaguar XJ 204PT engine supply and fit service covers removal, installation, fresh fluids and any software setup needed at our Grays, Essex workshop. Prefer your own garage? Supply-only engines travel by pallet.",
+        "checks": [
+          "Old engine removed with care",
+          "Fresh oil, coolant and filters",
+          "Road tested before collection"
+        ],
+        "ctaLabel": "Book My Fitting",
+        "ctaHref": "/get-quote"
+      }
+    ]
+  },
+  "engineServices": {
+    "eyebrow": "XJ Engine Services",
+    "title": "Jaguar XJ 204PT Engine Services",
+    "description": "Diagnosis, repair and replacement for the turbocharged 2.0 Ti4 204PT petrol engine in your XJ.",
+    "linkLabel": "Learn More",
+    "cards": [
+      {
+        "icon": "replacement",
+        "title": "Engine Rebuild",
+        "description": "We strip the 204PT, measure bores, pistons and bearings, and rebuild it when the block is serviceable.",
+        "href": "/services/engine-rebuild"
+      },
+      {
+        "icon": "delivery",
+        "title": "Timing Chain Replacement",
+        "description": "Worn chains, tensioners, guides and cam phasers are renewed when inspection confirms the cause of start-up noise.",
+        "href": "/services/timing-chain-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Turbo Replacement",
+        "description": "We diagnose boost faults, wastegate rattle and oil feed issues before replacing the turbocharger on your XJ.",
+        "href": "/services/turbo-replacement"
+      },
+      {
+        "icon": "recycle",
+        "title": "Head Gasket Replacement",
+        "description": "After overheating or unexplained coolant loss, we renew the head gasket and check the aluminium head for warping.",
+        "href": "/services/head-gasket-replacement"
+      },
+      {
+        "icon": "diagnostics",
+        "title": "Engine Repair",
+        "description": "Repairs for coils, fuel pumps, injectors, coolant leaks and carbon build-up that don't require a replacement engine.",
+        "href": "/services/engine-repair"
+      },
+      {
+        "icon": "chip",
+        "title": "Engine Replacement",
+        "description": "We remove the failed unit and install a VIN-matched used, reconditioned or rebuilt 204PT in your XJ.",
+        "href": "/services/engine-replacement"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Swap",
+        "description": "Guidance on alternative compatible engines for the XJ, with mounts, wiring and software considerations reviewed first.",
+        "href": "/services/engine-swap"
+      },
+      {
+        "icon": "refit",
+        "title": "Timing Belt Replacement",
+        "description": "The 204PT uses a timing chain, so it has no cambelt, but we replace belts on other engines.",
+        "href": "/services/timing-belt-replacement"
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Written Quotes Provided",
+    "titleBefore": "Price a Jaguar XJ",
+    "titleHighlight": "204PT",
+    "titleAfter": "Engine Today",
+    "description": "Send your registration and a short note on the symptoms. We'll confirm the correct 204PT and set out your Jaguar XJ 204PT engine replacement cost in writing.",
+    "callLabel": "Call the Workshop",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Request My Quote",
+    "quoteHref": "/get-quote",
+    "highlights": [
+      {
+        "icon": "location",
+        "label": "Grays, Essex Workshop"
+      },
+      {
+        "icon": "delivery",
+        "label": "UK Pallet Delivery"
+      },
+      {
+        "icon": "warranty",
+        "label": "Six-Month Mechanical Warranty"
+      }
+    ]
+  },
+  "buyingGuide": {
+    "eyebrow": "Compare Options",
+    "title": "Used, Reconditioned or Rebuilt: Picking a 204PT for Your XJ",
+    "description": "Each option weighs cost against expected lifespan differently, so consider your XJ's condition, mileage and ownership plans.",
+    "subtitle": "Review our verified tiers below to find the correct fit for your Jaguar.",
+    "cards": [
+      {
+        "tier": "Tier 01",
+        "badge": "Tested Core",
+        "title": "Used Engine",
+        "description": "A 204PT removed from a donor vehicle and checked before sale, the most budget-friendly way to restore your XJ.",
+        "features": [
+          "Lowest outlay of all options",
+          "Donor mileage confirmed before purchase",
+          "Good for older, higher-mileage saloons"
+        ],
+        "linkLabel": "Ask About Used",
+        "href": "/engines",
+        "highlighted": false,
+        "recommendation": ""
+      },
+      {
+        "tier": "Tier 02",
+        "badge": "12-Mo Warranty",
+        "title": "Reconditioned Engine",
+        "description": "A Jaguar XJ 204PT reconditioned engine is stripped, inspected and refreshed, with worn components renewed before supply.",
+        "features": [
+          "Worn parts replaced as needed",
+          "Balanced price and condition",
+          "Suits regular executive motoring"
+        ],
+        "linkLabel": "Quote Reconditioned",
+        "href": "/get-quote",
+        "highlighted": true,
+        "recommendation": "Most popular choice"
+      },
+      {
+        "tier": "Tier 03",
+        "badge": "Zero-Hour Spec",
+        "title": "Rebuilt Engine",
+        "description": "A 204PT fully dismantled and rebuilt with new major internals, aimed at owners keeping their XJ for many more years.",
+        "features": [
+          "New major internal parts fitted",
+          "Highest investment of the three",
+          "Ideal for long-term XJ ownership"
+        ],
+        "linkLabel": "Quote Rebuilt",
+        "href": "/services/engine-rebuild",
+        "highlighted": false,
+        "recommendation": ""
+      }
+    ]
+  },
+  "engineProblems": {
+    "eyebrow": "Possible Warning Signs",
+    "title": "Jaguar XJ 204PT Engine Problems to Look For",
+    "description": "These signs could point to a fault; diagnosis is needed to confirm.",
+    "actionLabel": "Action:",
+    "ctaLabel": "Book a Diagnostic Check",
+    "ctaHref": "/get-quote",
+    "cards": [
+      {
+        "icon": "bell",
+        "title": "Misfire Under Load",
+        "description": "Stuttering when accelerating or a flashing engine light may relate to coils, spark plugs or carbon deposits on intake valves.",
+        "action": "Have ignition and intake condition checked."
+      },
+      {
+        "icon": "power",
+        "title": "Wastegate Rattle",
+        "description": "A metallic rattle from the turbo area, especially when lifting off, might suggest a worn wastegate linkage.",
+        "action": "Book a turbo and boost inspection."
+      },
+      {
+        "icon": "start",
+        "title": "Hard Starting or Hesitation",
+        "description": "Long cranking, stalling or reduced power could indicate low fuel pressure from the in-tank or high-pressure fuel pump.",
+        "action": "Request a fuel pressure test."
+      },
+      {
+        "icon": "smoke",
+        "title": "Start-Up Clatter",
+        "description": "A short clatter after a cold start may be linked to camshaft phaser or timing chain tensioner wear.",
+        "action": "Arrange a timing system inspection soon."
+      },
+      {
+        "icon": "drop",
+        "title": "Coolant Going Down",
+        "description": "A falling coolant level or sweet smell may suggest a leaking water pump, hose or thermostat housing.",
+        "action": "Book a cooling system pressure test."
+      },
+      {
+        "icon": "warning",
+        "title": "Knock Under Acceleration",
+        "description": "A pinging or knocking sound under heavy load could indicate pre-ignition, which needs prompt investigation to protect the pistons.",
+        "action": "Ease off and book diagnostics."
+      }
+    ]
+  },
+  "engineOverview": {
+    "eyebrow": "About the 204PT",
+    "title": "The 2.0 Ti4 Petrol Engine in the X351 XJ",
+    "paragraphs": [
+      "The 204PT is a 1,999cc, four-cylinder turbocharged petrol engine with direct injection, based on Ford's EcoBoost design. In the X351 XJ, badged 2.0 Ti4, it produces 240hp with 340Nm of torque from 2,000 to 4,000rpm, driving the rear wheels through a smooth eight-speed automatic gearbox.",
+      "Catalogues list the 204PT in the XJ from 2012, in both standard and long-wheelbase forms, and it continued after the 2015 facelift. That means a Jaguar XJ 204PT engine 1996 search will not match, as the XJ of that era used six- and twelve-cylinder engines.",
+      "Likewise, the Jaguar XJ 2.0 Ingenium petrol engine 200hp phrase mixes two engines. The XJ's 204PT is the earlier Ford-derived unit rated at 240hp, while the 200hp Ingenium petrol, usually coded PT204, belongs to newer Jaguar models instead. We confirm yours by VIN."
+    ]
+  },
+  "specialistsBanner": {
+    "eyebrow": "Jaguar XJ Specialists",
+    "title": "Practical Help for Your Jaguar XJ 204PT Engine",
+    "description": "A four-cylinder XJ with a failing engine still deserves a careful, cost-aware approach. We'll explain whether repair is realistic and, if not, supply a Jaguar XJ 204PT replacement engine with optional fitting at our workshop.",
+    "features": [
+      {
+        "icon": "gauge",
+        "title": "X351 Fitment Checked",
+        "description": "SWB and LWB XJ specifications confirmed first."
+      },
+      {
+        "icon": "badge",
+        "title": "Supply or Install",
+        "description": "Pallet delivery or full fitting in Essex."
+      },
+      {
+        "icon": "badge",
+        "title": "Warning Light Showing?",
+        "description": "Book diagnostics before ordering any engine."
+      }
+    ],
+    "image": "/images/workshop-8.webp",
+    "imageAlt": "Vehicle and removed engine in the workshop",
+    "imageCaption": "Certified JLR Master Engineers On-Site",
+    "callLabel": "Call Our XJ Team",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Get an Engine Quote",
+    "quoteHref": "/get-quote"
+  },
+  "header": {
+    "title": "Jaguar XJ 204PT Engine Supply and Replacement",
+    "subtitle": "Turbocharged 2.0 Ti4 204PT petrol engines for the X351 Jaguar XJ, matched using your VIN.",
+    "highlights": [
+      "XJ generation and 204PT engine code confirmed before we supply",
+      "Six-month mechanical warranty included with every engine we supply",
+      "Supply-only petrol engines palleted to customers across the UK",
+      "Removal, installation and road testing at our Grays, Essex workshop"
+    ]
+  },
+  "metadata": {
+    "title": "Jaguar XJ 204PT Engine | 2.0 Ti4 Petrol Supply & Fitting",
+    "description": "Jaguar XJ 204PT engine replacement for the X351 2.0 Ti4. VIN-matched used, reconditioned or rebuilt petrol units with a 6-month warranty. Get your quote."
   }
 }

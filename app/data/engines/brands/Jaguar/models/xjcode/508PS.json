@@ -127,249 +127,6 @@
       }
     ]
   },
-  "specialistsBanner": {
-    "eyebrow": "Dedicated Powertrain Facility",
-    "title": "Jaguar XJ 508PS Engine Replacement Specialists",
-    "description": "Our dedicated workshop specialises in Jaguar engine rebuilds, precision timing chain replacements, crank calibrations, and complete turnkey engine swaps. All installations include full system bleeding, ECU adaptation, and rigorous road testing.",
-    "features": [
-      {
-        "icon": "gauge",
-        "title": "50-Mile Road Protocol",
-        "description": "Rigorous live diagnostic log"
-      },
-      {
-        "icon": "badge",
-        "title": "JLR Diagnostic Level",
-        "description": "TOPIx & Pathfinder coded"
-      }
-    ],
-    "image": "/images/workshop-8.webp",
-    "imageAlt": "Vehicle and removed engine in the workshop",
-    "imageCaption": "Certified JLR Master Engineers On-Site",
-    "callLabel": "Call our Experts (01708 592377)",
-    "callHref": "tel:+441708592377",
-    "quoteLabel": "Request a Quote",
-    "quoteHref": "/get-quote"
-  },
-  "engineOverview": {
-    "eyebrow": "Marque Authority",
-    "title": "About the Jaguar XJ 508PS Engine",
-    "paragraphs": [
-      "The Jaguar XJ is listed with the 508PS engine, 5000 cc capacity and 346 kW / 471 hp output. Confirm your exact model year, transmission and engine specification before ordering a replacement.",
-      "Choosing the right replacement begins with identifying your vehicle’s exact specification. Our team can help you check the engine code and discuss your repair, rebuild, or replacement options. Have your registration or VIN ready when requesting a quote so we can assess the requirements for your vehicle.",
-      "From initial assessment through to fitting and final checks, our workshop can guide you through the next steps for your 508PS engine. Contact our specialists to discuss engine availability, compatibility, and the work required for your Jaguar."
-    ]
-  },
-  "engineProblems": {
-    "eyebrow": "Diagnostic Advisory",
-    "title": "Jaguar XJ Engine Symptoms to Check",
-    "description": "Early symptoms requiring specialist diagnosis. Prompt assessment helps prevent further internal component wear.",
-    "actionLabel": "Action:",
-    "ctaLabel": "Book an Engine Diagnostic",
-    "ctaHref": "/get-quote",
-    "cards": [
-      {
-        "icon": "bell",
-        "title": "Unusual Engine Noise",
-        "description": "New rattling, knocking or ticking requires inspection to identify its source.",
-        "action": "Arrange a mechanical inspection"
-      },
-      {
-        "icon": "power",
-        "title": "Loss of Power",
-        "description": "Reduced performance can have several causes. Diagnosis helps establish the repair required.",
-        "action": "Check fault codes and live engine data"
-      },
-      {
-        "icon": "start",
-        "title": "Starting Difficulties",
-        "description": "Slow starting or a non-start condition requires checks of the starting, fuel and control systems.",
-        "action": "Book a starting-system diagnosis"
-      },
-      {
-        "icon": "smoke",
-        "title": "Exhaust Smoke",
-        "description": "Unusual exhaust smoke should be assessed alongside fluid levels and running symptoms.",
-        "action": "Inspect the engine and exhaust systems"
-      },
-      {
-        "icon": "drop",
-        "title": "Coolant or Oil Loss",
-        "description": "Fluid loss or contamination needs investigation before further damage occurs.",
-        "action": "Check leaks and fluid condition"
-      },
-      {
-        "icon": "warning",
-        "title": "Engine Warning Light",
-        "description": "A warning light requires a diagnostic scan and checks appropriate to the stored faults.",
-        "action": "Arrange engine diagnostics"
-      }
-    ]
-  },
-  "buyingGuide": {
-    "eyebrow": "Buyer's comparison",
-    "title": "Used, Reconditioned or Rebuilt Jaguar 508PS: Which One to Choose?",
-    "description": "Selecting the ideal powertrain solution depends on budget, vehicle age, and long-term ownership plans.",
-    "subtitle": "Review our verified tiers below to find the correct fit for your Jaguar.",
-    "cards": [
-      {
-        "tier": "Tier 01",
-        "badge": "Tested Core",
-        "title": "Used Engine",
-        "description": "Inspected low-mileage original units. Ideal for cost-conscious replacements with verified compression and leakdown testing before release.",
-        "features": [
-          "Endoscopic cylinder wall inspection",
-          "Hot compression test verified",
-          "Clean salvage pedigree verification"
-        ],
-        "linkLabel": "Explore Used Engines",
-        "href": "/engines",
-        "highlighted": false,
-        "recommendation": ""
-      },
-      {
-        "tier": "Tier 02",
-        "badge": "12-Mo Warranty",
-        "title": "Reconditioned Engine",
-        "description": "Completely stripped, cleaned, ultrasonic treated, with new bearings, piston rings, gaskets, and updated timing chain kit installed.",
-        "features": [
-          "Brand new timing chains & tensioners",
-          "New big-end & main crankshaft bearings",
-          "Fully pressure & leak-down tested"
-        ],
-        "linkLabel": "Explore Reconditioned",
-        "href": "/get-quote",
-        "highlighted": true,
-        "recommendation": "Most popular choice"
-      },
-      {
-        "tier": "Tier 03",
-        "badge": "Zero-Hour Spec",
-        "title": "Rebuilt Engine",
-        "description": "Zero-hour specification rebuild with brand new crankshaft, upgraded timing components, re-honed cylinders, and comprehensive dyno verification.",
-        "features": [
-          "New forged OEM crankshaft assembly",
-          "Precision CNC cylinder line boring",
-          "Maximum longevity for high-mileage fleets"
-        ],
-        "linkLabel": "Explore Rebuilt Engines",
-        "href": "/services/engine-rebuild",
-        "highlighted": false,
-        "recommendation": ""
-      }
-    ]
-  },
-  "finalCta": {
-    "eyebrow": "Priority Engineering Advice",
-    "titleBefore": "Need a Jaguar",
-    "titleHighlight": "508PS",
-    "titleAfter": "Engine?",
-    "description": "Tell us your vehicle registration or VIN and our mechanical team will verify exact compatibility, provide current workshop availability, and supply a clear fixed quote.",
-    "callLabel": "Call us: 01708 592377",
-    "callHref": "tel:+441708592377",
-    "quoteLabel": "Get a Quote",
-    "quoteHref": "/get-quote",
-    "highlights": [
-      {
-        "icon": "location",
-        "label": "Grays, Essex Workshop"
-      },
-      {
-        "icon": "delivery",
-        "label": "UK Nationwide Pallet Delivery"
-      },
-      {
-        "icon": "warranty",
-        "label": "12-Month Mechanical Warranty"
-      }
-    ]
-  },
-  "engineServices": {
-    "eyebrow": "Specialist Workshop",
-    "title": "Our Jaguar Engine Services",
-    "description": "Precision mechanical solutions delivered by JLR trained technicians with dealer-level diagnostic equipment.",
-    "linkLabel": "Learn More",
-    "cards": [
-      {
-        "icon": "replacement",
-        "title": "Engine Replacement",
-        "description": "Complete turnkey replacement service with professional removal of the failed engine and installation of a warranty-backed unit.",
-        "href": "/services/engine-replacement"
-      },
-      {
-        "icon": "delivery",
-        "title": "Engine Supply (Nationwide)",
-        "description": "Palletised dispatch across England, Scotland, Wales, and Northern Ireland with transit insurance and secure pallet crating.",
-        "href": "/supply-fit"
-      },
-      {
-        "icon": "tools",
-        "title": "Specialist Engine Fitting",
-        "description": "In-house bay fitting adhering to manufacturer torque specifications, coolant vacuum filling, and high-pressure fuel bleeding.",
-        "href": "/supply-fit"
-      },
-      {
-        "icon": "recycle",
-        "title": "Engine Reconditioning",
-        "description": "Complete teardown, ultrasonic cleaning, crank journal micro-polishing, and replacement of worn components with OEM parts.",
-        "href": "/reconditioned-engine"
-      },
-      {
-        "icon": "tools",
-        "title": "Full Engine Rebuild",
-        "description": "Engine strip-down, inspection and rebuilding with the replacement parts agreed for your engine specification.",
-        "href": "/services/engine-rebuild"
-      },
-      {
-        "icon": "diagnostics",
-        "title": "Dealer-Level Diagnostics",
-        "description": "JLR TOPIx Cloud and Pathfinder diagnostic systems to read live datalogs, adaptation values, and cylinder balancing.",
-        "href": "/contact"
-      },
-      {
-        "icon": "chip",
-        "title": "VIN & ECU Compatibility",
-        "description": "Electronic control unit synchronisation, injector code calibration, and software alignment to match your specific vehicle VIN.",
-        "href": "/contact"
-      },
-      {
-        "icon": "refit",
-        "title": "In-House Engine Refit",
-        "description": "Safe removal of the old powertrain, subframe degreasing, transmission mating inspection, and replacement of auxiliary belts.",
-        "href": "/services/engine-swap"
-      }
-    ]
-  },
-  "compatibilityFitting": {
-    "cards": [
-      {
-        "icon": "compatibility",
-        "eyebrow": "Engineering Diligence",
-        "title": "Engine Compatibility and Selection",
-        "description": "Our team checks your Jaguar XJ registration or VIN, engine code, model year, transmission and ancillary components before recommending a replacement.",
-        "checks": [
-          "Engine code and model-year confirmation",
-          "Ancillary component compatibility",
-          "Transmission and electronic compatibility"
-        ],
-        "ctaLabel": "Check My Engine Code",
-        "ctaHref": "/get-quote"
-      },
-      {
-        "icon": "workshop",
-        "eyebrow": "Workshop Integrity",
-        "title": "Professional Engine Fitting & Workshop",
-        "description": "Professional engine installation includes the agreed mechanical work, fluids, compatibility checks and testing before handover.",
-        "checks": [
-          "JLR TOPIx live ECU adaptation coding",
-          "New oil feed and return lines installed",
-          "Mandatory 50-mile dynamic validation"
-        ],
-        "ctaLabel": "Get a Fitting Quote",
-        "ctaHref": "/get-quote"
-      }
-    ]
-  },
   "engineGallery": {
     "eyebrow": "Workshop Evidence",
     "title": "Jaguar 508PS Engine Gallery",
@@ -393,75 +150,338 @@
       }
     ]
   },
-  "whyChoose": {
-    "eyebrow": "The RRG Standard",
-    "title": "Why Choose Range Rover Garage?",
-    "description": "Specialist Jaguar engine assessment, rebuilding and replacement support.",
-    "cards": [
-      {
-        "icon": "shield",
-        "title": "Specialist Knowledge",
-        "description": "Our workshop supports Jaguar engine repair, rebuild and replacement with checks tailored to your vehicle."
-      },
-      {
-        "icon": "checklist",
-        "title": "Compatibility Focused",
-        "description": "Every quote is cross-referenced with official JLR EPC parts software to prevent mismatches or harness-incompatible variants."
-      },
-      {
-        "icon": "fitting",
-        "title": "Turnkey Fitting Options",
-        "description": "Fully equipped workshop in Essex offering full vehicle collection, engine swap, coding, dynamic testing, and warranty sign-off."
-      },
-      {
-        "icon": "message",
-        "title": "Clear Communication",
-        "description": "Itemised quotes with clear scopes, zero surprise extras, regular photographic updates during rebuild, and dedicated telephone support."
-      }
-    ]
-  },
   "faq": {
-    "description": "Answers to common questions about 508PS engine compatibility, replacement, reconditioning, and fitting. Share your registration or VIN for advice specific to your vehicle.",
+    "title": "XJ 508PS Questions Answered",
+    "description": "Answers about pricing, warranty, outputs and fitting for the supercharged Jaguar XJ 508PS engine.",
     "accordionName": "engine-code-faq",
     "faqs": [
       {
-        "q": "How do I confirm that a 508PS engine fits my vehicle?",
-        "a": "Send us your registration or VIN along with your engine code, if available. Our team will check your vehicle specification, installation layout, transmission, and electronic compatibility before recommending an engine."
+        "q": "How much is a Jaguar XJ 508PS engine replacement?",
+        "a": "Pricing depends on the engine type, output and whether we carry out the fitting. Send your registration for an itemised written quote covering both parts and labour."
       },
       {
-        "q": "Can I choose between a used, reconditioned, or rebuilt engine?",
-        "a": "We can discuss these options based on your vehicle, budget, and the condition of your existing engine. Ask what inspections, replacement parts, testing, and warranty terms are included in the proposed option."
+        "q": "Do your 508PS engines include a warranty?",
+        "a": "Yes. Every engine we supply carries a six-month mechanical warranty. We'll explain exactly what's covered and any conditions, including those for outside fitting, before you order."
       },
       {
-        "q": "Can you supply the engine and fit it for me?",
-        "a": "Contact us about engine supply or supply and fitting. Your quotation will confirm the proposed engine, installation work, fluids, ancillary parts, and any additional work required."
+        "q": "Which 508PS outputs were fitted to the X351 XJ?",
+        "a": "Parts catalogues list 471PS, 510PS, 550PS and 575PS versions for the X351 XJ. We identify yours from the VIN, so the replacement matches your car's original specification."
       },
       {
-        "q": "How much does a 508PS engine replacement cost?",
-        "a": "The price depends on the engine specification, condition, availability, and the work required. Send your vehicle details for a quotation that explains the included parts and labour."
+        "q": "Was the 508PS fitted to the 1996 XJ?",
+        "a": "No. The 1996 XJ range used six-cylinder and V12 engines, with the XJR using a supercharged six. The 508PS belongs to the X351 era, so we confirm your engine code first."
       },
       {
-        "q": "Does a replacement engine come with a warranty?",
-        "a": "Warranty cover depends on the engine and service agreed. Confirm the duration, covered components, exclusions, and maintenance requirements in your written quotation before ordering."
+        "q": "What are common Jaguar XJ 508PS engine problems?",
+        "a": "Reported issues include supercharger coupling noise, timing chain tensioner wear, water pump and coolant leaks, and ignition faults. Symptoms overlap, so diagnosis should always come before any repair decision."
       },
       {
-        "q": "Can you arrange collection or engine delivery?",
-        "a": "Ask our team about collection and delivery options for your location. Availability, costs, and arrangements will be confirmed with your quotation."
+        "q": "Can you deliver a 508PS to my own specialist?",
+        "a": "Yes. Supply-only engines are delivered by pallet across the UK, to homes or independent garages. We confirm compatibility before dispatch and explain warranty conditions for third-party fitting."
       },
       {
-        "q": "How long will the replacement take?",
-        "a": "Timing depends on engine availability, workshop scheduling, and any additional repairs identified during inspection. Our team will discuss the expected turnaround when assessing your vehicle."
+        "q": "What does your 508PS supply and fit service include?",
+        "a": "At our Grays, Essex workshop we remove the failed engine, install the replacement, refill fluids, complete software setup and road test your XJ. Timescales are agreed when we quote."
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "Why Choose Us",
+    "title": "Range Rover Garage for Supercharged XJ Engines",
+    "description": "Clear advice and correctly matched 508PS engines for performance XJ owners.",
+    "cards": [
+      {
+        "icon": "shield",
+        "title": "Supercharged V8 Knowledge",
+        "description": "We work on JLR's supercharged 5.0 V8, including the 508PS tunes fitted to the XJ."
+      },
+      {
+        "icon": "checklist",
+        "title": "Transparent Written Quotes",
+        "description": "Parts and labour are set out in writing before any work begins."
+      },
+      {
+        "icon": "fitting",
+        "title": "UK-Wide Delivery",
+        "description": "Supply-only V8 engines are palleted to homes and garages across the UK."
+      },
+      {
+        "icon": "message",
+        "title": "Mechanical Warranty Included",
+        "description": "Every engine we supply carries a six-month mechanical warranty for reassurance."
       }
     ]
   },
   "workshopIntro": {
-    "eyebrow": "From Assessment to Installation",
-    "title": "Specialist Care for Your Jaguar 508PS Engine",
-    "description": "Whether you need an engine assessment, a replacement unit, or professional fitting, our team can help you understand the next steps. Share your registration or VIN to discuss compatibility, available options, and a quotation tailored to your vehicle.",
+    "eyebrow": "Advice for Supercharged Owners",
+    "title": "Repair or Replace: Getting It Right on Your 508PS",
+    "description": "Begin with a full diagnosis. Supercharger coupling noise, water pump leaks and coil faults are often repairable without touching the engine's internals. If chain failure or overheating has caused serious damage, weigh the repair estimate against your XJ's condition and value.",
     "paragraphs": [
-      "Finding a suitable 508PS engine starts with understanding your vehicle’s exact specification and the condition of its current powertrain. Engine code, model year, transmission, and installation layout all help determine the right approach. Our team can review your registration or VIN and discuss whether diagnosis, repair, rebuilding, or replacement is the appropriate next step.",
-      "When comparing engine options, look beyond the unit itself. Ask which components are included, what inspection and restoration work has been completed, and how the engine will be checked before installation. We can explain the proposed scope of work, discuss supply-only or fitting options, and identify any ancillary parts that need attention as part of your quotation.",
-      "Clear information makes it easier to plan your vehicle’s return to the road. Before work is agreed, discuss expected availability, workshop scheduling, collection or delivery arrangements, and the warranty terms attached to your chosen option. The workshop gallery below offers a closer look at engine assemblies, repair work, and vehicle installations at Range Rover Garage."
+      "The Jaguar XJ 508PS engine replacement cost depends on the engine type, its output, its history and whether we fit it. A supercharged V8 swap is labour-intensive, so full supply and fit quotes provide the clearest and fairest comparison between suppliers.",
+      "When browsing 508PS 5.0 V8 supercharged petrol engine UK listings, ask which model and output the engine came from. Calibrations differ between tunes, so confirm mileage, history and pre-sale checks before you commit to buying.",
+      "Finally, check the warranty. A Jaguar XJ 508PS engine with warranty protects you if a mechanical fault develops after fitting. Engines we supply include a six-month mechanical warranty, and we explain its terms and any conditions before you order."
     ]
+  },
+  "compatibilityFitting": {
+    "cards": [
+      {
+        "icon": "compatibility",
+        "eyebrow": "Variant Matching",
+        "title": "Identifying Your XJ's 508PS",
+        "description": "The XJ used the 508PS at four outputs, each with its own calibration. We check your VIN, engine code and model so any Jaguar XJ 508PS engine for sale through us matches your car.",
+        "checks": [
+          "VIN and engine code verified",
+          "Supersport, XJR or standard confirmed",
+          "Ancillaries compared before dispatch"
+        ],
+        "ctaLabel": "Match My Engine",
+        "ctaHref": "/get-quote"
+      },
+      {
+        "icon": "workshop",
+        "eyebrow": "Installation Support",
+        "title": "Fitting at Our Workshop",
+        "description": "Our Jaguar XJ 508PS engine supply and fit service covers removal, installation, fresh fluids and software setup at our Grays, Essex workshop. Supply-only engines can be palleted to your preferred specialist instead.",
+        "checks": [
+          "Failed engine removed with care",
+          "Fresh oil, coolant and filters",
+          "Road tested before collection"
+        ],
+        "ctaLabel": "Book My Fitting",
+        "ctaHref": "/get-quote"
+      }
+    ]
+  },
+  "engineServices": {
+    "eyebrow": "Supercharged V8 Services",
+    "title": "Jaguar XJ 508PS Engine Services",
+    "description": "Diagnosis, repair and replacement for every supercharged 508PS tune fitted to the X351 XJ.",
+    "linkLabel": "Learn More",
+    "cards": [
+      {
+        "icon": "replacement",
+        "title": "Engine Rebuild",
+        "description": "We strip the 508PS, measure bores, bearings and crankshaft, and rebuild it when the block is serviceable.",
+        "href": "/services/engine-rebuild"
+      },
+      {
+        "icon": "delivery",
+        "title": "Timing Chain Replacement",
+        "description": "We renew chains, guides and tensioners on both cylinder banks when inspection confirms wear behind start-up rattle.",
+        "href": "/services/timing-chain-replacement"
+      },
+      {
+        "icon": "tools",
+        "title": "Turbo Replacement",
+        "description": "The 508PS is supercharged rather than turbocharged, so we inspect its supercharger drive; turbo work covers other engines.",
+        "href": "/services/turbo-replacement"
+      },
+      {
+        "icon": "recycle",
+        "title": "Head Gasket Replacement",
+        "description": "Following overheating or coolant loss, we replace gaskets on the affected bank and check both heads.",
+        "href": "/services/head-gasket-replacement"
+      },
+      {
+        "icon": "diagnostics",
+        "title": "Engine Repair",
+        "description": "Repairs for supercharger coupling, water pump, charge cooler pump, coil and oil leak faults without full replacement.",
+        "href": "/services/engine-repair"
+      },
+      {
+        "icon": "chip",
+        "title": "Engine Replacement",
+        "description": "We remove the failed V8 and install a VIN-matched used, reconditioned or rebuilt 508PS in your XJ.",
+        "href": "/services/engine-replacement"
+      },
+      {
+        "icon": "refit",
+        "title": "Engine Swap",
+        "description": "Advice on fitting a compatible alternative engine, with mounts, wiring, cooling and software requirements assessed first.",
+        "href": "/services/engine-swap"
+      },
+      {
+        "icon": "refit",
+        "title": "Timing Belt Replacement",
+        "description": "The 508PS uses timing chains rather than a belt, though we replace timing belts on other engines.",
+        "href": "/services/timing-belt-replacement"
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Written Pricing Available",
+    "titleBefore": "Get a Jaguar XJ",
+    "titleHighlight": "508PS",
+    "titleAfter": "Engine Price",
+    "description": "Send your registration, model name and a short description of the issue. We'll confirm the right variant and provide your Jaguar XJ 508PS engine replacement cost in writing.",
+    "callLabel": "Call Our Specialists",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Request My Quote",
+    "quoteHref": "/get-quote",
+    "highlights": [
+      {
+        "icon": "location",
+        "label": "Grays, Essex Workshop"
+      },
+      {
+        "icon": "delivery",
+        "label": "UK Pallet Delivery"
+      },
+      {
+        "icon": "warranty",
+        "label": "Six-Month Mechanical Warranty"
+      }
+    ]
+  },
+  "buyingGuide": {
+    "eyebrow": "Compare Options",
+    "title": "Used, Reconditioned or Rebuilt: Your 508PS Replacement Options",
+    "description": "With high-performance engines, condition matters, so compare each option's cost and expected lifespan against your XJ's value.",
+    "subtitle": "Review our verified tiers below to find the correct fit for your Jaguar.",
+    "cards": [
+      {
+        "tier": "Tier 01",
+        "badge": "Tested Core",
+        "title": "Used Engine",
+        "description": "A 508PS from a donor vehicle, checked before sale and matched to your output, keeping upfront costs to a minimum.",
+        "features": [
+          "Smallest initial outlay available",
+          "Donor details shared before purchase",
+          "Practical for higher-mileage saloons"
+        ],
+        "linkLabel": "Ask About Used",
+        "href": "/engines",
+        "highlighted": false,
+        "recommendation": ""
+      },
+      {
+        "tier": "Tier 02",
+        "badge": "12-Mo Warranty",
+        "title": "Reconditioned Engine",
+        "description": "A Jaguar XJ 508PS reconditioned engine is stripped, inspected and refreshed, with worn parts renewed before it leaves our care.",
+        "features": [
+          "Worn components replaced where found",
+          "Balanced cost and expected lifespan",
+          "Suits regular performance motoring"
+        ],
+        "linkLabel": "Quote Reconditioned",
+        "href": "/get-quote",
+        "highlighted": true,
+        "recommendation": "Most popular choice"
+      },
+      {
+        "tier": "Tier 03",
+        "badge": "Zero-Hour Spec",
+        "title": "Rebuilt Engine",
+        "description": "A 508PS completely dismantled and rebuilt with new major internals, intended for owners keeping their supercharged XJ for years.",
+        "features": [
+          "New major internals fitted throughout",
+          "Highest cost of three options",
+          "Built for long-term enjoyment"
+        ],
+        "linkLabel": "Quote Rebuilt",
+        "href": "/services/engine-rebuild",
+        "highlighted": false,
+        "recommendation": ""
+      }
+    ]
+  },
+  "engineProblems": {
+    "eyebrow": "Warning Signs",
+    "title": "Jaguar XJ 508PS Engine Problems Worth Knowing",
+    "description": "These symptoms might indicate a fault; diagnosis is needed to confirm.",
+    "actionLabel": "Action:",
+    "ctaLabel": "Book XJ Diagnostics",
+    "ctaHref": "/get-quote",
+    "cards": [
+      {
+        "icon": "bell",
+        "title": "Supercharger Idle Chatter",
+        "description": "A rattle or chatter at idle that fades with revs may point to wear in the supercharger drive coupling.",
+        "action": "Ask for a supercharger drive check."
+      },
+      {
+        "icon": "power",
+        "title": "Chain Noise on Start",
+        "description": "A brief rattle on a cold start could indicate worn timing chain tensioners, guides or associated components on either bank.",
+        "action": "Book a timing inspection promptly."
+      },
+      {
+        "icon": "start",
+        "title": "Temperature Creeping Up",
+        "description": "A rising gauge or recurring coolant loss might suggest a water pump, thermostat housing or coolant pipe problem.",
+        "action": "Stop and arrange a pressure test."
+      },
+      {
+        "icon": "smoke",
+        "title": "Charge Cooler Concerns",
+        "description": "Reduced performance or high intake temperatures could relate to the intercooler pump or low-temperature cooling circuit.",
+        "action": "Have the charge cooling system tested."
+      },
+      {
+        "icon": "drop",
+        "title": "Misfire Under Load",
+        "description": "Hesitation or a flashing engine light when accelerating hard may stem from ignition coils, spark plugs or injectors.",
+        "action": "Ease off and book diagnostics."
+      },
+      {
+        "icon": "warning",
+        "title": "Oil Leaks Appearing",
+        "description": "Oil on the engine or a burning smell after driving may indicate leaking cam cover, timing cover or sump seals.",
+        "action": "Get the leak located quickly."
+      }
+    ]
+  },
+  "engineOverview": {
+    "eyebrow": "The XJ's Supercharged V8",
+    "title": "How the 508PS Shapes Performance in the X351 XJ",
+    "paragraphs": [
+      "The 508PS is the supercharged member of Jaguar's 5.0-litre AJ133 V8 family. Parts catalogues list it in the X351 XJ in several tunes, from 471PS up to 575PS in the XJR575, all driving the rear wheels. Direct injection and chain-driven camshafts are part of its design.",
+      "The entry tune is rated at 346kW, listed as 471PS, which is why searches for a Jaguar XJ 5.0 V8 supercharged petrol engine 471hp lead here. Higher-output 510PS and 550PS versions use the same engine code with different engine calibrations.",
+      "A Jaguar XJ 508PS engine 1996 search will not match, since the XJ then used six-cylinder and V12 engines. Even the 1996 XJR used a supercharged six-cylinder. The supercharged 5.0 V8 is an X351-era engine, so we always confirm the generation, output and engine code before quoting you."
+    ]
+  },
+  "specialistsBanner": {
+    "eyebrow": "Supercharged XJ Experts",
+    "title": "Specialist Support for Your Jaguar XJ 508PS Engine",
+    "description": "From Supersport to XJR, a supercharged XJ deserves careful diagnosis before any big decision. We'll explain repair options honestly and, where needed, supply a Jaguar XJ 508PS replacement engine with optional workshop fitting.",
+    "features": [
+      {
+        "icon": "gauge",
+        "title": "Output Variant Matched",
+        "description": "Four supercharged tunes identified before supply."
+      },
+      {
+        "icon": "badge",
+        "title": "Fitted or Delivered",
+        "description": "Grays installation or nationwide pallet delivery."
+      },
+      {
+        "icon": "badge",
+        "title": "Whine or Rattle Changed?",
+        "description": "Get it checked before spirited driving."
+      }
+    ],
+    "image": "/images/workshop-8.webp",
+    "imageAlt": "Vehicle and removed engine in the workshop",
+    "imageCaption": "Certified JLR Master Engineers On-Site",
+    "callLabel": "Call the V8 Team",
+    "callHref": "tel:+441708592377",
+    "quoteLabel": "Get a Supercharged Quote",
+    "quoteHref": "/get-quote"
+  },
+  "header": {
+    "title": "Jaguar XJ 508PS Supercharged Engine Specialists",
+    "subtitle": "Supercharged 5.0-litre 508PS V8 engines for the X351 XJ, matched by VIN and output.",
+    "highlights": [
+      "471PS, 510PS, 550PS or 575PS variant confirmed from your VIN",
+      "Six-month mechanical warranty comes with every engine we supply",
+      "Supply-only supercharged V8 engines palleted to UK addresses",
+      "Removal, installation and road testing completed at our Essex workshop"
+    ]
+  },
+  "metadata": {
+    "title": "Jaguar XJ 508PS Engine | Supercharged V8 Replacement",
+    "description": "Jaguar XJ 508PS engine from 471PS up to the 575PS XJR575, matched to your exact tune by VIN. Supercharged V8s supplied or fitted in Essex. Get a written price."
   }
 }
